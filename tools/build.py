@@ -241,7 +241,8 @@ def main(argv: list[str]) -> int:
         if selected and entry["path"] not in selected and name not in selected:
             continue
         output = ROOT / "faces" / entry["path"] / f"{design_id}.png"
-        width, colors, size = build_face(source, output, denoise=entry.get("denoise", True))
+        denoise = entry.get("designs", {}).get(design_id, {}).get("denoise", entry.get("denoise", True))
+        width, colors, size = build_face(source, output, denoise=denoise)
         print(f"{name}: {width}x{width * 19 // 30}, <= {colors} colours, {size} bytes")
     write_manifest(catalog)
     errors = validate()

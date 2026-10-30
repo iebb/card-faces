@@ -1108,6 +1108,45 @@
           "colors": 11
         },
         {
+          "id": "apeach",
+          "name": {
+            "en": "Little Friends Apeach",
+            "ko": "리틀프렌즈 어피치"
+          },
+          "file": "faces/kr/tmoney/apeach.png",
+          "sha256": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256",
+          "bytes": 10238,
+          "width": 1200,
+          "height": 760,
+          "colors": 16
+        },
+        {
+          "id": "go-green",
+          "name": {
+            "en": "Go Green",
+            "ko": "친환경카드 Go Green"
+          },
+          "file": "faces/kr/tmoney/go-green.png",
+          "sha256": "05a49c4462ded6f3091cf68b19f07c62f56660fcfe001d83540cbd10e2dcaa03",
+          "bytes": 12998,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
+        },
+        {
+          "id": "kpass",
+          "name": {
+            "en": "K-PASS BASIC",
+            "ko": "K-PASS BASIC"
+          },
+          "file": "faces/kr/tmoney/kpass.png",
+          "sha256": "41835039357a34892a5893376de812494cb0ec69003c444079b6216a4b9abfda",
+          "bytes": 11916,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
+        },
+        {
           "id": "logo",
           "name": {
             "en": "T-money (logo)",
@@ -1119,6 +1158,32 @@
           "width": 780,
           "height": 494,
           "colors": 14
+        },
+        {
+          "id": "ryan",
+          "name": {
+            "en": "Little Friends Ryan",
+            "ko": "리틀프렌즈 라이언"
+          },
+          "file": "faces/kr/tmoney/ryan.png",
+          "sha256": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d",
+          "bytes": 13519,
+          "width": 1200,
+          "height": 760,
+          "colors": 18
+        },
+        {
+          "id": "safe",
+          "name": {
+            "en": "Public Transport Safe Card",
+            "ko": "대중교통안심카드"
+          },
+          "file": "faces/kr/tmoney/safe.png",
+          "sha256": "a26a1f415917ec9d14b7fd9894ef60318ecfd7e7ba43d882b665a3d59e871b97",
+          "bytes": 16281,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
         }
       ]
     },
@@ -1149,6 +1214,58 @@
           "width": 1200,
           "height": 760,
           "colors": 4
+        },
+        {
+          "id": "duty-free",
+          "name": {
+            "en": "Lotte Duty Free",
+            "ko": "롯데면세점"
+          },
+          "file": "faces/kr/ezl/duty-free.png",
+          "sha256": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be",
+          "bytes": 16592,
+          "width": 1200,
+          "height": 760,
+          "colors": 18
+        },
+        {
+          "id": "myeongdong",
+          "name": {
+            "en": "Now in Myeongdong",
+            "ko": "명동 롯데면세점"
+          },
+          "file": "faces/kr/ezl/myeongdong.png",
+          "sha256": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c",
+          "bytes": 19562,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
+        },
+        {
+          "id": "pop",
+          "name": {
+            "en": "POP Cashbee (orange)",
+            "ko": "팝캐시비 (오렌지)"
+          },
+          "file": "faces/kr/ezl/pop.png",
+          "sha256": "c7d0d039b60f526a5c2d778dc2f93de48f6b2ae5b215ffef37df79c760d17171",
+          "bytes": 5249,
+          "width": 1200,
+          "height": 760,
+          "colors": 9
+        },
+        {
+          "id": "tour",
+          "name": {
+            "en": "Cashbee Jeonju (2 Days)",
+            "ko": "전주 캐시비 (2일권)"
+          },
+          "file": "faces/kr/ezl/tour.png",
+          "sha256": "9c740e829c1df5d3789f74ef3654eded7392eaff03695d5dc88abb467273a8f4",
+          "bytes": 26097,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
         }
       ]
     },

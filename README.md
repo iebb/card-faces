@@ -58,19 +58,26 @@ QR codes, serials and small print are removed.
 
 ### App default faces
 
-The faces the app bundles, so they can be updated or extended without a
-release. `bundledAsset` in the manifest names the app asset a design mirrors,
-which lets the app skip a download it already has.
+All app defaults are available here and download on demand. `bundledAsset`
+identifies the legacy app asset name, so existing cards and backups keep their
+selected artwork after a bundle is removed. The apps prefer the downloaded
+face; Suica, PASMO, ICOCA, T-money and EZL remain as small offline fallbacks.
 
 | Folder | Designs | Matched by |
 | --- | --- | --- |
 | `jp/suica`, `jp/pasmo`, `jp/icoca`, `jp/hayakaken`, `jp/sugoca`, `jp/manaca`, `jp/kitaca`, `jp/nimoca`, `jp/toica` | default | family name, serial prefix |
 | `jp/okica`, `jp/edy`, `jp/waon`, `jp/nanaco` | default | family name |
-| `kr/tmoney` | default, logo | family name |
-| `kr/ezl`, `kr/climate-card` | default | family name |
+| `kr/tmoney` | default, logo, apeach, go-green, kpass, ryan, safe | family name |
+| `kr/ezl` | default, duty-free, myeongdong, pop, tour | family name |
+| `kr/climate-card` | default | family name |
 | `fr/la-carte` | default, blue | family name |
 | `mn/umoney` | default | family name |
 | `sg/ezlink` | default | family name |
+
+The Korean additions recreate real issuer and authorized-shop references in a
+flat vector style. See [the designs](previews/korean-designs.png) and
+[their sources and generation brief](sources/kr/README.md). These are familiar
+standard, character, convenience-store and tourist designs, not a sales ranking.
 
 ## Budgets
 
@@ -90,7 +97,8 @@ colour count recorded in `manifest.json`.
    as `<card>`.
 2. Add or edit the card in `catalog.json`. Designs other than `default` can
    get a display name under `designs`. Set `"denoise": false` for clean
-   digital masters so their exact colours are kept.
+   digital masters so their exact colours are kept. A design can override this
+   setting with its own `denoise` value under `designs`.
 3. Run `python3 tools/build.py <region>/<card>[/<design>]` (or no arguments to
    rebuild everything). It uses Pillow and numpy, plus `pngquant` and `optipng`
    when they are on `PATH`, which give noticeably smaller files.
