@@ -1,13 +1,16 @@
 #!/usr/bin/env python3
 """Build palette PNG card faces from sources/ and regenerate manifest.json.
 
-Each source is cover-cropped to 30:19, median-filtered, quantized without
-dithering, has near-identical palette entries merged and isolated stray pixels
-removed, then compressed. The largest size that stays within the colour and
-byte budgets wins. pngquant and optipng are used when installed.
+Every file in sources/<card id>/ is one design of that card; `default` is the
+one the app applies automatically. Each source is flattened onto white,
+cover-cropped to 30:19 and quantized without dithering. Generated artwork is
+median-filtered first and has stray pixels removed afterwards; clean flat art
+(`"denoise": false` in catalog.json) skips both, and keeps its exact palette
+when it already fits. The largest size that stays within the colour and byte
+budgets wins. pngquant and optipng are used when installed.
 
-    python3 tools/build.py            # rebuild every face
-    python3 tools/build.py shanghai   # rebuild selected slugs, keep the rest
+    python3 tools/build.py                       # rebuild every design
+    python3 tools/build.py cn/2900 kr/tmoney/logo  # rebuild cards or designs, keep the rest
 """
 from __future__ import annotations
 
@@ -22,14 +25,33 @@ import numpy as np
 from PIL import Image, ImageFilter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from validate import MAX_BYTES, MAX_COLORS, ROOT, SCHEMA_VERSION, inspect_face, validate  # noqa: E402
+from validate import (  # noqa: E402
+    DEFAULT_DESIGN, MATCH_KEYS, MAX_BYTES, MAX_COLORS, ROOT, SCHEMA_VERSION, inspect_face, validate,
+)
 
-WIDTHS = [1200, 1140, 1080, 1020, 960, 900, 840, 780, 720, 660, 600]
+MAX_WIDTH = 1200
+MIN_WIDTH = 300
+WIDTH_STEP = 60
 COLOR_STEPS = [MAX_COLORS, 20, 16]
 # Generated artwork has faint noise in flat fields; pngquant spends palette
 # slots on those shades, which turns flat areas into incompressible speckle.
 MERGE_DISTANCE = 16
 SOURCE_SUFFIXES = (".webp", ".png", ".jpg", ".jpeg")
+
+
+def load_source(path: Path) -> Image.Image:
+    image = Image.open(path)
+    if image.mode in ("RGBA", "LA", "PA") or "transparency" in image.info:
+        flat = Image.new("RGBA", image.size, (255, 255, 255, 255))
+        flat.alpha_composite(image.convert("RGBA"))
+        return flat.convert("RGB")
+    return image.convert("RGB")
+
+
+def widths_for(image: Image.Image) -> list[int]:
+    """Candidate widths, never upscaling past the source's 30:19 crop."""
+    widest = min(MAX_WIDTH, image.width, image.height * 30 // 19) // 30 * 30
+    return list(range(widest, MIN_WIDTH - 1, -WIDTH_STEP)) or [widest]
 
 
 def cover(image: Image.Image, width: int) -> Image.Image:
@@ -39,6 +61,15 @@ def cover(image: Image.Image, width: int) -> Image.Image:
     left = (resized.width - width) // 2
     top = (resized.height - height) // 2
     return resized.crop((left, top, left + width, top + height))
+
+
+def exact_palette(image: Image.Image, colors: int) -> tuple[np.ndarray, list[int]] | None:
+    pixels = np.asarray(image, dtype=np.uint8).reshape(-1, 3)
+    palette, indices = np.unique(pixels, axis=0, return_inverse=True)
+    if len(palette) > colors:
+        return None
+    flat = palette.astype(int).ravel().tolist()
+    return indices.reshape(image.height, image.width).astype(np.uint8), flat + [0] * (768 - len(flat))
 
 
 def quantize(image: Image.Image, colors: int, workdir: Path) -> tuple[np.ndarray, list[int]]:
@@ -117,16 +148,24 @@ def encode(indices: np.ndarray, palette: list[int], path: Path, level: int) -> i
     return path.stat().st_size
 
 
-def build_face(source: Path, output: Path) -> tuple[int, int, int]:
-    original = Image.open(source).convert("RGB")
+def build_face(source: Path, output: Path, denoise: bool = True) -> tuple[int, int, int]:
+    original = load_source(source)
     with tempfile.TemporaryDirectory() as tmp:
         workdir = Path(tmp)
         candidate = workdir / "face.png"
-        for width in WIDTHS:
-            resized = cover(original, width).filter(ImageFilter.MedianFilter(3))
+        for width in widths_for(original):
+            resized = cover(original, width)
+            if denoise:
+                resized = resized.filter(ImageFilter.MedianFilter(3))
             for colors in COLOR_STEPS:
-                indices, palette = quantize(resized, colors, workdir)
-                indices = despeckle(merge_similar(indices, palette))
+                exact = None if denoise else exact_palette(resized, colors)
+                if exact:
+                    indices, palette = exact
+                else:
+                    indices, palette = quantize(resized, colors, workdir)
+                    indices = merge_similar(indices, palette)
+                    if denoise:
+                        indices = despeckle(indices)
                 size = encode(indices, palette, candidate, level=2)
                 if size >= MAX_BYTES * 1.1:
                     continue
@@ -136,56 +175,74 @@ def build_face(source: Path, output: Path) -> tuple[int, int, int]:
                     output.parent.mkdir(parents=True, exist_ok=True)
                     shutil.copyfile(candidate, output)
                     return width, colors, size
-    raise SystemExit(f"{source.name}: no size/colour combination fits under {MAX_BYTES} bytes")
+    raise SystemExit(f"{source}: no size/colour combination fits under {MAX_BYTES} bytes")
 
 
-def find_source(region: str, slug: str) -> Path:
-    for suffix in SOURCE_SUFFIXES:
-        path = ROOT / "sources" / region / f"{slug}{suffix}"
-        if path.is_file():
-            return path
-    raise SystemExit(f"missing source for {region}/{slug}")
+def design_sources(card_id: str) -> dict[str, Path]:
+    """Map design ids to their masters, default first."""
+    found: dict[str, Path] = {}
+    directory = ROOT / "sources" / card_id
+    for path in sorted(directory.iterdir()) if directory.is_dir() else []:
+        if path.suffix.lower() in SOURCE_SUFFIXES:
+            if path.stem in found:
+                raise SystemExit(f"{card_id}: more than one source for design {path.stem}")
+            found[path.stem] = path
+    if DEFAULT_DESIGN not in found:
+        raise SystemExit(f"{card_id}: missing sources/{card_id}/{DEFAULT_DESIGN}.*")
+    return {DEFAULT_DESIGN: found.pop(DEFAULT_DESIGN), **found}
 
 
 def write_manifest(catalog: dict) -> None:
-    faces = []
-    for entry in catalog["faces"]:
-        region = entry.get("region", "cn")
-        relative = f"faces/{region}/{entry['slug']}.png"
-        info = inspect_face(ROOT / relative)
-        faces.append({
-            "id": f"{region}-{entry['slug']}",
-            "region": region.upper(),
-            "city": entry["city"],
+    cards = []
+    for entry in catalog["cards"]:
+        card_id = entry["path"]
+        overrides = entry.get("designs", {})
+        unknown = set(overrides) - set(design_sources(card_id))
+        if unknown:
+            raise SystemExit(f"{card_id}: catalog lists designs without a source: {', '.join(sorted(unknown))}")
+        designs = []
+        for design_id in design_sources(card_id):
+            relative = f"faces/{card_id}/{design_id}.png"
+            info = inspect_face(ROOT / relative)
+            extra = overrides.get(design_id, {})
+            designs.append({
+                "id": design_id,
+                **({"name": extra["name"]} if "name" in extra else {}),
+                **({"bundledAsset": extra["bundledAsset"]} if "bundledAsset" in extra else {}),
+                "file": relative,
+                **{key: info[key] for key in ("sha256", "bytes", "width", "height", "colors")},
+            })
+        cards.append({
+            "id": card_id,
+            "region": card_id[:2].upper(),
             "name": entry["name"],
-            "cityCodes": entry.get("cityCodes", []),
-            "cityUnionCodes": entry.get("cityUnionCodes", []),
-            "cardPrefixes": entry.get("cardPrefixes", []),
-            "file": relative,
-            "sha256": info["sha256"],
-            "bytes": info["bytes"],
-            "width": info["width"],
-            "height": info["height"],
-            "colors": info["colors"],
+            **({"city": entry["city"]} if "city" in entry else {}),
+            "match": {key: entry["match"].get(key, []) for key in MATCH_KEYS},
+            "designs": designs,
         })
-    manifest = {"schemaVersion": SCHEMA_VERSION, "faces": faces}
+    manifest = {"schemaVersion": SCHEMA_VERSION, "cards": cards}
     text = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
     (ROOT / "manifest.json").write_text(text, encoding="utf-8")
 
 
 def main(argv: list[str]) -> int:
     catalog = json.loads((ROOT / "catalog.json").read_text(encoding="utf-8"))
+    targets = [
+        (entry, design_id, source)
+        for entry in catalog["cards"]
+        for design_id, source in design_sources(entry["path"]).items()
+    ]
     selected = set(argv)
-    unknown = selected - {entry["slug"] for entry in catalog["faces"]}
-    if unknown:
-        raise SystemExit(f"unknown slugs: {', '.join(sorted(unknown))}")
-    for entry in catalog["faces"]:
-        if selected and entry["slug"] not in selected:
+    known = {entry["path"] for entry, _, _ in targets} | {f"{entry['path']}/{design}" for entry, design, _ in targets}
+    if selected - known:
+        raise SystemExit(f"unknown cards or designs: {', '.join(sorted(selected - known))}")
+    for entry, design_id, source in targets:
+        name = f"{entry['path']}/{design_id}"
+        if selected and entry["path"] not in selected and name not in selected:
             continue
-        region = entry.get("region", "cn")
-        output = ROOT / "faces" / region / f"{entry['slug']}.png"
-        width, colors, size = build_face(find_source(region, entry["slug"]), output)
-        print(f"{region}/{entry['slug']}: {width}x{width * 19 // 30}, <= {colors} colours, {size} bytes")
+        output = ROOT / "faces" / entry["path"] / f"{design_id}.png"
+        width, colors, size = build_face(source, output, denoise=entry.get("denoise", True))
+        print(f"{name}: {width}x{width * 19 // 30}, <= {colors} colours, {size} bytes")
     write_manifest(catalog)
     errors = validate()
     for error in errors:

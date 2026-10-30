@@ -1,0 +1,7 @@
+/manifest.json
+  Cache-Control: public, max-age=300
+  Access-Control-Allow-Origin: *
+
+/faces/*
+  Cache-Control: public, max-age=86400
+  Access-Control-Allow-Origin: *

@@ -4,32 +4,72 @@ Card-face artwork for [CardBal / TransitICReader](https://github.com/iebb/Transi
 The app downloads `manifest.json` and the PNGs listed in it, so new faces ship
 without an app update.
 
-The first collection covers the transit cards of mainland China's 20 largest
-cities by 2024 GDP. Each face is a flat vector-style recreation of the city's
-real card front. Card numbers, QR codes, serials and small print are removed.
+Faces are served from **https://faces.cardb.al/**, a Cloudflare Pages site
+that rebuilds from `master` on every push. jsDelivr
+(`https://cdn.jsdelivr.net/gh/iebb/card-faces@master/`, reachable from mainland
+China) and raw GitHub are fallback mirrors with the same paths.
 
-| City | Card | T-Union city code | Card prefix |
+## Layout
+
+```
+catalog.json                        hand-edited metadata: names, matching keys
+sources/<region>/<card>/<design>.*  full-resolution masters (WebP or PNG)
+faces/<region>/<card>/<design>.png  optimized faces served to the app
+manifest.json                       generated from catalog.json + faces/
+public/_headers                     cache and CORS headers for Cloudflare Pages
+tools/build.py                      optimizer and manifest generator
+tools/validate.py                   budget and manifest checks (needs Pillow)
+tools/publish.py                    stdlib-only Pages build: checks, then fills dist/
+```
+
+Every card folder has a `default.png`. Other designs sit next to it
+(`faces/kr/tmoney/logo.png`, `faces/fr/la-carte/blue.png`) and the app offers
+them in the face picker. Chinese cards are filed under their T-Union city code,
+so `faces/cn/2900/default.png` is Shanghai.
+
+### China: top 20 cities
+
+The transit cards of mainland China's 20 largest cities by 2024 GDP. Each face
+is a flat vector-style recreation of the city's real card front. Card numbers,
+QR codes, serials and small print are removed.
+
+| Folder | City | Card | Card prefix |
 | --- | --- | --- | --- |
-| 上海 Shanghai | 上海公共交通卡 | 2900 (City Union 2000) | 31047700 |
-| 北京 Beijing | 北京一卡通 | 1000 | 31051700 |
-| 深圳 Shenzhen | 深圳通 | 5840 | 31048704 |
-| 重庆 Chongqing | 宜居畅通卡 | 6900 | 31049200, 31049201 |
-| 广州 Guangzhou | 羊城通 | 5810 | 31048703 |
-| 苏州 Suzhou | 苏州市民卡 | 3050 | 31048303 |
-| 成都 Chengdu | 天府通 | 6510 | 31047800 |
-| 杭州 Hangzhou | 杭州通 | 3310 | 31048801 |
-| 武汉 Wuhan | 武汉通 | 5210 | 31051400 |
-| 南京 Nanjing | 南京市民卡 | 3010 | 31048300 |
-| 宁波 Ningbo | 宁波交通卡 | 3320 | 31048802 |
-| 天津 Tianjin | 天津城市卡 | 1121 | 31049102 |
-| 青岛 Qingdao | 琴岛通 | 4520 | 31049304 |
-| 无锡 Wuxi | 太湖交通卡 | 3020 | 31048312 |
-| 长沙 Changsha | 潇湘卡 | 5510 | 31048200 |
-| 郑州 Zhengzhou | 绿城通 | 4910 | 31050702 |
-| 福州 Fuzhou | 榕城通 | 3910 | 31050600 |
-| 济南 Jinan | 泉城通 | 4510 | 31049308 |
-| 合肥 Hefei | 合肥通 | 3610 | 31049902 |
-| 佛山 Foshan | 广佛通 | 5880 | 31048707 |
+| `cn/2900` | 上海 Shanghai | 上海公共交通卡 (City Union 2000) | 31047700 |
+| `cn/1000` | 北京 Beijing | 北京一卡通 | 31051700 |
+| `cn/5840` | 深圳 Shenzhen | 深圳通 | 31048704 |
+| `cn/6900` | 重庆 Chongqing | 宜居畅通卡 | 31049200, 31049201 |
+| `cn/5810` | 广州 Guangzhou | 羊城通 | 31048703 |
+| `cn/3050` | 苏州 Suzhou | 苏州市民卡 | 31048303 |
+| `cn/6510` | 成都 Chengdu | 天府通 | 31047800 |
+| `cn/3310` | 杭州 Hangzhou | 杭州通 | 31048801 |
+| `cn/5210` | 武汉 Wuhan | 武汉通 | 31051400 |
+| `cn/3010` | 南京 Nanjing | 南京市民卡 | 31048300 |
+| `cn/3320` | 宁波 Ningbo | 宁波交通卡 | 31048802 |
+| `cn/1121` | 天津 Tianjin | 天津城市卡 | 31049102 |
+| `cn/4520` | 青岛 Qingdao | 琴岛通 | 31049304 |
+| `cn/3020` | 无锡 Wuxi | 太湖交通卡 | 31048312 |
+| `cn/5510` | 长沙 Changsha | 潇湘卡 | 31048200 |
+| `cn/4910` | 郑州 Zhengzhou | 绿城通 | 31050702 |
+| `cn/3910` | 福州 Fuzhou | 榕城通 | 31050600 |
+| `cn/4510` | 济南 Jinan | 泉城通 | 31049308 |
+| `cn/3610` | 合肥 Hefei | 合肥通 | 31049902 |
+| `cn/5880` | 佛山 Foshan | 广佛通 | 31048707 |
+
+### App default faces
+
+The faces the app bundles, so they can be updated or extended without a
+release. `bundledAsset` in the manifest names the app asset a design mirrors,
+which lets the app skip a download it already has.
+
+| Folder | Designs | Matched by |
+| --- | --- | --- |
+| `jp/suica`, `jp/pasmo`, `jp/icoca`, `jp/hayakaken`, `jp/sugoca`, `jp/manaca`, `jp/kitaca`, `jp/nimoca`, `jp/toica` | default | family name, serial prefix |
+| `jp/okica`, `jp/edy`, `jp/waon`, `jp/nanaco` | default | family name |
+| `kr/tmoney` | default, logo | family name |
+| `kr/ezl`, `kr/climate-card` | default | family name |
+| `fr/la-carte` | default, blue | family name |
+| `mn/umoney` | default | family name |
 
 ## Budgets
 
@@ -42,61 +82,62 @@ Every published face must:
 `tools/validate.py` enforces this in CI, together with the sha256, size and
 colour count recorded in `manifest.json`.
 
-## Layout
+## Adding or updating a design
 
-```
-catalog.json        hand-edited metadata: names, city codes, card prefixes
-sources/<region>/   full-resolution masters (WebP)
-faces/<region>/     optimized faces served to the app
-manifest.json       generated from catalog.json + faces/
-tools/build.py      optimizer and manifest generator
-tools/validate.py   budget and manifest checks
-```
-
-## Adding or updating a face
-
-1. Put the master image in `sources/<region>/<slug>.webp` (or `.png`).
-2. Add or edit the entry in `catalog.json`.
-3. Run `python3 tools/build.py <slug>` (or no arguments to rebuild everything).
-   The script installs nothing; it uses Pillow and numpy, plus `pngquant` and
-   `optipng` when they are on `PATH`, which give noticeably smaller files.
+1. Put the master in `sources/<region>/<card>/<design>.webp` (or `.png`). Use
+   `default` for the card's main face. Chinese cards use the T-Union city code
+   as `<card>`.
+2. Add or edit the card in `catalog.json`. Designs other than `default` can
+   get a display name under `designs`. Set `"denoise": false` for clean
+   digital masters so their exact colours are kept.
+3. Run `python3 tools/build.py <region>/<card>[/<design>]` (or no arguments to
+   rebuild everything). It uses Pillow and numpy, plus `pngquant` and `optipng`
+   when they are on `PATH`, which give noticeably smaller files.
 4. Run `python3 -m unittest discover -s tests` and commit the face, master and
-   regenerated manifest together.
+   regenerated manifest together. Pages publishes the push automatically.
 
-The optimizer scales each master to the largest width from 1200 px down that
-fits the budgets. It tries 24, 20 and 16 colours at each width, without dithering.
+The optimizer scales each master to the largest width (at most 1200 px, never
+upscaled) that fits the budgets, trying 24, 20 and 16 colours without dithering.
 
 ## Manifest
 
 ```json
 {
-  "schemaVersion": 1,
-  "faces": [
+  "schemaVersion": 2,
+  "cards": [
     {
-      "id": "cn-shanghai",
+      "id": "cn/2900",
       "region": "CN",
-      "city": {"zh": "上海", "en": "Shanghai"},
       "name": {"zh": "上海公共交通卡", "en": "Shanghai Public Transportation Card"},
-      "cityCodes": ["2900"],
-      "cityUnionCodes": ["2000"],
-      "cardPrefixes": ["31047700"],
-      "file": "faces/cn/shanghai.png",
-      "sha256": "…",
-      "bytes": 26007,
-      "width": 1200,
-      "height": 760,
-      "colors": 24
+      "city": {"zh": "上海", "en": "Shanghai"},
+      "match": {
+        "cityCodes": ["2900"],
+        "cityUnionCodes": ["2000"],
+        "cardPrefixes": ["31047700"],
+        "families": [],
+        "serialPrefixes": []
+      },
+      "designs": [
+        {
+          "id": "default",
+          "file": "faces/cn/2900/default.png",
+          "sha256": "…",
+          "bytes": 26007,
+          "width": 1200,
+          "height": 760,
+          "colors": 19
+        }
+      ]
     }
   ]
 }
 ```
 
-Clients match a card by T-Union city code, then legacy City Union city code,
-then the longest card-number prefix. They should verify `sha256` before using a
-download. Files are served from
-`https://raw.githubusercontent.com/iebb/card-faces/master/`, with
-`https://cdn.jsdelivr.net/gh/iebb/card-faces@master/` as a mirror that is
-reachable from mainland China.
+Clients match a card by T-Union city code, then City Union city code, then the
+longest card-number prefix, then a lowercase substring of the card family name,
+then the serial-number prefix. They should verify `sha256` before using a
+download, and can append `?v=<sha256 prefix>` to bypass stale caches.
+`manifest.json` is cached for 5 minutes and faces for a day.
 
 ## Notice
 
