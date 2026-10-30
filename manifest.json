@@ -1,0 +1,508 @@
+{
+  "schemaVersion": 1,
+  "faces": [
+    {
+      "id": "cn-shanghai",
+      "region": "CN",
+      "city": {
+        "zh": "上海",
+        "en": "Shanghai"
+      },
+      "name": {
+        "zh": "上海公共交通卡",
+        "en": "Shanghai Public Transportation Card"
+      },
+      "cityCodes": [
+        "2900"
+      ],
+      "cityUnionCodes": [
+        "2000"
+      ],
+      "cardPrefixes": [
+        "31047700"
+      ],
+      "file": "faces/cn/shanghai.png",
+      "sha256": "7ba9831553f24ba097126dd80b8066bab59e3ce52958e680511369f1ba7a5c2f",
+      "bytes": 26007,
+      "width": 1200,
+      "height": 760,
+      "colors": 19
+    },
+    {
+      "id": "cn-beijing",
+      "region": "CN",
+      "city": {
+        "zh": "北京",
+        "en": "Beijing"
+      },
+      "name": {
+        "zh": "北京一卡通",
+        "en": "Beijing Yikatong"
+      },
+      "cityCodes": [
+        "1000"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31051700"
+      ],
+      "file": "faces/cn/beijing.png",
+      "sha256": "66886675cda512989265191b53cf4ab1527014989534c4715b76a90f505eb0ee",
+      "bytes": 14452,
+      "width": 1200,
+      "height": 760,
+      "colors": 19
+    },
+    {
+      "id": "cn-shenzhen",
+      "region": "CN",
+      "city": {
+        "zh": "深圳",
+        "en": "Shenzhen"
+      },
+      "name": {
+        "zh": "深圳通",
+        "en": "Shenzhen Tong"
+      },
+      "cityCodes": [
+        "5840"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048704"
+      ],
+      "file": "faces/cn/shenzhen.png",
+      "sha256": "d7c668c8be484e2835cea84ea20e5bee36bdbe700e489314c1bd41aae8d2ad45",
+      "bytes": 20781,
+      "width": 1200,
+      "height": 760,
+      "colors": 22
+    },
+    {
+      "id": "cn-chongqing",
+      "region": "CN",
+      "city": {
+        "zh": "重庆",
+        "en": "Chongqing"
+      },
+      "name": {
+        "zh": "宜居畅通卡",
+        "en": "Chongqing Changtong Card"
+      },
+      "cityCodes": [
+        "6900"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31049200",
+        "31049201"
+      ],
+      "file": "faces/cn/chongqing.png",
+      "sha256": "842bcae5f4ea9605df384f3199ed761068644ed1dfb44c409bb53dc52a5b4f23",
+      "bytes": 18985,
+      "width": 1200,
+      "height": 760,
+      "colors": 22
+    },
+    {
+      "id": "cn-guangzhou",
+      "region": "CN",
+      "city": {
+        "zh": "广州",
+        "en": "Guangzhou"
+      },
+      "name": {
+        "zh": "羊城通",
+        "en": "Yang Cheng Tong"
+      },
+      "cityCodes": [
+        "5810"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048703"
+      ],
+      "file": "faces/cn/guangzhou.png",
+      "sha256": "6ccef0f29830959d676a762095963abeccbab68011dade8f1f5be2c5ce9dba3f",
+      "bytes": 38451,
+      "width": 1140,
+      "height": 722,
+      "colors": 15
+    },
+    {
+      "id": "cn-suzhou",
+      "region": "CN",
+      "city": {
+        "zh": "苏州",
+        "en": "Suzhou"
+      },
+      "name": {
+        "zh": "苏州市民卡",
+        "en": "Suzhou Citizen Card"
+      },
+      "cityCodes": [
+        "3050"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048303"
+      ],
+      "file": "faces/cn/suzhou.png",
+      "sha256": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0",
+      "bytes": 25175,
+      "width": 1200,
+      "height": 760,
+      "colors": 17
+    },
+    {
+      "id": "cn-chengdu",
+      "region": "CN",
+      "city": {
+        "zh": "成都",
+        "en": "Chengdu"
+      },
+      "name": {
+        "zh": "天府通",
+        "en": "Tianfu Tong"
+      },
+      "cityCodes": [
+        "6510"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31047800"
+      ],
+      "file": "faces/cn/chengdu.png",
+      "sha256": "a868927f14630520540d1d8616e3ac624352490270f40b14e7a8d9ef7857e2ac",
+      "bytes": 26616,
+      "width": 1200,
+      "height": 760,
+      "colors": 20
+    },
+    {
+      "id": "cn-hangzhou",
+      "region": "CN",
+      "city": {
+        "zh": "杭州",
+        "en": "Hangzhou"
+      },
+      "name": {
+        "zh": "杭州通",
+        "en": "Hangzhou Tong"
+      },
+      "cityCodes": [
+        "3310"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048801"
+      ],
+      "file": "faces/cn/hangzhou.png",
+      "sha256": "7b0a7fb557a587511bcd526a237e41eedaf865955fe7c8a76527065a4e9511f0",
+      "bytes": 23427,
+      "width": 1200,
+      "height": 760,
+      "colors": 16
+    },
+    {
+      "id": "cn-wuhan",
+      "region": "CN",
+      "city": {
+        "zh": "武汉",
+        "en": "Wuhan"
+      },
+      "name": {
+        "zh": "武汉通",
+        "en": "Wuhan Tong"
+      },
+      "cityCodes": [
+        "5210"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31051400"
+      ],
+      "file": "faces/cn/wuhan.png",
+      "sha256": "279a62794c9ea0e1b8235994bbff9cacc7349992389b40f2a4c6757be083c36f",
+      "bytes": 31999,
+      "width": 1200,
+      "height": 760,
+      "colors": 14
+    },
+    {
+      "id": "cn-nanjing",
+      "region": "CN",
+      "city": {
+        "zh": "南京",
+        "en": "Nanjing"
+      },
+      "name": {
+        "zh": "南京市民卡",
+        "en": "Nanjing Citizen Card"
+      },
+      "cityCodes": [
+        "3010"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048300"
+      ],
+      "file": "faces/cn/nanjing.png",
+      "sha256": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8",
+      "bytes": 29646,
+      "width": 1200,
+      "height": 760,
+      "colors": 17
+    },
+    {
+      "id": "cn-ningbo",
+      "region": "CN",
+      "city": {
+        "zh": "宁波",
+        "en": "Ningbo"
+      },
+      "name": {
+        "zh": "宁波交通卡",
+        "en": "Ningbo Transport Card"
+      },
+      "cityCodes": [
+        "3320"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048802"
+      ],
+      "file": "faces/cn/ningbo.png",
+      "sha256": "2e05af50e6288a85a794509207ce3e8d8e8623546042206e037103e54b470c13",
+      "bytes": 24785,
+      "width": 1200,
+      "height": 760,
+      "colors": 19
+    },
+    {
+      "id": "cn-tianjin",
+      "region": "CN",
+      "city": {
+        "zh": "天津",
+        "en": "Tianjin"
+      },
+      "name": {
+        "zh": "天津城市卡",
+        "en": "Tianjin City Card"
+      },
+      "cityCodes": [
+        "1121"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31049102"
+      ],
+      "file": "faces/cn/tianjin.png",
+      "sha256": "a113940740b3f80b0d2f485afe6f660639828b2ec738e66ffda0c08842ba9a0e",
+      "bytes": 22540,
+      "width": 1200,
+      "height": 760,
+      "colors": 19
+    },
+    {
+      "id": "cn-qingdao",
+      "region": "CN",
+      "city": {
+        "zh": "青岛",
+        "en": "Qingdao"
+      },
+      "name": {
+        "zh": "琴岛通",
+        "en": "Qindao Tong"
+      },
+      "cityCodes": [
+        "4520"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31049304"
+      ],
+      "file": "faces/cn/qingdao.png",
+      "sha256": "61cabeb1aa6fc9681b84dbca9fa1b5f4f93cc2b3f5a87b44e5858645f375dd45",
+      "bytes": 39611,
+      "width": 1020,
+      "height": 646,
+      "colors": 16
+    },
+    {
+      "id": "cn-wuxi",
+      "region": "CN",
+      "city": {
+        "zh": "无锡",
+        "en": "Wuxi"
+      },
+      "name": {
+        "zh": "太湖交通卡",
+        "en": "Taihu Transport Card"
+      },
+      "cityCodes": [
+        "3020"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048312"
+      ],
+      "file": "faces/cn/wuxi.png",
+      "sha256": "e2791492bbb39a2c4a88417c031aca0898a7b49302e3d4395b5de7cad9a50680",
+      "bytes": 38817,
+      "width": 1140,
+      "height": 722,
+      "colors": 15
+    },
+    {
+      "id": "cn-changsha",
+      "region": "CN",
+      "city": {
+        "zh": "长沙",
+        "en": "Changsha"
+      },
+      "name": {
+        "zh": "潇湘卡",
+        "en": "Xiaoxiang Card"
+      },
+      "cityCodes": [
+        "5510"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048200"
+      ],
+      "file": "faces/cn/changsha.png",
+      "sha256": "f0c297aec20f48a99ff7816edfdc46901b4d90d6c7e64488fc593b2633ba812a",
+      "bytes": 39793,
+      "width": 1020,
+      "height": 646,
+      "colors": 16
+    },
+    {
+      "id": "cn-zhengzhou",
+      "region": "CN",
+      "city": {
+        "zh": "郑州",
+        "en": "Zhengzhou"
+      },
+      "name": {
+        "zh": "绿城通",
+        "en": "Lvcheng Tong"
+      },
+      "cityCodes": [
+        "4910"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31050702"
+      ],
+      "file": "faces/cn/zhengzhou.png",
+      "sha256": "6b4c04a47cce9350150c788bdadfcf820260821acd15eec847b8034662f83ee0",
+      "bytes": 31106,
+      "width": 1200,
+      "height": 760,
+      "colors": 17
+    },
+    {
+      "id": "cn-fuzhou",
+      "region": "CN",
+      "city": {
+        "zh": "福州",
+        "en": "Fuzhou"
+      },
+      "name": {
+        "zh": "榕城通",
+        "en": "Rongcheng Tong"
+      },
+      "cityCodes": [
+        "3910"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31050600"
+      ],
+      "file": "faces/cn/fuzhou.png",
+      "sha256": "b933f153d1b76f72e1f40b916c74e0ef8cd94287c7375d7bf5e3ee6971a93d82",
+      "bytes": 15159,
+      "width": 1200,
+      "height": 760,
+      "colors": 17
+    },
+    {
+      "id": "cn-jinan",
+      "region": "CN",
+      "city": {
+        "zh": "济南",
+        "en": "Jinan"
+      },
+      "name": {
+        "zh": "泉城通",
+        "en": "Quancheng Tong"
+      },
+      "cityCodes": [
+        "4510"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31049308"
+      ],
+      "file": "faces/cn/jinan.png",
+      "sha256": "d481545c5fa732673973cc3f4e7e0efd1e35822f282b92496d454cbcf02922df",
+      "bytes": 38894,
+      "width": 1020,
+      "height": 646,
+      "colors": 20
+    },
+    {
+      "id": "cn-hefei",
+      "region": "CN",
+      "city": {
+        "zh": "合肥",
+        "en": "Hefei"
+      },
+      "name": {
+        "zh": "合肥通",
+        "en": "Hefei Tong"
+      },
+      "cityCodes": [
+        "3610"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31049902"
+      ],
+      "file": "faces/cn/hefei.png",
+      "sha256": "d38eba6df8bc66251992f1191a375913fe72476b04565e7b24192b99e9a98e36",
+      "bytes": 32082,
+      "width": 1200,
+      "height": 760,
+      "colors": 17
+    },
+    {
+      "id": "cn-foshan",
+      "region": "CN",
+      "city": {
+        "zh": "佛山",
+        "en": "Foshan"
+      },
+      "name": {
+        "zh": "广佛通",
+        "en": "Guangfo Tong"
+      },
+      "cityCodes": [
+        "5880"
+      ],
+      "cityUnionCodes": [],
+      "cardPrefixes": [
+        "31048707"
+      ],
+      "file": "faces/cn/foshan.png",
+      "sha256": "826e7ef62731f3a92f2e706a914ba94a6d8ad4a8de561ab58662c27cbcf96452",
+      "bytes": 39883,
+      "width": 1200,
+      "height": 760,
+      "colors": 15
+    }
+  ]
+}

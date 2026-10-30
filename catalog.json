@@ -1,0 +1,24 @@
+{
+  "faces": [
+    {"slug": "shanghai", "city": {"zh": "上海", "en": "Shanghai"}, "name": {"zh": "上海公共交通卡", "en": "Shanghai Public Transportation Card"}, "cityCodes": ["2900"], "cityUnionCodes": ["2000"], "cardPrefixes": ["31047700"]},
+    {"slug": "beijing", "city": {"zh": "北京", "en": "Beijing"}, "name": {"zh": "北京一卡通", "en": "Beijing Yikatong"}, "cityCodes": ["1000"], "cityUnionCodes": [], "cardPrefixes": ["31051700"]},
+    {"slug": "shenzhen", "city": {"zh": "深圳", "en": "Shenzhen"}, "name": {"zh": "深圳通", "en": "Shenzhen Tong"}, "cityCodes": ["5840"], "cityUnionCodes": [], "cardPrefixes": ["31048704"]},
+    {"slug": "chongqing", "city": {"zh": "重庆", "en": "Chongqing"}, "name": {"zh": "宜居畅通卡", "en": "Chongqing Changtong Card"}, "cityCodes": ["6900"], "cityUnionCodes": [], "cardPrefixes": ["31049200", "31049201"]},
+    {"slug": "guangzhou", "city": {"zh": "广州", "en": "Guangzhou"}, "name": {"zh": "羊城通", "en": "Yang Cheng Tong"}, "cityCodes": ["5810"], "cityUnionCodes": [], "cardPrefixes": ["31048703"]},
+    {"slug": "suzhou", "city": {"zh": "苏州", "en": "Suzhou"}, "name": {"zh": "苏州市民卡", "en": "Suzhou Citizen Card"}, "cityCodes": ["3050"], "cityUnionCodes": [], "cardPrefixes": ["31048303"]},
+    {"slug": "chengdu", "city": {"zh": "成都", "en": "Chengdu"}, "name": {"zh": "天府通", "en": "Tianfu Tong"}, "cityCodes": ["6510"], "cityUnionCodes": [], "cardPrefixes": ["31047800"]},
+    {"slug": "hangzhou", "city": {"zh": "杭州", "en": "Hangzhou"}, "name": {"zh": "杭州通", "en": "Hangzhou Tong"}, "cityCodes": ["3310"], "cityUnionCodes": [], "cardPrefixes": ["31048801"]},
+    {"slug": "wuhan", "city": {"zh": "武汉", "en": "Wuhan"}, "name": {"zh": "武汉通", "en": "Wuhan Tong"}, "cityCodes": ["5210"], "cityUnionCodes": [], "cardPrefixes": ["31051400"]},
+    {"slug": "nanjing", "city": {"zh": "南京", "en": "Nanjing"}, "name": {"zh": "南京市民卡", "en": "Nanjing Citizen Card"}, "cityCodes": ["3010"], "cityUnionCodes": [], "cardPrefixes": ["31048300"]},
+    {"slug": "ningbo", "city": {"zh": "宁波", "en": "Ningbo"}, "name": {"zh": "宁波交通卡", "en": "Ningbo Transport Card"}, "cityCodes": ["3320"], "cityUnionCodes": [], "cardPrefixes": ["31048802"]},
+    {"slug": "tianjin", "city": {"zh": "天津", "en": "Tianjin"}, "name": {"zh": "天津城市卡", "en": "Tianjin City Card"}, "cityCodes": ["1121"], "cityUnionCodes": [], "cardPrefixes": ["31049102"]},
+    {"slug": "qingdao", "city": {"zh": "青岛", "en": "Qingdao"}, "name": {"zh": "琴岛通", "en": "Qindao Tong"}, "cityCodes": ["4520"], "cityUnionCodes": [], "cardPrefixes": ["31049304"]},
+    {"slug": "wuxi", "city": {"zh": "无锡", "en": "Wuxi"}, "name": {"zh": "太湖交通卡", "en": "Taihu Transport Card"}, "cityCodes": ["3020"], "cityUnionCodes": [], "cardPrefixes": ["31048312"]},
+    {"slug": "changsha", "city": {"zh": "长沙", "en": "Changsha"}, "name": {"zh": "潇湘卡", "en": "Xiaoxiang Card"}, "cityCodes": ["5510"], "cityUnionCodes": [], "cardPrefixes": ["31048200"]},
+    {"slug": "zhengzhou", "city": {"zh": "郑州", "en": "Zhengzhou"}, "name": {"zh": "绿城通", "en": "Lvcheng Tong"}, "cityCodes": ["4910"], "cityUnionCodes": [], "cardPrefixes": ["31050702"]},
+    {"slug": "fuzhou", "city": {"zh": "福州", "en": "Fuzhou"}, "name": {"zh": "榕城通", "en": "Rongcheng Tong"}, "cityCodes": ["3910"], "cityUnionCodes": [], "cardPrefixes": ["31050600"]},
+    {"slug": "jinan", "city": {"zh": "济南", "en": "Jinan"}, "name": {"zh": "泉城通", "en": "Quancheng Tong"}, "cityCodes": ["4510"], "cityUnionCodes": [], "cardPrefixes": ["31049308"]},
+    {"slug": "hefei", "city": {"zh": "合肥", "en": "Hefei"}, "name": {"zh": "合肥通", "en": "Hefei Tong"}, "cityCodes": ["3610"], "cityUnionCodes": [], "cardPrefixes": ["31049902"]},
+    {"slug": "foshan", "city": {"zh": "佛山", "en": "Foshan"}, "name": {"zh": "广佛通", "en": "Guangfo Tong"}, "cityCodes": ["5880"], "cityUnionCodes": [], "cardPrefixes": ["31048707"]}
+  ]
+}
