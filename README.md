@@ -70,6 +70,7 @@ which lets the app skip a download it already has.
 | `kr/ezl`, `kr/climate-card` | default | family name |
 | `fr/la-carte` | default, blue | family name |
 | `mn/umoney` | default | family name |
+| `sg/ezlink` | default | family name |
 
 ## Budgets
 

@@ -1254,6 +1254,36 @@
           "colors": 21
         }
       ]
+    },
+    {
+      "id": "sg/ezlink",
+      "region": "SG",
+      "name": {
+        "en": "EZ-Link",
+        "zh": "易通卡"
+      },
+      "match": {
+        "cityCodes": [],
+        "cityUnionCodes": [],
+        "cardPrefixes": [],
+        "families": [
+          "ez-link",
+          "ezlink"
+        ],
+        "serialPrefixes": []
+      },
+      "designs": [
+        {
+          "id": "default",
+          "bundledAsset": "ezlink",
+          "file": "faces/sg/ezlink/default.png",
+          "sha256": "e8f93ffca9f094124e74354fac6ceec1d9e00ef0d05095aeba949a75581585ce",
+          "bytes": 33615,
+          "width": 510,
+          "height": 323,
+          "colors": 16
+        }
+      ]
     }
   ]
 }

@@ -37,6 +37,7 @@
     {"path": "kr/ezl", "name": {"en": "EZL / Cashbee", "ko": "이즐 / 캐시비"}, "match": {"families": ["ezl", "cashbee"]}, "denoise": false, "designs": {"default": {"bundledAsset": "ezl"}}},
     {"path": "kr/climate-card", "name": {"en": "Climate Card", "ko": "기후동행카드"}, "match": {"families": ["climate"]}, "denoise": false, "designs": {"default": {"bundledAsset": "climate-card"}}},
     {"path": "fr/la-carte", "name": {"en": "La Carte (Lignes d'Azur)", "fr": "La Carte"}, "match": {"families": ["lignes d'azur", "la carte"]}, "denoise": false, "designs": {"default": {"bundledAsset": "la-carte"}, "blue": {"name": {"en": "La Carte (blue)", "fr": "La Carte bleue"}, "bundledAsset": "la-carte-blue"}}},
-    {"path": "mn/umoney", "name": {"en": "U-Money", "mn": "U-Money"}, "match": {"families": ["u-money", "umoney"]}, "denoise": false, "designs": {"default": {"bundledAsset": "umoney"}}}
+    {"path": "mn/umoney", "name": {"en": "U-Money", "mn": "U-Money"}, "match": {"families": ["u-money", "umoney"]}, "denoise": false, "designs": {"default": {"bundledAsset": "umoney"}}},
+    {"path": "sg/ezlink", "name": {"en": "EZ-Link", "zh": "易通卡"}, "match": {"families": ["ez-link", "ezlink"]}, "denoise": false, "designs": {"default": {"bundledAsset": "ezlink"}}}
   ]
 }
