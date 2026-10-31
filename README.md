@@ -109,6 +109,21 @@ flat vector style. See [the designs](previews/korean-designs.png) and
 [their sources and generation brief](sources/kr/README.md). These are familiar
 standard, character, convenience-store and tourist designs, not a sales ranking.
 
+### Additional designs
+
+The expanded collection adds twelve researched physical designs across the six
+covered countries: four Chinese city cards, three Japanese visitor designs, two
+Singapore EZ-Link designs, K-PASS LINE FRIENDS T-money, Nice's Tour de
+France yellow-jersey La Carte, and the TDB/U-Money Britto Einstein card.
+Existing defaults stay unchanged. Each addition has a normal cleaned choice and
+a selectable text version. Three decorative-lettering designs also offer a fully
+text-free alternative.
+
+See the [new designs](previews/expansion-designs.png) and
+[research and generation notes](sources/expansion/README.md).
+The apps rank designs for the physical card's type first, then designs for its
+city in the same country, regardless of the artwork currently selected.
+
 ## Budgets
 
 Every published face must:

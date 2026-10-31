@@ -1,0 +1,820 @@
+{
+  "schemaVersion": 1,
+  "baselineCommit": "c150ffde9b037bc70fabd93bdf62098725a8093c",
+  "policy": "Recreate researched physical card fronts in flat vector style. Prefer no ordinary text; preserve decorative lettering integral to artwork, with text and fully cleaned alternatives. Existing defaults are unchanged.",
+  "groups": {
+    "cn": [
+      {
+        "cardId": "cn/2900",
+        "proposedDesignId": "interconnect-10th-2025",
+        "localizedName": {
+          "zh": "互联互通十周年",
+          "en": "Interconnectivity 10th Anniversary"
+        },
+        "realDesignName": "上海公共交通卡 互联互通10周年 交通联合纪念卡",
+        "issuer": "上海公共交通卡",
+        "issueYear": 2025,
+        "issueBatch": "J25-25",
+        "sourcePageUrl": "https://m.sctcd.com/m/product/detail/4423",
+        "sourcePublisher": "上海都市旅游卡官方产品商城",
+        "sourceType": "Official card-shop product listing",
+        "directImageUrl": "https://res.sctcd.com/img/M00/02/60/rBEADGjuFP6AXHmxAAU3aI3HR_U312.jpg",
+        "localReferenceImagePath": "sources/expansion/references/shanghai-interconnect-10th-front.jpg",
+        "imageSizePx": [
+          1280,
+          1280
+        ],
+        "crop": {
+          "boundsPx": [
+            203,
+            300,
+            1084,
+            856
+          ],
+          "rotationDegreesClockwise": 0,
+          "perspectiveQuadPx": null,
+          "selection": "Single upright card above its mirrored reflection. Exclude all reflection and the white presentation background."
+        },
+        "frontVerification": "The product description explicitly captions this asset as the front and a separate asset as the back. The listing names the issuer, batch J25-25, and a physical empty stored-value card.",
+        "visualDescription": "Orange-red concentric dot rings and fine curved lines surround a large dimensional 10, with 2015 and 2025 inside the zero; a translucent network globe crosses the middle.",
+        "distinctFromExisting": "A radial anniversary composition with a large numeral and network globe, unlike the default red-and-white ribbon artwork.",
+        "downloadMethod": "Direct HTTPS download; image opened and visually inspected.",
+        "confidence": "high",
+        "limitations": "Official product presentation image of a physical issue, rather than a documentary photograph of an individual used card."
+      },
+      {
+        "cardId": "cn/1000",
+        "proposedDesignId": "china-70-reform-2019",
+        "localizedName": {
+          "zh": "我爱你中国·改革开放",
+          "en": "I Love You China: Reform and Opening Up"
+        },
+        "realDesignName": "北京一卡通“我爱你中国”系列纪念卡（改革开放40年走进新时代取得影响世界的成果主题）",
+        "issuer": "北京市政交通一卡通公司",
+        "issueDate": "2019-09-29",
+        "printedIssueCode": "2019 T-11",
+        "sourcePageUrl": "https://news.sina.cn/gn/2019-09-27/detail-iicezzrq8834919.d.html",
+        "sourcePublisher": "新京报官方账号，新浪新闻转载",
+        "sourcePublishedAt": "2019-09-27",
+        "sourceType": "Issue announcement quoting issuer, with photographs credited to issuer",
+        "directImageUrl": "https://k.sinaimg.cn/n/translate/214/w2048h1366/20190927/4d26-ifffqup3165581.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+        "localReferenceImagePath": "sources/expansion/references/beijing-70th-detail1.jpg",
+        "imageSizePx": [
+          700,
+          467
+        ],
+        "crop": {
+          "boundsPx": [
+            327,
+            225,
+            670,
+            455
+          ],
+          "rotationDegreesClockwise": -6.2,
+          "perspectiveQuadPx": [
+            [
+              375,
+              226
+            ],
+            [
+              668,
+              258
+            ],
+            [
+              645,
+              454
+            ],
+            [
+              328,
+              397
+            ]
+          ],
+          "selection": "Bottom-right card only: modern skyline and high-speed train. The two other fronts in the photograph are different themes and are not selected."
+        },
+        "frontVerification": "The article describes three themes and explicitly says the historical/achievement artwork is on the front, while the large 70 artwork is on the back. This photo shows all three actual fronts. The selected train/skyline card matches the reform-and-opening theme.",
+        "visualDescription": "Warm pink, orange, and gold skyline with a tall central tower and other modern buildings; a white-and-blue high-speed train crosses the lower left; the lower field turns cyan blue.",
+        "distinctFromExisting": "Illustrated skyline and high-speed train, completely different from the blue standard card's three yellow arcs.",
+        "supplementaryReferences": [
+          {
+            "purpose": "Physical cards displayed together; the selected train/skyline front is at bottom left.",
+            "sourcePageUrl": "https://news.sina.cn/gn/2019-09-27/detail-iicezzrq8834919.d.html",
+            "directImageUrl": "https://k.sinaimg.cn/n/translate/214/w2048h1366/20190927/b21a-ifffqup3165931.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+            "localReferenceImagePath": "sources/expansion/references/beijing-70th-detail3.jpg",
+            "imageSizePx": [
+              700,
+              467
+            ]
+          },
+          {
+            "purpose": "Back-side comparison only; confirms that the prominent 70 side must not be mistaken for the requested front.",
+            "sourcePageUrl": "https://news.sina.cn/gn/2019-09-27/detail-iicezzrq8834919.d.html",
+            "directImageUrl": "https://k.sinaimg.cn/n/translate/534/w800h534/20190927/d047-ifffqup3165726.jpg/w700d1q75cms.jpg?by=cms_fixed_width",
+            "localReferenceImagePath": "sources/expansion/references/beijing-70th-detail2.jpg",
+            "imageSizePx": [
+              700,
+              467
+            ]
+          }
+        ],
+        "downloadMethod": "Direct HTTPS download of article image; image opened and visually inspected.",
+        "confidence": "high",
+        "limitations": "Selected card occupies approximately 300 by 200 pixels and is photographed in perspective with some optical softness. Use the quadrilateral to rectify; rotation alone is insufficient. The source states the long theme description; the shorter localized label is proposed for the selector."
+      },
+      {
+        "cardId": "cn/5810",
+        "proposedDesignId": "first-issue-five-rams-2018",
+        "localizedName": {
+          "zh": "全国交通一卡通首发·五羊",
+          "en": "First National Issue: Five Rams"
+        },
+        "realDesignName": "全国交通一卡通首发限量版羊城通纪念卡（2018年套卡之五羊图案正面）",
+        "issuer": "广州羊城通",
+        "issueDate": "2018-11-08",
+        "sourcePageUrl": "https://m.21jingji.com/article/20181104/herald/729902c0f592dd26bddd06b54283bcfe.html",
+        "sourcePublisher": "中国广州发布，21财经转载",
+        "sourcePublishedAt": "2018-11-04",
+        "sourceType": "Guangzhou government release republished by an established financial news publisher",
+        "directImageUrl": "https://img.21jingji.com/uploadfile/cover/20181104/1541322575433164.jpg",
+        "localReferenceImagePath": "sources/expansion/references/guangzhou-2018-first-issue-pair.jpg",
+        "imageSizePx": [
+          686,
+          486
+        ],
+        "crop": {
+          "boundsPx": [
+            20,
+            21,
+            306,
+            202
+          ],
+          "rotationDegreesClockwise": 0,
+          "perspectiveQuadPx": null,
+          "selection": "Top-left card only, explicitly labeled 正面. Exclude its caption, the top-right back, and the second card pair on the bottom row."
+        },
+        "frontVerification": "The source image labels left-column cards as fronts and right-column cards as backs. The release announces a physical two-card set limited to 5,000 sets and names official purchase channels.",
+        "visualDescription": "Large delicate white contour of the Five Rams sculpture on a golden-yellow and orange field, with pale green at upper right and broad curved translucent sweeps.",
+        "distinctFromExisting": "A sculptural white line motif on warm curved color fields; the current default uses a purple-blue detailed Guangzhou skyline. This is not a recolor.",
+        "nameStatus": "The series name is documented. Five Rams is a descriptive disambiguator for the selected member of the two-card set, not a separately asserted official product title.",
+        "downloadMethod": "Direct HTTPS download of the image URL found in the article's data-original attribute; image opened and visually inspected.",
+        "confidence": "high",
+        "limitations": "The selected front is only 286 by 181 pixels. The source contains two different physical fronts, but only the Five Rams member is proposed here."
+      },
+      {
+        "cardId": "cn/5840",
+        "proposedDesignId": "persimmons-good-fortune",
+        "localizedName": {
+          "zh": "柿柿如意",
+          "en": "Persimmons of Good Fortune"
+        },
+        "realDesignName": "【全国一卡通】柿柿如意纪念卡",
+        "issuer": "深圳市深圳通有限公司",
+        "sourcePageUrl": "https://www.shenzhentong.com/products/31.html",
+        "sourcePublisher": "深圳市深圳通有限公司官方网站",
+        "sourceType": "Issuer product page with physical-card purchase channels",
+        "directImageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/new2022123016102910798/cms/image/03a0418e-921d-40b9-a83a-21ea9372b883.png",
+        "localReferenceImagePath": "sources/expansion/references/shenzhen-persimmons-front.png",
+        "imageSizePx": [
+          562,
+          345
+        ],
+        "crop": {
+          "boundsPx": [
+            94,
+            50,
+            481,
+            295
+          ],
+          "rotationDegreesClockwise": 0,
+          "perspectiveQuadPx": null,
+          "selection": "Single front, tightly crop away the white product-photo margin."
+        },
+        "frontVerification": "The issuer product description identifies a physical national transport card and official sales channels. Its supplementary image shows both sides; the hero image matches the decorative front on the left, while the right-hand reverse contains the card number and usage information.",
+        "visualDescription": "Nearly black teal silk background, vivid orange persimmons and green leaves, a woven basket cut off at lower right, and expressive red-orange calligraphy.",
+        "distinctFromExisting": "Dark still-life composition with fruit and basket, completely different from the default blue Shenzhen cityscape.",
+        "supplementaryReferences": [
+          {
+            "purpose": "Issuer's side-by-side front/back proof; the front is the left card.",
+            "sourcePageUrl": "https://www.shenzhentong.com/products/31.html",
+            "directImageUrl": "https://omo-oss-image.thefastimg.com/portal-saas/new2022123016102910798/cms/image/16f6aab8-441f-453b-9645-bd4c30f6ecbd.png",
+            "localReferenceImagePath": "sources/expansion/references/shenzhen-persimmons-details.png",
+            "imageSizePx": [
+              685,
+              586
+            ],
+            "cropBoundsPx": [
+              18,
+              242,
+              325,
+              436
+            ]
+          }
+        ],
+        "downloadMethod": "Exported the loaded issuer-page assets with the browser pageAssets bundle capability, then copied them into the research directory. Direct requests were blocked by the image CDN.",
+        "confidence": "high",
+        "limitations": "The usable front occupies approximately 387 by 245 pixels. The issuer page does not provide an explicit issue date."
+      }
+    ],
+    "jp-sg": [
+      {
+        "cardId": "jp/suica",
+        "proposedDesignId": "welcome-sakura",
+        "displayNames": {
+          "en": "Welcome Suica (cherry blossoms)",
+          "ja": "Welcome Suica（桜）",
+          "zh": "Welcome Suica（樱花）",
+          "ko": "웰컴 스이카 (벚꽃)"
+        },
+        "realDesignName": "Welcome Suica",
+        "sourcePageUrl": "https://www.jreast.co.jp/en/multi/welcomesuica/welcomesuica.html",
+        "sourceAuthority": "JR East issuer",
+        "directImageUrl": "https://www.jreast.co.jp/multi/welcomesuica/img/welcomesuica/img_welcomesuica.png",
+        "localReferenceImagePath": "sources/expansion/references/jp-welcome-suica.png",
+        "imageWidth": 334,
+        "imageHeight": 211,
+        "sha256": "7bfbe98da99cd2a3b5e4636510f05123fb52c897ec73ee625d91e4ea821d35d7",
+        "imageKind": "official_front_artwork",
+        "faceCrop": {
+          "boundsPx": [
+            0,
+            0,
+            334,
+            211
+          ],
+          "rotationDegreesClockwise": 0
+        },
+        "visualEvidence": "White cherry blossoms on a red sloped panel with a dark red upper-left section, surrounded by a white card border.",
+        "duplicateCheck": "Existing jp/suica contains only default and text: the standard green-and-white Suica front, with no red Welcome Suica design.",
+        "referenceNotes": [
+          "Complete isolated issuer front; no composite crop needed.",
+          "334x211 is sufficient for layout and large blossom shapes; it is not a high-resolution print master."
+        ],
+        "croppedReferenceImagePath": "sources/expansion/references/welcome-sakura-source-crop.png",
+        "visuallyInspected": true,
+        "preferredReferenceImagePath": "sources/expansion/references/jp-welcome-suica.png"
+      },
+      {
+        "cardId": "jp/pasmo",
+        "proposedDesignId": "passport-sanrio",
+        "displayNames": {
+          "en": "PASMO PASSPORT (Sanrio)",
+          "ja": "PASMO PASSPORT（サンリオ）",
+          "zh": "PASMO PASSPORT（三丽鸥）",
+          "ko": "파스모 패스포트 (산리오)"
+        },
+        "realDesignName": "PASMO PASSPORT",
+        "sourcePageUrl": "https://suicazanmai.com/en/products/%E4%BD%BF%E7%94%A8%E4%B8%8D%E5%8F%AF-%E3%83%8F%E3%83%AD%E3%83%BC%E3%82%AD%E3%83%86%E3%82%A3pasmo-%E3%83%91%E3%82%B9%E3%83%A2-pasmo-passport",
+        "sourceAuthority": "IC Card Zanmai specialist retailer; independently corroborated by PASMO Committee / Tokyo Metro",
+        "directImageUrl": "https://suicazanmai.com/cdn/shop/files/2025-05-0413.44.26.jpg?v=1790416991",
+        "localReferenceImagePath": "sources/expansion/references/jp-pasmo-passport-photo.jpg",
+        "imageWidth": 1296,
+        "imageHeight": 1296,
+        "sha256": "e0cc9ea2249962b455789f848488e15bfe7c8ba2fd7a16fe78507b1440dff476",
+        "imageKind": "physical_card_photo",
+        "faceCrop": {
+          "boundsPx": [
+            43,
+            263,
+            1255,
+            1029
+          ],
+          "rotationDegreesClockwise": 0
+        },
+        "visualEvidence": "Hello Kitty in front, Pompompurin above, Cinnamoroll lower right, Mount Fuji upper left, red temple lower left, Skytree at right and cherry blossoms.",
+        "duplicateCheck": "Existing jp/pasmo contains only default, text and no-text: the silver/pink standard front; no Sanrio visitor front.",
+        "issuerEvidence": {
+          "sourcePageUrl": "https://www.tokyometro.jp/lang_en/news/202391.html",
+          "documentUrl": "https://www.tokyometro.jp/lang_en/news/images_h/metroNews20190711_PASMO.pdf",
+          "localDocumentPath": "sources/expansion/references/pasmo-press-release-2019.pdf",
+          "documentDate": "2019-07-11",
+          "page": 1,
+          "embeddedImageIndex": 0,
+          "embeddedImageDimensions": [
+            909,
+            584
+          ],
+          "preferredReferenceImagePath": "sources/expansion/references/jp-pasmo-passport-sanrio.jpg",
+          "faceCrop": {
+            "boundsPx": [
+              13,
+              8,
+              904,
+              571
+            ],
+            "rotationDegreesClockwise": 0
+          }
+        },
+        "referenceNotes": [
+          "Use the clean embedded issuer artwork for later recreation; the retailer photo corroborates the physical front.",
+          "Retailer round watermark overlaps a small part of the lower-right edge; it is not card artwork.",
+          "Historical visitor design; this research does not claim current retail availability."
+        ],
+        "croppedReferenceImagePath": "sources/expansion/references/passport-sanrio-source-crop.png",
+        "visuallyInspected": true,
+        "preferredReferenceImagePath": "sources/expansion/references/passport-sanrio-issuer-crop.png",
+        "preferredReferenceNotes": "Clean issuer artwork extracted from page 1, image 0 of the PASMO press release; primary direct photo URL remains available for physical-card verification."
+      },
+      {
+        "cardId": "jp/icoca",
+        "proposedDesignId": "wind-thunder",
+        "displayNames": {
+          "en": "Wind and Thunder Gods",
+          "ja": "風神雷神",
+          "zh": "风神雷神",
+          "ko": "풍신뇌신"
+        },
+        "realDesignName": "Original Design ICOCA - The Wind and Thunder Gods",
+        "sourcePageUrl": "https://suicazanmai.com/en/products/%E9%A2%A8%E7%A5%9E%E9%9B%B7%E7%A5%9Eicoca-%E3%82%A4%E3%82%B3%E3%82%AB",
+        "sourceAuthority": "IC Card Zanmai specialist retailer; independently corroborated by JR West",
+        "directImageUrl": "https://suicazanmai.com/cdn/shop/files/2026-09-0322.10.11.jpg?v=1788441222",
+        "localReferenceImagePath": "sources/expansion/references/jp-icoca-wind-thunder-photo.jpg",
+        "imageWidth": 1515,
+        "imageHeight": 1515,
+        "sha256": "0fa82ff15e907ec4d40af7ed7cf9dea668037da150fb9c53a94f61929c50c79e",
+        "imageKind": "physical_card_photo",
+        "faceCrop": {
+          "boundsPx": [
+            53,
+            323,
+            1465,
+            1211
+          ],
+          "rotationDegreesClockwise": 0
+        },
+        "visualEvidence": "Gold folding-screen-like background, pale Thunder God and black sweeping drapery at left, dark Wind God with a large pale sack at right; small red blossom roundel lower left.",
+        "duplicateCheck": "Existing jp/icoca contains only default and text: the standard blue front; no gold Wind and Thunder Gods design.",
+        "issuerEvidence": {
+          "sourcePageUrl": "https://www.westjr.co.jp/global/en/howto/icoca/",
+          "directImageUrl": "https://www.westjr.co.jp/global/en/howto/icoca/assets/img/top/img_originalDesign_pc.png",
+          "localReferenceImagePath": "sources/expansion/references/icoca-wind-thunder-composite.png",
+          "imageWidth": 270,
+          "imageHeight": 280,
+          "faceCrop": {
+            "boundsPx": [
+              54,
+              155,
+              218,
+              258
+            ],
+            "rotationDegreesClockwise": 0
+          },
+          "cropDescription": "Bottom gold card only; exclude reference tickets and English title above."
+        },
+        "referenceNotes": [
+          "Large retailer front photograph matches the issuer composite.",
+          "Retailer watermark overlaps the lower-right edge; the issuer image shows the uncovered layout.",
+          "The very small issuer composite alone is not a sufficient high-resolution master."
+        ],
+        "croppedReferenceImagePath": "sources/expansion/references/wind-thunder-source-crop.png",
+        "visuallyInspected": true,
+        "preferredReferenceImagePath": "sources/expansion/references/wind-thunder-source-crop.png"
+      },
+      {
+        "cardId": "sg/ezlink",
+        "proposedDesignId": "hello-kitty-merlion",
+        "displayNames": {
+          "en": "Hello Kitty & Merlion",
+          "ja": "ハローキティとマーライオン",
+          "zh": "Hello Kitty 与鱼尾狮",
+          "ko": "헬로키티와 머라이언"
+        },
+        "realDesignName": "Hello Kitty Merlion Ezlink Card",
+        "sourcePageUrl": "https://www.carousell.sg/p/hello-kitty-merlion-ezlink-card-1456087180/",
+        "sourceAuthority": "Carousell physical-card listing by established professional seller",
+        "directImageUrl": "https://media.karousell.com/media/photos/products/2026/8/17/hello_kitty_merlion_ezlink_car_1786941271_b450f295_progressive.jpg",
+        "localReferenceImagePath": "sources/expansion/references/sg-hello-kitty-merlion.jpg",
+        "imageWidth": 756,
+        "imageHeight": 1008,
+        "sha256": "5c6eec03d3829d4726ade185abb2e0393f113a09198660f7390755055417b080",
+        "imageKind": "physical_card_photo",
+        "faceCrop": {
+          "boundsPx": [
+            10,
+            349,
+            732,
+            816
+          ],
+          "rotationDegreesClockwise": -1.5
+        },
+        "visualEvidence": "White front, Hello Kitty with a red polka-dot umbrella at left, pale blue Merlion and fountain at right, pink railing, orange EZ-Link corner and small Sanrio copyright down the right.",
+        "duplicateCheck": "Existing sg/ezlink contains only default and text: green/blue diagonal interwoven EZ-Link wordmarks, with no character/landmark scene.",
+        "referenceNotes": [
+          "One card held in a hand; all face artwork is visible.",
+          "Crop rectangle is exact in the downloaded original. Rotation is a small approximate deskew; optional corner rectification is more useful than simple rotation.",
+          "Name follows the actual seller listing; the EZ-Link and Sanrio marks are visible in the photograph."
+        ],
+        "rectificationQuadSourcePx": [
+          [
+            25,
+            350
+          ],
+          [
+            731,
+            368
+          ],
+          [
+            725,
+            815
+          ],
+          [
+            10,
+            803
+          ]
+        ],
+        "rectificationQuadDescription": "Projected card rectangle corners in upright TL,TR,BR,BL order; rounded-corner intersections are estimated. Quad correction includes orientation; do not also rotate it.",
+        "croppedReferenceImagePath": "sources/expansion/references/hello-kitty-merlion-source-crop.png",
+        "visuallyInspected": true,
+        "preferredReferenceImagePath": "sources/expansion/references/hello-kitty-merlion-source-crop.png"
+      },
+      {
+        "cardId": "sg/ezlink",
+        "proposedDesignId": "singapore-skyline",
+        "displayNames": {
+          "en": "Singapore Skyline",
+          "zh": "新加坡天际线",
+          "ja": "シンガポールのスカイライン",
+          "ko": "싱가포르 스카이라인"
+        },
+        "realDesignName": "Singapore Skyline Ezlink Card",
+        "sourcePageUrl": "https://smartcard.com.sg/product/singapore-skyline-ezlink-card/",
+        "directImageUrl": "https://smartcard.com.sg/wp-content/uploads/2023/04/2SingaporeSkyline_Preview-600x400.png",
+        "localReferenceImagePath": "sources/expansion/references/sg-singapore-skyline.png",
+        "sourceType": "Physical-card retailer listing with authentic EZ-Link card/public transport description",
+        "visualEvidence": "White card field, multicolor Singapore Skyline header, Marina Bay Sands at left, red Singapore Flyer at right, teal skyline and mustard/red windows.",
+        "limitations": "Retailer-supplied front artwork of a physical product; no release year or issuer edition name asserted.",
+        "referenceInspected": true
+      }
+    ],
+    "kr-fr-mn": [
+      {
+        "region": "KR",
+        "cardId": "kr/tmoney",
+        "designId": "kpass-line-friends",
+        "name": {
+          "en": "K-PASS LINE FRIENDS",
+          "ko": "K-PASS 라인프렌즈"
+        },
+        "realPhysicalDesignName": "K-PASS 라인프렌즈 (T-money Shop product 399)",
+        "existingBaseDesignIdsChecked": [
+          "default",
+          "logo",
+          "apeach",
+          "go-green",
+          "kpass",
+          "ryan",
+          "safe"
+        ],
+        "duplicateCheck": "Absent from catalog. Brown, Sally and Cony stacked on light blue with colorful doodles; visibly different from K-PASS BASIC, Little Friends Ryan and Apeach.",
+        "physicalEvidence": "Authorized online seller page labels Tmoney official sales agency, names manufacturer Tmoney Co., Ltd., shows the card front/back and physical package. This is a distinct sold physical design, not an invented recolor.",
+        "primaryReference": {
+          "pageURL": "https://t-zone.co.kr/product/detail.html?product_no=399",
+          "imageURL": "https://t-zone.co.kr/web/product/big/202603/df3bb71d666e1e1a1abf509865a50b1b.jpg",
+          "localPath": "sources/expansion/references/kr-tmoney-kpass-line-friends.jpg",
+          "sourceType": "authorized issuer seller",
+          "imageSize": {
+            "width": 500,
+            "height": 500
+          },
+          "sha256": "3bb57fbd7c511eae7660037d21785f8267603e3c464f39a3e8045c2b2c33e97d",
+          "cardBounds": {
+            "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+            "xywh": [
+              145,
+              134,
+              204,
+              320
+            ],
+            "estimated": true
+          },
+          "rotationClockwiseDegrees": 90,
+          "notes": [
+            "Single portrait card on a 500x500 product panel. Bounds exclude heading and footer. Rotate the card rectangle clockwise to landscape."
+          ]
+        },
+        "supportingReferences": [
+          {
+            "pageURL": "https://t-zone.co.kr/product/detail.html?product_no=399",
+            "imageURL": "https://t-zone.co.kr/web/upload/NNEditor/20260303/2026_line_K_pass.jpg",
+            "localPath": "sources/expansion/references/kr-tmoney-kpass-line-friends-detail.jpg",
+            "sourceType": "authorized issuer seller",
+            "imageSize": {
+              "width": 750,
+              "height": 3800
+            },
+            "sha256": "cf1ed2f7b575ac5aeca8bb854bb71b9eabd74c53ed065a922238b1e1e5d175d7",
+            "cardBounds": {
+              "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+              "xywh": [
+                243,
+                319,
+                260,
+                408
+              ],
+              "estimated": true
+            },
+            "rotationClockwiseDegrees": 90,
+            "notes": [
+              "Top card is the front; the next rectangle is the back. Full sales strip also shows physical packaging. Bounds are approximate."
+            ]
+          }
+        ],
+        "confidence": "high",
+        "limitations": [
+          "Reference does not establish a release date or popularity."
+        ]
+      },
+      {
+        "region": "FR",
+        "cardId": "fr/la-carte",
+        "designId": "tour-2024-yellow-jersey",
+        "name": {
+          "en": "Tour de France 2024 - Yellow Jersey",
+          "fr": "Tour de France 2024 - Maillot jaune"
+        },
+        "realPhysicalDesignName": "La Carte - Tour de France 2024, maillot jaune LCL / Santini",
+        "existingBaseDesignIdsChecked": [
+          "default",
+          "blue"
+        ],
+        "duplicateCheck": "Distinct actual limited edition: large yellow LCL jersey, palm trees, seafront benches and cyclist on navy. Different composition from the existing magenta/blue city, tree and tram fronts.",
+        "physicalEvidence": "Operator Regie Ligne d Azur announced four limited-edition La Carte designs, 15000 each, available from 8 July 2024 through its sales outlets and ticket machines. Its post says they are reloadable and reusable, made with Paragon ID. Nice-Matin and Nice Premium independently document the release and show the selected yellow-jersey front.",
+        "primaryReference": {
+          "pageURL": "https://fr.linkedin.com/posts/regie-ligne-d-azur_%C3%A0-loccasion-de-larriv%C3%A9e-du-tour-de-france-activity-7213475201638887424-3nCB",
+          "imageURL": "https://media.licdn.com/dms/image/v2/D4D22AQGNzjcl2SQJbA/feedshare-image-high-res/feedshare-image-high-res/0/1719826506458?e=2147483647&v=beta&t=OUYtVWwtYqH3tZmSGspaZT5gnNueopnmNC2Ggyj7Ym8",
+          "localPath": "sources/expansion/references/fr-la-carte-tour-2024-issuer-composite.jpg",
+          "sourceType": "official operator announcement",
+          "imageSize": {
+            "width": 940,
+            "height": 788
+          },
+          "sha256": "10c556a2972dd5f33b64d0b4e76137c95b31f50a1866c5dd6975c81139961361",
+          "cardBounds": {
+            "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+            "xywh": [
+              83,
+              248,
+              297,
+              212
+            ],
+            "estimated": true
+          },
+          "rotationClockwiseDegrees": 15.5,
+          "notes": [
+            "940x788 official composite. Select the SECOND card from the top (navy/yellow), not the white polka-dot, green or white-jersey cards.",
+            "Bounds are a conservative estimated box; its bottom-left is partly covered by the next card. Rotation is an estimated clockwise correction for the tilted print. Use the complete straight front below to resolve overlap."
+          ]
+        },
+        "supportingReferences": [
+          {
+            "pageURL": "https://www.nicematin.com/societe/transports/decouvrez-l-edition-limitee-de-la-carte-du-reseau-lignes-d-azur-qui-se-met-a-l-heure-du-tour-de-france-934219",
+            "imageURL": "https://nicematin-focus.sirius.press/2025/06/14/0/0/0/0/1128/752/75/0/d01aeb7_upload-from-url-1-dxqjjwloaflb-data-art-13775279-up1jgtnh.jpg?width=1260&optimize=medium&quality=66&format=auto&upscale=false&crop=3:2,smart",
+            "localPath": "sources/expansion/references/nice-tour-reference.jpg",
+            "sourceType": "local newspaper; image credited to Lignes d Azur",
+            "imageSize": {
+              "width": 1128,
+              "height": 752
+            },
+            "sha256": "8d751308d23b8be71280e364cb486fe46060229629faf425a6a9f08c1a24fadc",
+            "cardBounds": {
+              "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+              "xywh": [
+                90,
+                90,
+                826,
+                524
+              ],
+              "estimated": true
+            },
+            "rotationClockwiseDegrees": 0,
+            "notes": [
+              "Complete unobstructed straight front. Soft, visibly upscaled source; fine lettering is unreliable. It confirms the composition missing beneath the official composite overlap."
+            ]
+          },
+          {
+            "pageURL": "https://nicepremium.fr/actualites/cartes-lignes-dazur-tour-de-france/",
+            "imageURL": "https://www.nicepremium.fr/wp-content/uploads/2024/07/LCL-Santini.jpg",
+            "localPath": "sources/expansion/references/fr-la-carte-tour-2024-yellow-press.jpg",
+            "sourceType": "local newspaper",
+            "imageSize": {
+              "width": 188,
+              "height": 138
+            },
+            "sha256": "82c758963a364baf3caf35baa03d10ad56557d00a9531ec4a95dd348b0d196a1",
+            "cardBounds": {
+              "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+              "xywh": [
+                15,
+                15,
+                137,
+                87
+              ],
+              "estimated": true
+            },
+            "rotationClockwiseDegrees": 0,
+            "notes": [
+              "Original low-resolution complete card view; caption identifies LCL & Santini."
+            ]
+          }
+        ],
+        "confidence": "high for physical existence and distinct artwork; medium reference resolution",
+        "limitations": [
+          "Official source is a tilted composite with small overlap. Complete straight sources are low-resolution. Do not invent microdetails."
+        ]
+      },
+      {
+        "region": "MN",
+        "cardId": "mn/umoney",
+        "designId": "britto-einstein",
+        "name": {
+          "en": "Britto Einstein (U-Money)",
+          "mn": "Бритто Эйнштейн (U-Money)"
+        },
+        "realPhysicalDesignName": "Britto Einstein Card / U MONEY/; БРИТТО ЭЙНШТЕЙН КАРТ",
+        "existingBaseDesignIdsChecked": [
+          "default"
+        ],
+        "duplicateCheck": "Romero Britto-style Einstein portrait with tongue out, yellow/black rays, red heart and TDB/Visa marks. Different subject and composition from the abstract multicolor U-shaped default.",
+        "physicalEvidence": "TDB official card catalog identifies the PHYSICAL International card entry as Britto Einstein Card / U MONEY/ and explicitly lists public transport payment. Product page describes connection to the public transit U-Money account. Issuer lifestyle photo shows a real physical card in a pocket; banner shows the full printed design.",
+        "primaryReference": {
+          "pageURL": "https://www.tdbm.mn/en/retail/cards",
+          "imageURL": "https://www.tdbm.mn/sites/default/files/2024-09/10_3.png",
+          "localPath": "sources/expansion/references/mn-umoney-britto-einstein-full.png",
+          "sourceType": "issuing bank / U-Money partner",
+          "imageSize": {
+            "width": 350,
+            "height": 240
+          },
+          "sha256": "ae333de39d30b3badfaaa5c838bd4e90d3100e127ca46e171fc4429d4a084c56",
+          "cardBounds": {
+            "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+            "xywh": [
+              15,
+              19,
+              321,
+              202
+            ],
+            "estimated": true
+          },
+          "rotationClockwiseDegrees": 0,
+          "notes": [
+            "Complete 350x240 issuer catalog front on white margin. Keep the already-landscape image orientation; portrait artwork is intentionally sideways within it.",
+            "The same thumbnail also appears for Virtual Einstein Card. Evidence and selection here refer specifically to the separate PHYSICAL International card / U MONEY/ catalog entry."
+          ]
+        },
+        "supportingReferences": [
+          {
+            "pageURL": "https://www.tdbm.mn/en/retail/cards/debit-card/britto-einstein-card-u-money",
+            "imageURL": "https://www.tdbm.mn/sites/default/files/inline-images/Britto%20cards%20banner_1.jpg",
+            "localPath": "sources/expansion/references/mn-bank-britto-banner.jpg",
+            "sourceType": "issuing bank / U-Money partner",
+            "imageSize": {
+              "width": 1783,
+              "height": 1299
+            },
+            "sha256": "92625a0cb23b2cae8bc20bc5ecc6e1317be84c2202de182578c91562ed5a73c3",
+            "cardBounds": {
+              "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+              "xywh": [
+                909,
+                152,
+                706,
+                426
+              ],
+              "estimated": true
+            },
+            "rotationClockwiseDegrees": 0,
+            "notes": [
+              "Topmost Einstein card is fully visible but in perspective; do not extract the other stacked card designs. Estimated source corners TL/TR/BR/BL in portrait reading order: [1355,154], [1612,316], [1166,577], [911,405]. Perspective rectification is needed, not just rotation."
+            ]
+          },
+          {
+            "pageURL": "https://www.tdbm.mn/en/retail/cards/debit-card/britto-einstein-card-u-money",
+            "imageURL": "https://www.tdbm.mn/sites/default/files/2024-09/287A3083.jpg",
+            "localPath": "sources/expansion/references/mn-umoney-britto-einstein.jpg",
+            "sourceType": "issuing bank / U-Money partner",
+            "imageSize": {
+              "width": 1022,
+              "height": 601
+            },
+            "sha256": "6e87b3568ddf562f7f08a00ff1a206ebcacf2be643862b6ade9d4bfaed2baece",
+            "cardBounds": {
+              "coordinateSystem": "source pixels; x,y,width,height; right/bottom exclusive",
+              "xywh": [
+                550,
+                181,
+                194,
+                229
+              ],
+              "estimated": true
+            },
+            "rotationClockwiseDegrees": 0,
+            "notes": [
+              "Physical-use corroboration only. Hand and pocket occlude the front; do not use for complete artwork."
+            ]
+          }
+        ],
+        "additionalEvidenceURLs": [
+          "https://www.tdbm.mn/en/retail/cards/debit-card/britto-einstein-card-u-money",
+          "https://www.tdbm.mn/mn/retail/cards/debit-kart/britto-einshtein-kart-u-money"
+        ],
+        "confidence": "high",
+        "limitations": [
+          "This is a bank/U-Money co-branded physical card, not the standalone transit-only issue. Reader behavior has not been tested; this task establishes the design and published U-Money association."
+        ]
+      }
+    ]
+  },
+  "referencesSHA256": {
+    "sources/expansion/references/shanghai-interconnect-10th-front.jpg": "359f4622b2a1de401d84c48865e982b61522d3cd308f1945765943ec15b29e9a",
+    "sources/expansion/references/beijing-70th-detail1.jpg": "81b73221a18827fb15c97107c77d257ba90f2e35f5ff6f34efb8e9254183b425",
+    "sources/expansion/references/beijing-70th-detail3.jpg": "29cc1f14aaab8b42d23a61a716797549e38b20dc008c3f34cb22e899f4178807",
+    "sources/expansion/references/beijing-70th-detail2.jpg": "c1917101455ac53fa27415bb951b83d65e0d6cdcbb0199272cf0fac52c657617",
+    "sources/expansion/references/guangzhou-2018-first-issue-pair.jpg": "73c44105a4c2440daf444d479dc5c7941855912b70c39df6a253189a06054c45",
+    "sources/expansion/references/shenzhen-persimmons-front.png": "0571ea72e8ec5691e033ee71c5ce9ae33f53a65f9999d3381078b4fed9af8461",
+    "sources/expansion/references/shenzhen-persimmons-details.png": "da5bec75b7c16001c7736fcace625eb6959360475a583f1d16a0ad9f2f42b96a",
+    "sources/expansion/references/jp-welcome-suica.png": "7bfbe98da99cd2a3b5e4636510f05123fb52c897ec73ee625d91e4ea821d35d7",
+    "sources/expansion/references/welcome-sakura-source-crop.png": "6fb328e5e26ce4b2dd77324481178c7563c279e880eb181f81a9454239d39ec8",
+    "sources/expansion/references/jp-pasmo-passport-photo.jpg": "e0cc9ea2249962b455789f848488e15bfe7c8ba2fd7a16fe78507b1440dff476",
+    "sources/expansion/references/pasmo-press-release-2019.pdf": "9bb981fee64bd0813d146c0be9c87653ee669a297c9f13830f41b4462baf8e69",
+    "sources/expansion/references/jp-pasmo-passport-sanrio.jpg": "14c51e45e24e2b168f46c4b4bd9c061731b587c43ea9d38f68502c890168e7c2",
+    "sources/expansion/references/passport-sanrio-source-crop.png": "36b471916b2c8d38fec8a6639dfe86bb4d56f4d3d0e4b3c66c0ce82ae2784420",
+    "sources/expansion/references/passport-sanrio-issuer-crop.png": "8ff4fe874c4ad9c79c76e7fdf47ae1be262bc70232f35ebc5a71e6b883a6645e",
+    "sources/expansion/references/jp-icoca-wind-thunder-photo.jpg": "0fa82ff15e907ec4d40af7ed7cf9dea668037da150fb9c53a94f61929c50c79e",
+    "sources/expansion/references/icoca-wind-thunder-composite.png": "119e5b8f1a41bfe06a0143ffe1466f198ac42ebb438bfb342d5ef3959477fdef",
+    "sources/expansion/references/wind-thunder-source-crop.png": "46aab5c1c7496cc35d88624c0c245b08781dfb9efc3f6bc69d34b9e460db1bf7",
+    "sources/expansion/references/sg-hello-kitty-merlion.jpg": "5c6eec03d3829d4726ade185abb2e0393f113a09198660f7390755055417b080",
+    "sources/expansion/references/hello-kitty-merlion-source-crop.png": "6c4158d4a7514877becb4ee7b0aa56caec98334a8f765e8d30c2e2fa1ea57b88",
+    "sources/expansion/references/sg-disney-skyline.jpg": "4578b09dfcd992bbb327cefecc24812ac198e90a1641f1e7a22d096e9ebad9fb",
+    "sources/expansion/references/disney-singapore-river-source-crop.png": "4d402c64e619499d4c3ec52459e79c7b293c233e7cfc664178f7dbc7b6d746ae",
+    "sources/expansion/references/kr-tmoney-kpass-line-friends.jpg": "3bb57fbd7c511eae7660037d21785f8267603e3c464f39a3e8045c2b2c33e97d",
+    "sources/expansion/references/kr-tmoney-kpass-line-friends-detail.jpg": "cf1ed2f7b575ac5aeca8bb854bb71b9eabd74c53ed065a922238b1e1e5d175d7",
+    "sources/expansion/references/fr-la-carte-tour-2024-issuer-composite.jpg": "10c556a2972dd5f33b64d0b4e76137c95b31f50a1866c5dd6975c81139961361",
+    "sources/expansion/references/nice-tour-reference.jpg": "8d751308d23b8be71280e364cb486fe46060229629faf425a6a9f08c1a24fadc",
+    "sources/expansion/references/fr-la-carte-tour-2024-yellow-press.jpg": "82c758963a364baf3caf35baa03d10ad56557d00a9531ec4a95dd348b0d196a1",
+    "sources/expansion/references/mn-umoney-britto-einstein-full.png": "ae333de39d30b3badfaaa5c838bd4e90d3100e127ca46e171fc4429d4a084c56",
+    "sources/expansion/references/mn-bank-britto-banner.jpg": "92625a0cb23b2cae8bc20bc5ecc6e1317be84c2202de182578c91562ed5a73c3",
+    "sources/expansion/references/mn-umoney-britto-einstein.jpg": "6e87b3568ddf562f7f08a00ff1a206ebcacf2be643862b6ade9d4bfaed2baece",
+    "sources/expansion/references/sg-singapore-skyline.png": "6b2de85b85986b59f02925b7c5eacbc7d98b4ac1cc105a34c79ef6a93e876962"
+  },
+  "unpublishedCandidates": [
+    {
+      "cardId": "sg/ezlink",
+      "proposedDesignId": "disney-singapore-river",
+      "displayNames": {
+        "en": "Mickey & Minnie: Singapore River",
+        "ja": "ミッキー＆ミニー：シンガポール川",
+        "zh": "米奇与米妮：新加坡河",
+        "ko": "미키와 미니: 싱가포르강"
+      },
+      "realDesignName": "EZ-Link Card - Singapore Skyline & Disney Characters",
+      "realDesignNameStatus": "Verified marketplace listing title; exact issuer collection name and release year not established.",
+      "sourcePageUrl": "https://www.carousell.sg/p/ez-link-card-singapore-skyline-disney-characters-1463039838/",
+      "sourceAuthority": "Carousell physical-card listing by a seller with 11-year account history",
+      "directImageUrl": "https://media.karousell.com/media/photos/products/2026/9/20/ezlink_card__singapore_skyline_1789911815_e8887fa1_progressive.jpg",
+      "localReferenceImagePath": "sources/expansion/references/sg-disney-skyline.jpg",
+      "imageWidth": 810,
+      "imageHeight": 1080,
+      "sha256": "4578b09dfcd992bbb327cefecc24812ac198e90a1641f1e7a22d096e9ebad9fb",
+      "imageKind": "physical_card_photo",
+      "faceCrop": {
+        "boundsPx": [
+          212,
+          246,
+          705,
+          980
+        ],
+        "rotationDegreesClockwise": 90
+      },
+      "visualEvidence": "Mickey and Minnie riding a dark wooden riverboat in the foreground, Marina Bay Sands behind, Singapore Flyer and Supertrees at right, riverfront buildings at left, Disney mark bottom right and EZ-Link mark top left when upright.",
+      "duplicateCheck": "Existing sg/ezlink has only the interwoven-wordmark standard front. This scene also differs completely from the other proposed Hello Kitty/Merlion front.",
+      "referenceNotes": [
+        "The entire front is in a clear sleeve and photographed sideways: rotate the crop exactly 90 degrees clockwise for an upright scene.",
+        "Reference has dim illumination and sleeve glare, but characters and the complete scenic composition remain identifiable.",
+        "Exact issuer SKU/year has not been established; do not invent a series title.",
+        "This is an EZ-Link listing; an EZ-Link mark is also visible at the upright top-left corner."
+      ],
+      "rectificationQuadSourcePx": [
+        [
+          216,
+          975
+        ],
+        [
+          233,
+          249
+        ],
+        [
+          668,
+          247
+        ],
+        [
+          700,
+          978
+        ]
+      ],
+      "rectificationQuadDescription": "Source coordinates corresponding to upright TL,TR,BR,BL; quad correction includes the 90-degree orientation. Rounded-corner intersections are estimated.",
+      "croppedReferenceImagePath": "sources/expansion/references/disney-singapore-river-source-crop.png",
+      "visuallyInspected": true,
+      "preferredReferenceImagePath": "sources/expansion/references/disney-singapore-river-source-crop.png",
+      "reasonNotPublished": "Native ImageGen returned two rejections and no image; no additional attempts. Replaced with unrelated Singapore Skyline physical design."
+    }
+  ]
+}
