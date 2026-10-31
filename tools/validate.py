@@ -27,9 +27,42 @@ DESIGN_ID_PATTERN = re.compile(r"^[a-z0-9][a-z0-9-]*$")
 CODE_PATTERN = re.compile(r"^[0-9A-F]{4}$")
 PREFIX_PATTERN = re.compile(r"^[0-9]{6,12}$")
 SERIAL_PREFIX_PATTERN = re.compile(r"^[A-Z0-9]{2,4}$")
+REMOTE_TOKEN_PATTERN = re.compile(r"remote\.([a-z]{2})\.([a-z0-9][a-z0-9-]*)\.([a-z0-9][a-z0-9-]*)\.png", re.ASCII)
 MATCH_KEYS = ("cityCodes", "cityUnionCodes", "cardPrefixes", "families", "serialPrefixes")
 # Keys that identify exactly one card; families may legitimately overlap.
 UNIQUE_MATCH_KEYS = ("cityCodes", "cityUnionCodes", "cardPrefixes", "serialPrefixes")
+
+
+def remote_token(card_id: str, design_id: str) -> str:
+    return f"remote.{card_id.replace('/', '.')}.{design_id}.png"
+
+
+def check_retired_designs(retired, cards: list[dict]) -> list[str]:
+    """Retired selections resolve directly to a live default on the same card."""
+    if not isinstance(retired, dict):
+        return ["retiredDesigns: must map retired remote tokens to existing default remote tokens"]
+    live = set()
+    for card in cards:
+        designs = card.get("designs")
+        if not isinstance(card.get("id"), str) or not isinstance(designs, list):
+            continue
+        for design in designs:
+            if isinstance(design, dict) and isinstance(design.get("id"), str):
+                live.add(remote_token(card["id"], design["id"]))
+    errors = []
+    for old, target in retired.items():
+        origin = REMOTE_TOKEN_PATTERN.fullmatch(old) if isinstance(old, str) else None
+        replacement = REMOTE_TOKEN_PATTERN.fullmatch(target) if isinstance(target, str) else None
+        if not origin or not replacement:
+            errors.append(f"retiredDesigns: invalid remote token mapping {old!r} -> {target!r}")
+            continue
+        if old in live:
+            errors.append(f"retiredDesigns: retired token {old} is still published")
+        if origin.group(1, 2) != replacement.group(1, 2):
+            errors.append(f"retiredDesigns: {old} must target the same card")
+        if replacement.group(3) != DEFAULT_DESIGN or target not in live:
+            errors.append(f"retiredDesigns: {old} must target an existing default remote token")
+    return errors
 
 
 def count_colors(image) -> int:
@@ -191,6 +224,8 @@ def validate(root: Path = ROOT) -> list[str]:
     for path in sorted((root / "faces").rglob("*")):
         if path.is_file() and path.resolve() not in listed:
             errors.append(f"{path.relative_to(root)}: not listed in manifest.json")
+    if "retiredDesigns" in manifest:
+        errors += check_retired_designs(manifest["retiredDesigns"], cards)
     errors += check_package_size(root)
     return errors
 

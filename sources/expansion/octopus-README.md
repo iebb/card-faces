@@ -37,6 +37,10 @@ python3 tools/publish.py
 ```
 
 `previews/octopus-standard.png` is a contact sheet of the actual final PNGs.
-The existing 130 faces and their source files are preserved. The collection
-now has 40 card types and 136 faces. Local publication builds `dist/`;
+At the Octopus addition, all 130 previous faces and their sources were preserved,
+bringing the collection to 40 card types and 136 faces. Subsequent character
+and shop-promotion curation removes 15 other faces; the current collection has
+40 card types and 121 faces. All six Octopus faces and sources remain unchanged. The original
+`octopus-report.json` records the historical addition and its validation.
+Local publication builds `dist/`;
 Cloudflare Pages rebuilds the live collection from `master` on push.

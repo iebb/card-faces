@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from validate import MAX_BYTES, ROOT, SCHEMA_VERSION  # noqa: E402
+from validate import MAX_BYTES, ROOT, SCHEMA_VERSION, check_retired_designs  # noqa: E402
 
 
 def check(root: Path) -> tuple[dict, list[str], list[str]]:
@@ -24,6 +24,8 @@ def check(root: Path) -> tuple[dict, list[str], list[str]]:
     files: list[str] = []
     if manifest.get("schemaVersion") != SCHEMA_VERSION:
         errors.append(f"manifest.json: schemaVersion must be {SCHEMA_VERSION}")
+    if "retiredDesigns" in manifest:
+        errors += check_retired_designs(manifest["retiredDesigns"], manifest.get("cards") or [])
     for card in manifest.get("cards") or []:
         for design in card.get("designs") or []:
             relative = design.get("file", "")

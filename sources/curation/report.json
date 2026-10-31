@@ -1,0 +1,1465 @@
+{
+  "schemaVersion": 1,
+  "date": "2026-11-01",
+  "repository": "/Users/ieb/Vibe/card-faces",
+  "branch": "master",
+  "baselineCommit": "d656ff7c218805389e35be390a810a6f89c8574c",
+  "scope": "Current-tree artwork curation only. No app edits, native generation, commit, push or remote deployment.",
+  "result": {
+    "readyForCoordinatorCommit": true,
+    "cardTypes": 40,
+    "publishedFaces": 121,
+    "retiredDesigns": 15,
+    "baselineFaces": 136,
+    "publishedFacesDeleted": 15,
+    "publishedFacesReplaced": 2,
+    "unrelatedPublishedFacesByteIdentical": 119
+  },
+  "policy": {
+    "retirementSchemaVersion": 2,
+    "retiredDesignsOptional": true,
+    "targetRule": "Canonical remote token of an existing same-card default; no chains or active retired origins.",
+    "characterDecision": "Remove all variants of the six selected licensed character/artist families; do not create recognizable silhouettes.",
+    "promotionDecision": "Keep stable duty-free and myeongdong IDs with original color rectangles and generic visible names; retire both promotional -text variants.",
+    "historicalProvenance": "Preserve historical textual URLs, prompts, hashes and counts. Removed reference image/PDF files are absent from the current tree; Git history was not rewritten."
+  },
+  "retirements": [
+    {
+      "card": "jp/pasmo",
+      "id": "passport-sanrio",
+      "originalName": {
+        "en": "PASMO PASSPORT (Sanrio)",
+        "ja": "PASMO PASSPORT\uff08\u30b5\u30f3\u30ea\u30aa\uff09",
+        "zh": "PASMO PASSPORT\uff08\u4e09\u4e3d\u9e25\uff09",
+        "ko": "\ud30c\uc2a4\ubaa8 \ud328\uc2a4\ud3ec\ud2b8 (\uc0b0\ub9ac\uc624)"
+      },
+      "token": "remote.jp.pasmo.passport-sanrio.png",
+      "target": "remote.jp.pasmo.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "jp/pasmo",
+      "id": "passport-sanrio-text",
+      "originalName": {
+        "en": "With text: PASMO PASSPORT (Sanrio)",
+        "ja": "\u6587\u5b57\u3042\u308a\uff1aPASMO PASSPORT\uff08\u30b5\u30f3\u30ea\u30aa\uff09",
+        "zh": "\u6587\u5b57\u7248\uff1aPASMO PASSPORT\uff08\u4e09\u4e3d\u9e25\uff09",
+        "ko": "\ud14d\uc2a4\ud2b8 \ud3ec\ud568: \ud30c\uc2a4\ubaa8 \ud328\uc2a4\ud3ec\ud2b8 (\uc0b0\ub9ac\uc624)"
+      },
+      "token": "remote.jp.pasmo.passport-sanrio-text.png",
+      "target": "remote.jp.pasmo.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "jp/pasmo",
+      "id": "passport-sanrio-no-text",
+      "originalName": {
+        "en": "No text: PASMO PASSPORT (Sanrio)",
+        "ja": "\u6587\u5b57\u306a\u3057\uff1aPASMO PASSPORT\uff08\u30b5\u30f3\u30ea\u30aa\uff09",
+        "zh": "\u65e0\u6587\u5b57\u7248\uff1aPASMO PASSPORT\uff08\u4e09\u4e3d\u9e25\uff09",
+        "ko": "\ud14d\uc2a4\ud2b8 \uc5c6\uc74c: \ud30c\uc2a4\ubaa8 \ud328\uc2a4\ud3ec\ud2b8 (\uc0b0\ub9ac\uc624)"
+      },
+      "token": "remote.jp.pasmo.passport-sanrio-no-text.png",
+      "target": "remote.jp.pasmo.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "kr/tmoney",
+      "id": "ryan",
+      "originalName": {
+        "en": "Little Friends Ryan",
+        "ko": "\ub9ac\ud2c0\ud504\ub80c\uc988 \ub77c\uc774\uc5b8"
+      },
+      "token": "remote.kr.tmoney.ryan.png",
+      "target": "remote.kr.tmoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "kr/tmoney",
+      "id": "ryan-text",
+      "originalName": {
+        "en": "With text: Little Friends Ryan",
+        "ko": "\uae00\uc790 \ud3ec\ud568: \ub9ac\ud2c0\ud504\ub80c\uc988 \ub77c\uc774\uc5b8"
+      },
+      "token": "remote.kr.tmoney.ryan-text.png",
+      "target": "remote.kr.tmoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "kr/tmoney",
+      "id": "apeach",
+      "originalName": {
+        "en": "Little Friends Apeach",
+        "ko": "\ub9ac\ud2c0\ud504\ub80c\uc988 \uc5b4\ud53c\uce58"
+      },
+      "token": "remote.kr.tmoney.apeach.png",
+      "target": "remote.kr.tmoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "kr/tmoney",
+      "id": "apeach-text",
+      "originalName": {
+        "en": "With text: Little Friends Apeach",
+        "ko": "\uae00\uc790 \ud3ec\ud568: \ub9ac\ud2c0\ud504\ub80c\uc988 \uc5b4\ud53c\uce58"
+      },
+      "token": "remote.kr.tmoney.apeach-text.png",
+      "target": "remote.kr.tmoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "kr/tmoney",
+      "id": "kpass-line-friends",
+      "originalName": {
+        "en": "K-PASS LINE FRIENDS",
+        "ko": "K-PASS \ub77c\uc778\ud504\ub80c\uc988"
+      },
+      "token": "remote.kr.tmoney.kpass-line-friends.png",
+      "target": "remote.kr.tmoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "kr/tmoney",
+      "id": "kpass-line-friends-text",
+      "originalName": {
+        "en": "With text: K-PASS LINE FRIENDS",
+        "ko": "\ud14d\uc2a4\ud2b8 \ud3ec\ud568: K-PASS \ub77c\uc778\ud504\ub80c\uc988"
+      },
+      "token": "remote.kr.tmoney.kpass-line-friends-text.png",
+      "target": "remote.kr.tmoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "mn/umoney",
+      "id": "britto-einstein",
+      "originalName": {
+        "en": "Britto Einstein (U-Money)",
+        "mn": "\u0411\u0440\u0438\u0442\u0442\u043e \u042d\u0439\u043d\u0448\u0442\u0435\u0439\u043d (U-Money)"
+      },
+      "token": "remote.mn.umoney.britto-einstein.png",
+      "target": "remote.mn.umoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "mn/umoney",
+      "id": "britto-einstein-text",
+      "originalName": {
+        "en": "With text: Britto Einstein (U-Money)",
+        "mn": "\u0411\u0438\u0447\u0432\u044d\u0440\u0442\u044d\u0439: \u0411\u0440\u0438\u0442\u0442\u043e \u042d\u0439\u043d\u0448\u0442\u0435\u0439\u043d (U-Money)"
+      },
+      "token": "remote.mn.umoney.britto-einstein-text.png",
+      "target": "remote.mn.umoney.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "sg/ezlink",
+      "id": "hello-kitty-merlion",
+      "originalName": {
+        "en": "Hello Kitty & Merlion",
+        "ja": "\u30cf\u30ed\u30fc\u30ad\u30c6\u30a3\u3068\u30de\u30fc\u30e9\u30a4\u30aa\u30f3",
+        "zh": "Hello Kitty \u4e0e\u9c7c\u5c3e\u72ee",
+        "ko": "\ud5ec\ub85c\ud0a4\ud2f0\uc640 \uba38\ub77c\uc774\uc5b8"
+      },
+      "token": "remote.sg.ezlink.hello-kitty-merlion.png",
+      "target": "remote.sg.ezlink.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "sg/ezlink",
+      "id": "hello-kitty-merlion-text",
+      "originalName": {
+        "en": "With text: Hello Kitty & Merlion",
+        "ja": "\u6587\u5b57\u3042\u308a\uff1a\u30cf\u30ed\u30fc\u30ad\u30c6\u30a3\u3068\u30de\u30fc\u30e9\u30a4\u30aa\u30f3",
+        "zh": "\u6587\u5b57\u7248\uff1aHello Kitty \u4e0e\u9c7c\u5c3e\u72ee",
+        "ko": "\ud14d\uc2a4\ud2b8 \ud3ec\ud568: \ud5ec\ub85c\ud0a4\ud2f0\uc640 \uba38\ub77c\uc774\uc5b8"
+      },
+      "token": "remote.sg.ezlink.hello-kitty-merlion-text.png",
+      "target": "remote.sg.ezlink.default.png",
+      "reason": "dominant licensed character or contemporary artist artwork"
+    },
+    {
+      "card": "kr/ezl",
+      "id": "duty-free-text",
+      "originalName": {
+        "en": "With text: Lotte Duty Free",
+        "ko": "\uae00\uc790 \ud3ec\ud568: \ub86f\ub370\uba74\uc138\uc810"
+      },
+      "token": "remote.kr.ezl.duty-free-text.png",
+      "target": "remote.kr.ezl.default.png",
+      "reason": "shop promotion"
+    },
+    {
+      "card": "kr/ezl",
+      "id": "myeongdong-text",
+      "originalName": {
+        "en": "With text: Now in Myeongdong",
+        "ko": "\uae00\uc790 \ud3ec\ud568: \uba85\ub3d9 \ub86f\ub370\uba74\uc138\uc810"
+      },
+      "token": "remote.kr.ezl.myeongdong-text.png",
+      "target": "remote.kr.ezl.default.png",
+      "reason": "shop promotion"
+    }
+  ],
+  "retiredDesigns": {
+    "remote.jp.pasmo.passport-sanrio.png": "remote.jp.pasmo.default.png",
+    "remote.jp.pasmo.passport-sanrio-text.png": "remote.jp.pasmo.default.png",
+    "remote.jp.pasmo.passport-sanrio-no-text.png": "remote.jp.pasmo.default.png",
+    "remote.kr.tmoney.ryan.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.ryan-text.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.apeach.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.apeach-text.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.kpass-line-friends.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.kpass-line-friends-text.png": "remote.kr.tmoney.default.png",
+    "remote.mn.umoney.britto-einstein.png": "remote.mn.umoney.default.png",
+    "remote.mn.umoney.britto-einstein-text.png": "remote.mn.umoney.default.png",
+    "remote.sg.ezlink.hello-kitty-merlion.png": "remote.sg.ezlink.default.png",
+    "remote.sg.ezlink.hello-kitty-merlion-text.png": "remote.sg.ezlink.default.png",
+    "remote.kr.ezl.duty-free-text.png": "remote.kr.ezl.default.png",
+    "remote.kr.ezl.myeongdong-text.png": "remote.kr.ezl.default.png"
+  },
+  "deletedFiles": [
+    {
+      "path": "faces/jp/pasmo/passport-sanrio.png",
+      "bytes": 38008,
+      "sha256": "4c2967a38a4d08b43dbaa00cd5ca9d2a94d332749b4e9228464e4d9fffbc8ddc",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/jp/pasmo/passport-sanrio.png",
+      "bytes": 38008,
+      "sha256": "4c2967a38a4d08b43dbaa00cd5ca9d2a94d332749b4e9228464e4d9fffbc8ddc",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/jp/pasmo/passport-sanrio-text.png",
+      "bytes": 36771,
+      "sha256": "df4693ffd7305231535859db4fd831d99e321c6dddee7d035f8732be4f399d72",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/jp/pasmo/passport-sanrio-text.png",
+      "bytes": 36771,
+      "sha256": "df4693ffd7305231535859db4fd831d99e321c6dddee7d035f8732be4f399d72",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/jp/pasmo/passport-sanrio-no-text.png",
+      "bytes": 37835,
+      "sha256": "533d0457c7b7f680c542dcfdde787cda47c2ef2f826c7317e6a6ccab47142c2f",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/jp/pasmo/passport-sanrio-no-text.png",
+      "bytes": 37835,
+      "sha256": "533d0457c7b7f680c542dcfdde787cda47c2ef2f826c7317e6a6ccab47142c2f",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/kr/tmoney/ryan.png",
+      "bytes": 11691,
+      "sha256": "5fa4995799a449911ce361acc00709e823f780d00d69b973aa229846a087431d",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/kr/tmoney/ryan.png",
+      "bytes": 11691,
+      "sha256": "5fa4995799a449911ce361acc00709e823f780d00d69b973aa229846a087431d",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/kr/tmoney/ryan-text.png",
+      "bytes": 13519,
+      "sha256": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/kr/tmoney/ryan-text.png",
+      "bytes": 1281418,
+      "sha256": "3dff0125c71f48ab27ef431d7aa6e3c948749d5b12328f2b3a4cc22a42c4bee1",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/kr/tmoney/apeach.png",
+      "bytes": 9105,
+      "sha256": "b49b351da1f3cb9377cf17261886a0973161123c9da4ec0f79433c1d61c306cd",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/kr/tmoney/apeach.png",
+      "bytes": 9105,
+      "sha256": "b49b351da1f3cb9377cf17261886a0973161123c9da4ec0f79433c1d61c306cd",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/kr/tmoney/apeach-text.png",
+      "bytes": 10238,
+      "sha256": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/kr/tmoney/apeach-text.png",
+      "bytes": 1185841,
+      "sha256": "1d50440456ba906180f820e5558f710ea5001d89db244ec0e7e5afb0a6e39cfb",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/kr/tmoney/kpass-line-friends.png",
+      "bytes": 21482,
+      "sha256": "3c562c3e1994643407538cab537302729f78882c984ed8a173f0f7ae32f97a46",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/kr/tmoney/kpass-line-friends.png",
+      "bytes": 21482,
+      "sha256": "3c562c3e1994643407538cab537302729f78882c984ed8a173f0f7ae32f97a46",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/kr/tmoney/kpass-line-friends-text.png",
+      "bytes": 24344,
+      "sha256": "b37a6d67b2724fbd9c6debf9a2575ad68552f82824b694468ca9ea7b007370fb",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/kr/tmoney/kpass-line-friends-text.png",
+      "bytes": 24344,
+      "sha256": "b37a6d67b2724fbd9c6debf9a2575ad68552f82824b694468ca9ea7b007370fb",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/mn/umoney/britto-einstein.png",
+      "bytes": 39837,
+      "sha256": "d2fe110dcbeaeed6aacd537f6301e7b61d714a235caa090b7081bfee7cd9e3ef",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/mn/umoney/britto-einstein.png",
+      "bytes": 39837,
+      "sha256": "d2fe110dcbeaeed6aacd537f6301e7b61d714a235caa090b7081bfee7cd9e3ef",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/mn/umoney/britto-einstein-text.png",
+      "bytes": 38398,
+      "sha256": "669ea0f3bc4d239087da21fb8cc1e827c2d1e372c3f7f3e90a0e728368510b8b",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/mn/umoney/britto-einstein-text.png",
+      "bytes": 38398,
+      "sha256": "669ea0f3bc4d239087da21fb8cc1e827c2d1e372c3f7f3e90a0e728368510b8b",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/sg/ezlink/hello-kitty-merlion.png",
+      "bytes": 29198,
+      "sha256": "8054cda993154bb9d0898ca4d2c201c3e5e3c53625298a288bc77af20ec23352",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/sg/ezlink/hello-kitty-merlion.png",
+      "bytes": 29198,
+      "sha256": "8054cda993154bb9d0898ca4d2c201c3e5e3c53625298a288bc77af20ec23352",
+      "kind": "build source"
+    },
+    {
+      "path": "faces/sg/ezlink/hello-kitty-merlion-text.png",
+      "bytes": 37717,
+      "sha256": "75cfb4c6add894f9966ff323c9838a4c7f3ca19afa4ae31d645ee97dd6b2a379",
+      "kind": "published face"
+    },
+    {
+      "path": "sources/sg/ezlink/hello-kitty-merlion-text.png",
+      "bytes": 37717,
+      "sha256": "75cfb4c6add894f9966ff323c9838a4c7f3ca19afa4ae31d645ee97dd6b2a379",
+      "kind": "build source"
+    },
+    {
+      "path": "sources/expansion/references/jp-pasmo-passport-sanrio.jpg",
+      "bytes": 76080,
+      "sha256": "14c51e45e24e2b168f46c4b4bd9c061731b587c43ea9d38f68502c890168e7c2",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/jp-pasmo-passport-photo.jpg",
+      "bytes": 278145,
+      "sha256": "e0cc9ea2249962b455789f848488e15bfe7c8ba2fd7a16fe78507b1440dff476",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/passport-sanrio-issuer-crop.png",
+      "bytes": 609915,
+      "sha256": "8ff4fe874c4ad9c79c76e7fdf47ae1be262bc70232f35ebc5a71e6b883a6645e",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/passport-sanrio-source-crop.png",
+      "bytes": 1510171,
+      "sha256": "36b471916b2c8d38fec8a6639dfe86bb4d56f4d3d0e4b3c66c0ce82ae2784420",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/pasmo-press-release-2019.pdf",
+      "bytes": 179274,
+      "sha256": "9bb981fee64bd0813d146c0be9c87653ee669a297c9f13830f41b4462baf8e69",
+      "kind": "embedded PDF reference"
+    },
+    {
+      "path": "sources/expansion/references/kr-tmoney-kpass-line-friends.jpg",
+      "bytes": 24756,
+      "sha256": "3bb57fbd7c511eae7660037d21785f8267603e3c464f39a3e8045c2b2c33e97d",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/kr-tmoney-kpass-line-friends-detail.jpg",
+      "bytes": 248574,
+      "sha256": "cf1ed2f7b575ac5aeca8bb854bb71b9eabd74c53ed065a922238b1e1e5d175d7",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/mn-bank-britto-banner.jpg",
+      "bytes": 340235,
+      "sha256": "92625a0cb23b2cae8bc20bc5ecc6e1317be84c2202de182578c91562ed5a73c3",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/mn-umoney-britto-einstein-full.png",
+      "bytes": 93654,
+      "sha256": "ae333de39d30b3badfaaa5c838bd4e90d3100e127ca46e171fc4429d4a084c56",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/mn-umoney-britto-einstein.jpg",
+      "bytes": 548079,
+      "sha256": "6e87b3568ddf562f7f08a00ff1a206ebcacf2be643862b6ade9d4bfaed2baece",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/hello-kitty-merlion-source-crop.png",
+      "bytes": 574060,
+      "sha256": "6c4158d4a7514877becb4ee7b0aa56caec98334a8f765e8d30c2e2fa1ea57b88",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/sg-hello-kitty-merlion.jpg",
+      "bytes": 112305,
+      "sha256": "5c6eec03d3829d4726ade185abb2e0393f113a09198660f7390755055417b080",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/sg-disney-skyline.jpg",
+      "bytes": 175929,
+      "sha256": "4578b09dfcd992bbb327cefecc24812ac198e90a1641f1e7a22d096e9ebad9fb",
+      "kind": "reference image"
+    },
+    {
+      "path": "sources/expansion/references/disney-singapore-river-source-crop.png",
+      "bytes": 533667,
+      "sha256": "4d402c64e619499d4c3ec52459e79c7b293c233e7cfc664178f7dbc7b6d746ae",
+      "kind": "reference image"
+    },
+    {
+      "path": "faces/kr/ezl/duty-free-text.png",
+      "bytes": 16592,
+      "sha256": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be",
+      "kind": "published face",
+      "reason": "duty-free coupon or store promotion"
+    },
+    {
+      "path": "sources/kr/ezl/duty-free-text.png",
+      "bytes": 1325665,
+      "sha256": "b0ffccf6edff7d8c04aa2021c4cb540094d44846ad68697b5093efabcc96f578",
+      "kind": "build source",
+      "reason": "duty-free coupon or store promotion"
+    },
+    {
+      "path": "faces/kr/ezl/myeongdong-text.png",
+      "bytes": 19562,
+      "sha256": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c",
+      "kind": "published face",
+      "reason": "duty-free coupon or store promotion"
+    },
+    {
+      "path": "sources/kr/ezl/myeongdong-text.png",
+      "bytes": 1291414,
+      "sha256": "7fdc638d82292b309a54ae85e06667367539f1edb529dd935518141615c789b4",
+      "kind": "build source",
+      "reason": "duty-free coupon or store promotion"
+    }
+  ],
+  "deletedFileTotals": {
+    "files": 44,
+    "bytes": 11097865,
+    "byKind": {
+      "published face": 15,
+      "build source": 15,
+      "reference image": 13,
+      "embedded PDF reference": 1
+    }
+  },
+  "genericReplacements": [
+    {
+      "card": "kr/ezl",
+      "stableId": "duty-free",
+      "name": {
+        "en": "Graphite and lime",
+        "ko": "\ucc28\ucf5c\uacfc \ub77c\uc784"
+      },
+      "master": {
+        "path": "sources/kr/ezl/duty-free.svg",
+        "bytes": 206,
+        "sha256": "b770b6e2a4105c3948090027d5defc6689dc0c6e7250c8a80199a16e4ed0ddab"
+      },
+      "published": {
+        "path": "faces/kr/ezl/duty-free.png",
+        "bytes": 551,
+        "sha256": "fdda4d30a246252e1f56bee548170923825d57476c6016baaa713e09266a7937"
+      },
+      "compactSource": {
+        "path": "sources/kr/ezl/duty-free.png",
+        "bytes": 551,
+        "sha256": "fdda4d30a246252e1f56bee548170923825d57476c6016baaa713e09266a7937"
+      },
+      "width": 1200,
+      "height": 760,
+      "colors": [
+        "#242424",
+        "#d8ee24"
+      ],
+      "colorCount": 2,
+      "rectangles": [
+        {
+          "x": 0,
+          "width": 1200,
+          "height": 760,
+          "fill": "#242424"
+        },
+        {
+          "x": 780,
+          "width": 420,
+          "height": 760,
+          "fill": "#d8ee24"
+        }
+      ],
+      "sourceEqualsPublished": true,
+      "denoise": false,
+      "pipeline": "Original SVG geometry -> rsvg-convert -> existing tools.build.build_face(denoise=False) -> identical compact source PNG",
+      "nativeGenerationUsed": false,
+      "referenceProvenance": "Broad black/lime and navy/citron palettes were selected from historical EZL shop-card choices. Geometry is original and does not reproduce coupon artwork. Original promotional -text image masters are deleted. Historical URLs/prompts remain only as text."
+    },
+    {
+      "card": "kr/ezl",
+      "stableId": "myeongdong",
+      "name": {
+        "en": "Navy and citron",
+        "ko": "\ub124\uc774\ube44\uc640 \uc2dc\ud2b8\ub860"
+      },
+      "master": {
+        "path": "sources/kr/ezl/myeongdong.svg",
+        "bytes": 256,
+        "sha256": "04244f87c31150af7d510895c8166b4e188266360a8fc0e457156f3f6fcf1134"
+      },
+      "published": {
+        "path": "faces/kr/ezl/myeongdong.png",
+        "bytes": 554,
+        "sha256": "fa3de06c9d8d1da73e5142f6e3b69e6f39c9d3fcb9aaf506af1cc6a787e97574"
+      },
+      "compactSource": {
+        "path": "sources/kr/ezl/myeongdong.png",
+        "bytes": 554,
+        "sha256": "fa3de06c9d8d1da73e5142f6e3b69e6f39c9d3fcb9aaf506af1cc6a787e97574"
+      },
+      "width": 1200,
+      "height": 760,
+      "colors": [
+        "#111b68",
+        "#e4ee20"
+      ],
+      "colorCount": 2,
+      "rectangles": [
+        {
+          "x": 0,
+          "width": 1200,
+          "height": 760,
+          "fill": "#111b68"
+        },
+        {
+          "x": 0,
+          "width": 180,
+          "height": 760,
+          "fill": "#e4ee20"
+        },
+        {
+          "x": 360,
+          "width": 480,
+          "height": 760,
+          "fill": "#e4ee20"
+        }
+      ],
+      "sourceEqualsPublished": true,
+      "denoise": false,
+      "pipeline": "Original SVG geometry -> rsvg-convert -> existing tools.build.build_face(denoise=False) -> identical compact source PNG",
+      "nativeGenerationUsed": false,
+      "referenceProvenance": "Broad black/lime and navy/citron palettes were selected from historical EZL shop-card choices. Geometry is original and does not reproduce coupon artwork. Original promotional -text image masters are deleted. Historical URLs/prompts remain only as text."
+    }
+  ],
+  "auditDecisions": [
+    {
+      "design": "kr/ezl/pop",
+      "decision": "retained",
+      "evidence": "Final text face visually inspected: ordinary POP Cashbee card-family branding and color panels, no coupon/discount/redemption content."
+    },
+    {
+      "design": "kr/ezl/tour",
+      "decision": "retained",
+      "evidence": "Final text face visually inspected: Cashbee logo, city illustration/name and ordinary 2 Days transit-pass category, no shop benefits or coupon/redemption content."
+    },
+    {
+      "design": "unused Disney expansion references",
+      "decision": "removed",
+      "evidence": "Two current-tree reference images and the rejected candidate board item were removed."
+    },
+    {
+      "design": "standard issuer mascots and all six hk/octopus exports",
+      "decision": "retained",
+      "evidence": "User explicitly retains standard issuer transit designs; all Octopus media and original source reports are byte-identical to baseline."
+    },
+    {
+      "design": "fr/la-carte/tour-2024-yellow-jersey",
+      "decision": "retained; co-branding flagged for coordinator review",
+      "evidence": "Tour de France/LCL event co-branding remains. This curation makes no legal clearance claim for retained artwork."
+    }
+  ],
+  "previews": [
+    {
+      "path": "previews/text-free-all.png",
+      "bytes": 1440097,
+      "sha256": "1140b3cd5ed6393b1fca4076b6ac2ba02ed6194c0a769eb17f3ba9ae67054932",
+      "count": 59,
+      "kind": "cleaned choices",
+      "inputs": [
+        "faces/cn/2900/default.png",
+        "faces/cn/2900/interconnect-10th-2025.png",
+        "faces/cn/1000/default.png",
+        "faces/cn/1000/china-70-reform-2019.png",
+        "faces/cn/5840/default.png",
+        "faces/cn/5840/persimmons-good-fortune.png",
+        "faces/cn/6900/default.png",
+        "faces/cn/5810/default.png",
+        "faces/cn/5810/first-issue-five-rams-2018.png",
+        "faces/cn/3050/default.png",
+        "faces/cn/6510/default.png",
+        "faces/cn/3310/default.png",
+        "faces/cn/5210/default.png",
+        "faces/cn/3010/default.png",
+        "faces/cn/3320/default.png",
+        "faces/cn/1121/default.png",
+        "faces/cn/4520/default.png",
+        "faces/cn/3020/default.png",
+        "faces/cn/5510/default.png",
+        "faces/cn/4910/default.png",
+        "faces/cn/3910/default.png",
+        "faces/cn/4510/default.png",
+        "faces/cn/3610/default.png",
+        "faces/cn/5880/default.png",
+        "faces/jp/suica/default.png",
+        "faces/jp/suica/welcome-sakura.png",
+        "faces/jp/pasmo/default.png",
+        "faces/jp/icoca/default.png",
+        "faces/jp/icoca/wind-thunder.png",
+        "faces/jp/hayakaken/default.png",
+        "faces/jp/sugoca/default.png",
+        "faces/jp/manaca/default.png",
+        "faces/jp/kitaca/default.png",
+        "faces/jp/nimoca/default.png",
+        "faces/jp/toica/default.png",
+        "faces/jp/okica/default.png",
+        "faces/jp/edy/default.png",
+        "faces/jp/waon/default.png",
+        "faces/jp/nanaco/default.png",
+        "faces/kr/tmoney/default.png",
+        "faces/kr/tmoney/go-green.png",
+        "faces/kr/tmoney/kpass.png",
+        "faces/kr/tmoney/logo.png",
+        "faces/kr/tmoney/safe.png",
+        "faces/kr/ezl/default.png",
+        "faces/kr/ezl/duty-free.png",
+        "faces/kr/ezl/myeongdong.png",
+        "faces/kr/ezl/pop.png",
+        "faces/kr/ezl/tour.png",
+        "faces/kr/climate-card/default.png",
+        "faces/fr/la-carte/default.png",
+        "faces/fr/la-carte/blue.png",
+        "faces/fr/la-carte/tour-2024-yellow-jersey.png",
+        "faces/mn/umoney/default.png",
+        "faces/sg/ezlink/default.png",
+        "faces/sg/ezlink/singapore-skyline.png",
+        "faces/hk/octopus/default.png",
+        "faces/hk/octopus/child.png",
+        "faces/hk/octopus/elder.png"
+      ],
+      "visualInspection": "passed; actual final PNG viewed after both generic replacements"
+    },
+    {
+      "path": "previews/text-free-comparison.png",
+      "bytes": 2541153,
+      "sha256": "92959ee07c2c20fbecb7b3174a1f3feae4817a66a3d4c10b576a253024e22675",
+      "count": 54,
+      "kind": "clean/text pairs",
+      "inputs": [
+        {
+          "clean": "faces/cn/2900/default.png",
+          "text": "faces/cn/2900/text.png"
+        },
+        {
+          "clean": "faces/cn/2900/interconnect-10th-2025.png",
+          "text": "faces/cn/2900/interconnect-10th-2025-text.png"
+        },
+        {
+          "clean": "faces/cn/1000/default.png",
+          "text": "faces/cn/1000/text.png"
+        },
+        {
+          "clean": "faces/cn/1000/china-70-reform-2019.png",
+          "text": "faces/cn/1000/china-70-reform-2019-text.png"
+        },
+        {
+          "clean": "faces/cn/5840/default.png",
+          "text": "faces/cn/5840/text.png"
+        },
+        {
+          "clean": "faces/cn/5840/persimmons-good-fortune.png",
+          "text": "faces/cn/5840/persimmons-good-fortune-text.png"
+        },
+        {
+          "clean": "faces/cn/6900/default.png",
+          "text": "faces/cn/6900/text.png"
+        },
+        {
+          "clean": "faces/cn/5810/default.png",
+          "text": "faces/cn/5810/text.png"
+        },
+        {
+          "clean": "faces/cn/5810/first-issue-five-rams-2018.png",
+          "text": "faces/cn/5810/first-issue-five-rams-2018-text.png"
+        },
+        {
+          "clean": "faces/cn/3050/default.png",
+          "text": "faces/cn/3050/text.png"
+        },
+        {
+          "clean": "faces/cn/6510/default.png",
+          "text": "faces/cn/6510/text.png"
+        },
+        {
+          "clean": "faces/cn/3310/default.png",
+          "text": "faces/cn/3310/text.png"
+        },
+        {
+          "clean": "faces/cn/5210/default.png",
+          "text": "faces/cn/5210/text.png"
+        },
+        {
+          "clean": "faces/cn/3010/default.png",
+          "text": "faces/cn/3010/text.png"
+        },
+        {
+          "clean": "faces/cn/3320/default.png",
+          "text": "faces/cn/3320/text.png"
+        },
+        {
+          "clean": "faces/cn/1121/default.png",
+          "text": "faces/cn/1121/text.png"
+        },
+        {
+          "clean": "faces/cn/4520/default.png",
+          "text": "faces/cn/4520/text.png"
+        },
+        {
+          "clean": "faces/cn/3020/default.png",
+          "text": "faces/cn/3020/text.png"
+        },
+        {
+          "clean": "faces/cn/5510/default.png",
+          "text": "faces/cn/5510/text.png"
+        },
+        {
+          "clean": "faces/cn/4910/default.png",
+          "text": "faces/cn/4910/text.png"
+        },
+        {
+          "clean": "faces/cn/3910/default.png",
+          "text": "faces/cn/3910/text.png"
+        },
+        {
+          "clean": "faces/cn/4510/default.png",
+          "text": "faces/cn/4510/text.png"
+        },
+        {
+          "clean": "faces/cn/3610/default.png",
+          "text": "faces/cn/3610/text.png"
+        },
+        {
+          "clean": "faces/cn/5880/default.png",
+          "text": "faces/cn/5880/text.png"
+        },
+        {
+          "clean": "faces/jp/suica/default.png",
+          "text": "faces/jp/suica/text.png"
+        },
+        {
+          "clean": "faces/jp/suica/welcome-sakura.png",
+          "text": "faces/jp/suica/welcome-sakura-text.png"
+        },
+        {
+          "clean": "faces/jp/pasmo/default.png",
+          "text": "faces/jp/pasmo/text.png"
+        },
+        {
+          "clean": "faces/jp/icoca/default.png",
+          "text": "faces/jp/icoca/text.png"
+        },
+        {
+          "clean": "faces/jp/icoca/wind-thunder.png",
+          "text": "faces/jp/icoca/wind-thunder-text.png"
+        },
+        {
+          "clean": "faces/jp/hayakaken/default.png",
+          "text": "faces/jp/hayakaken/text.png"
+        },
+        {
+          "clean": "faces/jp/sugoca/default.png",
+          "text": "faces/jp/sugoca/text.png"
+        },
+        {
+          "clean": "faces/jp/manaca/default.png",
+          "text": "faces/jp/manaca/text.png"
+        },
+        {
+          "clean": "faces/jp/kitaca/default.png",
+          "text": "faces/jp/kitaca/text.png"
+        },
+        {
+          "clean": "faces/jp/nimoca/default.png",
+          "text": "faces/jp/nimoca/text.png"
+        },
+        {
+          "clean": "faces/jp/toica/default.png",
+          "text": "faces/jp/toica/text.png"
+        },
+        {
+          "clean": "faces/jp/edy/default.png",
+          "text": "faces/jp/edy/text.png"
+        },
+        {
+          "clean": "faces/jp/waon/default.png",
+          "text": "faces/jp/waon/text.png"
+        },
+        {
+          "clean": "faces/jp/nanaco/default.png",
+          "text": "faces/jp/nanaco/text.png"
+        },
+        {
+          "clean": "faces/kr/tmoney/go-green.png",
+          "text": "faces/kr/tmoney/go-green-text.png"
+        },
+        {
+          "clean": "faces/kr/tmoney/kpass.png",
+          "text": "faces/kr/tmoney/kpass-text.png"
+        },
+        {
+          "clean": "faces/kr/tmoney/logo.png",
+          "text": "faces/kr/tmoney/logo-text.png"
+        },
+        {
+          "clean": "faces/kr/tmoney/safe.png",
+          "text": "faces/kr/tmoney/safe-text.png"
+        },
+        {
+          "clean": "faces/kr/ezl/default.png",
+          "text": "faces/kr/ezl/text.png"
+        },
+        {
+          "clean": "faces/kr/ezl/pop.png",
+          "text": "faces/kr/ezl/pop-text.png"
+        },
+        {
+          "clean": "faces/kr/ezl/tour.png",
+          "text": "faces/kr/ezl/tour-text.png"
+        },
+        {
+          "clean": "faces/kr/climate-card/default.png",
+          "text": "faces/kr/climate-card/text.png"
+        },
+        {
+          "clean": "faces/fr/la-carte/default.png",
+          "text": "faces/fr/la-carte/text.png"
+        },
+        {
+          "clean": "faces/fr/la-carte/blue.png",
+          "text": "faces/fr/la-carte/blue-text.png"
+        },
+        {
+          "clean": "faces/fr/la-carte/tour-2024-yellow-jersey.png",
+          "text": "faces/fr/la-carte/tour-2024-yellow-jersey-text.png"
+        },
+        {
+          "clean": "faces/sg/ezlink/default.png",
+          "text": "faces/sg/ezlink/text.png"
+        },
+        {
+          "clean": "faces/sg/ezlink/singapore-skyline.png",
+          "text": "faces/sg/ezlink/singapore-skyline-text.png"
+        },
+        {
+          "clean": "faces/hk/octopus/default.png",
+          "text": "faces/hk/octopus/text.png"
+        },
+        {
+          "clean": "faces/hk/octopus/child.png",
+          "text": "faces/hk/octopus/child-text.png"
+        },
+        {
+          "clean": "faces/hk/octopus/elder.png",
+          "text": "faces/hk/octopus/elder-text.png"
+        }
+      ],
+      "visualInspection": "passed; actual final PNG viewed after both generic replacements"
+    },
+    {
+      "path": "previews/korean-designs.png",
+      "bytes": 247334,
+      "sha256": "74cd4f01ca158318e0a52b5657f594d2772ed6596a89da2ea62ff0f4d0640ea7",
+      "count": 11,
+      "kind": "cleaned choices",
+      "inputs": [
+        "faces/kr/tmoney/default.png",
+        "faces/kr/tmoney/go-green.png",
+        "faces/kr/tmoney/kpass.png",
+        "faces/kr/tmoney/logo.png",
+        "faces/kr/tmoney/safe.png",
+        "faces/kr/ezl/default.png",
+        "faces/kr/ezl/duty-free.png",
+        "faces/kr/ezl/myeongdong.png",
+        "faces/kr/ezl/pop.png",
+        "faces/kr/ezl/tour.png",
+        "faces/kr/climate-card/default.png"
+      ],
+      "visualInspection": "passed; actual final PNG viewed after both generic replacements"
+    },
+    {
+      "path": "previews/expansion-designs.png",
+      "bytes": 590751,
+      "sha256": "8273e855b80a7625fcaad50e87d85435aa9b477729abdc25ea664e5a292877bc",
+      "count": 8,
+      "kind": "cleaned choices",
+      "inputs": [
+        "faces/cn/2900/interconnect-10th-2025.png",
+        "faces/cn/1000/china-70-reform-2019.png",
+        "faces/cn/5840/persimmons-good-fortune.png",
+        "faces/cn/5810/first-issue-five-rams-2018.png",
+        "faces/jp/suica/welcome-sakura.png",
+        "faces/jp/icoca/wind-thunder.png",
+        "faces/fr/la-carte/tour-2024-yellow-jersey.png",
+        "faces/sg/ezlink/singapore-skyline.png"
+      ],
+      "visualInspection": "passed; actual final PNG viewed after both generic replacements"
+    }
+  ],
+  "unchangedPreviews": [
+    {
+      "path": "previews/decorative-exceptions.png",
+      "bytes": 664933,
+      "sha256": "1d907dbf918182266b5719896dfd032ecc8fb4e0a3051cb50a00530b4ae4f656"
+    },
+    {
+      "path": "previews/octopus-standard.png",
+      "bytes": 121014,
+      "sha256": "aa33f80b04b51e38b20780febb273aa9b83ff97c28e5776e194b4eb536d5f9c7"
+    }
+  ],
+  "creativeBoard": {
+    "boardId": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+    "reopened": false,
+    "finalRevision": 204,
+    "activeItems": 66,
+    "deletedItems": [
+      "tmoney-ryan",
+      "tmoney-apeach",
+      "textfree-kr-tmoney-ryan",
+      "textfree-kr-tmoney-apeach",
+      "expansion-kr-tmoney-kpass-line-friends",
+      "expansion-mn-umoney-britto-einstein",
+      "expansion-jp-pasmo-passport-sanrio",
+      "expansion-sg-ezlink-hello-kitty-merlion",
+      "expansion-sg-ezlink-disney-singapore-river",
+      "ezl-duty-free",
+      "ezl-myeongdong"
+    ],
+    "mutations": [
+      {
+        "action": "delete_items",
+        "revision": 198,
+        "mutationId": "3b79fbd5-7bba-4eb7-89d4-d0ae5cbb09a6",
+        "items": [
+          "tmoney-ryan",
+          "tmoney-apeach",
+          "textfree-kr-tmoney-ryan",
+          "textfree-kr-tmoney-apeach",
+          "expansion-kr-tmoney-kpass-line-friends",
+          "expansion-mn-umoney-britto-einstein",
+          "expansion-jp-pasmo-passport-sanrio",
+          "expansion-sg-ezlink-hello-kitty-merlion",
+          "expansion-sg-ezlink-disney-singapore-river"
+        ]
+      },
+      {
+        "action": "delete_items",
+        "revision": 201,
+        "mutationId": "60535542-679b-4bf7-b02a-c01f60c211b7",
+        "items": [
+          "ezl-duty-free",
+          "ezl-myeongdong"
+        ]
+      },
+      {
+        "action": "begin_generation",
+        "revision": 202,
+        "mutationId": "539a733d-ea1d-458b-bb48-10d69b04213a",
+        "note": "Refresh existing generic placeholders for deterministic SVG exports; no image model used."
+      },
+      {
+        "action": "complete_generation",
+        "revision": 203,
+        "mutationId": "826cfc1c-e79e-46f9-8b63-2df5ac527015",
+        "itemId": "textfree-kr-ezl-duty-free",
+        "finalPath": "/Users/ieb/Vibe/card-faces/faces/kr/ezl/duty-free.png"
+      },
+      {
+        "action": "complete_generation",
+        "revision": 204,
+        "mutationId": "00478d9d-e123-45c9-942a-c6a922a7e169",
+        "itemId": "textfree-kr-ezl-myeongdong",
+        "finalPath": "/Users/ieb/Vibe/card-faces/faces/kr/ezl/myeongdong.png"
+      }
+    ]
+  },
+  "preservation": {
+    "unchangedPublishedFaces": 119,
+    "changedPublishedFacePaths": [
+      "faces/kr/ezl/duty-free.png",
+      "faces/kr/ezl/myeongdong.png"
+    ],
+    "unchangedExistingSourceReferenceMedia": 142,
+    "changedExistingSourceMediaPaths": [
+      "sources/kr/ezl/duty-free.png",
+      "sources/kr/ezl/myeongdong.png"
+    ],
+    "historicalJsonReportsUnchanged": [
+      "sources/expansion/generation.json",
+      "sources/expansion/octopus-report.json",
+      "sources/expansion/research.json",
+      "sources/kr/generation-prompts.json",
+      "sources/text-free/decorative-exceptions.json",
+      "sources/text-free/edits.json"
+    ],
+    "octopusMediaAndReportPathsUnchanged": [
+      "faces/hk/octopus/child-text.png",
+      "faces/hk/octopus/child.png",
+      "faces/hk/octopus/default.png",
+      "faces/hk/octopus/elder-text.png",
+      "faces/hk/octopus/elder.png",
+      "faces/hk/octopus/text.png",
+      "previews/octopus-standard.png",
+      "sources/expansion/octopus-export.py",
+      "sources/expansion/octopus-references/adult-standard-front.jpg",
+      "sources/expansion/octopus-references/cardreplacement_adult.jpg",
+      "sources/expansion/octopus-references/cardreplacement_child.jpg",
+      "sources/expansion/octopus-references/cardreplacement_elder.jpg",
+      "sources/expansion/octopus-references/child-standard-front.jpg",
+      "sources/expansion/octopus-references/elder-standard-front.jpg",
+      "sources/expansion/octopus-references/press-launch.html",
+      "sources/expansion/octopus-references/standard-en.html",
+      "sources/expansion/octopus-references/standard-onloan-composite.jpg",
+      "sources/expansion/octopus-references/standard-zh.html",
+      "sources/expansion/octopus-report.json",
+      "sources/hk/octopus/child-text.png",
+      "sources/hk/octopus/child.png",
+      "sources/hk/octopus/default.png",
+      "sources/hk/octopus/elder-text.png",
+      "sources/hk/octopus/elder.png",
+      "sources/hk/octopus/text.png"
+    ],
+    "localDistManifestByteIdentical": true,
+    "localDistFacesMatchExactly": true,
+    "localDistFaceCount": 121,
+    "deletedPathsAbsent": true
+  },
+  "verification": {
+    "tests": {
+      "command": "python3 -m unittest discover -s tests",
+      "passed": 31,
+      "failed": 0,
+      "durationSeconds": 3.209,
+      "coverage": "Existing 22 tests plus retirement safety, optional schema compatibility, build/publisher propagation and rejection, resurrection prevention, exact retired policy set and deterministic rectangle geometry/source identity."
+    },
+    "validation": {
+      "command": "python3 tools/validate.py",
+      "result": "card faces OK"
+    },
+    "publication": {
+      "command": "python3 tools/publish.py",
+      "result": "published to /Users/ieb/Vibe/card-faces/dist",
+      "localOnly": true
+    },
+    "whitespace": {
+      "command": "git diff --check",
+      "result": "passed"
+    }
+  },
+  "budgets": {
+    "publishedPngTotalBytes": 2514245,
+    "publishedPngMaxBytes": 39997,
+    "perPngLimitExclusive": 40000,
+    "publishedPngMaxColors": 22,
+    "colorLimit": 24,
+    "aspect": "30:19",
+    "gitPackageLimitExclusive": 50000000,
+    "gitPackageBytes": 26779854,
+    "gitPackageMeasurement": "Unique git ls-files --cached --others --exclude-standard existing file sizes; includes this report, excludes ignored dist and caches."
+  },
+  "changedPaths": [
+    {
+      "path": "README.md",
+      "operation": "modified",
+      "bytes": 10804,
+      "sha256": "564c5bb75b8ffcd9bb8414f5acf5fae536b298a702af645888c09510d4afab03"
+    },
+    {
+      "path": "catalog.json",
+      "operation": "modified",
+      "bytes": 19569,
+      "sha256": "3372a33aba1a217de2733626956637e063cf40bd60fd2e37688c46fcf9cdd95b"
+    },
+    {
+      "path": "faces/jp/pasmo/passport-sanrio-no-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/jp/pasmo/passport-sanrio-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/jp/pasmo/passport-sanrio.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/ezl/duty-free-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/ezl/duty-free.png",
+      "operation": "modified",
+      "bytes": 551,
+      "sha256": "fdda4d30a246252e1f56bee548170923825d57476c6016baaa713e09266a7937"
+    },
+    {
+      "path": "faces/kr/ezl/myeongdong-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/ezl/myeongdong.png",
+      "operation": "modified",
+      "bytes": 554,
+      "sha256": "fa3de06c9d8d1da73e5142f6e3b69e6f39c9d3fcb9aaf506af1cc6a787e97574"
+    },
+    {
+      "path": "faces/kr/tmoney/apeach-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/tmoney/apeach.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/tmoney/kpass-line-friends-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/tmoney/kpass-line-friends.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/tmoney/ryan-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/kr/tmoney/ryan.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/mn/umoney/britto-einstein-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/mn/umoney/britto-einstein.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/sg/ezlink/hello-kitty-merlion-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "faces/sg/ezlink/hello-kitty-merlion.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "manifest.json",
+      "operation": "modified",
+      "bytes": 64304,
+      "sha256": "9eeb3a06190985aad74f8e8e3762ae575e2c6a750443931e436474b017e1d408"
+    },
+    {
+      "path": "previews/expansion-designs.png",
+      "operation": "modified",
+      "bytes": 590751,
+      "sha256": "8273e855b80a7625fcaad50e87d85435aa9b477729abdc25ea664e5a292877bc"
+    },
+    {
+      "path": "previews/korean-designs.png",
+      "operation": "modified",
+      "bytes": 247334,
+      "sha256": "74cd4f01ca158318e0a52b5657f594d2772ed6596a89da2ea62ff0f4d0640ea7"
+    },
+    {
+      "path": "previews/text-free-all.png",
+      "operation": "modified",
+      "bytes": 1440097,
+      "sha256": "1140b3cd5ed6393b1fca4076b6ac2ba02ed6194c0a769eb17f3ba9ae67054932"
+    },
+    {
+      "path": "previews/text-free-comparison.png",
+      "operation": "modified",
+      "bytes": 2541153,
+      "sha256": "92959ee07c2c20fbecb7b3174a1f3feae4817a66a3d4c10b576a253024e22675"
+    },
+    {
+      "path": "sources/curation/README.md",
+      "operation": "added",
+      "bytes": 6335,
+      "sha256": "e8c802473fc803bfb15f7b3e9acb117446d94907cd053c353c93243d1eb594f2"
+    },
+    {
+      "path": "sources/curation/report.json",
+      "operation": "added",
+      "note": "This report; its own hash and byte count are omitted to avoid a self-reference."
+    },
+    {
+      "path": "sources/expansion/README.md",
+      "operation": "modified",
+      "bytes": 2712,
+      "sha256": "fb1152b141253d8b8c1fa47f510bd91ec5c92c733eb18f1b21e41258ef3d7e8a"
+    },
+    {
+      "path": "sources/expansion/octopus-README.md",
+      "operation": "modified",
+      "bytes": 2658,
+      "sha256": "9a46b2bc580cacb96a10e0ebee09f34d7af1c9cb851426ba84a771f6a1294199"
+    },
+    {
+      "path": "sources/expansion/references/disney-singapore-river-source-crop.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/hello-kitty-merlion-source-crop.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/jp-pasmo-passport-photo.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/jp-pasmo-passport-sanrio.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/kr-tmoney-kpass-line-friends-detail.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/kr-tmoney-kpass-line-friends.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/mn-bank-britto-banner.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/mn-umoney-britto-einstein-full.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/mn-umoney-britto-einstein.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/pasmo-press-release-2019.pdf",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/passport-sanrio-issuer-crop.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/passport-sanrio-source-crop.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/sg-disney-skyline.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/expansion/references/sg-hello-kitty-merlion.jpg",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/jp/pasmo/passport-sanrio-no-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/jp/pasmo/passport-sanrio-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/jp/pasmo/passport-sanrio.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/README.md",
+      "operation": "modified",
+      "bytes": 4720,
+      "sha256": "b652c25dc12d695e6c2b12a0cf6da31e516499eca688cdf66d24e7d6675864ed"
+    },
+    {
+      "path": "sources/kr/ezl/duty-free-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/ezl/duty-free.png",
+      "operation": "modified",
+      "bytes": 551,
+      "sha256": "fdda4d30a246252e1f56bee548170923825d57476c6016baaa713e09266a7937"
+    },
+    {
+      "path": "sources/kr/ezl/duty-free.svg",
+      "operation": "added",
+      "bytes": 206,
+      "sha256": "b770b6e2a4105c3948090027d5defc6689dc0c6e7250c8a80199a16e4ed0ddab"
+    },
+    {
+      "path": "sources/kr/ezl/myeongdong-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/ezl/myeongdong.png",
+      "operation": "modified",
+      "bytes": 554,
+      "sha256": "fa3de06c9d8d1da73e5142f6e3b69e6f39c9d3fcb9aaf506af1cc6a787e97574"
+    },
+    {
+      "path": "sources/kr/ezl/myeongdong.svg",
+      "operation": "added",
+      "bytes": 256,
+      "sha256": "04244f87c31150af7d510895c8166b4e188266360a8fc0e457156f3f6fcf1134"
+    },
+    {
+      "path": "sources/kr/tmoney/apeach-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/tmoney/apeach.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/tmoney/kpass-line-friends-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/tmoney/kpass-line-friends.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/tmoney/ryan-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/kr/tmoney/ryan.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/mn/umoney/britto-einstein-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/mn/umoney/britto-einstein.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/sg/ezlink/hello-kitty-merlion-text.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/sg/ezlink/hello-kitty-merlion.png",
+      "operation": "deleted"
+    },
+    {
+      "path": "sources/text-free/README.md",
+      "operation": "modified",
+      "bytes": 3058,
+      "sha256": "0166be504f29bf5cebc56d21be98ea133bdc1533073e6b486e5e0a45d53bddfd"
+    },
+    {
+      "path": "tests/test_faces.py",
+      "operation": "modified",
+      "bytes": 18232,
+      "sha256": "089c45f58ba2bf360bb1292556e6eef5dc7fc9464330e586b410b5e336e1f2d0"
+    },
+    {
+      "path": "tools/build.py",
+      "operation": "modified",
+      "bytes": 11506,
+      "sha256": "352508e4033b3f224bb1ac445729e5e5b356d924da524846064981b1c5f85a0a"
+    },
+    {
+      "path": "tools/generic_blocks.py",
+      "operation": "added",
+      "bytes": 893,
+      "sha256": "9501ed09209ee531bee41c17a326f20367e2982940bea0a8874abf1dd5e75a88"
+    },
+    {
+      "path": "tools/previews.py",
+      "operation": "added",
+      "bytes": 4784,
+      "sha256": "e844eb5f93a87736d6db1311786bba024f4a7b0f3dd83ecdf0310af42d94b8c2"
+    },
+    {
+      "path": "tools/publish.py",
+      "operation": "modified",
+      "bytes": 2803,
+      "sha256": "8122d2ac811d4f9c14fbb7fcf28e78f5aecfbf3a9735b84db22e13f539ade1d6"
+    },
+    {
+      "path": "tools/validate.py",
+      "operation": "modified",
+      "bytes": 10729,
+      "sha256": "8e73694bad09a6b032a32780d0a4e6c8b82d896089afd8c74afc9c7634f804ce"
+    }
+  ],
+  "limitations": [
+    "Historical textual provenance still mentions removed designs and historical counts.",
+    "Only the current downloadable collection and current source/reference tree were curated; Git history was not rewritten.",
+    "The Creative Production board deletion API marks removed items deleted; no direct board storage editing was performed.",
+    "Remote hosting/cache purge and app live retirement QA are coordinator follow-up; this run only publishes local dist.",
+    "Generic replacements intentionally retain only broad palette and stable IDs; they are original color geometry, not physical-card reproductions."
+  ]
+}

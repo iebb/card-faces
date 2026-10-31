@@ -1230,51 +1230,6 @@
           "colors": 11
         },
         {
-          "id": "passport-sanrio-no-text",
-          "name": {
-            "en": "No text: PASMO PASSPORT (Sanrio)",
-            "ja": "文字なし：PASMO PASSPORT（サンリオ）",
-            "zh": "无文字版：PASMO PASSPORT（三丽鸥）",
-            "ko": "텍스트 없음: 파스모 패스포트 (산리오)"
-          },
-          "file": "faces/jp/pasmo/passport-sanrio-no-text.png",
-          "sha256": "533d0457c7b7f680c542dcfdde787cda47c2ef2f826c7317e6a6ccab47142c2f",
-          "bytes": 37835,
-          "width": 1080,
-          "height": 684,
-          "colors": 16
-        },
-        {
-          "id": "passport-sanrio-text",
-          "name": {
-            "en": "With text: PASMO PASSPORT (Sanrio)",
-            "ja": "文字あり：PASMO PASSPORT（サンリオ）",
-            "zh": "文字版：PASMO PASSPORT（三丽鸥）",
-            "ko": "텍스트 포함: 파스모 패스포트 (산리오)"
-          },
-          "file": "faces/jp/pasmo/passport-sanrio-text.png",
-          "sha256": "df4693ffd7305231535859db4fd831d99e321c6dddee7d035f8732be4f399d72",
-          "bytes": 36771,
-          "width": 900,
-          "height": 570,
-          "colors": 20
-        },
-        {
-          "id": "passport-sanrio",
-          "name": {
-            "en": "PASMO PASSPORT (Sanrio)",
-            "ja": "PASMO PASSPORT（サンリオ）",
-            "zh": "PASMO PASSPORT（三丽鸥）",
-            "ko": "파스모 패스포트 (산리오)"
-          },
-          "file": "faces/jp/pasmo/passport-sanrio.png",
-          "sha256": "4c2967a38a4d08b43dbaa00cd5ca9d2a94d332749b4e9228464e4d9fffbc8ddc",
-          "bytes": 38008,
-          "width": 1020,
-          "height": 646,
-          "colors": 16
-        },
-        {
           "id": "text",
           "name": {
             "en": "With text: PASMO",
@@ -1824,32 +1779,6 @@
           "colors": 11
         },
         {
-          "id": "apeach-text",
-          "name": {
-            "en": "With text: Little Friends Apeach",
-            "ko": "글자 포함: 리틀프렌즈 어피치"
-          },
-          "file": "faces/kr/tmoney/apeach-text.png",
-          "sha256": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256",
-          "bytes": 10238,
-          "width": 1200,
-          "height": 760,
-          "colors": 16
-        },
-        {
-          "id": "apeach",
-          "name": {
-            "en": "Little Friends Apeach",
-            "ko": "리틀프렌즈 어피치"
-          },
-          "file": "faces/kr/tmoney/apeach.png",
-          "sha256": "b49b351da1f3cb9377cf17261886a0973161123c9da4ec0f79433c1d61c306cd",
-          "bytes": 9105,
-          "width": 1200,
-          "height": 760,
-          "colors": 19
-        },
-        {
           "id": "go-green-text",
           "name": {
             "en": "With text: Go Green",
@@ -1874,32 +1803,6 @@
           "width": 1200,
           "height": 760,
           "colors": 12
-        },
-        {
-          "id": "kpass-line-friends-text",
-          "name": {
-            "en": "With text: K-PASS LINE FRIENDS",
-            "ko": "텍스트 포함: K-PASS 라인프렌즈"
-          },
-          "file": "faces/kr/tmoney/kpass-line-friends-text.png",
-          "sha256": "b37a6d67b2724fbd9c6debf9a2575ad68552f82824b694468ca9ea7b007370fb",
-          "bytes": 24344,
-          "width": 1200,
-          "height": 760,
-          "colors": 20
-        },
-        {
-          "id": "kpass-line-friends",
-          "name": {
-            "en": "K-PASS LINE FRIENDS",
-            "ko": "K-PASS 라인프렌즈"
-          },
-          "file": "faces/kr/tmoney/kpass-line-friends.png",
-          "sha256": "3c562c3e1994643407538cab537302729f78882c984ed8a173f0f7ae32f97a46",
-          "bytes": 21482,
-          "width": 1200,
-          "height": 760,
-          "colors": 22
         },
         {
           "id": "kpass-text",
@@ -1952,32 +1855,6 @@
           "width": 1200,
           "height": 760,
           "colors": 13
-        },
-        {
-          "id": "ryan-text",
-          "name": {
-            "en": "With text: Little Friends Ryan",
-            "ko": "글자 포함: 리틀프렌즈 라이언"
-          },
-          "file": "faces/kr/tmoney/ryan-text.png",
-          "sha256": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d",
-          "bytes": 13519,
-          "width": 1200,
-          "height": 760,
-          "colors": 18
-        },
-        {
-          "id": "ryan",
-          "name": {
-            "en": "Little Friends Ryan",
-            "ko": "리틀프렌즈 라이언"
-          },
-          "file": "faces/kr/tmoney/ryan.png",
-          "sha256": "5fa4995799a449911ce361acc00709e823f780d00d69b973aa229846a087431d",
-          "bytes": 11691,
-          "width": 1200,
-          "height": 760,
-          "colors": 17
         },
         {
           "id": "safe-text",
@@ -2036,56 +1913,30 @@
           "colors": 14
         },
         {
-          "id": "duty-free-text",
-          "name": {
-            "en": "With text: Lotte Duty Free",
-            "ko": "글자 포함: 롯데면세점"
-          },
-          "file": "faces/kr/ezl/duty-free-text.png",
-          "sha256": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be",
-          "bytes": 16592,
-          "width": 1200,
-          "height": 760,
-          "colors": 18
-        },
-        {
           "id": "duty-free",
           "name": {
-            "en": "Lotte Duty Free",
-            "ko": "롯데면세점"
+            "en": "Graphite and lime",
+            "ko": "차콜과 라임"
           },
           "file": "faces/kr/ezl/duty-free.png",
-          "sha256": "69752242ebd9f28ebd0340ea835584067a04a836a45f22fda21a7ee9eb8bdd6d",
-          "bytes": 2081,
+          "sha256": "fdda4d30a246252e1f56bee548170923825d57476c6016baaa713e09266a7937",
+          "bytes": 551,
           "width": 1200,
           "height": 760,
-          "colors": 8
-        },
-        {
-          "id": "myeongdong-text",
-          "name": {
-            "en": "With text: Now in Myeongdong",
-            "ko": "글자 포함: 명동 롯데면세점"
-          },
-          "file": "faces/kr/ezl/myeongdong-text.png",
-          "sha256": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c",
-          "bytes": 19562,
-          "width": 1200,
-          "height": 760,
-          "colors": 17
+          "colors": 2
         },
         {
           "id": "myeongdong",
           "name": {
-            "en": "Now in Myeongdong",
-            "ko": "명동 롯데면세점"
+            "en": "Navy and citron",
+            "ko": "네이비와 시트론"
           },
           "file": "faces/kr/ezl/myeongdong.png",
-          "sha256": "597c32615beb65f8263d487b13ab4be96022fb6ae917ee77f0bca715b11bffb3",
-          "bytes": 1713,
+          "sha256": "fa3de06c9d8d1da73e5142f6e3b69e6f39c9d3fcb9aaf506af1cc6a787e97574",
+          "bytes": 554,
           "width": 1200,
           "height": 760,
-          "colors": 6
+          "colors": 2
         },
         {
           "id": "pop-text",
@@ -2332,32 +2183,6 @@
           "width": 780,
           "height": 494,
           "colors": 21
-        },
-        {
-          "id": "britto-einstein-text",
-          "name": {
-            "en": "With text: Britto Einstein (U-Money)",
-            "mn": "Бичвэртэй: Бритто Эйнштейн (U-Money)"
-          },
-          "file": "faces/mn/umoney/britto-einstein-text.png",
-          "sha256": "669ea0f3bc4d239087da21fb8cc1e827c2d1e372c3f7f3e90a0e728368510b8b",
-          "bytes": 38398,
-          "width": 900,
-          "height": 570,
-          "colors": 16
-        },
-        {
-          "id": "britto-einstein",
-          "name": {
-            "en": "Britto Einstein (U-Money)",
-            "mn": "Бритто Эйнштейн (U-Money)"
-          },
-          "file": "faces/mn/umoney/britto-einstein.png",
-          "sha256": "d2fe110dcbeaeed6aacd537f6301e7b61d714a235caa090b7081bfee7cd9e3ef",
-          "bytes": 39837,
-          "width": 960,
-          "height": 608,
-          "colors": 19
         }
       ]
     },
@@ -2388,36 +2213,6 @@
           "width": 1200,
           "height": 760,
           "colors": 14
-        },
-        {
-          "id": "hello-kitty-merlion-text",
-          "name": {
-            "en": "With text: Hello Kitty & Merlion",
-            "ja": "文字あり：ハローキティとマーライオン",
-            "zh": "文字版：Hello Kitty 与鱼尾狮",
-            "ko": "텍스트 포함: 헬로키티와 머라이언"
-          },
-          "file": "faces/sg/ezlink/hello-kitty-merlion-text.png",
-          "sha256": "75cfb4c6add894f9966ff323c9838a4c7f3ca19afa4ae31d645ee97dd6b2a379",
-          "bytes": 37717,
-          "width": 1200,
-          "height": 760,
-          "colors": 21
-        },
-        {
-          "id": "hello-kitty-merlion",
-          "name": {
-            "en": "Hello Kitty & Merlion",
-            "ja": "ハローキティとマーライオン",
-            "zh": "Hello Kitty 与鱼尾狮",
-            "ko": "헬로키티와 머라이언"
-          },
-          "file": "faces/sg/ezlink/hello-kitty-merlion.png",
-          "sha256": "8054cda993154bb9d0898ca4d2c201c3e5e3c53625298a288bc77af20ec23352",
-          "bytes": 29198,
-          "width": 1200,
-          "height": 760,
-          "colors": 19
         },
         {
           "id": "singapore-skyline-text",
@@ -2576,5 +2371,22 @@
         }
       ]
     }
-  ]
+  ],
+  "retiredDesigns": {
+    "remote.jp.pasmo.passport-sanrio.png": "remote.jp.pasmo.default.png",
+    "remote.jp.pasmo.passport-sanrio-text.png": "remote.jp.pasmo.default.png",
+    "remote.jp.pasmo.passport-sanrio-no-text.png": "remote.jp.pasmo.default.png",
+    "remote.kr.tmoney.ryan.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.ryan-text.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.apeach.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.apeach-text.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.kpass-line-friends.png": "remote.kr.tmoney.default.png",
+    "remote.kr.tmoney.kpass-line-friends-text.png": "remote.kr.tmoney.default.png",
+    "remote.mn.umoney.britto-einstein.png": "remote.mn.umoney.default.png",
+    "remote.mn.umoney.britto-einstein-text.png": "remote.mn.umoney.default.png",
+    "remote.sg.ezlink.hello-kitty-merlion.png": "remote.sg.ezlink.default.png",
+    "remote.sg.ezlink.hello-kitty-merlion-text.png": "remote.sg.ezlink.default.png",
+    "remote.kr.ezl.duty-free-text.png": "remote.kr.ezl.default.png",
+    "remote.kr.ezl.myeongdong-text.png": "remote.kr.ezl.default.png"
+  }
 }

@@ -4,8 +4,12 @@ Card-face artwork for [CardBal / TransitICReader](https://github.com/iebb/Transi
 The app downloads `manifest.json` and the PNGs listed in it, so new faces ship
 without an app update.
 
-The collection contains **40 card types and 136 faces**, including six Standard
+The collection contains **40 card types and 121 faces**, including six Standard
 Octopus exports for Hong Kong.
+
+Dominant licensed character, contemporary artist and shop-promotion variants have been retired.
+The [curation notes](sources/curation/README.md) record the removed designs,
+source/reference cleanup and safe defaults for old selections.
 
 Faces are served from **https://faces.cardb.al/**, a Cloudflare Pages site
 that rebuilds from `master` on every push. jsDelivr
@@ -41,21 +45,21 @@ Each exception also offers a fully text-free `no-text.png`. Informational labels
 city names, service details and small print stay in the **with text** alternatives:
 
 - `default.png` pairs with `text.png`;
-- named designs such as `ryan.png` pair with `ryan-text.png`.
+- named designs such as `go-green.png` pair with `go-green-text.png`.
 
-Existing design IDs keep working, including PASMO's original `text.png` choice.
-Faces that already had no lettering are unchanged. The original masters and
-published PNGs are preserved byte for byte in the text alternatives.
+Retained design IDs keep working, including PASMO's original `text.png` choice.
+Faces that already had no lettering are unchanged. Retained original masters
+and published PNGs are preserved byte for byte in the text alternatives.
 Research references, edit prompts and preservation
 hashes are recorded in [the text-removal notes](sources/text-free/README.md).
 See the [before/after comparison](previews/text-free-comparison.png) or
-[all text-free choices](previews/text-free-all.png). The
+[all cleaned choices](previews/text-free-all.png). The
 [decorative exceptions](previews/decorative-exceptions.png) compare each default
 with its fully text-free and original text alternatives.
 
 The current text-free inputs are the optimized PNG exports, with denoising
 disabled so rebuilding preserves their pixels. Full-resolution generated masters
-remain in commit `8b9168c`; original text masters remain in the current tree.
+remain in commit `8b9168c`; retained original text masters remain in the current tree.
 
 ### China: top 20 cities
 
@@ -100,7 +104,7 @@ face; Suica, PASMO, ICOCA, T-money and EZL remain as small offline fallbacks.
 | `jp/edy` | default, no-text, text | family name |
 | `jp/waon`, `jp/nanaco` | default, text | family name |
 | `jp/okica` | default | family name |
-| `kr/tmoney` | default, logo, apeach, go-green, kpass, ryan, safe, text alternatives | family name |
+| `kr/tmoney` | default, logo, go-green, kpass, safe, text alternatives | family name |
 | `kr/ezl` | default, duty-free, myeongdong, pop, tour, text alternatives | family name |
 | `kr/climate-card` | default, no-text, text | family name |
 | `fr/la-carte` | default, blue, text, blue-text | family name |
@@ -110,16 +114,18 @@ face; Suica, PASMO, ICOCA, T-money and EZL remain as small offline fallbacks.
 The Korean additions recreate real issuer and authorized-shop references in a
 flat vector style. See [the designs](previews/korean-designs.png) and
 [their sources and generation brief](sources/kr/README.md). These are familiar
-standard, character, convenience-store and tourist designs, not a sales ranking.
+standard, convenience-store and tourist designs, not a sales ranking.
+Two EZL choices now use original solid color rectangles in place of shop
+promotions: Graphite and lime, and Navy and citron. Their stable design IDs
+remain available; promotional text alternatives are retired.
 
 ### Additional designs
 
-The expanded collection adds twelve researched physical designs across the six
-covered countries: four Chinese city cards, three Japanese visitor designs, two
-Singapore EZ-Link designs, K-PASS LINE FRIENDS T-money, Nice's Tour de
-France yellow-jersey La Carte, and the TDB/U-Money Britto Einstein card.
+The expanded collection retains eight researched physical designs across four
+countries: four Chinese city cards, two Japanese visitor designs, Singapore
+Skyline EZ-Link, and Nice's Tour de France yellow-jersey La Carte.
 Existing defaults stay unchanged. Each addition has a normal cleaned choice and
-a selectable text version. Three decorative-lettering designs also offer a fully
+a selectable text version. Two decorative-lettering designs also offer a fully
 text-free alternative.
 
 See the [new designs](previews/expansion-designs.png) and
@@ -200,6 +206,25 @@ longest card-number prefix, then a lowercase substring of the card family name,
 then the serial-number prefix. They should verify `sha256` before using a
 download, and can append `?v=<sha256 prefix>` to bypass stale caches.
 `manifest.json` is cached for 5 minutes and faces for a day.
+
+Schema 2 also supports an optional top-level `retiredDesigns` object, copied
+from `catalog.json`. Keys and values are canonical remote selection tokens:
+
+```json
+{
+  "retiredDesigns": {
+    "remote.kr.tmoney.ryan.png": "remote.kr.tmoney.default.png"
+  }
+}
+```
+
+Every retirement points directly to a published `default` on the same card.
+Retired designs cannot also appear in the published collection. Tokens contain
+only the fixed `remote.<region>.<card>.<design>.png` form; URLs, paths, query
+strings and redirect chains are rejected. Updated clients can resolve an old
+selection before downloading its replacement. The field is optional and leaves
+the schema version unchanged, so clients that ignore it retain their existing
+missing-art fallback behavior.
 
 ## Notice
 

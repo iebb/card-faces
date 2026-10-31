@@ -26,7 +26,8 @@ from PIL import Image, ImageFilter
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from validate import (  # noqa: E402
-    DEFAULT_DESIGN, MATCH_KEYS, MAX_BYTES, MAX_COLORS, ROOT, SCHEMA_VERSION, inspect_face, validate,
+    DEFAULT_DESIGN, MATCH_KEYS, MAX_BYTES, MAX_COLORS, ROOT, SCHEMA_VERSION,
+    check_retired_designs, inspect_face, validate,
 )
 
 MAX_WIDTH = 1200
@@ -221,6 +222,11 @@ def write_manifest(catalog: dict) -> None:
             "designs": designs,
         })
     manifest = {"schemaVersion": SCHEMA_VERSION, "cards": cards}
+    if "retiredDesigns" in catalog:
+        errors = check_retired_designs(catalog["retiredDesigns"], cards)
+        if errors:
+            raise SystemExit("\n".join(errors))
+        manifest["retiredDesigns"] = catalog["retiredDesigns"]
     text = json.dumps(manifest, ensure_ascii=False, indent=2) + "\n"
     (ROOT / "manifest.json").write_text(text, encoding="utf-8")
 
