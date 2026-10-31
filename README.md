@@ -30,18 +30,25 @@ so `faces/cn/2900/default.png` is Shanghai.
 ### Text-free faces
 
 The main faces keep the real card's colors, background artwork and illustrations,
-with lettering, numbers and wordmarks removed. The previous artwork remains
-available in the picker as a **with text** alternative:
+with ordinary lettering, numbers and wordmarks removed. Lettering that functions
+as decorative artwork is kept: PASMO's letters complete its train and bus motif.
+Other exceptions are Edy's background R, the Climate Card GO ribbon, Changsha's
+background brushwork and the geometric JS emblems on Suzhou and Nanjing cards.
+Each exception also offers a fully text-free `no-text.png`. Informational labels,
+city names, service details and small print stay in the **with text** alternatives:
 
 - `default.png` pairs with `text.png`;
 - named designs such as `ryan.png` pair with `ryan-text.png`.
 
-Existing design IDs keep working. Faces that already had no lettering are
-unchanged. The original masters and published PNGs are preserved byte for
-byte in the text alternatives. Research references, edit prompts and preservation
+Existing design IDs keep working, including PASMO's original `text.png` choice.
+Faces that already had no lettering are unchanged. The original masters and
+published PNGs are preserved byte for byte in the text alternatives.
+Research references, edit prompts and preservation
 hashes are recorded in [the text-removal notes](sources/text-free/README.md).
 See the [before/after comparison](previews/text-free-comparison.png) or
-[all text-free choices](previews/text-free-all.png).
+[all text-free choices](previews/text-free-all.png). The
+[decorative exceptions](previews/decorative-exceptions.png) compare each default
+with its fully text-free and original text alternatives.
 
 The current text-free inputs are the optimized PNG exports, with denoising
 disabled so rebuilding preserves their pixels. Full-resolution generated masters
@@ -85,12 +92,14 @@ face; Suica, PASMO, ICOCA, T-money and EZL remain as small offline fallbacks.
 
 | Folder | Designs | Matched by |
 | --- | --- | --- |
-| `jp/suica`, `jp/pasmo`, `jp/icoca`, `jp/hayakaken`, `jp/sugoca`, `jp/manaca`, `jp/kitaca`, `jp/nimoca`, `jp/toica` | default, text | family name, serial prefix |
-| `jp/edy`, `jp/waon`, `jp/nanaco` | default, text | family name |
+| `jp/suica`, `jp/icoca`, `jp/hayakaken`, `jp/sugoca`, `jp/manaca`, `jp/kitaca`, `jp/nimoca`, `jp/toica` | default, text | family name, serial prefix |
+| `jp/pasmo` | default, no-text, text | family name, serial prefix |
+| `jp/edy` | default, no-text, text | family name |
+| `jp/waon`, `jp/nanaco` | default, text | family name |
 | `jp/okica` | default | family name |
 | `kr/tmoney` | default, logo, apeach, go-green, kpass, ryan, safe, text alternatives | family name |
 | `kr/ezl` | default, duty-free, myeongdong, pop, tour, text alternatives | family name |
-| `kr/climate-card` | default, text | family name |
+| `kr/climate-card` | default, no-text, text | family name |
 | `fr/la-carte` | default, blue, text, blue-text | family name |
 | `mn/umoney` | default | family name |
 | `sg/ezlink` | default, text | family name |

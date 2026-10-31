@@ -1,0 +1,742 @@
+{
+  "date": "2026-10-31",
+  "baseCommit": "8289a1baf293cd43fc32794df15a214c6b511758",
+  "policy": "Use text-free defaults unless lettering functions as decorative artwork. Ordinary names, service labels, slogans, card details and small print stay in text alternatives.",
+  "review": "Regional visual audits compared all existing default/text pairs; six narrow exceptions were selected. Ordinary standalone wordmarks were not restored.",
+  "exceptions": [
+    {
+      "card": "jp/pasmo",
+      "design": "default",
+      "reason": "The vehicle/letter combinations and rounded PASMO wordmark form the decorative motif.",
+      "scope": "Original artwork restored byte for byte; no ordinary labels occur on this face.",
+      "textAlternative": "text",
+      "noTextAlternative": "no-text",
+      "preservedNoTextSource": "sources/jp/pasmo/no-text.png",
+      "preservedNoTextSourceSHA256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
+      "preservedNoTextFace": "faces/jp/pasmo/no-text.png",
+      "preservedNoTextFaceSHA256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
+      "source": "sources/jp/pasmo/default.png",
+      "sourceSHA256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+      "face": "faces/jp/pasmo/default.png",
+      "faceSHA256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+      "sourceEncoding": "optimized-palette-png",
+      "generation": {
+        "mode": "exact-source-restoration",
+        "preservedFace": "faces/jp/pasmo/text.png",
+        "preservedFaceSHA256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599"
+      }
+    },
+    {
+      "card": "jp/edy",
+      "design": "default",
+      "reason": "The oversized low-contrast R is a background shape.",
+      "scope": "Keep the background R; remove Rakuten Point Card, R POINT and R Edy labels.",
+      "textAlternative": "text",
+      "noTextAlternative": "no-text",
+      "preservedNoTextSource": "sources/jp/edy/no-text.png",
+      "preservedNoTextSourceSHA256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
+      "preservedNoTextFace": "faces/jp/edy/no-text.png",
+      "preservedNoTextFaceSHA256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
+      "source": "sources/jp/edy/default.png",
+      "sourceSHA256": "d6348da2e18fbc44ab5f3ed446e110bf6e2095ae1c603eb72e288bccd290cf7e",
+      "face": "faces/jp/edy/default.png",
+      "faceSHA256": "d6348da2e18fbc44ab5f3ed446e110bf6e2095ae1c603eb72e288bccd290cf7e",
+      "sourceEncoding": "optimized-palette-png",
+      "generation": {
+        "mode": "native-built-in-imagegen",
+        "nativeOutputSHA256": "078a04761404733d8cafffa491a83b3703099eca4ded23223b0d676aa4a0de3c",
+        "export": "tools/build.py: denoise then optimize to at most 24 colors and less than 40000 bytes; current input is the validated export with denoise disabled."
+      }
+    },
+    {
+      "card": "kr/climate-card",
+      "design": "default",
+      "reason": "The joined GO letterforms are a shaded, continuous ribbon illustration.",
+      "scope": "Keep the central ribbon; remove SEOUL, Climate Card labels and the Tmoney badge.",
+      "textAlternative": "text",
+      "noTextAlternative": "no-text",
+      "preservedNoTextSource": "sources/kr/climate-card/no-text.png",
+      "preservedNoTextSourceSHA256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
+      "preservedNoTextFace": "faces/kr/climate-card/no-text.png",
+      "preservedNoTextFaceSHA256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
+      "source": "sources/kr/climate-card/default.png",
+      "sourceSHA256": "6333a46eecaec5e38a171394cd44611d6f8730c372df48a0d95a3b830f2a5ea0",
+      "face": "faces/kr/climate-card/default.png",
+      "faceSHA256": "6333a46eecaec5e38a171394cd44611d6f8730c372df48a0d95a3b830f2a5ea0",
+      "sourceEncoding": "optimized-palette-png",
+      "generation": {
+        "mode": "native-built-in-imagegen",
+        "nativeOutputSHA256": "6245873a9f8e55d506c96244f8c494322e650c5730937870b2001b62408a9a96",
+        "export": "tools/build.py: denoise then optimize to at most 24 colors and less than 40000 bytes; current input is the validated export with denoise disabled."
+      }
+    },
+    {
+      "card": "cn/5510",
+      "design": "default",
+      "reason": "The large faint brushwork is background decoration within the landscape.",
+      "scope": "Keep background calligraphy; remove card name, promotional slogan and T-Union wording.",
+      "textAlternative": "text",
+      "noTextAlternative": "no-text",
+      "preservedNoTextSource": "sources/cn/5510/no-text.png",
+      "preservedNoTextSourceSHA256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
+      "preservedNoTextFace": "faces/cn/5510/no-text.png",
+      "preservedNoTextFaceSHA256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
+      "source": "sources/cn/5510/default.png",
+      "sourceSHA256": "d77a3602fbd76f580016726eaa8deae2a66dc11e6470aba79cad8f679cea9533",
+      "face": "faces/cn/5510/default.png",
+      "faceSHA256": "d77a3602fbd76f580016726eaa8deae2a66dc11e6470aba79cad8f679cea9533",
+      "sourceEncoding": "optimized-palette-png",
+      "generation": {
+        "mode": "native-built-in-imagegen",
+        "nativeOutputSHA256": "3aa10cfe6029106c24ca89a46455aeb843a62176a723b401f355bae8adb08f7e",
+        "export": "tools/build.py: denoise then optimize to at most 24 colors and less than 40000 bytes; current input is the validated export with denoise disabled."
+      }
+    },
+    {
+      "card": "cn/3050",
+      "design": "default",
+      "reason": "The orange/blue JS letterforms construct a geometric emblem.",
+      "scope": "Keep the JS emblem; remove city/issuer/service wording, TAXI and T-Union badge labels.",
+      "textAlternative": "text",
+      "noTextAlternative": "no-text",
+      "preservedNoTextSource": "sources/cn/3050/no-text.png",
+      "preservedNoTextSourceSHA256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+      "preservedNoTextFace": "faces/cn/3050/no-text.png",
+      "preservedNoTextFaceSHA256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+      "source": "sources/cn/3050/default.png",
+      "sourceSHA256": "70b04ebe246012ad1524a939ac5ba663345af15546cae8f60bd179a764667d3b",
+      "face": "faces/cn/3050/default.png",
+      "faceSHA256": "70b04ebe246012ad1524a939ac5ba663345af15546cae8f60bd179a764667d3b",
+      "sourceEncoding": "optimized-palette-png",
+      "generation": {
+        "mode": "native-built-in-imagegen",
+        "nativeOutputSHA256": "5b730358e41c4ff5cf3abeb1f5d379a4eeff074ef7ce34c09dd40574f18ee087",
+        "export": "tools/build.py: denoise then optimize to at most 24 colors and less than 40000 bytes; current input is the validated export with denoise disabled."
+      }
+    },
+    {
+      "card": "cn/3010",
+      "design": "default",
+      "reason": "The orange/blue JS letterforms construct a geometric emblem.",
+      "scope": "Keep the JS emblem; remove issuer/service wording and T-Union badge labels.",
+      "textAlternative": "text",
+      "noTextAlternative": "no-text",
+      "preservedNoTextSource": "sources/cn/3010/no-text.png",
+      "preservedNoTextSourceSHA256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+      "preservedNoTextFace": "faces/cn/3010/no-text.png",
+      "preservedNoTextFaceSHA256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+      "source": "sources/cn/3010/default.png",
+      "sourceSHA256": "15308e0ebed2282214a7b3a5852f2cbd664d0a910c5059ace25f94041c290328",
+      "face": "faces/cn/3010/default.png",
+      "faceSHA256": "15308e0ebed2282214a7b3a5852f2cbd664d0a910c5059ace25f94041c290328",
+      "sourceEncoding": "optimized-palette-png",
+      "generation": {
+        "mode": "native-built-in-imagegen",
+        "nativeOutputSHA256": "ff1e6dca8e41a02f545ebf506eb666d294baec2031073e110a54669ceaa07182",
+        "export": "tools/build.py: denoise then optimize to at most 24 colors and less than 40000 bytes; current input is the validated export with denoise disabled."
+      }
+    }
+  ],
+  "workerReports": [
+    {
+      "mode": "native image_gen.imagegen with referenced_image_paths; no CLI/API",
+      "board_id": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+      "board_touched": false,
+      "repo_files_modified": false,
+      "build_or_git_run": false,
+      "native_attempts_per_card": 2,
+      "postprocessing": "Byte-for-byte copies only; coordinator owns normalization and export optimization.",
+      "cards": [
+        {
+          "card": "jp/edy",
+          "placeholder_id": "decorative-jp-edy",
+          "source_refs": [
+            {
+              "path": "/Users/ieb/Vibe/card-faces/faces/jp/edy/text.png",
+              "dimensions": [
+                450,
+                285
+              ],
+              "sha256": "497cdf274bf2cb3be17247cd419f812c256ce0e856da1a701bbcbaedfec369dc"
+            }
+          ],
+          "inspected_current_default": {
+            "path": "/Users/ieb/Vibe/card-faces/faces/jp/edy/default.png",
+            "dimensions": [
+              1200,
+              760
+            ],
+            "sha256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423"
+          },
+          "selected_attempt": 1,
+          "prompt": "Use case: precise-object-edit.\nAsset type: flat full-bleed card-face artwork, jp/edy decorative-lettering variant.\nInput image 1 is the ORIGINAL and sole EDIT TARGET: /Users/ieb/Vibe/card-faces/faces/jp/edy/text.png (450 x 285, exact landscape 30:19).\nPerform a strictly selective erasure on this original. REMOVE the small normal label 'Rakuten Point Card' in the upper left but KEEP the small white left-pointing triangular arrow immediately before it. REMOVE the entire small 'R POINT' issuer logo at the top of the white right strip. REMOVE the entire small 'R Edy' issuer logo at the bottom of that white strip. Fill just the erased areas with the immediately surrounding flat red or white background.\nKEEP the huge very low-contrast dark-red R occupying the red left field, including its exact original cropped left edge, curved bowl, inner counter, stem, diagonal leg, and original scale and position. This huge tonal R is essential decorative artwork: retain it exactly. KEEP the long dark-red bottom swoosh/underline triangle at its exact original location and shape. KEEP the small white arrow unchanged.\nInvariants: preserve the source's exact red and dark-red colors, white right panel, the straight vertical red/white division at x=340 of 450 (75.5556% red, 24.4444% white), the original relative pixel geometry, and the exact decorative R/swoosh shapes. Do not simplify, restyle, redraw, recenter, or add anything. Only the three specified small text/logo groups are erased. No other readable text or small issuer logos.\nReturn the flat rectangular artwork alone in exact landscape 30:19 aspect ratio, preferably 1200 x 760 pixels. Artwork fills all four edges. No border, rounded corners, framing, margins, mockup, perspective, shadow, photographic lighting, new gradient, texture, or watermark.",
+          "output_path": "/tmp/decorative-worker-jp-kr/jp-edy-native.png",
+          "dimensions": [
+            1576,
+            998
+          ],
+          "output_sha256": "078a04761404733d8cafffa491a83b3703099eca4ded23223b0d676aa4a0de3c",
+          "source_original_unchanged": true,
+          "assessment": {
+            "labels_removed": true,
+            "decorative_motif_retained": true,
+            "retained": [
+              "huge tonal R with bowl/counter/stem/diagonal leg",
+              "bottom swoosh",
+              "small white arrow",
+              "red/white split"
+            ],
+            "visual_assessment": "Selected attempt 1: all three small label/logo groups removed; oversized tonal R, arrow and swoosh retained with close source-relative geometry. Closer source red and swoosh position than attempt 2.",
+            "limitations": [
+              "Native output is not pixel-identical to original: mild tonal/color variation remains despite uniform-color instructions.",
+              "Native canvas is 1576x998, about 0.01336 percent wider in ratio than exact 30:19; coordinator must normalize export."
+            ],
+            "exact_pixel_fidelity": false
+          },
+          "attempts": [
+            {
+              "attempt": 1,
+              "native_generated_path": "/Users/ieb/.codex/generated_images/01a1903a-9b79-7411-936d-9b0a2bebdf77/call_0wib7gn64Nmx7tct9zkr6NJq.png",
+              "dimensions": [
+                1576,
+                998
+              ],
+              "selected": true,
+              "source_refs": [
+                "/Users/ieb/Vibe/card-faces/faces/jp/edy/text.png"
+              ],
+              "output_path": "/tmp/decorative-worker-jp-kr/jp-edy-native.png",
+              "prompt_ref": "card.prompt"
+            },
+            {
+              "attempt": 2,
+              "native_generated_path": "/Users/ieb/.codex/generated_images/01a1903a-9b79-7411-936d-9b0a2bebdf77/call_03k3OwVFGcz8e9DKIzrLeqjW.png",
+              "dimensions": [
+                1576,
+                998
+              ],
+              "selected": false,
+              "source_refs": [
+                "/Users/ieb/Vibe/card-faces/faces/jp/edy/text.png"
+              ],
+              "output_path": "/tmp/decorative-worker-jp-kr/jp-edy-attempt-2.png",
+              "prompt": "Use case: precise-object-edit. FINAL fidelity edit, jp/edy.\nThe single reference is the original 450 x 285 pixel card, and it is the only edit target. Treat it as a flat-color raster to copy, not a design to reimagine.\nErase only these 3 small lettering/logo groups: the words Rakuten Point Card at upper left; the small R POINT mark at upper right; the small R Edy mark at lower right. Replace their pixels with the uniform surrounding field. Keep the little left-pointing white arrow beside the erased upper-left label.\nAbsolutely preserve the HUGE low-contrast R already present in the original red background, from its cropped left vertical stem to its rounded bowl, counter, and diagonal leg. Preserve its exact proportions, location, and shape. Preserve its long bottom red swoosh triangle. Preserve the original straight red/white panel division x=340 in a width of 450. Keep red on precisely 340/450 of the width and white on 110/450.\nCritical fidelity: the background red is a SINGLE UNIFORM FLAT color RGB(194,17,26), #C2111A. The giant R and bottom swoosh are a SINGLE UNIFORM FLAT darker red RGB(169,10,17), #A90A11. The arrow and entire right strip are uniform pure white RGB(255,255,255), #FFFFFF. Do not add any gradients, vignettes, lighting, material shading, grain, or texture to any of those solid regions. Only allow fine antialiasing on existing shape edges. These solid colors and original silhouette are essential.\nCopy the original with just those local removals. No new text or extra marks. Keep the same original 30:19 landscape geometry, ideally output exactly 1200 x 760. Full-bleed rectangular artwork with square canvas corners, no outside margin or framing, no product mockup, no shadow, no perspective. The giant tonal R is intended decorative artwork and MUST remain.",
+              "assessment": "Not selected: red field darker and bottom swoosh slightly farther from original geometry."
+            }
+          ]
+        },
+        {
+          "card": "kr/climate-card",
+          "placeholder_id": "decorative-kr-climate-card",
+          "source_refs": [
+            {
+              "path": "/Users/ieb/Vibe/card-faces/faces/kr/climate-card/text.png",
+              "dimensions": [
+                600,
+                380
+              ],
+              "sha256": "7aadae261e222d38f01766304c630ce6df10fe3fbb4bf75bf19936025a94b2fe"
+            }
+          ],
+          "inspected_current_default": {
+            "path": "/Users/ieb/Vibe/card-faces/faces/kr/climate-card/default.png",
+            "dimensions": [
+              1200,
+              760
+            ],
+            "sha256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f"
+          },
+          "selected_attempt": 2,
+          "prompt": "Use case: precise-object-edit. FINAL fidelity edit, kr/climate-card.\nThe sole reference is the original 600 x 380 pixel Climate Card and is the ONLY edit target. Copy this source artwork faithfully, changing only the explicit label regions. This source is charcoal and white, with no green; preserve the actual source palette.\nRemove ONLY: upper-right Korean name and CLIMATE CARD English label; SEOUL below the central artwork; bottom-right Tmoney outlined T badge and Tmoney word. Seamlessly fill only those local erased regions from their immediate charcoal surroundings.\nProtected artwork: KEEP the exact original white GO ligature/folded infinity ribbon, all contours, counters, thickness, diagonal connection, gray shaded folds, and fine existing texture. At original source coordinates its bounding box is x=173..444, y=102..232. Keep it precisely there relative to the 600 x 380 canvas; do not enlarge, recenter, redesign, thicken, rotate, or simplify it. KEEP all four original upper-left transit pictograms, in their original positions and shapes.\nSource color fidelity: background uses original charcoal RGB(13,14,17), RGB(22,23,27), RGB(34,35,37), and the principal ribbon white is RGB(245,245,249), with its existing cooler gray fold shading. Match these original colors. Match the ORIGINAL subdued grain amount and distribution, especially the almost uniform dark lower half; do not amplify the grain or add broad new mottled/metallic bands. Preserve all untouched pixels visually. Do not add shine, bevels, or new lighting.\nKeep the original 30:19 landscape full-bleed layout, ideally output exactly 1200 x 760. Flat rectangular card artwork reaching all four canvas edges, no margin, no framing, no border or rounded outer corners, no mockup or shadow. No readable text beyond the protected decorative GO motif and original pictograms. The central GO is intentional decorative artwork and must remain.",
+          "output_path": "/tmp/decorative-worker-jp-kr/kr-climate-card-native.png",
+          "dimensions": [
+            1576,
+            998
+          ],
+          "output_sha256": "6245873a9f8e55d506c96244f8c494322e650c5730937870b2001b62408a9a96",
+          "source_original_unchanged": true,
+          "assessment": {
+            "labels_removed": true,
+            "decorative_motif_retained": true,
+            "retained": [
+              "central white GO folded ribbon and gray shading",
+              "four upper-left transport pictograms",
+              "charcoal source palette"
+            ],
+            "visual_assessment": "Selected attempt 2: English/Korean Climate Card labels, SEOUL and Tmoney badge removed. Central GO/ribbon contour, folded shading and normalized position visually close to original. Four transport pictograms retained.",
+            "source_palette_note": "Both inspected source files are charcoal/white, not green. Actual source colors were preserved in edit instructions.",
+            "limitations": [
+              "Native output is not pixel-identical to original: background grain is more pronounced and ribbon edge/shading has small generative differences.",
+              "Native canvas is 1576x998, about 0.01336 percent wider in ratio than exact 30:19; coordinator must normalize export."
+            ],
+            "exact_pixel_fidelity": false
+          },
+          "attempts": [
+            {
+              "attempt": 1,
+              "native_generated_path": "/Users/ieb/.codex/generated_images/01a1903a-9b79-7411-936d-9b0a2bebdf77/call_HBBC11SRo06fgSXXGWghmlcg.png",
+              "dimensions": [
+                1577,
+                997
+              ],
+              "selected": false,
+              "source_refs": [
+                "/Users/ieb/Vibe/card-faces/faces/kr/climate-card/text.png"
+              ],
+              "output_path": "/tmp/decorative-worker-jp-kr/kr-climate-card-attempt-1.png",
+              "prompt": "Use case: precise-object-edit.\nAsset type: flat full-bleed transit-card artwork, kr/climate-card decorative-lettering variant.\nInput image 1 is the ORIGINAL and sole EDIT TARGET: /Users/ieb/Vibe/card-faces/faces/kr/climate-card/text.png (600 x 380, exact landscape 30:19). This supplied original is charcoal-black and white; preserve its actual original palette exactly rather than recoloring it green.\nPerform only selective erasure: REMOVE the upper-right Korean Climate Card label and the English 'CLIMATE CARD' label directly below it. REMOVE the large 'SEOUL' label below the central white artwork. REMOVE the entire bottom-right Tmoney badge, including the outlined square T symbol and its Tmoney name. In those erased areas, continue the immediate original charcoal background and its existing subtle speckle/grain seamlessly.\nKEEP the entire central white shaded GO ligature/infinity-like folded ribbon as decorative artwork, pixel-faithful to the source: exact original contour, shapes, holes, curved loop thickness, diagonal bridge, original white and gray folded shading, scale, and position. In original 600 x 380 coordinates this artwork occupies approximately x=173..444 and y=102..232. It must stay in that same normalized position and must not be enlarged or recentered after removing SEOUL. KEEP all four small upper-left transport pictograms, their rounded square outlines, positions, and details unchanged. KEEP the original upper background texture and smooth nearly black lower field.\nInvariants: copy the original artwork geometry and palette; change only the explicitly listed label/badge areas. The central GO is protected decorative artwork and must remain. No readable labels, city names, Korean writing, issuer badges, or new symbols.\nReturn the flat rectangular artwork alone in exact landscape 30:19 aspect ratio, preferably 1200 x 760 pixels. Artwork touches all four edges. No new border, rounded outer corners, framing, margins, mockup, perspective, card shadow, photographic lighting, additional gloss, or watermark.",
+              "assessment": "Not selected: less accurate canvas ratio (1577x997) and less faithful charcoal palette than attempt 2."
+            },
+            {
+              "attempt": 2,
+              "native_generated_path": "/Users/ieb/.codex/generated_images/01a1903a-9b79-7411-936d-9b0a2bebdf77/call_svK6KRRzaWGisNbuIx5MxH2P.png",
+              "dimensions": [
+                1576,
+                998
+              ],
+              "selected": true,
+              "source_refs": [
+                "/Users/ieb/Vibe/card-faces/faces/kr/climate-card/text.png"
+              ],
+              "output_path": "/tmp/decorative-worker-jp-kr/kr-climate-card-native.png",
+              "prompt_ref": "card.prompt"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "created_at": "2026-10-31T13:40:42.614471+09:00",
+      "scope": [
+        "cn/3050 Suzhou",
+        "cn/3010 Nanjing"
+      ],
+      "skill_read": "/Users/ieb/.codex/skills/.system/imagegen/SKILL.md",
+      "generation_method": "native image_gen.imagegen only; four total calls, two per image",
+      "output_directory": "/tmp/decorative-worker-js",
+      "requested_canvas": {
+        "width": 2400,
+        "height": 1520,
+        "ratio": "30:19"
+      },
+      "postprocessing": "None. PNGs copied byte-for-byte; no resampling, cropping, quantization, painting or compositing.",
+      "repository_actions": "Read-only source inspection. No repository edits, build commands or git commands.",
+      "board": {
+        "id": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+        "action": "not opened or updated"
+      },
+      "source_checks": [
+        {
+          "path": "/Users/ieb/Vibe/card-faces/faces/cn/3050/text.png",
+          "sha256": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0",
+          "matches_earlier_readonly_snapshot": true
+        },
+        {
+          "path": "/Users/ieb/Vibe/card-faces/faces/cn/3050/default.png",
+          "sha256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+          "matches_earlier_readonly_snapshot": true
+        },
+        {
+          "path": "/Users/ieb/Vibe/card-faces/faces/cn/3010/text.png",
+          "sha256": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8",
+          "matches_earlier_readonly_snapshot": true
+        },
+        {
+          "path": "/Users/ieb/Vibe/card-faces/faces/cn/3010/default.png",
+          "sha256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+          "matches_earlier_readonly_snapshot": true
+        }
+      ],
+      "results": [
+        {
+          "card": "cn/3050",
+          "city": "Suzhou",
+          "placeholder_id": "decorative-cn-3050",
+          "selected_attempt": 1,
+          "selection_reason": "Attempt 1 retains the teal lower-right accent of the small upper-left multicolored pagoda better. Attempt 2 recolors that accent yellow and does not resolve the subtle tonal variation.",
+          "text_assessment": "Visual inspection: cursive Suzhou, Chinese citizen-card title, CITIZEN CARD, Chinese/English Jiangsu service labels, TAXI, and all T-Union badge words are absent. No other normal text, serials or labels were seen.",
+          "emblem_assessment": "Original upper-right orange/blue interlocking JS emblem is recognizable, in its original relative position, with its original component structure and negative space. No extra symbol. Native reconstruction slightly rounds contours; pixel-identical retention is not claimed.",
+          "illustration_assessment": "Multicolored pagoda, green skyline and central arch, pagodas, bicycle/bridge/waves, tram, bus, taxi, green circle, windows, and empty red/teal badge remain. Some small contours and cutouts are subtly redrawn.",
+          "edit_target": {
+            "path": "/Users/ieb/Vibe/card-faces/faces/cn/3050/text.png",
+            "width": 1200,
+            "height": 760,
+            "mode": "P",
+            "bytes": 25175,
+            "sha256": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0",
+            "aspect_ratio": 1.5789473684210527,
+            "exact_30_to_19": true,
+            "aspect_ratio_relative_error_percent": 0.0,
+            "role": "sole original edit target",
+            "inspected_with_view_image": true
+          },
+          "default_reference": {
+            "path": "/Users/ieb/Vibe/card-faces/faces/cn/3050/default.png",
+            "width": 1200,
+            "height": 760,
+            "mode": "P",
+            "bytes": 16713,
+            "sha256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+            "aspect_ratio": 1.5789473684210527,
+            "exact_30_to_19": true,
+            "aspect_ratio_relative_error_percent": 0.0,
+            "role": "inspection only; never passed to generation",
+            "inspected_with_view_image": true
+          },
+          "attempt_count": 2,
+          "attempts": [
+            {
+              "attempt": 1,
+              "native_tool": "image_gen.imagegen",
+              "native_call_reference": "call_ONsVtKBR4wrrGaDkCSWJD6BR",
+              "referenced_image_paths": [
+                "/Users/ieb/Vibe/card-faces/faces/cn/3050/text.png"
+              ],
+              "num_last_images_to_include": null,
+              "transparent_background": false,
+              "prompt": "Use case: precise-object-edit.\nAsset type: flat vector transit-card face, Suzhou cn/3050.\nInput image 1 is the ORIGINAL text face and the ONLY edit target. Make a selective text-removal edit of this exact original image.\nPrimary request: remove ALL normal city, issuer, and service lettering, serials, numbers, labels, and badge words. Remove the black cursive 'Suzhou', the adjacent Chinese citizen-card name and 'CITIZEN CARD', the upper-right Chinese '江苏交通一卡通' and English 'JIANGSU T-UNION' next to the orange/blue emblem, the white word 'TAXI' inside the green circular taxi sign, and ALL Chinese/English words inside the bottom-right T-Union badge. Cleanly restore each removed text area using its existing flat local background color. Keep the green circular taxi sign itself and the taxi pictogram. Keep the bottom-right badge's exact white outline and red/teal color fields, removing only its lettering.\nCRITICAL PRESERVED EMBLEM: retain the original orange-and-blue geometric JS emblem in the UPPER RIGHT exactly as supplied: its interlocking orange upper stroke and blue lower stroke, small blue vertical piece, white negative space, proportions, corners, colors, orientation, size, and placement. This geometric emblem is decorative artwork to KEEP, even though its geometry resembles letters. Do not erase, redraw, reinterpret, distort, add symbols to, or replace this emblem. Remove ONLY the adjacent service text.\nOther invariants: keep the multicolored pagoda illustration in the upper left, green skyline with its distinctive central arch, both green pagodas, bicycle on bridge, tram, bus, taxi, building windows, bridge and waves, all existing non-letter illustrations, silhouettes, shapes, and colors. Preserve the original composition and object positions. Fill removed upper lettering with the original off-white background, and badge lettering with the exact red/teal fields beneath it. Add no new marks or objects.\nComposition/framing: opaque, full-bleed rectangular artwork, exactly 30:19 landscape aspect ratio, requested output 2400 by 1520 pixels. Artwork reaches all four canvas edges. No rounded outer card corners, mockup, perspective, shadow, border, padding, margins, photographic texture, or watermark. Preserve the original flat vector graphic style. No text anywhere except the unchanged original geometric JS emblem.",
+              "prompt_path": "/tmp/decorative-worker-js/prompts/cn-3050-attempt-1.txt",
+              "native_output": {
+                "path": "/Users/ieb/.codex/generated_images/01a1903a-de1a-7d13-8730-2f191bea4edf/call_ONsVtKBR4wrrGaDkCSWJD6BR.png",
+                "width": 1577,
+                "height": 997,
+                "mode": "RGB",
+                "bytes": 1269178,
+                "sha256": "5b730358e41c4ff5cf3abeb1f5d379a4eeff074ef7ce34c09dd40574f18ee087",
+                "aspect_ratio": 1.5817452357071213,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.17719826145101703
+              },
+              "saved_output": {
+                "path": "/tmp/decorative-worker-js/attempts/cn-3050-attempt-1.png",
+                "width": 1577,
+                "height": 997,
+                "mode": "RGB",
+                "bytes": 1269178,
+                "sha256": "5b730358e41c4ff5cf3abeb1f5d379a4eeff074ef7ce34c09dd40574f18ee087",
+                "aspect_ratio": 1.5817452357071213,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.17719826145101703
+              },
+              "inspected_with_view_image": true
+            },
+            {
+              "attempt": 2,
+              "native_tool": "image_gen.imagegen",
+              "native_call_reference": "call_D69guZ0sPizMS26V9sEK41Ie",
+              "referenced_image_paths": [
+                "/Users/ieb/Vibe/card-faces/faces/cn/3050/text.png"
+              ],
+              "num_last_images_to_include": null,
+              "transparent_background": false,
+              "prompt": "Precise-object-edit of the attached ORIGINAL Suzhou cn/3050 card face. Perform a conservative removal of printed text only. The result must look like the exact same original raster artwork after the unwanted glyphs have been erased and filled with their flat surrounding colors. Do not restyle, beautify, relight, smooth into a new illustration, or add a gradient. Match the source geometry and uniform spot-color fills.\nErase these text groups completely: cursive black Suzhou at upper left; Chinese citizen-card title below it; CITIZEN CARD; Chinese 江苏交通一卡通 and English JIANGSU T-UNION at upper right; TAXI inside the round green taxi sign; every English and Chinese word inside the bottom-right red/teal badge; any other serial, label, or normal lettering. Where text is removed, use only the identical flat off-white, green, red, or teal color already underneath, as appropriate. The taxi sign must remain a solid green circle, and the badge must retain its original white outline and red/teal curved division.\nKEEP THE ORIGINAL JS EMBLEM EXACTLY: the orange-and-blue geometric interlocking emblem at upper right, immediately LEFT of the service labels, is the sole intentional decorative-letterform exception. Preserve that original emblem's exact contours and separate pieces, square/rounded corners, orange top stroke and blue bottom stroke, white negative space, location, orientation, proportions, and colors. Never remove it or replace it with another letter or symbol. No additional marks.\nKeep ALL non-letter art in its original position and shape: multicolored upper-left pagoda, green buildings, large central arched building, small and large pagodas, bicycle, bridge and waves, tram, bus, taxi, windows, roof signs, green circular sign, bottom-right badge. Preserve the original composition edge-to-edge and every existing flat color. No color gradients, grain, paper texture, lighting, shadows, glow, decorative embellishments, or distorted shapes. This is flat vector-like printed graphic art.\nOutput a full-bleed opaque rectangle in the source's exact 30:19 ratio; original canvas 1200 by 760 pixels, requested output 2400 by 1520 pixels. No margins, padding, external border, mockup, perspective, shadow, or rounded canvas corners. All normal lettering removed; only the unchanged original geometric JS emblem remains.",
+              "prompt_path": "/tmp/decorative-worker-js/prompts/cn-3050-attempt-2.txt",
+              "native_output": {
+                "path": "/Users/ieb/.codex/generated_images/01a1903a-de1a-7d13-8730-2f191bea4edf/call_D69guZ0sPizMS26V9sEK41Ie.png",
+                "width": 1576,
+                "height": 998,
+                "mode": "RGB",
+                "bytes": 1284478,
+                "sha256": "769753bbbe6da8e66e6c320bf2845f5e717749dfb3885bde70a70d66d37059fd",
+                "aspect_ratio": 1.5791583166332666,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.013360053440214514
+              },
+              "saved_output": {
+                "path": "/tmp/decorative-worker-js/attempts/cn-3050-attempt-2.png",
+                "width": 1576,
+                "height": 998,
+                "mode": "RGB",
+                "bytes": 1284478,
+                "sha256": "769753bbbe6da8e66e6c320bf2845f5e717749dfb3885bde70a70d66d37059fd",
+                "aspect_ratio": 1.5791583166332666,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.013360053440214514
+              },
+              "inspected_with_view_image": true
+            }
+          ],
+          "selected_output": {
+            "path": "/tmp/decorative-worker-js/decorative-cn-3050.png",
+            "width": 1577,
+            "height": 997,
+            "mode": "RGB",
+            "bytes": 1269178,
+            "sha256": "5b730358e41c4ff5cf3abeb1f5d379a4eeff074ef7ce34c09dd40574f18ee087",
+            "aspect_ratio": 1.5817452357071213,
+            "exact_30_to_19": false,
+            "aspect_ratio_relative_error_percent": 0.17719826145101703
+          },
+          "assessment": {
+            "normal_text_removal": "pass by visual inspection",
+            "recognizable_original_js_emblem_without_extra_symbols": "pass by visual inspection",
+            "full_bleed_rectangle_without_mockup_shadow_margins": "pass by visual inspection",
+            "exact_30_to_19": false,
+            "flat_vector_style": "Vector-like appearance retained, but subtle generated tonal variation is visible in source-uniform fills.",
+            "strict_unchanged_nonletter_geometry_and_colors": "Not fully met: slight generated contour and color variation is visible. These are reviewable native candidates, not certified pixel-exact edits.",
+            "status": "selected candidate with fidelity and dimension caveats for coordinator review"
+          }
+        },
+        {
+          "card": "cn/3010",
+          "city": "Nanjing",
+          "placeholder_id": "decorative-cn-3010",
+          "selected_attempt": 1,
+          "selection_reason": "Attempt 2 offers no material fidelity improvement and retains similar tonal variation; attempt 1 is the selected conservative candidate.",
+          "text_assessment": "Visual inspection: Chinese/English Jiangsu service labels adjacent to the upper-left emblem and every English/Chinese T-Union badge word are absent. No other normal text, serials or labels were seen.",
+          "emblem_assessment": "Original upper-left orange/blue interlocking JS emblem is recognizable, in its original relative position, with its original component structure and negative space. No extra symbol. Native reconstruction slightly rounds contours; pixel-identical retention is not claimed.",
+          "illustration_assessment": "Airplane, complete skyline and lower silhouette, statues, pagoda, anchor, buildings, bicycle, taxi, bus, high-speed train, curved tracks and empty badge remain. Some small contours and vehicle details are subtly redrawn.",
+          "edit_target": {
+            "path": "/Users/ieb/Vibe/card-faces/faces/cn/3010/text.png",
+            "width": 1200,
+            "height": 760,
+            "mode": "P",
+            "bytes": 29646,
+            "sha256": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8",
+            "aspect_ratio": 1.5789473684210527,
+            "exact_30_to_19": true,
+            "aspect_ratio_relative_error_percent": 0.0,
+            "role": "sole original edit target",
+            "inspected_with_view_image": true
+          },
+          "default_reference": {
+            "path": "/Users/ieb/Vibe/card-faces/faces/cn/3010/default.png",
+            "width": 1200,
+            "height": 760,
+            "mode": "P",
+            "bytes": 26438,
+            "sha256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+            "aspect_ratio": 1.5789473684210527,
+            "exact_30_to_19": true,
+            "aspect_ratio_relative_error_percent": 0.0,
+            "role": "inspection only; never passed to generation",
+            "inspected_with_view_image": true
+          },
+          "attempt_count": 2,
+          "attempts": [
+            {
+              "attempt": 1,
+              "native_tool": "image_gen.imagegen",
+              "native_call_reference": "call_lkk3c6FsJFGsnOtOFowZt3fp",
+              "referenced_image_paths": [
+                "/Users/ieb/Vibe/card-faces/faces/cn/3010/text.png"
+              ],
+              "num_last_images_to_include": null,
+              "transparent_background": false,
+              "prompt": "Use case: precise-object-edit.\nAsset type: flat vector transit-card face, Nanjing cn/3010.\nInput image 1 is the ORIGINAL text face and the ONLY edit target. Make a selective text-removal edit of this exact original image. Preserve all of its decorative graphics.\nPrimary request: erase ALL normal city, issuer, and service text, serials, labels, numbers, and lettering inside badges. Specifically remove the upper-left Chinese service wording '江苏交通一卡通' and English 'JIANGSU T-UNION' that are adjacent to the geometric orange/blue JS emblem. Remove ALL Chinese and English words inside the bottom-right T-Union badge, including 'China', 'T-Union', and the Chinese characters. Restore the removed service words to the exact existing cyan background. Restore removed badge words to the exact existing red/dark-green fields. Keep the badge's existing white outline and colored geometric fields.\nCRITICAL PRESERVED EMBLEM: KEEP the original orange-and-blue geometric JS emblem at the UPPER LEFT exactly as supplied. This compact nontext geometric mark consists of interlocking orange and blue angular forms with white/cyan negative space. Preserve its exact recognizable geometry, proportions, size, position, orientation, blue and orange colors, and individual stroke shapes. Its resemblance to letters does NOT authorize its removal. Remove ONLY the separate service labels to its right. Do not distort, reinterpret, redraw, substitute, or add any symbol to the emblem.\nOther invariants: keep the airplane, entire skyline and its reflection-like lower silhouette, statues, pagoda, anchor, buildings, bicycle, taxi, bus, large high-speed train, all windows and vehicle details, curving tracks, and every other non-letter illustration and shape. Preserve all original placements and proportions and the source's cyan/blue palette. No added objects. Every source flat color area should remain flat and uniform. Do not add gradients, shading, texture, noise, lighting effects, or a white panel behind the emblem.\nComposition/framing: opaque full-bleed rectangle, exactly 30:19 landscape aspect ratio, requested output 2400 by 1520 pixels. Preserve the original composition edge to edge. Artwork touches all four canvas edges. No mockup, rounded outer corners, shadow, perspective, padding, margins, border, or watermark. Flat vector style. No text anywhere except the unchanged original geometric JS emblem.",
+              "prompt_path": "/tmp/decorative-worker-js/prompts/cn-3010-attempt-1.txt",
+              "native_output": {
+                "path": "/Users/ieb/.codex/generated_images/01a1903a-de1a-7d13-8730-2f191bea4edf/call_lkk3c6FsJFGsnOtOFowZt3fp.png",
+                "width": 1576,
+                "height": 998,
+                "mode": "RGB",
+                "bytes": 1368764,
+                "sha256": "ff1e6dca8e41a02f545ebf506eb666d294baec2031073e110a54669ceaa07182",
+                "aspect_ratio": 1.5791583166332666,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.013360053440214514
+              },
+              "saved_output": {
+                "path": "/tmp/decorative-worker-js/attempts/cn-3010-attempt-1.png",
+                "width": 1576,
+                "height": 998,
+                "mode": "RGB",
+                "bytes": 1368764,
+                "sha256": "ff1e6dca8e41a02f545ebf506eb666d294baec2031073e110a54669ceaa07182",
+                "aspect_ratio": 1.5791583166332666,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.013360053440214514
+              },
+              "inspected_with_view_image": true
+            },
+            {
+              "attempt": 2,
+              "native_tool": "image_gen.imagegen",
+              "native_call_reference": "call_3weRbp7XTHtswHgXiOpVpcFp",
+              "referenced_image_paths": [
+                "/Users/ieb/Vibe/card-faces/faces/cn/3010/text.png"
+              ],
+              "num_last_images_to_include": null,
+              "transparent_background": false,
+              "prompt": "Use case: precise-object-edit. Edit the attached ORIGINAL Nanjing cn/3010 transit-card face conservatively. Remove printed words only; every other part of the original should remain as close as possible to unchanged.\nErase the two separate service text lines to the RIGHT of the upper-left orange/blue geometric JS emblem: Chinese 江苏交通一卡通 and English JIANGSU T-UNION. Fill these word areas with the same UNIFORM cyan spot color as the original background. KEEP that original upper-left orange/blue JS emblem exactly: all its separate geometric pieces, exact contours, negative space, colors, placement, scale and orientation. It is the sole intentional decorative-letterform exception, and must not be removed, distorted or redesigned. No extra symbols.\nInside the bottom-right red/dark-green T-Union badge remove every white English and Chinese letter/word, including China T-Union and the Chinese characters, restoring the source's red and dark-green color fields beneath those letters. Preserve the badge shape, white border, and its red/green curved boundary. Erase any other normal text, labels, numbers or serials, leaving only the original decorative JS emblem.\nMatch the ORIGINAL flat screen-printed VECTOR style exactly: each color region is a uniform solid fill. NO gradient, NO shading, NO vignette, NO texture, NO gloss, NO noise. Do not redraw non-letter illustrations. Preserve the original blue airplane outline, complete skyline, statues, pagoda, anchor, buildings, lower skyline silhouette, bicycle, taxi, bus, high-speed train, windows, curved tracks, badge, all positions, all silhouettes and proportions, and the original cyan/blue/orange/red/green colors. Add no new objects.\nPreserve the source full-bleed rectangular 30:19 composition edge to edge. Requested output 2400 by 1520 pixels, equivalent to original 1200 by 760 aspect ratio. No cropping of artwork, border, padding, margin, mockup, rounded outer card corners, shadow, perspective, or watermark. Only remove the specified text, keep the original geometric JS emblem recognizable and unchanged.",
+              "prompt_path": "/tmp/decorative-worker-js/prompts/cn-3010-attempt-2.txt",
+              "native_output": {
+                "path": "/Users/ieb/.codex/generated_images/01a1903a-de1a-7d13-8730-2f191bea4edf/call_3weRbp7XTHtswHgXiOpVpcFp.png",
+                "width": 1576,
+                "height": 998,
+                "mode": "RGB",
+                "bytes": 1379780,
+                "sha256": "6b324ee7bf9c23d027fecd4e3b8cc18fab8011469a3e461f881518738ebd84c6",
+                "aspect_ratio": 1.5791583166332666,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.013360053440214514
+              },
+              "saved_output": {
+                "path": "/tmp/decorative-worker-js/attempts/cn-3010-attempt-2.png",
+                "width": 1576,
+                "height": 998,
+                "mode": "RGB",
+                "bytes": 1379780,
+                "sha256": "6b324ee7bf9c23d027fecd4e3b8cc18fab8011469a3e461f881518738ebd84c6",
+                "aspect_ratio": 1.5791583166332666,
+                "exact_30_to_19": false,
+                "aspect_ratio_relative_error_percent": 0.013360053440214514
+              },
+              "inspected_with_view_image": true
+            }
+          ],
+          "selected_output": {
+            "path": "/tmp/decorative-worker-js/decorative-cn-3010.png",
+            "width": 1576,
+            "height": 998,
+            "mode": "RGB",
+            "bytes": 1368764,
+            "sha256": "ff1e6dca8e41a02f545ebf506eb666d294baec2031073e110a54669ceaa07182",
+            "aspect_ratio": 1.5791583166332666,
+            "exact_30_to_19": false,
+            "aspect_ratio_relative_error_percent": 0.013360053440214514
+          },
+          "assessment": {
+            "normal_text_removal": "pass by visual inspection",
+            "recognizable_original_js_emblem_without_extra_symbols": "pass by visual inspection",
+            "full_bleed_rectangle_without_mockup_shadow_margins": "pass by visual inspection",
+            "exact_30_to_19": false,
+            "flat_vector_style": "Vector-like appearance retained, but subtle generated tonal variation is visible in source-uniform fills.",
+            "strict_unchanged_nonletter_geometry_and_colors": "Not fully met: slight generated contour and color variation is visible. These are reviewable native candidates, not certified pixel-exact edits.",
+            "status": "selected candidate with fidelity and dimension caveats for coordinator review"
+          }
+        }
+      ],
+      "handoff": "Coordinator owns optimization, final acceptance, metadata edits and completion of the existing decorative-cn-3050 and decorative-cn-3010 placeholders."
+    },
+    {
+      "asset": "cn/5510",
+      "city": "Changsha",
+      "created_at": "2026-10-31T13:37:12.641063+09:00",
+      "mode": "native_image_gen_only",
+      "status": "selected_for_coordinator_optimization_with_limitations",
+      "original_edit_target": {
+        "path": "/Users/ieb/Vibe/card-faces/faces/cn/5510/text.png",
+        "dimensions": [
+          1020,
+          646
+        ],
+        "mode": "P",
+        "opaque": true,
+        "sha256": "f0c297aec20f48a99ff7816edfdc46901b4d90d6c7e64488fc593b2633ba812a"
+      },
+      "comparison_only_current_default": {
+        "path": "/Users/ieb/Vibe/card-faces/faces/cn/5510/default.png",
+        "dimensions_at_inspection": [
+          1200,
+          760
+        ],
+        "sha256_at_inspection": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
+        "assessment": "Already removes ordinary labels but also removes required decorative calligraphy; never used as edit input."
+      },
+      "attempt_count": 2,
+      "maximum_attempts": 2,
+      "attempts": [
+        {
+          "attempt": 1,
+          "tool": "image_gen.imagegen",
+          "source_refs": [
+            "/Users/ieb/Vibe/card-faces/faces/cn/5510/text.png"
+          ],
+          "parameters": {
+            "referenced_image_paths": [
+              "/Users/ieb/Vibe/card-faces/faces/cn/5510/text.png"
+            ],
+            "transparent_background": false
+          },
+          "prompt": "Use case: precise-object-edit. Edit target: the single attached ORIGINAL Changsha transit card illustration, /Users/ieb/Vibe/card-faces/faces/cn/5510/text.png. Perform selective removal of small informational text only. This is a conservative cleanup of the original, not a redesign.\n\nCRITICAL KEEP: Preserve ALL the large, faint, muted light-blue Chinese calligraphy/brushwork that occupies the sky across the left and center beside the sculpture. This large background calligraphy is intentional decorative artwork and MUST remain at the same size, placement, stroke shapes and low contrast as the original. Preserve even decorative strokes behind or near the upper-left label. Do not apply a global text-removal instruction.\n\nREMOVE ONLY these three small label groups: (1) Upper-left white Chinese brand label '潇湘卡' and white English 'XIAOXIANG CARD'; keep the adjacent multicolor emblem absolutely intact at its original position and size, and reconstruct only underlying blue sky/decorative strokes where the small white letters were. (2) Bottom-left white slogan '潇湘一卡通' and '智慧新生活', including the white long underline/swoosh flourish belonging to that slogan; fill from the adjacent river colors and shapes. (3) Every small Chinese/English word, letter or numeral inside the bottom-right TUnion badge, including '交通', 'China', 'T-Union' and '联合'; preserve the badge's exact white border and its red and teal interior geometric shell, shape, size, location, and red/teal diagonal boundary. The badge interior should be clean red and teal with no lettering.\n\nINVARIANTS: Keep the entire original landscape and flat vector-style color blocks unchanged: deep blue sky, river and its shoreline, distant left skyline, trees and layered green/teal foliage, monumental stone head/hair/facial features and sculpture base on the right. Keep the original exact blue/green palette, low-contrast decorative calligraphy, original emblem colors, and all original object placements and proportions. Preserve the source composition and every edge; no crop, no added objects, no recoloring, no typography other than the retained original large decorative calligraphy. Full-bleed opaque rectangular artwork, exactly 30:19 aspect ratio, ideally 1200 x 760 pixels. No rounded card corners, margins, frame, mockup, perspective, shadow, watermark, or transparency.",
+          "native_output_path": "/Users/ieb/.codex/generated_images/01a1903b-12e7-75c2-839a-24353ed8d93d/call_Gxe8pNqawsIsJ5Iy0ArPzVIJ.png",
+          "saved_output": {
+            "path": "/tmp/decorative-worker-changsha/attempt-1.png",
+            "dimensions": [
+              1577,
+              997
+            ],
+            "mode": "RGB",
+            "opaque": true,
+            "sha256": "3aa10cfe6029106c24ca89a46455aeb843a62176a723b401f355bae8adb08f7e"
+          },
+          "aspect_error_percent": 0.17719826145101703,
+          "inspected_with": "functions.view_image",
+          "assessment": "Requested labels and slogan flourish removed; faint decorative calligraphy, emblem, badge shell and major landscape retained. Minor generative changes to strokes, facets and colors; not an exact palette or pixel match. Preferred for fewer shoreline and upper-left brushwork changes."
+        },
+        {
+          "attempt": 2,
+          "tool": "image_gen.imagegen",
+          "source_refs": [
+            "/Users/ieb/Vibe/card-faces/faces/cn/5510/text.png"
+          ],
+          "parameters": {
+            "referenced_image_paths": [
+              "/Users/ieb/Vibe/card-faces/faces/cn/5510/text.png"
+            ],
+            "transparent_background": false
+          },
+          "prompt": "Use case: precise-object-edit. EDIT THIS ORIGINAL IMAGE ONLY: /Users/ieb/Vibe/card-faces/faces/cn/5510/text.png. Selective small-label cleanup, with maximum preservation of the original raster artwork. Output one full-bleed OPAQUE RECTANGULAR illustration at EXACTLY 30:19 width:height (1200 x 760 pixels). Preserve the original composition edge to edge.\n\nThe LARGE FAINT LIGHT-BLUE CHINESE CALLIGRAPHY across the left and center of the blue sky is DECORATIVE ART: keep its original brush strokes, scale, placement, faint contrast and flat color. It MUST remain beside the stone sculpture. This is the one intentionally retained category of lettering. Preserve these original decorative strokes wherever visible, including behind the small upper-left title.\n\nErase only three ordinary small white text groups:\n1. Upper-left '潇湘卡' and 'XIAOXIANG CARD'. Keep the multicolor emblem to their left exactly as in the source. Fill the lettering holes with the matching original sky blue and preserve or reconnect the faint decorative brush strokes underneath.\n2. Lower-left '潇湘一卡通' and '智慧新生活', and their long white underline/swoosh flourish. Fill using adjacent original flat river blue shapes.\n3. All ordinary Chinese/English words, letters and numerals inside the bottom-right badge: '交通', 'China', 'T-Union', '联合' and any other text. Preserve its original white outline, original red/teal interior shell and exact original red-to-teal diagonal curve, original location, proportions and size. Fill erased letters with the same red or teal flat color they cover.\n\nPreserve unchanged: stone head, facial expression, hair silhouette and small stone facets; monumental base; every shoreline, river, tree cluster, distant skyline; emblem and badge shell; and all large faint blue calligraphy. Keep the original EXACT BLUE/GREEN/TEAL COLOR PALETTE and the original limited-palette hard-edged vector/flat-poster appearance. Large sky blue regions must be SOLID FLAT BLUE sampled visually from the original, with no new gradients, texture, glow, shadow or airbrush shading. Do not redraw the scene, beautify the sculpture, enlarge elements, change their placements, or add detail. No new marks, typography, margins, frame, rounded artwork corners, mockup, cast shadow, transparency or watermark. The rectangular canvas is completely filled to all four edges.",
+          "native_output_path": "/Users/ieb/.codex/generated_images/01a1903b-12e7-75c2-839a-24353ed8d93d/call_W80OnCaWpYlzYGfAf4cCAfsM.png",
+          "saved_output": {
+            "path": "/tmp/decorative-worker-changsha/attempt-2.png",
+            "dimensions": [
+              1577,
+              997
+            ],
+            "mode": "RGB",
+            "opaque": true,
+            "sha256": "151b670352d8c8faa95749fa337503041813c5f70fdef4889dd41fcb2566c5d4"
+          },
+          "aspect_error_percent": 0.17719826145101703,
+          "inspected_with": "functions.view_image",
+          "assessment": "Requested labels and slogan flourish removed; faint decorative calligraphy, emblem, badge shell and major landscape retained. Minor generative changes to strokes, facets and colors; not an exact palette or pixel match. Rejected in favor of attempt 1: more continuous reconstructed upper-left brush stroke and small light shoreline artifacts; same aspect drift."
+        }
+      ],
+      "selected_attempt": 1,
+      "selected_output": {
+        "path": "/tmp/decorative-worker-changsha/changsha-decorative-selected.png",
+        "dimensions": [
+          1577,
+          997
+        ],
+        "mode": "RGB",
+        "opaque": true,
+        "sha256": "3aa10cfe6029106c24ca89a46455aeb843a62176a723b401f355bae8adb08f7e"
+      },
+      "assessment": {
+        "decorative_calligraphy": "Retained as large faint blue background brushwork beside sculpture; some reconstructed stroke variation.",
+        "upper_left": "White brand labels removed; multicolor emblem retained.",
+        "bottom_left": "Both white slogan lines and underline flourish removed.",
+        "bottom_right": "All visible words and letters removed; red/teal interior and white border retained.",
+        "landscape": "Sculpture, river, trees, skyline and overall placements visually retained with minor generative contour/facet differences.",
+        "format": "Opaque RGB full-bleed rectangle without external frame, margin or shadow.",
+        "palette": "Blue/green family retained visually; exact flat source palette not preserved, with slight gradient/color variation.",
+        "aspect_ratio": {
+          "requested": "30:19",
+          "actual_dimensions": [
+            1577,
+            997
+          ],
+          "exact": false,
+          "error_percent": 0.17719826145101703
+        },
+        "coordinator_follow_up": "Normalize to exact 30:19 and perform palette/encoding optimization as appropriate; review source fidelity before acceptance."
+      },
+      "safety": {
+        "original_sha256_reverified_unchanged": true,
+        "repo_files_written": false,
+        "build_or_git_commands_run": false,
+        "board_opened_or_updated": false,
+        "image_postprocessing_performed": false
+      },
+      "coordinator_handoff": {
+        "existing_board_id": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+        "existing_placeholder_id": "decorative-cn-5510",
+        "action_by_coordinator": "Optimize selected output and complete existing placeholder."
+      }
+    }
+  ],
+  "masterStorage": "Final project inputs are the validated palette PNGs. Native prompts, references and output hashes are preserved here; native working outputs are not required for rebuilding the final pixels."
+}

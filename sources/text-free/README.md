@@ -1,9 +1,23 @@
 # Text-free card artwork
 
 The text-free collection derives from the real-card recreations already in this
-repository. Native built-in ImageGen edits remove lettering, numerals and
-wordmarks while preserving the original palette, background shapes,
+repository. Native built-in ImageGen edits remove ordinary lettering, numerals
+and wordmarks while preserving the original palette, background shapes,
 illustrations and non-letter symbols. Each source is edited separately.
+
+Defaults prefer the text-free version unless the lettering itself is decorative
+artwork. PASMO is an explicit exception: its letters complete the train and bus
+motif, so its original artwork is the default again. The previous cleaned face
+is preserved as `jp/pasmo/no-text`; the original `jp/pasmo/text` token remains
+available unchanged. The other narrow exceptions preserve Edy's background R,
+the Climate Card GO ribbon, Changsha's background brushwork and the geometric
+JS emblems on Suzhou and Nanjing cards. Each has a `no-text` alternative retaining
+the previous cleaned PNG byte for byte. Ordinary brand labels, city names,
+service descriptions and small print stay removed.
+
+[`decorative-exceptions.json`](decorative-exceptions.json) records the policy,
+the six decisions, preservation hashes and selective edit prompts. These
+decisions supersede the blanket-removal prompts in the original worker reports.
 
 The original source and published PNG are copied without modification to
 `text.*` / `text.png` for defaults, or `<design>-text.*` /

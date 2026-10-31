@@ -265,6 +265,19 @@
         {
           "id": "default",
           "file": "faces/cn/3050/default.png",
+          "sha256": "70b04ebe246012ad1524a939ac5ba663345af15546cae8f60bd179a764667d3b",
+          "bytes": 15016,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
+        },
+        {
+          "id": "no-text",
+          "name": {
+            "en": "No text: Suzhou Citizen Card",
+            "zh": "无文字版：苏州"
+          },
+          "file": "faces/cn/3050/no-text.png",
           "sha256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
           "bytes": 16713,
           "width": 1200,
@@ -453,6 +466,19 @@
         {
           "id": "default",
           "file": "faces/cn/3010/default.png",
+          "sha256": "15308e0ebed2282214a7b3a5852f2cbd664d0a910c5059ace25f94041c290328",
+          "bytes": 24227,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
+        },
+        {
+          "id": "no-text",
+          "name": {
+            "en": "No text: Nanjing Citizen Card",
+            "zh": "无文字版：南京"
+          },
+          "file": "faces/cn/3010/no-text.png",
           "sha256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
           "bytes": 26438,
           "width": 1200,
@@ -688,6 +714,19 @@
         {
           "id": "default",
           "file": "faces/cn/5510/default.png",
+          "sha256": "d77a3602fbd76f580016726eaa8deae2a66dc11e6470aba79cad8f679cea9533",
+          "bytes": 39906,
+          "width": 1200,
+          "height": 760,
+          "colors": 19
+        },
+        {
+          "id": "no-text",
+          "name": {
+            "en": "No text: Xiaoxiang Card",
+            "zh": "无文字版：长沙"
+          },
+          "file": "faces/cn/5510/no-text.png",
           "sha256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
           "bytes": 38886,
           "width": 1200,
@@ -1011,6 +1050,19 @@
           "id": "default",
           "bundledAsset": "pasmo",
           "file": "faces/jp/pasmo/default.png",
+          "sha256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+          "bytes": 12482,
+          "width": 1200,
+          "height": 760,
+          "colors": 8
+        },
+        {
+          "id": "no-text",
+          "name": {
+            "en": "No text: PASMO",
+            "ja": "文字なし: PASMO"
+          },
+          "file": "faces/jp/pasmo/no-text.png",
           "sha256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
           "bytes": 3673,
           "width": 1200,
@@ -1390,6 +1442,19 @@
           "id": "default",
           "bundledAsset": "edy",
           "file": "faces/jp/edy/default.png",
+          "sha256": "d6348da2e18fbc44ab5f3ed446e110bf6e2095ae1c603eb72e288bccd290cf7e",
+          "bytes": 3013,
+          "width": 1200,
+          "height": 760,
+          "colors": 5
+        },
+        {
+          "id": "no-text",
+          "name": {
+            "en": "No text: Rakuten Edy",
+            "ja": "文字なし: 楽天Edy"
+          },
+          "file": "faces/jp/edy/no-text.png",
           "sha256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
           "bytes": 1758,
           "width": 1200,
@@ -1849,6 +1914,19 @@
           "id": "default",
           "bundledAsset": "climate-card",
           "file": "faces/kr/climate-card/default.png",
+          "sha256": "6333a46eecaec5e38a171394cd44611d6f8730c372df48a0d95a3b830f2a5ea0",
+          "bytes": 25646,
+          "width": 1200,
+          "height": 760,
+          "colors": 13
+        },
+        {
+          "id": "no-text",
+          "name": {
+            "en": "No text: Climate Card",
+            "ko": "글자 없음: 기후동행카드"
+          },
+          "file": "faces/kr/climate-card/no-text.png",
           "sha256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
           "bytes": 30508,
           "width": 1200,

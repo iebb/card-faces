@@ -101,8 +101,14 @@
         "file": "sources/cn/3050/default.png",
         "sha256": "025b54b0a0db94c6ef467ea6fd20aa48fb954766191bc1e0df2d0b457a6c3ed9"
       },
-      "sourceSHA256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
-      "sourceEncoding": "optimized-palette-png"
+      "sourceSHA256": "70b04ebe246012ad1524a939ac5ba663345af15546cae8f60bd179a764667d3b",
+      "sourceEncoding": "optimized-palette-png",
+      "decorativeException": {
+        "policy": "sources/text-free/decorative-exceptions.json",
+        "noTextAlternative": "no-text",
+        "source": "sources/cn/3050/no-text.png",
+        "sourceSHA256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35"
+      }
     },
     {
       "card": "cn/6510",
@@ -169,8 +175,14 @@
         "file": "sources/cn/3010/default.png",
         "sha256": "6e41908faa608640a8a6ed61a1b13c8e8744666ba7e9d695fbc1240a7e93b305"
       },
-      "sourceSHA256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
-      "sourceEncoding": "optimized-palette-png"
+      "sourceSHA256": "15308e0ebed2282214a7b3a5852f2cbd664d0a910c5059ace25f94041c290328",
+      "sourceEncoding": "optimized-palette-png",
+      "decorativeException": {
+        "policy": "sources/text-free/decorative-exceptions.json",
+        "noTextAlternative": "no-text",
+        "source": "sources/cn/3010/no-text.png",
+        "sourceSHA256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb"
+      }
     },
     {
       "card": "cn/3320",
@@ -254,8 +266,14 @@
         "file": "sources/cn/5510/default.png",
         "sha256": "935da268e757d002a6e09c90f3b488df39845718e7ed9a442ff9c03e134898c0"
       },
-      "sourceSHA256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
-      "sourceEncoding": "optimized-palette-png"
+      "sourceSHA256": "d77a3602fbd76f580016726eaa8deae2a66dc11e6470aba79cad8f679cea9533",
+      "sourceEncoding": "optimized-palette-png",
+      "decorativeException": {
+        "policy": "sources/text-free/decorative-exceptions.json",
+        "noTextAlternative": "no-text",
+        "source": "sources/cn/5510/no-text.png",
+        "sourceSHA256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad"
+      }
     },
     {
       "card": "cn/4910",
@@ -373,8 +391,14 @@
         "file": "sources/jp/pasmo/default.png",
         "sha256": "61e9f3a1ef6f21e3935f0cd38147134ddb3dac4885d4d17a3c531119333ad625"
       },
-      "sourceSHA256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
-      "sourceEncoding": "optimized-palette-png"
+      "sourceSHA256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+      "sourceEncoding": "optimized-palette-png",
+      "decorativeException": {
+        "policy": "sources/text-free/decorative-exceptions.json",
+        "noTextAlternative": "no-text",
+        "source": "sources/jp/pasmo/no-text.png",
+        "sourceSHA256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0"
+      }
     },
     {
       "card": "jp/icoca",
@@ -509,8 +533,14 @@
         "file": "sources/jp/edy/default.png",
         "sha256": "aa5a7a0090e5a4490b948b003dd5947b2c2067723aac7a1fcf0270211112a26a"
       },
-      "sourceSHA256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
-      "sourceEncoding": "optimized-palette-png"
+      "sourceSHA256": "d6348da2e18fbc44ab5f3ed446e110bf6e2095ae1c603eb72e288bccd290cf7e",
+      "sourceEncoding": "optimized-palette-png",
+      "decorativeException": {
+        "policy": "sources/text-free/decorative-exceptions.json",
+        "noTextAlternative": "no-text",
+        "source": "sources/jp/edy/no-text.png",
+        "sourceSHA256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423"
+      }
     },
     {
       "card": "jp/waon",
@@ -747,8 +777,14 @@
         "file": "sources/kr/climate-card/default.png",
         "sha256": "40afa64c8a329b9007a789f076a88e879ce30d819fabcfaf8d4ffc9991c97988"
       },
-      "sourceSHA256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
-      "sourceEncoding": "optimized-palette-png"
+      "sourceSHA256": "6333a46eecaec5e38a171394cd44611d6f8730c372df48a0d95a3b830f2a5ea0",
+      "sourceEncoding": "optimized-palette-png",
+      "decorativeException": {
+        "policy": "sources/text-free/decorative-exceptions.json",
+        "noTextAlternative": "no-text",
+        "source": "sources/kr/climate-card/no-text.png",
+        "sourceSHA256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f"
+      }
     },
     {
       "card": "fr/la-carte",
@@ -2732,5 +2768,7 @@
     }
   ],
   "fullResolutionMastersCommit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
-  "masterStorage": "Current text-free inputs are the validated PNG exports, preserving their exact pixels. Full-resolution generated masters remain in the archived commit. Original text masters are unchanged."
+  "masterStorage": "Current text-free inputs are the validated PNG exports, preserving their exact pixels. Full-resolution generated masters remain in the archived commit. Original text masters are unchanged.",
+  "defaultPolicy": "Use text-free defaults unless lettering functions as decorative artwork. Ordinary names, service labels, slogans, card details and small print stay in text alternatives.",
+  "decorativeExceptions": "sources/text-free/decorative-exceptions.json"
 }
