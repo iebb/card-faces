@@ -29,6 +29,19 @@
         {
           "id": "default",
           "file": "faces/cn/2900/default.png",
+          "sha256": "541284b60df97cec00b885b591d3277ab716d5328b5f63216179b1dee946592c",
+          "bytes": 20626,
+          "width": 1200,
+          "height": 760,
+          "colors": 16
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：上海",
+            "en": "With text: Shanghai"
+          },
+          "file": "faces/cn/2900/text.png",
           "sha256": "7ba9831553f24ba097126dd80b8066bab59e3ce52958e680511369f1ba7a5c2f",
           "bytes": 26007,
           "width": 1200,
@@ -63,6 +76,19 @@
         {
           "id": "default",
           "file": "faces/cn/1000/default.png",
+          "sha256": "5fb1a4e417d53c6af74d151e6fe3d70a55adc6a4336abaea85626243acef7a36",
+          "bytes": 6908,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：北京",
+            "en": "With text: Beijing"
+          },
+          "file": "faces/cn/1000/text.png",
           "sha256": "66886675cda512989265191b53cf4ab1527014989534c4715b76a90f505eb0ee",
           "bytes": 14452,
           "width": 1200,
@@ -97,6 +123,19 @@
         {
           "id": "default",
           "file": "faces/cn/5840/default.png",
+          "sha256": "e4abe8efe688ea64eb8a6b3b530dd4b3caea4d7f2e575eb7dd7b89fe31845fd8",
+          "bytes": 19617,
+          "width": 1200,
+          "height": 760,
+          "colors": 22
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：深圳",
+            "en": "With text: Shenzhen"
+          },
+          "file": "faces/cn/5840/text.png",
           "sha256": "d7c668c8be484e2835cea84ea20e5bee36bdbe700e489314c1bd41aae8d2ad45",
           "bytes": 20781,
           "width": 1200,
@@ -132,6 +171,19 @@
         {
           "id": "default",
           "file": "faces/cn/6900/default.png",
+          "sha256": "6d57e902d7f7c24a712755e6833cbd401b70899392567694023eaad4a867f6aa",
+          "bytes": 16732,
+          "width": 1200,
+          "height": 760,
+          "colors": 21
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：重庆",
+            "en": "With text: Chongqing"
+          },
+          "file": "faces/cn/6900/text.png",
           "sha256": "842bcae5f4ea9605df384f3199ed761068644ed1dfb44c409bb53dc52a5b4f23",
           "bytes": 18985,
           "width": 1200,
@@ -166,6 +218,19 @@
         {
           "id": "default",
           "file": "faces/cn/5810/default.png",
+          "sha256": "d2792dd19de5bb0c9016f39586ea8458507327b505adf32551777e541ec03640",
+          "bytes": 38579,
+          "width": 1200,
+          "height": 760,
+          "colors": 16
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：广州",
+            "en": "With text: Guangzhou"
+          },
+          "file": "faces/cn/5810/text.png",
           "sha256": "6ccef0f29830959d676a762095963abeccbab68011dade8f1f5be2c5ce9dba3f",
           "bytes": 38451,
           "width": 1140,
@@ -200,6 +265,19 @@
         {
           "id": "default",
           "file": "faces/cn/3050/default.png",
+          "sha256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+          "bytes": 16713,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：苏州",
+            "en": "With text: Suzhou"
+          },
+          "file": "faces/cn/3050/text.png",
           "sha256": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0",
           "bytes": 25175,
           "width": 1200,
@@ -234,6 +312,19 @@
         {
           "id": "default",
           "file": "faces/cn/6510/default.png",
+          "sha256": "c12f88f45de976dfa47f188314363356df1e6f7feca449844f3d21b1f8cc64dd",
+          "bytes": 22154,
+          "width": 1200,
+          "height": 760,
+          "colors": 16
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：成都",
+            "en": "With text: Chengdu"
+          },
+          "file": "faces/cn/6510/text.png",
           "sha256": "a868927f14630520540d1d8616e3ac624352490270f40b14e7a8d9ef7857e2ac",
           "bytes": 26616,
           "width": 1200,
@@ -268,6 +359,19 @@
         {
           "id": "default",
           "file": "faces/cn/3310/default.png",
+          "sha256": "33692674e05feb7c18e7a32522a38a15ca590b294ea7237999a361087807b519",
+          "bytes": 18401,
+          "width": 1200,
+          "height": 760,
+          "colors": 12
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：杭州",
+            "en": "With text: Hangzhou"
+          },
+          "file": "faces/cn/3310/text.png",
           "sha256": "7b0a7fb557a587511bcd526a237e41eedaf865955fe7c8a76527065a4e9511f0",
           "bytes": 23427,
           "width": 1200,
@@ -302,6 +406,19 @@
         {
           "id": "default",
           "file": "faces/cn/5210/default.png",
+          "sha256": "6e3f7b3c609ea757b95bb86a888aebc8b18dfe131b947156176170049d1a9d97",
+          "bytes": 29994,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：武汉",
+            "en": "With text: Wuhan"
+          },
+          "file": "faces/cn/5210/text.png",
           "sha256": "279a62794c9ea0e1b8235994bbff9cacc7349992389b40f2a4c6757be083c36f",
           "bytes": 31999,
           "width": 1200,
@@ -336,6 +453,19 @@
         {
           "id": "default",
           "file": "faces/cn/3010/default.png",
+          "sha256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+          "bytes": 26438,
+          "width": 1200,
+          "height": 760,
+          "colors": 16
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：南京",
+            "en": "With text: Nanjing"
+          },
+          "file": "faces/cn/3010/text.png",
           "sha256": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8",
           "bytes": 29646,
           "width": 1200,
@@ -370,6 +500,19 @@
         {
           "id": "default",
           "file": "faces/cn/3320/default.png",
+          "sha256": "987b7330040b8a7ec207a69d0e8020546959736a16de80399f5d40a45f0708d5",
+          "bytes": 24898,
+          "width": 1200,
+          "height": 760,
+          "colors": 21
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：宁波",
+            "en": "With text: Ningbo"
+          },
+          "file": "faces/cn/3320/text.png",
           "sha256": "2e05af50e6288a85a794509207ce3e8d8e8623546042206e037103e54b470c13",
           "bytes": 24785,
           "width": 1200,
@@ -404,6 +547,19 @@
         {
           "id": "default",
           "file": "faces/cn/1121/default.png",
+          "sha256": "67f38026e914f850cce7ef2cc1a9c8bba3ab44e313d7befa64d73648faff188e",
+          "bytes": 11549,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：天津",
+            "en": "With text: Tianjin"
+          },
+          "file": "faces/cn/1121/text.png",
           "sha256": "a113940740b3f80b0d2f485afe6f660639828b2ec738e66ffda0c08842ba9a0e",
           "bytes": 22540,
           "width": 1200,
@@ -438,6 +594,19 @@
         {
           "id": "default",
           "file": "faces/cn/4520/default.png",
+          "sha256": "e94b9d03f39bafa1cffbe7419b8745c1a7e1bea8413b766701845126b54058c0",
+          "bytes": 36612,
+          "width": 1080,
+          "height": 684,
+          "colors": 14
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：青岛",
+            "en": "With text: Qingdao"
+          },
+          "file": "faces/cn/4520/text.png",
           "sha256": "61cabeb1aa6fc9681b84dbca9fa1b5f4f93cc2b3f5a87b44e5858645f375dd45",
           "bytes": 39611,
           "width": 1020,
@@ -472,6 +641,19 @@
         {
           "id": "default",
           "file": "faces/cn/3020/default.png",
+          "sha256": "23c16d8332ae970c29674c9c7dc92adffa00f50b9467e752256d2a13f82400db",
+          "bytes": 38065,
+          "width": 1200,
+          "height": 760,
+          "colors": 19
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：无锡",
+            "en": "With text: Wuxi"
+          },
+          "file": "faces/cn/3020/text.png",
           "sha256": "e2791492bbb39a2c4a88417c031aca0898a7b49302e3d4395b5de7cad9a50680",
           "bytes": 38817,
           "width": 1140,
@@ -506,6 +688,19 @@
         {
           "id": "default",
           "file": "faces/cn/5510/default.png",
+          "sha256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
+          "bytes": 38886,
+          "width": 1200,
+          "height": 760,
+          "colors": 20
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：长沙",
+            "en": "With text: Changsha"
+          },
+          "file": "faces/cn/5510/text.png",
           "sha256": "f0c297aec20f48a99ff7816edfdc46901b4d90d6c7e64488fc593b2633ba812a",
           "bytes": 39793,
           "width": 1020,
@@ -540,6 +735,19 @@
         {
           "id": "default",
           "file": "faces/cn/4910/default.png",
+          "sha256": "8d1fc644110c61ec602d2a8d778612d0a40988dd7070890eb83f97bd2ff14e74",
+          "bytes": 25617,
+          "width": 1200,
+          "height": 760,
+          "colors": 16
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：郑州",
+            "en": "With text: Zhengzhou"
+          },
+          "file": "faces/cn/4910/text.png",
           "sha256": "6b4c04a47cce9350150c788bdadfcf820260821acd15eec847b8034662f83ee0",
           "bytes": 31106,
           "width": 1200,
@@ -574,6 +782,19 @@
         {
           "id": "default",
           "file": "faces/cn/3910/default.png",
+          "sha256": "2e53a149541d66cd9a70b68fdd51bba54bea2df5bcc0b6e4e764d279224ae378",
+          "bytes": 11116,
+          "width": 1200,
+          "height": 760,
+          "colors": 13
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：福州",
+            "en": "With text: Fuzhou"
+          },
+          "file": "faces/cn/3910/text.png",
           "sha256": "b933f153d1b76f72e1f40b916c74e0ef8cd94287c7375d7bf5e3ee6971a93d82",
           "bytes": 15159,
           "width": 1200,
@@ -608,6 +829,19 @@
         {
           "id": "default",
           "file": "faces/cn/4510/default.png",
+          "sha256": "ad462ea98e7b02feef704fb2219168981394058aba5e4d731a91e72b2a17413a",
+          "bytes": 37192,
+          "width": 1140,
+          "height": 722,
+          "colors": 16
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：济南",
+            "en": "With text: Jinan"
+          },
+          "file": "faces/cn/4510/text.png",
           "sha256": "d481545c5fa732673973cc3f4e7e0efd1e35822f282b92496d454cbcf02922df",
           "bytes": 38894,
           "width": 1020,
@@ -642,6 +876,19 @@
         {
           "id": "default",
           "file": "faces/cn/3610/default.png",
+          "sha256": "e8ef84620b1c26fcab0709822015a9ed0cc1a62ee993c4c6bc823ed9fb97dba5",
+          "bytes": 34952,
+          "width": 1200,
+          "height": 760,
+          "colors": 18
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：合肥",
+            "en": "With text: Hefei"
+          },
+          "file": "faces/cn/3610/text.png",
           "sha256": "d38eba6df8bc66251992f1191a375913fe72476b04565e7b24192b99e9a98e36",
           "bytes": 32082,
           "width": 1200,
@@ -676,6 +923,19 @@
         {
           "id": "default",
           "file": "faces/cn/5880/default.png",
+          "sha256": "0c9a246a3a3ed287b9e8fdcf2f1e2d4262fbf5574eefd79a64d488fcc23e8aa1",
+          "bytes": 34638,
+          "width": 1200,
+          "height": 760,
+          "colors": 12
+        },
+        {
+          "id": "text",
+          "name": {
+            "zh": "文字版：佛山",
+            "en": "With text: Foshan"
+          },
+          "file": "faces/cn/5880/text.png",
           "sha256": "826e7ef62731f3a92f2e706a914ba94a6d8ad4a8de561ab58662c27cbcf96452",
           "bytes": 39883,
           "width": 1200,
@@ -707,6 +967,19 @@
           "id": "default",
           "bundledAsset": "suica",
           "file": "faces/jp/suica/default.png",
+          "sha256": "a6edac3aa422bf789fad7adb81013f4a117b270003f61fad6457cc6284165ef9",
+          "bytes": 9686,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: Suica",
+            "ja": "文字あり: Suica"
+          },
+          "file": "faces/jp/suica/text.png",
           "sha256": "2d1909c6b0249d91def9bffc4d45db4d142b8336145eb06b303d13b2162b24d2",
           "bytes": 16359,
           "width": 1200,
@@ -738,6 +1011,19 @@
           "id": "default",
           "bundledAsset": "pasmo",
           "file": "faces/jp/pasmo/default.png",
+          "sha256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
+          "bytes": 3673,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: PASMO",
+            "ja": "文字あり: PASMO"
+          },
+          "file": "faces/jp/pasmo/text.png",
           "sha256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
           "bytes": 12482,
           "width": 1200,
@@ -769,6 +1055,19 @@
           "id": "default",
           "bundledAsset": "icoca",
           "file": "faces/jp/icoca/default.png",
+          "sha256": "7b659416cc49c7683bf0623551411ca694cc802f9420c188fe5166d6fba0260f",
+          "bytes": 6451,
+          "width": 1200,
+          "height": 760,
+          "colors": 9
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: ICOCA",
+            "ja": "文字あり: ICOCA"
+          },
+          "file": "faces/jp/icoca/text.png",
           "sha256": "326b438ad8b834064b3dd956be63033856c4c8a1ad78a409623877fdc24e4bf5",
           "bytes": 13998,
           "width": 1200,
@@ -800,6 +1099,19 @@
           "id": "default",
           "bundledAsset": "hayakaken",
           "file": "faces/jp/hayakaken/default.png",
+          "sha256": "9cf02833c7407557d46a6251780a3b30b6b5f3df2479ea8d57c78fe66eb879ab",
+          "bytes": 9785,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: Hayakaken",
+            "ja": "文字あり: はやかけん"
+          },
+          "file": "faces/jp/hayakaken/text.png",
           "sha256": "8d0b1cb1ab5e7ea99abe1056b14e17d5f11ff3f94255c8dd64089e51954b9c60",
           "bytes": 19451,
           "width": 1200,
@@ -831,6 +1143,19 @@
           "id": "default",
           "bundledAsset": "sugoca",
           "file": "faces/jp/sugoca/default.png",
+          "sha256": "e84ed34e2118b70ac54072dab86ebd70a9a5345567fe907e878bd922fab9927b",
+          "bytes": 11760,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: SUGOCA",
+            "ja": "文字あり: SUGOCA"
+          },
+          "file": "faces/jp/sugoca/text.png",
           "sha256": "96c72b52c3d4ad4ad24e0a9f3e55d99595d1d1a20cee91bed209a230b56d6547",
           "bytes": 15336,
           "width": 1200,
@@ -862,6 +1187,19 @@
           "id": "default",
           "bundledAsset": "manaca",
           "file": "faces/jp/manaca/default.png",
+          "sha256": "89166868e2532588c7458e625053240d54b7c4c8b4331a22641b18beb09359b5",
+          "bytes": 4592,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: manaca",
+            "ja": "文字あり: manaca"
+          },
+          "file": "faces/jp/manaca/text.png",
           "sha256": "d3e2b37061efbbf8a01c2bed0995b5b666e48598107dfedc11026823cb670bd0",
           "bytes": 8860,
           "width": 1200,
@@ -893,6 +1231,19 @@
           "id": "default",
           "bundledAsset": "kitaca",
           "file": "faces/jp/kitaca/default.png",
+          "sha256": "620d70fb1613a2f9500d3bbba8321d997dc5bbba2606bcce2deec4f33ec77809",
+          "bytes": 7654,
+          "width": 1200,
+          "height": 760,
+          "colors": 12
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: Kitaca",
+            "ja": "文字あり: Kitaca"
+          },
+          "file": "faces/jp/kitaca/text.png",
           "sha256": "72481763be1f31943446ee14a68611e646617703315358a41080f405950bf2cc",
           "bytes": 20251,
           "width": 1200,
@@ -924,6 +1275,19 @@
           "id": "default",
           "bundledAsset": "nimoca",
           "file": "faces/jp/nimoca/default.png",
+          "sha256": "b689b998b3e1b1d5829657b93d3c1f800b92305db0c4db796c2725f62a4e986d",
+          "bytes": 7288,
+          "width": 1200,
+          "height": 760,
+          "colors": 13
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: nimoca",
+            "ja": "文字あり: nimoca"
+          },
+          "file": "faces/jp/nimoca/text.png",
           "sha256": "c8fdbe4f9dfe122a49305a4b095206b3bafc11474cb6a0a547101761f7558b86",
           "bytes": 9615,
           "width": 1200,
@@ -955,6 +1319,19 @@
           "id": "default",
           "bundledAsset": "toica",
           "file": "faces/jp/toica/default.png",
+          "sha256": "3158b8f00b821bcbce0b7bad0f1cd40981c94b74a7e9cc5b73fecb9271c88790",
+          "bytes": 5834,
+          "width": 1200,
+          "height": 760,
+          "colors": 12
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: TOICA",
+            "ja": "文字あり: TOICA"
+          },
+          "file": "faces/jp/toica/text.png",
           "sha256": "785d8d9d186517ace7baff219faf3dc3032cecb39383daaff7276a1498cff5ee",
           "bytes": 7154,
           "width": 1200,
@@ -1013,6 +1390,19 @@
           "id": "default",
           "bundledAsset": "edy",
           "file": "faces/jp/edy/default.png",
+          "sha256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
+          "bytes": 1758,
+          "width": 1200,
+          "height": 760,
+          "colors": 7
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: Rakuten Edy",
+            "ja": "文字あり: 楽天Edy"
+          },
+          "file": "faces/jp/edy/text.png",
           "sha256": "497cdf274bf2cb3be17247cd419f812c256ce0e856da1a701bbcbaedfec369dc",
           "bytes": 3042,
           "width": 450,
@@ -1042,6 +1432,19 @@
           "id": "default",
           "bundledAsset": "waon",
           "file": "faces/jp/waon/default.png",
+          "sha256": "92447c3c835917c48d544ef11ff745d73b287166488d1a70120e229afb8542e6",
+          "bytes": 6420,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: WAON",
+            "ja": "文字あり: WAON"
+          },
+          "file": "faces/jp/waon/text.png",
           "sha256": "d716dc44653b9cc2d9d2429f5cdb33658b43f1e96946a5e7c585f3d793bd9f3c",
           "bytes": 2620,
           "width": 390,
@@ -1071,6 +1474,19 @@
           "id": "default",
           "bundledAsset": "nanaco",
           "file": "faces/jp/nanaco/default.png",
+          "sha256": "2b2a68f2345b66e437839b33ee7d0b974098b5f2a4f9646131fb6cc1be3c800c",
+          "bytes": 6107,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: nanaco",
+            "ja": "文字あり: nanaco"
+          },
+          "file": "faces/jp/nanaco/text.png",
           "sha256": "8648bf3a8ad9b523327d03606eb3bdbcef4e53ab506b6c7c4ef79c1a0ee83328",
           "bytes": 3521,
           "width": 510,
@@ -1108,17 +1524,43 @@
           "colors": 11
         },
         {
+          "id": "apeach-text",
+          "name": {
+            "en": "With text: Little Friends Apeach",
+            "ko": "글자 포함: 리틀프렌즈 어피치"
+          },
+          "file": "faces/kr/tmoney/apeach-text.png",
+          "sha256": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256",
+          "bytes": 10238,
+          "width": 1200,
+          "height": 760,
+          "colors": 16
+        },
+        {
           "id": "apeach",
           "name": {
             "en": "Little Friends Apeach",
             "ko": "리틀프렌즈 어피치"
           },
           "file": "faces/kr/tmoney/apeach.png",
-          "sha256": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256",
-          "bytes": 10238,
+          "sha256": "b49b351da1f3cb9377cf17261886a0973161123c9da4ec0f79433c1d61c306cd",
+          "bytes": 9105,
           "width": 1200,
           "height": 760,
-          "colors": 16
+          "colors": 19
+        },
+        {
+          "id": "go-green-text",
+          "name": {
+            "en": "With text: Go Green",
+            "ko": "글자 포함: 친환경카드 Go Green"
+          },
+          "file": "faces/kr/tmoney/go-green-text.png",
+          "sha256": "05a49c4462ded6f3091cf68b19f07c62f56660fcfe001d83540cbd10e2dcaa03",
+          "bytes": 12998,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
         },
         {
           "id": "go-green",
@@ -1127,11 +1569,24 @@
             "ko": "친환경카드 Go Green"
           },
           "file": "faces/kr/tmoney/go-green.png",
-          "sha256": "05a49c4462ded6f3091cf68b19f07c62f56660fcfe001d83540cbd10e2dcaa03",
-          "bytes": 12998,
+          "sha256": "cb304e3a48986cf12159347dda9fa4f0f543062d5d3e37f4631e0ff8b901af12",
+          "bytes": 11961,
           "width": 1200,
           "height": 760,
-          "colors": 15
+          "colors": 12
+        },
+        {
+          "id": "kpass-text",
+          "name": {
+            "en": "With text: K-PASS BASIC",
+            "ko": "글자 포함: K-PASS BASIC"
+          },
+          "file": "faces/kr/tmoney/kpass-text.png",
+          "sha256": "41835039357a34892a5893376de812494cb0ec69003c444079b6216a4b9abfda",
+          "bytes": 11916,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
         },
         {
           "id": "kpass",
@@ -1140,24 +1595,50 @@
             "ko": "K-PASS BASIC"
           },
           "file": "faces/kr/tmoney/kpass.png",
-          "sha256": "41835039357a34892a5893376de812494cb0ec69003c444079b6216a4b9abfda",
-          "bytes": 11916,
+          "sha256": "a351c9421d36b2fae203e7dba5a6ba47725030e8d8ed80e273d823fe870e2fa3",
+          "bytes": 5292,
           "width": 1200,
           "height": 760,
-          "colors": 14
+          "colors": 10
         },
         {
-          "id": "logo",
+          "id": "logo-text",
           "name": {
-            "en": "T-money (logo)",
-            "ko": "티머니 (로고)"
+            "en": "With text: T-money (logo)",
+            "ko": "글자 포함: 티머니 (로고)"
           },
-          "file": "faces/kr/tmoney/logo.png",
+          "file": "faces/kr/tmoney/logo-text.png",
           "sha256": "0e60f75404ec1c75c0bd1465d6176daf25505f3a966bcf55035078b1f08e3b2a",
           "bytes": 5165,
           "width": 780,
           "height": 494,
           "colors": 14
+        },
+        {
+          "id": "logo",
+          "name": {
+            "en": "Orange and purple",
+            "ko": "주황 / 보라"
+          },
+          "file": "faces/kr/tmoney/logo.png",
+          "sha256": "5f4b58859ed2ad8a0c1af52e9a5b3fc2c95c877f4352c2bd462134fcc3ebdfb0",
+          "bytes": 13173,
+          "width": 1200,
+          "height": 760,
+          "colors": 13
+        },
+        {
+          "id": "ryan-text",
+          "name": {
+            "en": "With text: Little Friends Ryan",
+            "ko": "글자 포함: 리틀프렌즈 라이언"
+          },
+          "file": "faces/kr/tmoney/ryan-text.png",
+          "sha256": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d",
+          "bytes": 13519,
+          "width": 1200,
+          "height": 760,
+          "colors": 18
         },
         {
           "id": "ryan",
@@ -1166,11 +1647,24 @@
             "ko": "리틀프렌즈 라이언"
           },
           "file": "faces/kr/tmoney/ryan.png",
-          "sha256": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d",
-          "bytes": 13519,
+          "sha256": "5fa4995799a449911ce361acc00709e823f780d00d69b973aa229846a087431d",
+          "bytes": 11691,
           "width": 1200,
           "height": 760,
-          "colors": 18
+          "colors": 17
+        },
+        {
+          "id": "safe-text",
+          "name": {
+            "en": "With text: Public Transport Safe Card",
+            "ko": "글자 포함: 대중교통안심카드"
+          },
+          "file": "faces/kr/tmoney/safe-text.png",
+          "sha256": "a26a1f415917ec9d14b7fd9894ef60318ecfd7e7ba43d882b665a3d59e871b97",
+          "bytes": 16281,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
         },
         {
           "id": "safe",
@@ -1179,11 +1673,11 @@
             "ko": "대중교통안심카드"
           },
           "file": "faces/kr/tmoney/safe.png",
-          "sha256": "a26a1f415917ec9d14b7fd9894ef60318ecfd7e7ba43d882b665a3d59e871b97",
-          "bytes": 16281,
+          "sha256": "01724e106cf7f308f0ad2dbb5b95c2e4b052b6979904cbee8ebca7c06b737317",
+          "bytes": 9069,
           "width": 1200,
           "height": 760,
-          "colors": 17
+          "colors": 16
         }
       ]
     },
@@ -1209,11 +1703,24 @@
           "id": "default",
           "bundledAsset": "ezl",
           "file": "faces/kr/ezl/default.png",
-          "sha256": "99b1f4addf390cf450e3d5c81ba9b857f72a91e8030e485f19428047b9600cf8",
-          "bytes": 10386,
+          "sha256": "a56a88a47a6f1e9211fab1389381e624239d04579adcf12383358e9fb229be36",
+          "bytes": 10550,
           "width": 1200,
           "height": 760,
-          "colors": 4
+          "colors": 14
+        },
+        {
+          "id": "duty-free-text",
+          "name": {
+            "en": "With text: Lotte Duty Free",
+            "ko": "글자 포함: 롯데면세점"
+          },
+          "file": "faces/kr/ezl/duty-free-text.png",
+          "sha256": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be",
+          "bytes": 16592,
+          "width": 1200,
+          "height": 760,
+          "colors": 18
         },
         {
           "id": "duty-free",
@@ -1222,11 +1729,24 @@
             "ko": "롯데면세점"
           },
           "file": "faces/kr/ezl/duty-free.png",
-          "sha256": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be",
-          "bytes": 16592,
+          "sha256": "69752242ebd9f28ebd0340ea835584067a04a836a45f22fda21a7ee9eb8bdd6d",
+          "bytes": 2081,
           "width": 1200,
           "height": 760,
-          "colors": 18
+          "colors": 8
+        },
+        {
+          "id": "myeongdong-text",
+          "name": {
+            "en": "With text: Now in Myeongdong",
+            "ko": "글자 포함: 명동 롯데면세점"
+          },
+          "file": "faces/kr/ezl/myeongdong-text.png",
+          "sha256": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c",
+          "bytes": 19562,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
         },
         {
           "id": "myeongdong",
@@ -1235,11 +1755,24 @@
             "ko": "명동 롯데면세점"
           },
           "file": "faces/kr/ezl/myeongdong.png",
-          "sha256": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c",
-          "bytes": 19562,
+          "sha256": "597c32615beb65f8263d487b13ab4be96022fb6ae917ee77f0bca715b11bffb3",
+          "bytes": 1713,
           "width": 1200,
           "height": 760,
-          "colors": 17
+          "colors": 6
+        },
+        {
+          "id": "pop-text",
+          "name": {
+            "en": "With text: POP Cashbee (orange)",
+            "ko": "글자 포함: 팝캐시비 (오렌지)"
+          },
+          "file": "faces/kr/ezl/pop-text.png",
+          "sha256": "c7d0d039b60f526a5c2d778dc2f93de48f6b2ae5b215ffef37df79c760d17171",
+          "bytes": 5249,
+          "width": 1200,
+          "height": 760,
+          "colors": 9
         },
         {
           "id": "pop",
@@ -1248,11 +1781,37 @@
             "ko": "팝캐시비 (오렌지)"
           },
           "file": "faces/kr/ezl/pop.png",
-          "sha256": "c7d0d039b60f526a5c2d778dc2f93de48f6b2ae5b215ffef37df79c760d17171",
-          "bytes": 5249,
+          "sha256": "697ab3ea3ab90f3b5053512c55ddf4ec966ca82358f33455a32f9788e24c826c",
+          "bytes": 1459,
           "width": 1200,
           "height": 760,
-          "colors": 9
+          "colors": 6
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: EZL / Cashbee",
+            "ko": "글자 포함: 이즐 / 캐시비"
+          },
+          "file": "faces/kr/ezl/text.png",
+          "sha256": "99b1f4addf390cf450e3d5c81ba9b857f72a91e8030e485f19428047b9600cf8",
+          "bytes": 10386,
+          "width": 1200,
+          "height": 760,
+          "colors": 4
+        },
+        {
+          "id": "tour-text",
+          "name": {
+            "en": "With text: Cashbee Jeonju (2 Days)",
+            "ko": "글자 포함: 전주 캐시비 (2일권)"
+          },
+          "file": "faces/kr/ezl/tour-text.png",
+          "sha256": "9c740e829c1df5d3789f74ef3654eded7392eaff03695d5dc88abb467273a8f4",
+          "bytes": 26097,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
         },
         {
           "id": "tour",
@@ -1261,11 +1820,11 @@
             "ko": "전주 캐시비 (2일권)"
           },
           "file": "faces/kr/ezl/tour.png",
-          "sha256": "9c740e829c1df5d3789f74ef3654eded7392eaff03695d5dc88abb467273a8f4",
-          "bytes": 26097,
+          "sha256": "b10fda6423a88070c753d1c7f944cddc1ac50efacf9a32583a0ca2fd2c655eb5",
+          "bytes": 23360,
           "width": 1200,
           "height": 760,
-          "colors": 14
+          "colors": 9
         }
       ]
     },
@@ -1290,6 +1849,19 @@
           "id": "default",
           "bundledAsset": "climate-card",
           "file": "faces/kr/climate-card/default.png",
+          "sha256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
+          "bytes": 30508,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: Climate Card",
+            "ko": "글자 포함: 기후동행카드"
+          },
+          "file": "faces/kr/climate-card/text.png",
           "sha256": "7aadae261e222d38f01766304c630ce6df10fe3fbb4bf75bf19936025a94b2fe",
           "bytes": 25601,
           "width": 600,
@@ -1320,11 +1892,24 @@
           "id": "default",
           "bundledAsset": "la-carte",
           "file": "faces/fr/la-carte/default.png",
-          "sha256": "67d46e81262fe0522c6e0473e69e4f34e073e9eb1e8ab570202981d74447d95e",
-          "bytes": 32786,
+          "sha256": "700578027a9c90e9a8e761e947ee6bb8aa3526c249db48fc968c795ce5195865",
+          "bytes": 19984,
           "width": 1200,
           "height": 760,
-          "colors": 13
+          "colors": 12
+        },
+        {
+          "id": "blue-text",
+          "name": {
+            "en": "With text: La Carte (blue)",
+            "fr": "Avec texte : La Carte bleue"
+          },
+          "file": "faces/fr/la-carte/blue-text.png",
+          "sha256": "f562b25b2a2d3db0021f3739c9fcc6467bbd0ce75bd826f89df5e03b1724a44a",
+          "bytes": 37693,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
         },
         {
           "id": "blue",
@@ -1334,11 +1919,24 @@
           },
           "bundledAsset": "la-carte-blue",
           "file": "faces/fr/la-carte/blue.png",
-          "sha256": "f562b25b2a2d3db0021f3739c9fcc6467bbd0ce75bd826f89df5e03b1724a44a",
-          "bytes": 37693,
+          "sha256": "436ea6e7b045040a711c3b8dee26ea91866b0e1de110151a331485282118325c",
+          "bytes": 21272,
           "width": 1200,
           "height": 760,
           "colors": 14
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: La Carte (Lignes d'Azur)",
+            "fr": "Avec texte : La Carte"
+          },
+          "file": "faces/fr/la-carte/text.png",
+          "sha256": "67d46e81262fe0522c6e0473e69e4f34e073e9eb1e8ab570202981d74447d95e",
+          "bytes": 32786,
+          "width": 1200,
+          "height": 760,
+          "colors": 13
         }
       ]
     },
@@ -1394,6 +1992,19 @@
           "id": "default",
           "bundledAsset": "ezlink",
           "file": "faces/sg/ezlink/default.png",
+          "sha256": "38d6a74928d9f287e02edb358497eed8376e551bdc7a12de1b6e4932966cd231",
+          "bytes": 16563,
+          "width": 1200,
+          "height": 760,
+          "colors": 14
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: EZ-Link",
+            "zh": "文字版：易通卡"
+          },
+          "file": "faces/sg/ezlink/text.png",
           "sha256": "e8f93ffca9f094124e74354fac6ceec1d9e00ef0d05095aeba949a75581585ce",
           "bytes": 33615,
           "width": 510,

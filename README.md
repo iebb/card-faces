@@ -27,6 +27,22 @@ Every card folder has a `default.png`. Other designs sit next to it
 them in the face picker. Chinese cards are filed under their T-Union city code,
 so `faces/cn/2900/default.png` is Shanghai.
 
+### Text-free faces
+
+The main faces keep the real card's colors, background artwork and illustrations,
+with lettering, numbers and wordmarks removed. The previous artwork remains
+available in the picker as a **with text** alternative:
+
+- `default.png` pairs with `text.png`;
+- named designs such as `ryan.png` pair with `ryan-text.png`.
+
+Existing design IDs keep working. Faces that already had no lettering are
+unchanged. The original masters and published PNGs are preserved byte for
+byte in the text alternatives. Research references, edit prompts and preservation
+hashes are recorded in [the text-removal notes](sources/text-free/README.md).
+See the [before/after comparison](previews/text-free-comparison.png) or
+[all text-free choices](previews/text-free-all.png).
+
 ### China: top 20 cities
 
 The transit cards of mainland China's 20 largest cities by 2024 GDP. Each face
@@ -65,14 +81,15 @@ face; Suica, PASMO, ICOCA, T-money and EZL remain as small offline fallbacks.
 
 | Folder | Designs | Matched by |
 | --- | --- | --- |
-| `jp/suica`, `jp/pasmo`, `jp/icoca`, `jp/hayakaken`, `jp/sugoca`, `jp/manaca`, `jp/kitaca`, `jp/nimoca`, `jp/toica` | default | family name, serial prefix |
-| `jp/okica`, `jp/edy`, `jp/waon`, `jp/nanaco` | default | family name |
-| `kr/tmoney` | default, logo, apeach, go-green, kpass, ryan, safe | family name |
-| `kr/ezl` | default, duty-free, myeongdong, pop, tour | family name |
-| `kr/climate-card` | default | family name |
-| `fr/la-carte` | default, blue | family name |
+| `jp/suica`, `jp/pasmo`, `jp/icoca`, `jp/hayakaken`, `jp/sugoca`, `jp/manaca`, `jp/kitaca`, `jp/nimoca`, `jp/toica` | default, text | family name, serial prefix |
+| `jp/edy`, `jp/waon`, `jp/nanaco` | default, text | family name |
+| `jp/okica` | default | family name |
+| `kr/tmoney` | default, logo, apeach, go-green, kpass, ryan, safe, text alternatives | family name |
+| `kr/ezl` | default, duty-free, myeongdong, pop, tour, text alternatives | family name |
+| `kr/climate-card` | default, text | family name |
+| `fr/la-carte` | default, blue, text, blue-text | family name |
 | `mn/umoney` | default | family name |
-| `sg/ezlink` | default | family name |
+| `sg/ezlink` | default, text | family name |
 
 The Korean additions recreate real issuer and authorized-shop references in a
 flat vector style. See [the designs](previews/korean-designs.png) and
