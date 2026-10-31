@@ -10,7 +10,14 @@
       "preservedSource": "sources/cn/2900/text.webp",
       "originalSourceSHA256": "1bd2c111848dc2c4389bbf9a31d545fca097dec1fb09270b44bee1cd46beb5f8",
       "preservedFace": "faces/cn/2900/text.png",
-      "originalFaceSHA256": "7ba9831553f24ba097126dd80b8066bab59e3ce52958e680511369f1ba7a5c2f"
+      "originalFaceSHA256": "7ba9831553f24ba097126dd80b8066bab59e3ce52958e680511369f1ba7a5c2f",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/2900/default.png",
+        "sha256": "f6825c421748505331a7a5df1c7c2263971f6b98cb18a307a407b3437f1f79a2"
+      },
+      "sourceSHA256": "541284b60df97cec00b885b591d3277ab716d5328b5f63216179b1dee946592c",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/1000",
@@ -20,7 +27,14 @@
       "preservedSource": "sources/cn/1000/text.webp",
       "originalSourceSHA256": "b4a8fd7c4807cae4bb385f3645682a3153ead1b2eb15e37aa9b14ad0dd4e5fb9",
       "preservedFace": "faces/cn/1000/text.png",
-      "originalFaceSHA256": "66886675cda512989265191b53cf4ab1527014989534c4715b76a90f505eb0ee"
+      "originalFaceSHA256": "66886675cda512989265191b53cf4ab1527014989534c4715b76a90f505eb0ee",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/1000/default.png",
+        "sha256": "55fa9374e660cb8899bc4236092b7c33eced5ff04749243019c85abc8ecbe482"
+      },
+      "sourceSHA256": "5fb1a4e417d53c6af74d151e6fe3d70a55adc6a4336abaea85626243acef7a36",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/5840",
@@ -30,7 +44,14 @@
       "preservedSource": "sources/cn/5840/text.webp",
       "originalSourceSHA256": "463a9cf9f76054421bd0f3aa72f0770a94837efa433fcdd9e1366492cd8826a8",
       "preservedFace": "faces/cn/5840/text.png",
-      "originalFaceSHA256": "d7c668c8be484e2835cea84ea20e5bee36bdbe700e489314c1bd41aae8d2ad45"
+      "originalFaceSHA256": "d7c668c8be484e2835cea84ea20e5bee36bdbe700e489314c1bd41aae8d2ad45",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/5840/default.png",
+        "sha256": "cbc2d13e81051b27647d90bc56bca1b6df93748bd7f863bfe915835d91db08b1"
+      },
+      "sourceSHA256": "e4abe8efe688ea64eb8a6b3b530dd4b3caea4d7f2e575eb7dd7b89fe31845fd8",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/6900",
@@ -40,7 +61,14 @@
       "preservedSource": "sources/cn/6900/text.webp",
       "originalSourceSHA256": "d55642ebe63c723d9e8ed5c732bf87dc6a7225ab4e08b0284182cc0abf97f520",
       "preservedFace": "faces/cn/6900/text.png",
-      "originalFaceSHA256": "842bcae5f4ea9605df384f3199ed761068644ed1dfb44c409bb53dc52a5b4f23"
+      "originalFaceSHA256": "842bcae5f4ea9605df384f3199ed761068644ed1dfb44c409bb53dc52a5b4f23",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/6900/default.png",
+        "sha256": "a097473d9b2f4b6944fefe4868301ff59cd2a524b2a8692f2e3b3bb01e1a47f0"
+      },
+      "sourceSHA256": "6d57e902d7f7c24a712755e6833cbd401b70899392567694023eaad4a867f6aa",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/5810",
@@ -50,7 +78,14 @@
       "preservedSource": "sources/cn/5810/text.webp",
       "originalSourceSHA256": "ca3cbed907a2d3fe88851bf6e1a35f3b61a88b63699c2479572dd0ad1d602ada",
       "preservedFace": "faces/cn/5810/text.png",
-      "originalFaceSHA256": "6ccef0f29830959d676a762095963abeccbab68011dade8f1f5be2c5ce9dba3f"
+      "originalFaceSHA256": "6ccef0f29830959d676a762095963abeccbab68011dade8f1f5be2c5ce9dba3f",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/5810/default.png",
+        "sha256": "79a8849a0db2e7c39e0737138ed0104b1832d281df55606d42c680521dc60031"
+      },
+      "sourceSHA256": "d2792dd19de5bb0c9016f39586ea8458507327b505adf32551777e541ec03640",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/3050",
@@ -60,7 +95,14 @@
       "preservedSource": "sources/cn/3050/text.webp",
       "originalSourceSHA256": "7052dd8548d92f508ee7616ba0ea70980f6931c07a1168e926edf1a1d1826f3f",
       "preservedFace": "faces/cn/3050/text.png",
-      "originalFaceSHA256": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0"
+      "originalFaceSHA256": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/3050/default.png",
+        "sha256": "025b54b0a0db94c6ef467ea6fd20aa48fb954766191bc1e0df2d0b457a6c3ed9"
+      },
+      "sourceSHA256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/6510",
@@ -70,7 +112,14 @@
       "preservedSource": "sources/cn/6510/text.webp",
       "originalSourceSHA256": "7309c9f762bd7eb23d168b748723ffa425c8858d6b704d84d67411ba34344af0",
       "preservedFace": "faces/cn/6510/text.png",
-      "originalFaceSHA256": "a868927f14630520540d1d8616e3ac624352490270f40b14e7a8d9ef7857e2ac"
+      "originalFaceSHA256": "a868927f14630520540d1d8616e3ac624352490270f40b14e7a8d9ef7857e2ac",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/6510/default.png",
+        "sha256": "3fa9b6aeabff5a0d84b639afb2ffcb98cf87b2f8780c122b57c1a618cff39683"
+      },
+      "sourceSHA256": "c12f88f45de976dfa47f188314363356df1e6f7feca449844f3d21b1f8cc64dd",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/3310",
@@ -80,7 +129,14 @@
       "preservedSource": "sources/cn/3310/text.webp",
       "originalSourceSHA256": "1b0233dff5e3ea3869494cf05dcb56876dfa44c3da4648d8d9862ddc155c7eba",
       "preservedFace": "faces/cn/3310/text.png",
-      "originalFaceSHA256": "7b0a7fb557a587511bcd526a237e41eedaf865955fe7c8a76527065a4e9511f0"
+      "originalFaceSHA256": "7b0a7fb557a587511bcd526a237e41eedaf865955fe7c8a76527065a4e9511f0",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/3310/default.png",
+        "sha256": "a64ae527e60c3b29ef513d1e978930ffd7307eea44b03a01d158f47a94eed627"
+      },
+      "sourceSHA256": "33692674e05feb7c18e7a32522a38a15ca590b294ea7237999a361087807b519",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/5210",
@@ -90,7 +146,14 @@
       "preservedSource": "sources/cn/5210/text.webp",
       "originalSourceSHA256": "72cadf492928ce7db1fc946f4acf1bc59ae2b2105478654ef873164cb7bd5af8",
       "preservedFace": "faces/cn/5210/text.png",
-      "originalFaceSHA256": "279a62794c9ea0e1b8235994bbff9cacc7349992389b40f2a4c6757be083c36f"
+      "originalFaceSHA256": "279a62794c9ea0e1b8235994bbff9cacc7349992389b40f2a4c6757be083c36f",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/5210/default.png",
+        "sha256": "71ca0456b92a353183750e0eeebf75d20070cf973f56ec104a147a4748b97d86"
+      },
+      "sourceSHA256": "6e3f7b3c609ea757b95bb86a888aebc8b18dfe131b947156176170049d1a9d97",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/3010",
@@ -100,7 +163,14 @@
       "preservedSource": "sources/cn/3010/text.webp",
       "originalSourceSHA256": "766074f960e9a1b63bb4691f392d4046ebe3fd3d0addab0997dbb266ec1e97c1",
       "preservedFace": "faces/cn/3010/text.png",
-      "originalFaceSHA256": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8"
+      "originalFaceSHA256": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/3010/default.png",
+        "sha256": "6e41908faa608640a8a6ed61a1b13c8e8744666ba7e9d695fbc1240a7e93b305"
+      },
+      "sourceSHA256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/3320",
@@ -110,7 +180,14 @@
       "preservedSource": "sources/cn/3320/text.webp",
       "originalSourceSHA256": "ce271ff70654cbd94f0e389fe8b8074626bc4d4e70d4396ace34a630d0e90cf3",
       "preservedFace": "faces/cn/3320/text.png",
-      "originalFaceSHA256": "2e05af50e6288a85a794509207ce3e8d8e8623546042206e037103e54b470c13"
+      "originalFaceSHA256": "2e05af50e6288a85a794509207ce3e8d8e8623546042206e037103e54b470c13",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/3320/default.png",
+        "sha256": "3c0d1e599438285c73f08072e15df69703ae22e66e8c74400e8a9625f7696cdd"
+      },
+      "sourceSHA256": "987b7330040b8a7ec207a69d0e8020546959736a16de80399f5d40a45f0708d5",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/1121",
@@ -120,7 +197,14 @@
       "preservedSource": "sources/cn/1121/text.webp",
       "originalSourceSHA256": "95873d2182941386124cd51c3c485779f8bcb73c5dade4cd211afb94dbd6593b",
       "preservedFace": "faces/cn/1121/text.png",
-      "originalFaceSHA256": "a113940740b3f80b0d2f485afe6f660639828b2ec738e66ffda0c08842ba9a0e"
+      "originalFaceSHA256": "a113940740b3f80b0d2f485afe6f660639828b2ec738e66ffda0c08842ba9a0e",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/1121/default.png",
+        "sha256": "2a3e17dd14046fca5a5722eb858c054fa45ece7d5121293e2264d0234061cf22"
+      },
+      "sourceSHA256": "67f38026e914f850cce7ef2cc1a9c8bba3ab44e313d7befa64d73648faff188e",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/4520",
@@ -130,7 +214,14 @@
       "preservedSource": "sources/cn/4520/text.webp",
       "originalSourceSHA256": "587e84fa246bbfe3da8a516440edafc6bf59cb969f2e6dd0b1bcce0be8f465bb",
       "preservedFace": "faces/cn/4520/text.png",
-      "originalFaceSHA256": "61cabeb1aa6fc9681b84dbca9fa1b5f4f93cc2b3f5a87b44e5858645f375dd45"
+      "originalFaceSHA256": "61cabeb1aa6fc9681b84dbca9fa1b5f4f93cc2b3f5a87b44e5858645f375dd45",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/4520/default.png",
+        "sha256": "bc5e3e8da4f94b70ff4b5f36d9bda57ea87b47c6a174bd17a4f6431580f46ad8"
+      },
+      "sourceSHA256": "e94b9d03f39bafa1cffbe7419b8745c1a7e1bea8413b766701845126b54058c0",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/3020",
@@ -140,7 +231,14 @@
       "preservedSource": "sources/cn/3020/text.webp",
       "originalSourceSHA256": "b06cab9864f88dcfcd59e51efde1ffdac2e2867da76535317b7aa817538ba678",
       "preservedFace": "faces/cn/3020/text.png",
-      "originalFaceSHA256": "e2791492bbb39a2c4a88417c031aca0898a7b49302e3d4395b5de7cad9a50680"
+      "originalFaceSHA256": "e2791492bbb39a2c4a88417c031aca0898a7b49302e3d4395b5de7cad9a50680",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/3020/default.png",
+        "sha256": "5a127d3d13930be079a84b8dab69594a4bcf6985ed41358f2fc4b7b431767f29"
+      },
+      "sourceSHA256": "23c16d8332ae970c29674c9c7dc92adffa00f50b9467e752256d2a13f82400db",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/5510",
@@ -150,7 +248,14 @@
       "preservedSource": "sources/cn/5510/text.webp",
       "originalSourceSHA256": "8cc2fa57200c36ac2a498cdb889b52ed2d6910958e95a690b35636615b02391a",
       "preservedFace": "faces/cn/5510/text.png",
-      "originalFaceSHA256": "f0c297aec20f48a99ff7816edfdc46901b4d90d6c7e64488fc593b2633ba812a"
+      "originalFaceSHA256": "f0c297aec20f48a99ff7816edfdc46901b4d90d6c7e64488fc593b2633ba812a",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/5510/default.png",
+        "sha256": "935da268e757d002a6e09c90f3b488df39845718e7ed9a442ff9c03e134898c0"
+      },
+      "sourceSHA256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/4910",
@@ -160,7 +265,14 @@
       "preservedSource": "sources/cn/4910/text.webp",
       "originalSourceSHA256": "fa2993eb0fc85125bd85a9b3221303e9bac761d5d9812311949a1f878a33f5cc",
       "preservedFace": "faces/cn/4910/text.png",
-      "originalFaceSHA256": "6b4c04a47cce9350150c788bdadfcf820260821acd15eec847b8034662f83ee0"
+      "originalFaceSHA256": "6b4c04a47cce9350150c788bdadfcf820260821acd15eec847b8034662f83ee0",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/4910/default.png",
+        "sha256": "96c5dd33ae91b58438433d2af41d48b77b29b78848761e76b6ba2d60a8917f9b"
+      },
+      "sourceSHA256": "8d1fc644110c61ec602d2a8d778612d0a40988dd7070890eb83f97bd2ff14e74",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/3910",
@@ -170,7 +282,14 @@
       "preservedSource": "sources/cn/3910/text.webp",
       "originalSourceSHA256": "a15286702f44e235bb322a843c54f3a50da724b583f7aacfa931069c03b9de32",
       "preservedFace": "faces/cn/3910/text.png",
-      "originalFaceSHA256": "b933f153d1b76f72e1f40b916c74e0ef8cd94287c7375d7bf5e3ee6971a93d82"
+      "originalFaceSHA256": "b933f153d1b76f72e1f40b916c74e0ef8cd94287c7375d7bf5e3ee6971a93d82",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/3910/default.png",
+        "sha256": "c27f1390c2cd3c6ae3d89b9587820fc0cff2f0da190ea99734203b0425f598e6"
+      },
+      "sourceSHA256": "2e53a149541d66cd9a70b68fdd51bba54bea2df5bcc0b6e4e764d279224ae378",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/4510",
@@ -180,7 +299,14 @@
       "preservedSource": "sources/cn/4510/text.webp",
       "originalSourceSHA256": "e4e08758d29e07710fe8294ecc2d3dbc804e036da824f13479c96334bf5d612a",
       "preservedFace": "faces/cn/4510/text.png",
-      "originalFaceSHA256": "d481545c5fa732673973cc3f4e7e0efd1e35822f282b92496d454cbcf02922df"
+      "originalFaceSHA256": "d481545c5fa732673973cc3f4e7e0efd1e35822f282b92496d454cbcf02922df",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/4510/default.png",
+        "sha256": "e26a0b37ea33bbb4feda407db4b16d7a0978c926acbe21c0f2348c59286b5818"
+      },
+      "sourceSHA256": "ad462ea98e7b02feef704fb2219168981394058aba5e4d731a91e72b2a17413a",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/3610",
@@ -190,7 +316,14 @@
       "preservedSource": "sources/cn/3610/text.webp",
       "originalSourceSHA256": "11dc9e821f1c4a5e65f326d2852cdd6460db168d6e5fa6591d9377b20c4002ee",
       "preservedFace": "faces/cn/3610/text.png",
-      "originalFaceSHA256": "d38eba6df8bc66251992f1191a375913fe72476b04565e7b24192b99e9a98e36"
+      "originalFaceSHA256": "d38eba6df8bc66251992f1191a375913fe72476b04565e7b24192b99e9a98e36",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/3610/default.png",
+        "sha256": "f60f28dd06dfa560f3871517a09b9c6dd084d50cd7255f839d41a1e279910fae"
+      },
+      "sourceSHA256": "e8ef84620b1c26fcab0709822015a9ed0cc1a62ee993c4c6bc823ed9fb97dba5",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "cn/5880",
@@ -200,7 +333,14 @@
       "preservedSource": "sources/cn/5880/text.webp",
       "originalSourceSHA256": "5eb4809598afcb8eca8e23386a78ec7bd0b2b481cedba82205fb8aacdf18f0bf",
       "preservedFace": "faces/cn/5880/text.png",
-      "originalFaceSHA256": "826e7ef62731f3a92f2e706a914ba94a6d8ad4a8de561ab58662c27cbcf96452"
+      "originalFaceSHA256": "826e7ef62731f3a92f2e706a914ba94a6d8ad4a8de561ab58662c27cbcf96452",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/cn/5880/default.png",
+        "sha256": "bc8298939b9ca5542c5adbda916869e87ca0fc30bc7326bf4e01b191ac829506"
+      },
+      "sourceSHA256": "0c9a246a3a3ed287b9e8fdcf2f1e2d4262fbf5574eefd79a64d488fcc23e8aa1",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/suica",
@@ -210,7 +350,14 @@
       "preservedSource": "sources/jp/suica/text.png",
       "originalSourceSHA256": "ddac4bbab4c2201038657768eb15f0b76726c132da825159b34b0a1b1aad3f4e",
       "preservedFace": "faces/jp/suica/text.png",
-      "originalFaceSHA256": "2d1909c6b0249d91def9bffc4d45db4d142b8336145eb06b303d13b2162b24d2"
+      "originalFaceSHA256": "2d1909c6b0249d91def9bffc4d45db4d142b8336145eb06b303d13b2162b24d2",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/suica/default.png",
+        "sha256": "a0361a0a7dea3ceab4531698614f4ea08a2859ba47541bb2d1c876b00dec3c85"
+      },
+      "sourceSHA256": "a6edac3aa422bf789fad7adb81013f4a117b270003f61fad6457cc6284165ef9",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/pasmo",
@@ -220,7 +367,14 @@
       "preservedSource": "sources/jp/pasmo/text.png",
       "originalSourceSHA256": "52dd510e5e9d4b3cf1f974040af8d9d3938116774e7f41fd850f82ee6b35dfc4",
       "preservedFace": "faces/jp/pasmo/text.png",
-      "originalFaceSHA256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599"
+      "originalFaceSHA256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/pasmo/default.png",
+        "sha256": "61e9f3a1ef6f21e3935f0cd38147134ddb3dac4885d4d17a3c531119333ad625"
+      },
+      "sourceSHA256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/icoca",
@@ -230,7 +384,14 @@
       "preservedSource": "sources/jp/icoca/text.png",
       "originalSourceSHA256": "b3e2eac862683d22f1cc6f89b134d86eca9677d9444e00a58d905e9bcb8c38eb",
       "preservedFace": "faces/jp/icoca/text.png",
-      "originalFaceSHA256": "326b438ad8b834064b3dd956be63033856c4c8a1ad78a409623877fdc24e4bf5"
+      "originalFaceSHA256": "326b438ad8b834064b3dd956be63033856c4c8a1ad78a409623877fdc24e4bf5",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/icoca/default.png",
+        "sha256": "505351441b0da67ab2adbd5c5671ef457ada795bbb99d19124c8313560ba8911"
+      },
+      "sourceSHA256": "7b659416cc49c7683bf0623551411ca694cc802f9420c188fe5166d6fba0260f",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/hayakaken",
@@ -240,7 +401,14 @@
       "preservedSource": "sources/jp/hayakaken/text.png",
       "originalSourceSHA256": "8772e5f3a644460d1e60501b905ad6c8b6e74965ce24754426fbbd14ac14b596",
       "preservedFace": "faces/jp/hayakaken/text.png",
-      "originalFaceSHA256": "8d0b1cb1ab5e7ea99abe1056b14e17d5f11ff3f94255c8dd64089e51954b9c60"
+      "originalFaceSHA256": "8d0b1cb1ab5e7ea99abe1056b14e17d5f11ff3f94255c8dd64089e51954b9c60",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/hayakaken/default.png",
+        "sha256": "87bc1937113bfe6a5805e84dc6016aa5993a9bae73a65399322aa91792ce1ec5"
+      },
+      "sourceSHA256": "9cf02833c7407557d46a6251780a3b30b6b5f3df2479ea8d57c78fe66eb879ab",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/sugoca",
@@ -250,7 +418,14 @@
       "preservedSource": "sources/jp/sugoca/text.png",
       "originalSourceSHA256": "740826e173afabbcc7b2cf12f4416b2065030f26f19fa1be9f9c01739119f499",
       "preservedFace": "faces/jp/sugoca/text.png",
-      "originalFaceSHA256": "96c72b52c3d4ad4ad24e0a9f3e55d99595d1d1a20cee91bed209a230b56d6547"
+      "originalFaceSHA256": "96c72b52c3d4ad4ad24e0a9f3e55d99595d1d1a20cee91bed209a230b56d6547",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/sugoca/default.png",
+        "sha256": "27a08b89af2cfca31b67cbd88383134f352e1ffb9ee588fce71c82a2085c2832"
+      },
+      "sourceSHA256": "e84ed34e2118b70ac54072dab86ebd70a9a5345567fe907e878bd922fab9927b",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/manaca",
@@ -260,7 +435,14 @@
       "preservedSource": "sources/jp/manaca/text.png",
       "originalSourceSHA256": "65ce0e0a9da5b5e8356c43d6da1cfc4093598720a3cd432a936ee03b119e786d",
       "preservedFace": "faces/jp/manaca/text.png",
-      "originalFaceSHA256": "d3e2b37061efbbf8a01c2bed0995b5b666e48598107dfedc11026823cb670bd0"
+      "originalFaceSHA256": "d3e2b37061efbbf8a01c2bed0995b5b666e48598107dfedc11026823cb670bd0",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/manaca/default.png",
+        "sha256": "98725bd3e82eb1252d9950309d28c2082a86d62e94e41142f029e0982c5bb3fb"
+      },
+      "sourceSHA256": "89166868e2532588c7458e625053240d54b7c4c8b4331a22641b18beb09359b5",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/kitaca",
@@ -270,7 +452,14 @@
       "preservedSource": "sources/jp/kitaca/text.png",
       "originalSourceSHA256": "9d51948f022cba24b64577a3c2cb1ad26a6c5f2284405d829a386b08ce2d1d76",
       "preservedFace": "faces/jp/kitaca/text.png",
-      "originalFaceSHA256": "72481763be1f31943446ee14a68611e646617703315358a41080f405950bf2cc"
+      "originalFaceSHA256": "72481763be1f31943446ee14a68611e646617703315358a41080f405950bf2cc",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/kitaca/default.png",
+        "sha256": "11f3c3c6b50988420ba264bcb40c309caa9afcd4fad39bb2c643bc35dfe4310d"
+      },
+      "sourceSHA256": "620d70fb1613a2f9500d3bbba8321d997dc5bbba2606bcce2deec4f33ec77809",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/nimoca",
@@ -280,7 +469,14 @@
       "preservedSource": "sources/jp/nimoca/text.png",
       "originalSourceSHA256": "604d428d7702001086496be6fa5189d64827ea4d996e6e5dea140318fc3e6ee9",
       "preservedFace": "faces/jp/nimoca/text.png",
-      "originalFaceSHA256": "c8fdbe4f9dfe122a49305a4b095206b3bafc11474cb6a0a547101761f7558b86"
+      "originalFaceSHA256": "c8fdbe4f9dfe122a49305a4b095206b3bafc11474cb6a0a547101761f7558b86",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/nimoca/default.png",
+        "sha256": "c44a7aac75b5b3f41e62fffee70d9903f8fbc923ac35fb1830b66e516a7a6aaf"
+      },
+      "sourceSHA256": "b689b998b3e1b1d5829657b93d3c1f800b92305db0c4db796c2725f62a4e986d",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/toica",
@@ -290,7 +486,14 @@
       "preservedSource": "sources/jp/toica/text.png",
       "originalSourceSHA256": "afce43ab8463a6684cd5b09713ce0c1d1bfbc6969b7c761fd4b1e5084c7a6b30",
       "preservedFace": "faces/jp/toica/text.png",
-      "originalFaceSHA256": "785d8d9d186517ace7baff219faf3dc3032cecb39383daaff7276a1498cff5ee"
+      "originalFaceSHA256": "785d8d9d186517ace7baff219faf3dc3032cecb39383daaff7276a1498cff5ee",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/toica/default.png",
+        "sha256": "a8f252e7b6a8dbc960f1f77f8dabbcd9c28c9561bbadef08fec9764918b00de3"
+      },
+      "sourceSHA256": "3158b8f00b821bcbce0b7bad0f1cd40981c94b74a7e9cc5b73fecb9271c88790",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/edy",
@@ -300,7 +503,14 @@
       "preservedSource": "sources/jp/edy/text.png",
       "originalSourceSHA256": "31fd6f5bba5c15a7c8e16060e3d14036c7e0cf9c644d18e4b62cfdaa7f959b60",
       "preservedFace": "faces/jp/edy/text.png",
-      "originalFaceSHA256": "497cdf274bf2cb3be17247cd419f812c256ce0e856da1a701bbcbaedfec369dc"
+      "originalFaceSHA256": "497cdf274bf2cb3be17247cd419f812c256ce0e856da1a701bbcbaedfec369dc",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/edy/default.png",
+        "sha256": "aa5a7a0090e5a4490b948b003dd5947b2c2067723aac7a1fcf0270211112a26a"
+      },
+      "sourceSHA256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/waon",
@@ -310,7 +520,14 @@
       "preservedSource": "sources/jp/waon/text.png",
       "originalSourceSHA256": "bb0c3ac4e0c660b240aaaa6e8336a04b201e629ba4cb080afcc76e56b34143f4",
       "preservedFace": "faces/jp/waon/text.png",
-      "originalFaceSHA256": "d716dc44653b9cc2d9d2429f5cdb33658b43f1e96946a5e7c585f3d793bd9f3c"
+      "originalFaceSHA256": "d716dc44653b9cc2d9d2429f5cdb33658b43f1e96946a5e7c585f3d793bd9f3c",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/waon/default.png",
+        "sha256": "26c75bdb459f1abcc9dd2dbcd2be0c42ab8b927bef1925954dd33c853aeb7af3"
+      },
+      "sourceSHA256": "92447c3c835917c48d544ef11ff745d73b287166488d1a70120e229afb8542e6",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "jp/nanaco",
@@ -320,7 +537,14 @@
       "preservedSource": "sources/jp/nanaco/text.png",
       "originalSourceSHA256": "f818ce1735635abdbd500291e79bfa06c8a37ff7ad26611229b5370380bfab65",
       "preservedFace": "faces/jp/nanaco/text.png",
-      "originalFaceSHA256": "8648bf3a8ad9b523327d03606eb3bdbcef4e53ab506b6c7c4ef79c1a0ee83328"
+      "originalFaceSHA256": "8648bf3a8ad9b523327d03606eb3bdbcef4e53ab506b6c7c4ef79c1a0ee83328",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/jp/nanaco/default.png",
+        "sha256": "e837573fdade85e78deaa2c2475321da522bf8e5784cda144cb0152cb66737d2"
+      },
+      "sourceSHA256": "2b2a68f2345b66e437839b33ee7d0b974098b5f2a4f9646131fb6cc1be3c800c",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/tmoney",
@@ -330,7 +554,14 @@
       "preservedSource": "sources/kr/tmoney/apeach-text.png",
       "originalSourceSHA256": "1d50440456ba906180f820e5558f710ea5001d89db244ec0e7e5afb0a6e39cfb",
       "preservedFace": "faces/kr/tmoney/apeach-text.png",
-      "originalFaceSHA256": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256"
+      "originalFaceSHA256": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/tmoney/apeach.png",
+        "sha256": "bcaaaa089104c012f88d1ff51b96eceebed5f28acd8358393945c732425a064f"
+      },
+      "sourceSHA256": "b49b351da1f3cb9377cf17261886a0973161123c9da4ec0f79433c1d61c306cd",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/tmoney",
@@ -340,7 +571,14 @@
       "preservedSource": "sources/kr/tmoney/go-green-text.png",
       "originalSourceSHA256": "87f7c123c30840eaf34bab7eff7d953446db59cd7f8ec1f83d492d293547682f",
       "preservedFace": "faces/kr/tmoney/go-green-text.png",
-      "originalFaceSHA256": "05a49c4462ded6f3091cf68b19f07c62f56660fcfe001d83540cbd10e2dcaa03"
+      "originalFaceSHA256": "05a49c4462ded6f3091cf68b19f07c62f56660fcfe001d83540cbd10e2dcaa03",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/tmoney/go-green.png",
+        "sha256": "f6863d2791d68a81c3bb533a72b45b9ff30c27313aa41ae959efe6bbf671998f"
+      },
+      "sourceSHA256": "cb304e3a48986cf12159347dda9fa4f0f543062d5d3e37f4631e0ff8b901af12",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/tmoney",
@@ -350,7 +588,14 @@
       "preservedSource": "sources/kr/tmoney/kpass-text.png",
       "originalSourceSHA256": "8fc7315ff334b4b449996a9e881723970d3ead8e4aca1fefb5c42f4816644dbe",
       "preservedFace": "faces/kr/tmoney/kpass-text.png",
-      "originalFaceSHA256": "41835039357a34892a5893376de812494cb0ec69003c444079b6216a4b9abfda"
+      "originalFaceSHA256": "41835039357a34892a5893376de812494cb0ec69003c444079b6216a4b9abfda",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/tmoney/kpass.png",
+        "sha256": "fc02e75b4d98f074d812a487a875bd79aab4c5c1f5c05d093b43aa1b7113f54f"
+      },
+      "sourceSHA256": "a351c9421d36b2fae203e7dba5a6ba47725030e8d8ed80e273d823fe870e2fa3",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/tmoney",
@@ -360,7 +605,14 @@
       "preservedSource": "sources/kr/tmoney/logo-text.png",
       "originalSourceSHA256": "39f5140f7b2bb0a0244df11c379dae87a4dfd09d18974187179516ae1d5c2033",
       "preservedFace": "faces/kr/tmoney/logo-text.png",
-      "originalFaceSHA256": "0e60f75404ec1c75c0bd1465d6176daf25505f3a966bcf55035078b1f08e3b2a"
+      "originalFaceSHA256": "0e60f75404ec1c75c0bd1465d6176daf25505f3a966bcf55035078b1f08e3b2a",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/tmoney/logo.png",
+        "sha256": "bf9a9fbdb64d20dfdbc723a65321f1a6ae528433d1bb349d07a4662a494abce2"
+      },
+      "sourceSHA256": "5f4b58859ed2ad8a0c1af52e9a5b3fc2c95c877f4352c2bd462134fcc3ebdfb0",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/tmoney",
@@ -370,7 +622,14 @@
       "preservedSource": "sources/kr/tmoney/ryan-text.png",
       "originalSourceSHA256": "3dff0125c71f48ab27ef431d7aa6e3c948749d5b12328f2b3a4cc22a42c4bee1",
       "preservedFace": "faces/kr/tmoney/ryan-text.png",
-      "originalFaceSHA256": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d"
+      "originalFaceSHA256": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/tmoney/ryan.png",
+        "sha256": "f913fda3c4c6b52d62b96d947b9c44c5cd6590eb64b520f9301ead2bacbf7c55"
+      },
+      "sourceSHA256": "5fa4995799a449911ce361acc00709e823f780d00d69b973aa229846a087431d",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/tmoney",
@@ -380,7 +639,14 @@
       "preservedSource": "sources/kr/tmoney/safe-text.png",
       "originalSourceSHA256": "89e2b80cfcf0ffe6f9104fe75ae71468b7fc60e6b0b7e70e4e34abc82a6f94ec",
       "preservedFace": "faces/kr/tmoney/safe-text.png",
-      "originalFaceSHA256": "a26a1f415917ec9d14b7fd9894ef60318ecfd7e7ba43d882b665a3d59e871b97"
+      "originalFaceSHA256": "a26a1f415917ec9d14b7fd9894ef60318ecfd7e7ba43d882b665a3d59e871b97",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/tmoney/safe.png",
+        "sha256": "4d67ff1136b5375c5ae9b3abfdc3e8281aa9b2117967f93e5ec38283239080f6"
+      },
+      "sourceSHA256": "01724e106cf7f308f0ad2dbb5b95c2e4b052b6979904cbee8ebca7c06b737317",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/ezl",
@@ -390,7 +656,14 @@
       "preservedSource": "sources/kr/ezl/text.png",
       "originalSourceSHA256": "5474ab59e6e260951e615d65cbc6ee8724706a4fe599c77351b088175a29703b",
       "preservedFace": "faces/kr/ezl/text.png",
-      "originalFaceSHA256": "99b1f4addf390cf450e3d5c81ba9b857f72a91e8030e485f19428047b9600cf8"
+      "originalFaceSHA256": "99b1f4addf390cf450e3d5c81ba9b857f72a91e8030e485f19428047b9600cf8",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/ezl/default.png",
+        "sha256": "e531eefd0ce1c13441e435139bc3bf754dd9ee89c99d8260a95d8471531bfb30"
+      },
+      "sourceSHA256": "a56a88a47a6f1e9211fab1389381e624239d04579adcf12383358e9fb229be36",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/ezl",
@@ -400,7 +673,14 @@
       "preservedSource": "sources/kr/ezl/duty-free-text.png",
       "originalSourceSHA256": "b0ffccf6edff7d8c04aa2021c4cb540094d44846ad68697b5093efabcc96f578",
       "preservedFace": "faces/kr/ezl/duty-free-text.png",
-      "originalFaceSHA256": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be"
+      "originalFaceSHA256": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/ezl/duty-free.png",
+        "sha256": "10ed355f3be709e00f9b0319b057cbf415035ec638790a7d7d0562bd87f1c666"
+      },
+      "sourceSHA256": "69752242ebd9f28ebd0340ea835584067a04a836a45f22fda21a7ee9eb8bdd6d",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/ezl",
@@ -410,7 +690,14 @@
       "preservedSource": "sources/kr/ezl/myeongdong-text.png",
       "originalSourceSHA256": "7fdc638d82292b309a54ae85e06667367539f1edb529dd935518141615c789b4",
       "preservedFace": "faces/kr/ezl/myeongdong-text.png",
-      "originalFaceSHA256": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c"
+      "originalFaceSHA256": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/ezl/myeongdong.png",
+        "sha256": "1119d5b7dfac7a11d159f317e0c02e23d57a4e1e00eeac291d2ff07e2f2d82c7"
+      },
+      "sourceSHA256": "597c32615beb65f8263d487b13ab4be96022fb6ae917ee77f0bca715b11bffb3",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/ezl",
@@ -420,7 +707,14 @@
       "preservedSource": "sources/kr/ezl/pop-text.png",
       "originalSourceSHA256": "0b00a3877d76d95663ebad1788811af1d828cf0fd23c4b6342fa3e81886ffbde",
       "preservedFace": "faces/kr/ezl/pop-text.png",
-      "originalFaceSHA256": "c7d0d039b60f526a5c2d778dc2f93de48f6b2ae5b215ffef37df79c760d17171"
+      "originalFaceSHA256": "c7d0d039b60f526a5c2d778dc2f93de48f6b2ae5b215ffef37df79c760d17171",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/ezl/pop.png",
+        "sha256": "29980664f0426d5c7b1eb6318e88501736b474dfbe5b4bea0705674380eeda9a"
+      },
+      "sourceSHA256": "697ab3ea3ab90f3b5053512c55ddf4ec966ca82358f33455a32f9788e24c826c",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/ezl",
@@ -430,7 +724,14 @@
       "preservedSource": "sources/kr/ezl/tour-text.png",
       "originalSourceSHA256": "3816f158eeff0ce23a74bc3527d53a75042646eebe1329469c9c04e9a5a906c2",
       "preservedFace": "faces/kr/ezl/tour-text.png",
-      "originalFaceSHA256": "9c740e829c1df5d3789f74ef3654eded7392eaff03695d5dc88abb467273a8f4"
+      "originalFaceSHA256": "9c740e829c1df5d3789f74ef3654eded7392eaff03695d5dc88abb467273a8f4",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/ezl/tour.png",
+        "sha256": "3ab517ff83a4bc0a6a31433e7eb2819f5909193da75f20bf19fad53d731ecfbd"
+      },
+      "sourceSHA256": "b10fda6423a88070c753d1c7f944cddc1ac50efacf9a32583a0ca2fd2c655eb5",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "kr/climate-card",
@@ -440,7 +741,14 @@
       "preservedSource": "sources/kr/climate-card/text.png",
       "originalSourceSHA256": "6635d4486ed1f3ddc03469ec1e91c222e639ef3188dbd24fc45f9d5a712f8a46",
       "preservedFace": "faces/kr/climate-card/text.png",
-      "originalFaceSHA256": "7aadae261e222d38f01766304c630ce6df10fe3fbb4bf75bf19936025a94b2fe"
+      "originalFaceSHA256": "7aadae261e222d38f01766304c630ce6df10fe3fbb4bf75bf19936025a94b2fe",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/kr/climate-card/default.png",
+        "sha256": "40afa64c8a329b9007a789f076a88e879ce30d819fabcfaf8d4ffc9991c97988"
+      },
+      "sourceSHA256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "fr/la-carte",
@@ -450,7 +758,14 @@
       "preservedSource": "sources/fr/la-carte/blue-text.png",
       "originalSourceSHA256": "86b217aba8880cd9cfdf481f88e89a5fbf429c1307fe058794db0933d93d869a",
       "preservedFace": "faces/fr/la-carte/blue-text.png",
-      "originalFaceSHA256": "f562b25b2a2d3db0021f3739c9fcc6467bbd0ce75bd826f89df5e03b1724a44a"
+      "originalFaceSHA256": "f562b25b2a2d3db0021f3739c9fcc6467bbd0ce75bd826f89df5e03b1724a44a",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/fr/la-carte/blue.png",
+        "sha256": "5b029a24a12a3e547e542e7c52f3a2b44ca63aaba60bb0d4e1f8ccc2a91e1ece"
+      },
+      "sourceSHA256": "436ea6e7b045040a711c3b8dee26ea91866b0e1de110151a331485282118325c",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "fr/la-carte",
@@ -460,7 +775,14 @@
       "preservedSource": "sources/fr/la-carte/text.png",
       "originalSourceSHA256": "f09f3c506f70170582f513e1a5c245644e548947ebcdeaa65d41e34c6b63be86",
       "preservedFace": "faces/fr/la-carte/text.png",
-      "originalFaceSHA256": "67d46e81262fe0522c6e0473e69e4f34e073e9eb1e8ab570202981d74447d95e"
+      "originalFaceSHA256": "67d46e81262fe0522c6e0473e69e4f34e073e9eb1e8ab570202981d74447d95e",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/fr/la-carte/default.png",
+        "sha256": "6b81dac33c4949a24ed8e4c85dc27f23abfb8ed2dae749eeca5fbd8bedd60fb9"
+      },
+      "sourceSHA256": "700578027a9c90e9a8e761e947ee6bb8aa3526c249db48fc968c795ce5195865",
+      "sourceEncoding": "optimized-palette-png"
     },
     {
       "card": "sg/ezlink",
@@ -470,7 +792,14 @@
       "preservedSource": "sources/sg/ezlink/text.png",
       "originalSourceSHA256": "8a287dfe3701777a7d27cd838172e2074135ff0aa44252a8f247f94f1a0a8bd8",
       "preservedFace": "faces/sg/ezlink/text.png",
-      "originalFaceSHA256": "e8f93ffca9f094124e74354fac6ceec1d9e00ef0d05095aeba949a75581585ce"
+      "originalFaceSHA256": "e8f93ffca9f094124e74354fac6ceec1d9e00ef0d05095aeba949a75581585ce",
+      "generatedMasterArchive": {
+        "commit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+        "file": "sources/sg/ezlink/default.png",
+        "sha256": "bbc4a72103373fabfd8eb63aa0dae348f9887d785ce179eedc48f3137a0c5f4a"
+      },
+      "sourceSHA256": "38d6a74928d9f287e02edb358497eed8376e551bdc7a12de1b6e4932966cd231",
+      "sourceEncoding": "optimized-palette-png"
     }
   ],
   "workerReports": [
@@ -2401,5 +2730,7 @@
       "design": "default",
       "reason": "Already has no readable text"
     }
-  ]
+  ],
+  "fullResolutionMastersCommit": "8b9168c2c65fd50b738c32459e8d9fb42284dd5b",
+  "masterStorage": "Current text-free inputs are the validated PNG exports, preserving their exact pixels. Full-resolution generated masters remain in the archived commit. Original text masters are unchanged."
 }

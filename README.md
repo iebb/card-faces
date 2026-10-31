@@ -13,7 +13,7 @@ China) and raw GitHub are fallback mirrors with the same paths.
 
 ```
 catalog.json                        hand-edited metadata: names, matching keys
-sources/<region>/<card>/<design>.*  full-resolution masters (WebP or PNG)
+sources/<region>/<card>/<design>.*  build inputs (WebP or PNG)
 faces/<region>/<card>/<design>.png  optimized faces served to the app
 manifest.json                       generated from catalog.json + faces/
 public/_headers                     cache and CORS headers for Cloudflare Pages
@@ -42,6 +42,10 @@ byte in the text alternatives. Research references, edit prompts and preservatio
 hashes are recorded in [the text-removal notes](sources/text-free/README.md).
 See the [before/after comparison](previews/text-free-comparison.png) or
 [all text-free choices](previews/text-free-all.png).
+
+The current text-free inputs are the optimized PNG exports, with denoising
+disabled so rebuilding preserves their pixels. Full-resolution generated masters
+remain in commit `8b9168c`; original text masters remain in the current tree.
 
 ### China: top 20 cities
 
@@ -106,6 +110,11 @@ Every published face must:
 
 `tools/validate.py` enforces this in CI, together with the sha256, size and
 colour count recorded in `manifest.json`.
+
+The Git package must also stay below **50,000,000 bytes** for compatibility
+with jsDelivr edges that enforce that limit. Validation counts tracked and new
+files while excluding ignored build outputs. Keep large generated masters in
+Git history and use optimized inputs in the current tree.
 
 ## Adding or updating a design
 

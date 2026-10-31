@@ -1,6 +1,7 @@
 import copy
 import json
 import shutil
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -48,6 +49,18 @@ class RepositoryTests(unittest.TestCase):
             if "bundledAsset" in design
         ]
         self.assertEqual(len(assets), len(set(assets)))
+
+    def test_package_budget_includes_new_sources_but_ignores_build_outputs(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            subprocess.run(["git", "init", "-q", "--initial-branch=master", str(root)], check=True)
+            (root / ".gitignore").write_text("dist/\n")
+            (root / "dist").mkdir()
+            (root / "dist" / "ignored.png").write_bytes(b"x" * 100)
+            (root / "source.png").write_bytes(b"x" * 10)
+            self.assertEqual(validate.check_package_size(root, max_bytes=20), [])
+            (root / "another-source.png").write_bytes(b"x" * 10)
+            self.assertTrue(any("package budget" in error for error in validate.check_package_size(root, max_bytes=20)))
 
 
 class ValidatorTests(unittest.TestCase):

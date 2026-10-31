@@ -11,6 +11,7 @@ from __future__ import annotations
 import hashlib
 import json
 import re
+import subprocess
 import sys
 from pathlib import Path
 
@@ -18,6 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 SCHEMA_VERSION = 2
 MAX_COLORS = 24
 MAX_BYTES = 40_000
+MAX_PACKAGE_BYTES = 50_000_000
 ASPECT = 30 / 19
 DEFAULT_DESIGN = "default"
 CARD_ID_PATTERN = re.compile(r"^[a-z]{2}/[a-z0-9][a-z0-9-]*$")
@@ -51,6 +53,19 @@ def inspect_face(path: Path) -> dict:
     info["bytes"] = len(data)
     info["sha256"] = hashlib.sha256(data).hexdigest()
     return info
+
+
+def check_package_size(root: Path, max_bytes: int = MAX_PACKAGE_BYTES) -> list[str]:
+    """Count the Git package, including new masters but excluding build caches."""
+    if not (root / ".git").exists():
+        return []
+    paths = subprocess.check_output(
+        ["git", "-C", str(root), "ls-files", "--cached", "--others", "--exclude-standard", "-z"]
+    ).decode("utf-8").split("\0")
+    size = sum((root / path).lstat().st_size for path in set(paths) if path and (root / path).is_file())
+    if size >= max_bytes:
+        return [f"repository: {size} bytes is not under the {max_bytes}-byte fallback CDN package budget"]
+    return []
 
 
 def check_names(where: str, value, required: tuple[str, ...]) -> list[str]:
@@ -176,6 +191,7 @@ def validate(root: Path = ROOT) -> list[str]:
     for path in sorted((root / "faces").rglob("*")):
         if path.is_file() and path.resolve() not in listed:
             errors.append(f"{path.relative_to(root)}: not listed in manifest.json")
+    errors += check_package_size(root)
     return errors
 
 
