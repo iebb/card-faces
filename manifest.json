@@ -2463,6 +2463,118 @@
           "colors": 16
         }
       ]
+    },
+    {
+      "id": "hk/octopus",
+      "region": "HK",
+      "name": {
+        "en": "Octopus",
+        "zh": "八达通",
+        "zh-Hant": "八達通"
+      },
+      "city": {
+        "en": "Hong Kong",
+        "zh": "香港"
+      },
+      "match": {
+        "cityCodes": [],
+        "cityUnionCodes": [],
+        "cardPrefixes": [],
+        "families": [
+          "octopus",
+          "八达通",
+          "八達通",
+          "オクトパス",
+          "옥토퍼스"
+        ],
+        "serialPrefixes": []
+      },
+      "designs": [
+        {
+          "id": "default",
+          "name": {
+            "en": "Standard Adult",
+            "zh": "普通成人",
+            "zh-Hant": "普通成人"
+          },
+          "file": "faces/hk/octopus/default.png",
+          "sha256": "15f95656c513f37846882c380672fe5d958bb5d745d6f099623751d82fa2a89f",
+          "bytes": 8287,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
+        },
+        {
+          "id": "child-text",
+          "name": {
+            "en": "With text: Standard Child",
+            "zh": "文字版：普通小童",
+            "zh-Hant": "文字版：普通小童"
+          },
+          "file": "faces/hk/octopus/child-text.png",
+          "sha256": "c52c1d6613fe6a32504f1e5cc1f89d8a6efb34e7ba1c4a924bc2302bc7c2c9e2",
+          "bytes": 11580,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
+        },
+        {
+          "id": "child",
+          "name": {
+            "en": "Standard Child",
+            "zh": "普通小童",
+            "zh-Hant": "普通小童"
+          },
+          "file": "faces/hk/octopus/child.png",
+          "sha256": "6964eb5fdc10968c9f6252be19604b9aa1ecace47451aa69562b986cf291b26b",
+          "bytes": 8387,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
+        },
+        {
+          "id": "elder-text",
+          "name": {
+            "en": "With text: Standard Elder",
+            "zh": "文字版：普通长者",
+            "zh-Hant": "文字版：普通長者"
+          },
+          "file": "faces/hk/octopus/elder-text.png",
+          "sha256": "0dd6936f15f41d56546b316024548b1115334e4fd8763452ebf7a7f71867a2e5",
+          "bytes": 11607,
+          "width": 1200,
+          "height": 760,
+          "colors": 17
+        },
+        {
+          "id": "elder",
+          "name": {
+            "en": "Standard Elder",
+            "zh": "普通长者",
+            "zh-Hant": "普通長者"
+          },
+          "file": "faces/hk/octopus/elder.png",
+          "sha256": "7d9b4152825c2efb67fd3d5fd2f4172764836d974c254b0c7b3184fa20b46c56",
+          "bytes": 8683,
+          "width": 1200,
+          "height": 760,
+          "colors": 13
+        },
+        {
+          "id": "text",
+          "name": {
+            "en": "With text: Standard Adult",
+            "zh": "文字版：普通成人",
+            "zh-Hant": "文字版：普通成人"
+          },
+          "file": "faces/hk/octopus/text.png",
+          "sha256": "833c32a11b9defcf62602487525139f96ea1e057f0aad2458d49f4f8b7a6e047",
+          "bytes": 10629,
+          "width": 1200,
+          "height": 760,
+          "colors": 15
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,1257 @@
+{
+  "schemaVersion": 1,
+  "cardId": "hk/octopus",
+  "localDate": "2026-11-01",
+  "completedAt": "2026-10-31T18:17:48.101768+00:00",
+  "status": "complete-validated-local-publish-only",
+  "requestedDesignIds": [
+    "default",
+    "text",
+    "child",
+    "child-text",
+    "elder",
+    "elder-text"
+  ],
+  "selection": {
+    "issuer": "Octopus Cards Limited",
+    "product": "On-Loan Standard Octopus",
+    "default": "Standard Adult, dark gray",
+    "child": "Standard Child, pale sky blue",
+    "elder": "Standard Elder, emerald green",
+    "touristSubstitutions": false
+  },
+  "suppliedResearchReport": {
+    "schemaVersion": 1,
+    "cardId": "hk/octopus",
+    "status": "complete-research-only",
+    "researchedAt": "2026-10-31T18:01:12.834044+00:00",
+    "researchedLocalDate": "2026-11-01",
+    "name": {
+      "en": "Octopus",
+      "zh": "八达通",
+      "zh-Hant": "八達通"
+    },
+    "region": "HK",
+    "issuer": "Octopus Cards Limited",
+    "selection": {
+      "designIds": [
+        "default",
+        "child",
+        "elder"
+      ],
+      "defaultDesignId": "default",
+      "requestedTrioVerified": true,
+      "selectionReason": "Official issuer separately identifies Adult, Child and Elder Standard physical card fronts. Tourist substitutions are unnecessary.",
+      "terminology": "Issuer uses Elder in English; retain proposed ID elder rather than inventing a separate Elderly product."
+    },
+    "designs": [
+      {
+        "id": "default",
+        "proposedId": "default",
+        "cardId": "hk/octopus",
+        "issuerProductName": "Standard Octopus",
+        "issuerCategory": "Adult",
+        "name": {
+          "en": "Standard Octopus - Adult (On-Loan)",
+          "zh": "普通版八达通（成人）",
+          "zh-Hant": "普通版八達通（成人）"
+        },
+        "exactIssuerLabels": {
+          "en": "Adult",
+          "zh-Hant": "成人"
+        },
+        "physicalProductType": "On-Loan Standard Octopus, physical card front",
+        "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+        "sourcePageURLs": {
+          "en": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+          "zh-Hant": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html"
+        },
+        "directImageURL": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/adultCard.jpg",
+        "directImageURLs": {
+          "en": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/adultCard.jpg",
+          "zh-Hant": "https://www.octopus.com.hk/tc/images/consumer/octopus-cards/products/on-loan/adultCard.jpg"
+        },
+        "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/adult-standard-front.jpg",
+        "referenceImage": {
+          "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/adultCard.jpg",
+          "finalUrl": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/adultCard.jpg",
+          "contentType": "image/jpeg",
+          "lastModified": "Mon, 10 Feb 2020 02:48:32 GMT",
+          "dimensions": [
+            54,
+            34
+          ],
+          "format": "JPEG",
+          "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/adult-standard-front.jpg",
+          "sha256": "d6e5d6987bfa4d8ba14e9e97c220fe2a89974e2ac673f7634b7dc35f2dd086fc",
+          "byteLength": 2089
+        },
+        "cropBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 54,
+          "height": 34,
+          "units": "pixels",
+          "rightBottomExclusive": true
+        },
+        "rotationDegrees": 0,
+        "isComposite": false,
+        "inspection": {
+          "inspected": true,
+          "method": "Opened original downloaded JPEG with functions.view_image",
+          "face": "front",
+          "observedAppearance": "Dark gray field with orange/yellow, blue and green looping ribbon.",
+          "resolutionCaveat": "Only 54 x 34 original pixels; adequate for category, background and overall ribbon layout, not fine lettering or production tracing."
+        },
+        "evidence": [
+          {
+            "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+            "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-en.html",
+            "line": 112,
+            "selector": "table tr td:first-child",
+            "finding": "Issuer table puts Adult label and this exact image src in the same cell."
+          },
+          {
+            "sourcePageURL": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html",
+            "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-zh.html",
+            "line": 112,
+            "finding": "Traditional Chinese issuer label is 成人."
+          }
+        ],
+        "availabilityEvidence": "Listed on the issuer product page at retrieval; exact design issue dates and present outlet inventory not established."
+      },
+      {
+        "id": "child",
+        "proposedId": "child",
+        "cardId": "hk/octopus",
+        "issuerProductName": "Standard Octopus",
+        "issuerCategory": "Child",
+        "name": {
+          "en": "Standard Octopus - Child (On-Loan)",
+          "zh": "普通版八达通（小童）",
+          "zh-Hant": "普通版八達通（小童）"
+        },
+        "exactIssuerLabels": {
+          "en": "Child",
+          "zh-Hant": "小童"
+        },
+        "physicalProductType": "On-Loan Standard Octopus, physical card front",
+        "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+        "sourcePageURLs": {
+          "en": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+          "zh-Hant": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html"
+        },
+        "directImageURL": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/childCard.jpg",
+        "directImageURLs": {
+          "en": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/childCard.jpg",
+          "zh-Hant": "https://www.octopus.com.hk/tc/images/consumer/octopus-cards/products/on-loan/childCard.jpg"
+        },
+        "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/child-standard-front.jpg",
+        "referenceImage": {
+          "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/childCard.jpg",
+          "finalUrl": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/childCard.jpg",
+          "contentType": "image/jpeg",
+          "lastModified": "Mon, 10 Feb 2020 02:48:32 GMT",
+          "dimensions": [
+            54,
+            34
+          ],
+          "format": "JPEG",
+          "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/child-standard-front.jpg",
+          "sha256": "ad2d397ce5339bff167277efac9adc42f3e7a3d0d81377c0d9781c5b50418bfa",
+          "byteLength": 2109
+        },
+        "cropBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 54,
+          "height": 34,
+          "units": "pixels",
+          "rightBottomExclusive": true
+        },
+        "rotationDegrees": 0,
+        "isComposite": false,
+        "inspection": {
+          "inspected": true,
+          "method": "Opened original downloaded JPEG with functions.view_image",
+          "face": "front",
+          "observedAppearance": "Pale blue field with orange/yellow, blue and green looping ribbon.",
+          "resolutionCaveat": "Only 54 x 34 original pixels; adequate for category, background and overall ribbon layout, not fine lettering or production tracing."
+        },
+        "evidence": [
+          {
+            "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+            "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-en.html",
+            "line": 105,
+            "selector": "table tr td:first-child",
+            "finding": "Issuer table puts Child label and this exact image src in the same cell."
+          },
+          {
+            "sourcePageURL": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html",
+            "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-zh.html",
+            "line": 105,
+            "finding": "Traditional Chinese issuer label is 小童."
+          }
+        ],
+        "availabilityEvidence": "Listed on the issuer product page at retrieval; exact design issue dates and present outlet inventory not established."
+      },
+      {
+        "id": "elder",
+        "proposedId": "elder",
+        "cardId": "hk/octopus",
+        "issuerProductName": "Standard Octopus",
+        "issuerCategory": "Elder",
+        "name": {
+          "en": "Standard Octopus - Elder (On-Loan)",
+          "zh": "普通版八达通（长者）",
+          "zh-Hant": "普通版八達通（長者）"
+        },
+        "exactIssuerLabels": {
+          "en": "Elder",
+          "zh-Hant": "長者"
+        },
+        "physicalProductType": "On-Loan Standard Octopus, physical card front",
+        "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+        "sourcePageURLs": {
+          "en": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+          "zh-Hant": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html"
+        },
+        "directImageURL": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/elderCard.jpg",
+        "directImageURLs": {
+          "en": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/elderCard.jpg",
+          "zh-Hant": "https://www.octopus.com.hk/tc/images/consumer/octopus-cards/products/on-loan/elderCard.jpg"
+        },
+        "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/elder-standard-front.jpg",
+        "referenceImage": {
+          "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/elderCard.jpg",
+          "finalUrl": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/elderCard.jpg",
+          "contentType": "image/jpeg",
+          "lastModified": "Mon, 10 Feb 2020 02:48:32 GMT",
+          "dimensions": [
+            54,
+            34
+          ],
+          "format": "JPEG",
+          "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/elder-standard-front.jpg",
+          "sha256": "90a7268eb15fe0826f0d905dd9de5c273119f2152172f75e6e09074d1944aceb",
+          "byteLength": 2122
+        },
+        "cropBounds": {
+          "x": 0,
+          "y": 0,
+          "width": 54,
+          "height": 34,
+          "units": "pixels",
+          "rightBottomExclusive": true
+        },
+        "rotationDegrees": 0,
+        "isComposite": false,
+        "inspection": {
+          "inspected": true,
+          "method": "Opened original downloaded JPEG with functions.view_image",
+          "face": "front",
+          "observedAppearance": "Green field with orange/yellow, blue and green looping ribbon.",
+          "resolutionCaveat": "Only 54 x 34 original pixels; adequate for category, background and overall ribbon layout, not fine lettering or production tracing."
+        },
+        "evidence": [
+          {
+            "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+            "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-en.html",
+            "line": 119,
+            "selector": "table tr td:first-child",
+            "finding": "Issuer table puts Elder label and this exact image src in the same cell."
+          },
+          {
+            "sourcePageURL": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html",
+            "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-zh.html",
+            "line": 119,
+            "finding": "Traditional Chinese issuer label is 長者."
+          }
+        ],
+        "availabilityEvidence": "Listed on the issuer product page at retrieval; exact design issue dates and present outlet inventory not established."
+      }
+    ],
+    "sourcePages": [
+      {
+        "url": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+        "title": "Standard Octopus - Octopus Hong Kong",
+        "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-en.html",
+        "sha256": "83fd74ef66b1390f67daafbbf4581b0bf469333596a9472bb10a4c53663f940b"
+      },
+      {
+        "url": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html",
+        "title": "普通版八達通 - 香港八達通",
+        "localHTMLPath": "/tmp/card-faces-expansion-research-hk/standard-zh.html",
+        "sha256": "99c4dcda55890e163f10e146603a9fb4f6ef4fcd589ee6527f76a84d29bce2aa"
+      },
+      {
+        "url": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/index.html",
+        "title": "Choose Your Octopus and Accessory - Octopus Hong Kong",
+        "localHTMLPath": "/tmp/card-faces-expansion-research-hk/products-en.html",
+        "sha256": "42f37b05865ec2ff670b522c43ca105fb8bbf4bb158187c334c815c8a4c0efc8"
+      },
+      {
+        "url": "https://www.octopus.com.hk/en/consumer/tourist/choices/index.html",
+        "title": "Choice of Octopus - Octopus Hong Kong",
+        "localHTMLPath": "/tmp/card-faces-expansion-research-hk/tourist-en.html",
+        "sha256": "573ce8364fe110a942644602a2adb75397e6cd207ca9d4f7bd0a320f8d602d4a"
+      },
+      {
+        "url": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/sold-tourist/index.html",
+        "title": "Tourist Octopus (Sold version) - Octopus Hong Kong",
+        "localHTMLPath": "/tmp/card-faces-expansion-research-hk/sold-tourist-en.html",
+        "sha256": "252bf8fe8942f710b4651eb3b6938143263024f9074e183d97b64d442773002c"
+      }
+    ],
+    "sourceCategoryRowsPath": "/tmp/card-faces-expansion-research-hk/source-rows.json",
+    "additionalInspectedOfficialReferences": [
+      {
+        "role": "Product-family context only; not a complete standalone front reference",
+        "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/index.html",
+        "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/p_onloan.jpg",
+        "finalUrl": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/p_onloan.jpg",
+        "contentType": "image/jpeg",
+        "lastModified": "Wed, 30 Jun 2021 06:15:28 GMT",
+        "dimensions": [
+          484,
+          343
+        ],
+        "format": "JPEG",
+        "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/standard-onloan-composite.jpg",
+        "sha256": "1d0639f843c9c005b31d6a6fdfbe83b8a9122bc5eb290fbb67b96180b1e49f61",
+        "byteLength": 73468,
+        "isComposite": true,
+        "inspection": "Dark-gray Standard Adult front behind a white Personalised reverse and a JoyYou reverse; Adult front is partly occluded. This is not a composite of the three Standard category fronts.",
+        "cropBounds": null,
+        "rotationDegrees": 0,
+        "extractionRecommendation": "Do not crop as a complete front; use the category-specific original images."
+      },
+      {
+        "role": "Verified optional tourist alternatives, not selected",
+        "sourcePageURL": "https://www.octopus.com.hk/en/consumer/tourist/choices/index.html",
+        "url": "https://www.octopus.com.hk/en/consumer/tourist/choices/images/tourist_cardface.jpg",
+        "finalUrl": "https://www.octopus.com.hk/en/consumer/tourist/choices/images/tourist_cardface.jpg",
+        "contentType": "image/jpeg",
+        "lastModified": "Mon, 08 Apr 2024 08:00:00 GMT",
+        "dimensions": [
+          500,
+          300
+        ],
+        "format": "JPEG",
+        "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/sold-tourist-alternative-front.jpg",
+        "sha256": "e4dda9c4887e5c7ee2b8963aa914f38c80c595ff551b25346e60c4ba82c01ae9",
+        "byteLength": 35954,
+        "isComposite": true,
+        "inspection": "Two illustrated physical fronts: Adult has pale-green background and two adult travelers; Child has pale-blue background and adult/child travelers with bus. Fronts label Adult and Child respectively.",
+        "cropBounds": {
+          "adult": {
+            "x": 7,
+            "y": 14,
+            "width": 241,
+            "height": 152
+          },
+          "child": {
+            "x": 254,
+            "y": 138,
+            "width": 241,
+            "height": 152
+          }
+        },
+        "cropPrecision": "Approximate card rectangles read from inspected image; includes rounded-corner background and slight shadow.",
+        "rotationDegrees": 0
+      },
+      {
+        "role": "Verified optional tourist product reference, not selected",
+        "sourcePageURL": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/sold-tourist/index.html",
+        "url": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/sold-tourist/images/tourist_card.jpg",
+        "finalUrl": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/sold-tourist/images/tourist_card.jpg",
+        "contentType": "image/jpeg",
+        "lastModified": "Mon, 08 Apr 2024 08:00:00 GMT",
+        "dimensions": [
+          338,
+          437
+        ],
+        "format": "JPEG",
+        "localReferenceImagePath": "/tmp/card-faces-expansion-research-hk/sold-tourist-product.jpg",
+        "sha256": "c3e64e6d4c9ad06402a1d080051791565e9092a3930d282ad509116eb36c474a",
+        "byteLength": 49614,
+        "isComposite": true,
+        "inspection": "Same Adult and Child illustrated fronts stacked vertically, independently matching the tourist choice image. Sold Tourist page identifies Adult and Child types.",
+        "cropBounds": {
+          "adult": {
+            "x": 17,
+            "y": 21,
+            "width": 304,
+            "height": 192
+          },
+          "child": {
+            "x": 17,
+            "y": 229,
+            "width": 304,
+            "height": 192
+          }
+        },
+        "cropPrecision": "Approximate card rectangles read from inspected image; includes rounded-corner background.",
+        "rotationDegrees": 0
+      }
+    ],
+    "appFamilyAliasRecommendation": {
+      "readOnlyRoot": "/Users/ieb/Vibe/IPT-text-free-faces",
+      "canonicalStoredFamily": "Octopus",
+      "recommendedMatch": {
+        "families": [
+          "octopus"
+        ]
+      },
+      "reason": "Both platforms emit Octopus for FeliCa system 8008. Both remote-face matchers lowercase the family then use longest substring matching. This alias also covers an Octopus + mainland-family aggregate when family matching is reached.",
+      "localizedDisplayStrings": {
+        "en": "Octopus",
+        "zh-Hans": "八达通",
+        "ja": "オクトパス",
+        "ko": "옥토퍼스"
+      },
+      "optionalDisplayAliases": {
+        "families": [
+          "octopus",
+          "八达通",
+          "八達通",
+          "オクトパス",
+          "옥토퍼스"
+        ],
+        "note": "Defensive only for imported or localized family values; canonical app decoders emit Octopus. Traditional Chinese spelling is from issuer, not an observed app locale."
+      },
+      "aggregateFamilyFormat": "Octopus + <mainland application cardFamily>",
+      "matchingPriorityCaveat": "T-Union city code, City Union code and numeric card prefixes are matched before family aliases. A cross-boundary composite may therefore resolve to a mainland card entry. An octopus alias alone does not change that precedence.",
+      "evidence": [
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/ios/CardBal/NFC/Profiles/FeliCaProfiles.swift",
+          "line": 37,
+          "detail": "System 8008 maps to Octopus; profile displayName is Octopus at line 121."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/android/app/src/main/java/ad/neko/cardbal/android/nfc/JapaneseICDecoder.kt",
+          "line": 205,
+          "detail": "FeliCa profile Octopus stores family Octopus and system 8008."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/ios/CardBal/Models/TransitApplications.swift",
+          "line": 135,
+          "detail": "Dual application aggregate family uses Octopus + mainland.cardFamily."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/android/app/src/main/java/ad/neko/cardbal/android/data/TransitApplications.kt",
+          "line": 87,
+          "detail": "Aggregate family uses the same Octopus + format."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/ios/CardBal/Models/RemoteCardFaceCatalog.swift",
+          "line": 127,
+          "detail": "Family lowercased before longest substring match."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/android/app/src/main/java/ad/neko/cardbal/android/data/RemoteCardFaces.kt",
+          "line": 76,
+          "detail": "Family lowercased before longest substring match."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/ios/CardBal/Resources/en.lproj/Localizable.strings",
+          "line": 987,
+          "detail": "English display string Octopus."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/ios/CardBal/Resources/zh-Hans.lproj/Localizable.strings",
+          "line": 989,
+          "detail": "Simplified Chinese display string 八达通."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/ios/CardBal/Resources/ja.lproj/Localizable.strings",
+          "line": 989,
+          "detail": "Japanese display string オクトパス."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/ios/CardBal/Resources/ko.lproj/Localizable.strings",
+          "line": 990,
+          "detail": "Korean display string 옥토퍼스."
+        },
+        {
+          "file": "/Users/ieb/Vibe/IPT-text-free-faces/android/app/src/main/java/ad/neko/cardbal/android/ui/LocalizedResources.kt",
+          "line": 529,
+          "detail": "Android source key Octopus maps to native resource."
+        }
+      ]
+    },
+    "existingCollectionCheck": {
+      "root": "/Users/ieb/Vibe/card-faces",
+      "filesRead": [
+        "catalog.json",
+        "manifest.json"
+      ],
+      "hkEntryPresent": false,
+      "octopusEntryPresent": false,
+      "readOnly": true
+    },
+    "method": {
+      "webFirst": true,
+      "webResult": "Two web.run calls returned no usable content, including an official URL open. Fell back to direct retrieval and parsing of official HTML and exact image src URLs.",
+      "actualImageInspection": true,
+      "downloadMethod": "HTTPS urllib requests; originals retained byte-for-byte, dimensions checked with Pillow.",
+      "generationPerformed": false,
+      "repositoryEditsPerformed": false
+    },
+    "limitations": [
+      "Official category references are only 54 x 34 pixels; no high-resolution standalone Child or Elder front was found in the inspected pages.",
+      "Product-page availability supports authentic standard categories; it does not prove which revision every outlet currently issues.",
+      "No artwork reconstruction, image generation, repository modification or publication performed."
+    ]
+  },
+  "preservedReferences": [
+    {
+      "path": "sources/expansion/octopus-references/adult-standard-front.jpg",
+      "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/adultCard.jpg",
+      "bytes": 2089,
+      "sha256": "d6e5d6987bfa4d8ba14e9e97c220fe2a89974e2ac673f7634b7dc35f2dd086fc",
+      "dimensions": [
+        54,
+        34
+      ]
+    },
+    {
+      "path": "sources/expansion/octopus-references/child-standard-front.jpg",
+      "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/childCard.jpg",
+      "bytes": 2109,
+      "sha256": "ad2d397ce5339bff167277efac9adc42f3e7a3d0d81377c0d9781c5b50418bfa",
+      "dimensions": [
+        54,
+        34
+      ]
+    },
+    {
+      "path": "sources/expansion/octopus-references/elder-standard-front.jpg",
+      "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/products/on-loan/elderCard.jpg",
+      "bytes": 2122,
+      "sha256": "90a7268eb15fe0826f0d905dd9de5c273119f2152172f75e6e09074d1944aceb",
+      "dimensions": [
+        54,
+        34
+      ]
+    },
+    {
+      "path": "sources/expansion/octopus-references/standard-onloan-composite.jpg",
+      "url": "https://www.octopus.com.hk/en/images/consumer/octopus-cards/p_onloan.jpg",
+      "bytes": 73468,
+      "sha256": "1d0639f843c9c005b31d6a6fdfbe83b8a9122bc5eb290fbb67b96180b1e49f61",
+      "dimensions": [
+        484,
+        343
+      ]
+    },
+    {
+      "path": "sources/expansion/octopus-references/standard-en.html",
+      "url": "https://www.octopus.com.hk/en/consumer/octopus-cards/products/on-loan/standard.html",
+      "bytes": 9580,
+      "sha256": "83fd74ef66b1390f67daafbbf4581b0bf469333596a9472bb10a4c53663f940b"
+    },
+    {
+      "path": "sources/expansion/octopus-references/standard-zh.html",
+      "url": "https://www.octopus.com.hk/tc/consumer/octopus-cards/products/on-loan/standard.html",
+      "bytes": 9133,
+      "sha256": "99c4dcda55890e163f10e146603a9fb4f6ef4fcd589ee6527f76a84d29bce2aa"
+    },
+    {
+      "path": "sources/expansion/octopus-references/press-launch.html",
+      "url": "https://www.octopus.com.hk/tc/corporate/media/press-releases/2017/20171017.html",
+      "bytes": 10590,
+      "sha256": "8844477cdd160755b0c6a64182ea22a4fd81002cb5386d416d57b7b6b5cbe6ab"
+    },
+    {
+      "path": "sources/expansion/octopus-references/cardreplacement_adult.jpg",
+      "url": "https://www.octopus.com.hk/en/corporate/media/press-releases/2017/images/cardreplacement_adult.jpg",
+      "bytes": 7861,
+      "sha256": "d1f23c3c9f7152c0cd8fcdb231aa78cdbd185fed2ff40c1e1372d63760933029",
+      "dimensions": [
+        238,
+        150
+      ]
+    },
+    {
+      "path": "sources/expansion/octopus-references/cardreplacement_child.jpg",
+      "url": "https://www.octopus.com.hk/en/corporate/media/press-releases/2017/images/cardreplacement_child.jpg",
+      "bytes": 8809,
+      "sha256": "1ff0a85a962b47bb7051d1b77df24276dc0eb2448c9bb56a3f8a8a9cb7c96093",
+      "dimensions": [
+        238,
+        150
+      ]
+    },
+    {
+      "path": "sources/expansion/octopus-references/cardreplacement_elder.jpg",
+      "url": "https://www.octopus.com.hk/en/corporate/media/press-releases/2017/images/cardreplacement_elder.jpg",
+      "bytes": 8599,
+      "sha256": "b11d6708d1c09216026afd0e953b1ebdb48a799359382d0d3bde7e30487779f7",
+      "dimensions": [
+        238,
+        150
+      ]
+    }
+  ],
+  "additionalResearch": {
+    "officialPressReleaseDate": "2017-10-17",
+    "officialPressReleaseURL": "https://www.octopus.com.hk/tc/corporate/media/press-releases/2017/20171017.html",
+    "discovery": "Followed direct issuer press-release HTML image src links; downloaded originals byte for byte. The issuer captions identify Adult, Elder and Child separately.",
+    "inspected": "All three 54x34 originals, the 484x343 official partially occluded Adult composite and all three clearer 238x150 official standalone fronts were opened with functions.view_image.",
+    "strongerEvidence": "The 238x150 official fronts independently confirm the asymmetric ribbon, background categories, top-left 八達通 Octopus branding, bottom-right 小童 Child and 長者 Elder labels, and absence of an Adult category label.",
+    "generationChronology": "Three native bases used the supplied thumbnail/composite references. The clearer 2017 official standalone images were found and inspected after native generation, before final text composition and acceptance.",
+    "webTool": "Initial web.run opens/searches yielded no usable content; HTTPS retrieval of issuer HTML and linked images succeeded. Additional official press-release HTML supplied the improved fronts.",
+    "unusedExplorations": "An unrelated user-guide PDF and a Wikimedia Adult SVG reproduction were retrieved outside Git during research; neither was used as artwork or generation input. The Wikimedia SVG was not rendered or visually inspected and is not evidence for the final designs."
+  },
+  "nativeGeneration": {
+    "mode": "built-in native only",
+    "calls": [
+      {
+        "designId": "default",
+        "tool": "native image_gen.imagegen",
+        "transparent_background": false,
+        "prompt": "Use case: style-transfer. Asset type: real Hong Kong Standard Adult Octopus transit card face for a card-recognition app. Create one faithful clean flat vector-style NO-TEXT recreation of the actual gray Adult card front in reference 1. Reference 1 is the complete tiny official 54x34 front: use it for the whole composition and placement only. Reference 2 is a larger official product composite: use ONLY the gray Adult card at the back as secondary evidence for the ribbon curves, ribbon colors and background gray; do NOT include either white or green foreground card, people, or any of their contents. Output a single full-bleed rectangular face, landscape 30:19 aspect ratio, no outside margin, no rounded white corners, no border, no photographic mockup.\nPreserve the actual distinctive asymmetrical diagonal infinity ribbon: a very large lower-left loop is partly cropped below the bottom edge; a smaller upper-right loop nearly reaches the top and right edges. The orange/yellow front strip rises from the lower-left edge, sweeps up the left side to the middle of the card, then extends horizontally across the middle and curves upward around the far right. Its lower return strip is blue, rising from the cropped lower-left/bottom towards the middle-right; it changes to green as it rises into the upper-right loop. The orange strip passes IN FRONT at the central crossing. Preserve the ribbon's changing widths, sweeping pointed tapered inner edges, green upper arc and blue lower diagonal. Follow the references, not a generic symmetric infinity icon. Background is uniform medium-dark gray matching the actual card, about #616366; orange about #ffa51a, green about #28b689, blue about #087cb7, yellow-orange edge accent only where observed. Simplify subtle gradients into a few broad flat color regions. Smooth crisp curves, limited clean colors, no texture or grain, no shadows or bevels. Remove all ordinary typography including the top-left Octopus/Chinese branding; keep the complete colorful ribbon as decorative graphics. Absolutely no letters, category label, numerals, invented fine copy, card numbers, QR code, watermark or added details. Return only this one no-text Adult card face.",
+        "promptSha256": "993dfbae9148903e80326750260c04794d0ecd215ea48c5abb4285df547febb0",
+        "referenced_image_paths": [
+          "/tmp/card-faces-expansion-research-hk/adult-standard-front.jpg",
+          "/tmp/card-faces-expansion-research-hk/standard-onloan-composite.jpg"
+        ],
+        "largeMasterOutsideGit": "/Users/ieb/.codex/generated_images/01a19321-fac6-7ab0-af0a-8c4fe075ab19/call_0LK82IUNuxYhtvKblSk325G5.png",
+        "masterBytes": 1268506,
+        "masterSha256": "df499376e0c200c5b48b85477218adfefdd31bf34d2a76edda7e3a49e451d489",
+        "masterDimensions": [
+          1575,
+          998
+        ],
+        "attempt": 1
+      },
+      {
+        "designId": "child",
+        "tool": "native image_gen.imagegen",
+        "transparent_background": false,
+        "prompt": "Use case: precise-object-edit. Asset type: faithful NO-TEXT real Hong Kong Standard Child Octopus transit-card front, full bleed landscape 30:19. Image 1 is the generated clean Adult card face and is the EDIT TARGET. Image 2 is the complete tiny 54x34 official Standard Child front, which confirms the same orange/blue/green diagonal infinity ribbon with PALE SKY BLUE background. Make the Child version by changing ONLY the uniform gray background of image 1 to the light pale cyan-blue of image 2, approximately #8ed4ee. Preserve the complete ribbon's exact silhouette, asymmetrical loops, scale, all edges, cropping, positions, crossing order, orange/yellow front strip, green upper arc and blue lower diagonal from image 1. The original Child card's ordinary text is deliberately omitted from this cleaned variant. No text anywhere, no letters, numbers, category labels, signatures, extra graphics, shadows, texture, borders, margin, rounded white corners or added details. Keep this a crisp limited-palette flat vector-style image. Output only one full rectangular Child card face.",
+        "promptSha256": "d71e8fcddff758bfebf8560e8d587fc6942ded8580f6cca1b9d352b819553677",
+        "referenced_image_paths": [
+          "/Users/ieb/.codex/generated_images/01a19321-fac6-7ab0-af0a-8c4fe075ab19/call_0LK82IUNuxYhtvKblSk325G5.png",
+          "/tmp/card-faces-expansion-research-hk/child-standard-front.jpg"
+        ],
+        "largeMasterOutsideGit": "/Users/ieb/.codex/generated_images/01a19321-fac6-7ab0-af0a-8c4fe075ab19/call_Kj6z0wnFGXjUJK8XozN11ue2.png",
+        "masterBytes": 1241828,
+        "masterSha256": "ca927b819b14d6e8c7de8d375d17f8d37a98f9cde66d0d683fa291f8733c0af5",
+        "masterDimensions": [
+          1575,
+          999
+        ],
+        "attempt": 1
+      },
+      {
+        "designId": "elder",
+        "tool": "native image_gen.imagegen",
+        "transparent_background": false,
+        "prompt": "Use case: precise-object-edit. Asset type: faithful NO-TEXT real Hong Kong Standard Elder Octopus transit-card front, full bleed landscape 30:19. Image 1 is the generated clean Adult card face and is the EDIT TARGET. Image 2 is the complete tiny 54x34 official Standard Elder front, which confirms the same orange/blue/green diagonal infinity ribbon with a saturated EMERALD GREEN background. Make the Elder version by changing ONLY the uniform gray background of image 1 to the medium emerald green of image 2, approximately #009451. Preserve the complete ribbon's exact silhouette, asymmetrical loops, scale, edges, cropping, positions, crossing order, orange/yellow front strip, lighter mint-green upper arc and blue lower diagonal from image 1. Keep the ribbon green visibly lighter than the green background, as in the reference. The original Elder card's ordinary text is deliberately omitted from this cleaned variant. No text anywhere, no letters, numbers, category labels, signatures, extra graphics, shadows, texture, borders, margin, rounded white corners or added details. Keep this a crisp limited-palette flat vector-style image. Output only one full rectangular Elder card face.",
+        "promptSha256": "daaad3df888636b5abff8cd02b6da7d455c9c219eeb5814baccbe492f25cfec7",
+        "referenced_image_paths": [
+          "/Users/ieb/.codex/generated_images/01a19321-fac6-7ab0-af0a-8c4fe075ab19/call_0LK82IUNuxYhtvKblSk325G5.png",
+          "/tmp/card-faces-expansion-research-hk/elder-standard-front.jpg"
+        ],
+        "largeMasterOutsideGit": "/Users/ieb/.codex/generated_images/01a19321-fac6-7ab0-af0a-8c4fe075ab19/call_qmhNZ0ijlLdISgAZ9QycNVUk.png",
+        "masterBytes": 1264880,
+        "masterSha256": "28da8400ea892ab82a16ed6e03e691dfcf796fc4384b1114203d960fcbd1aeb7",
+        "masterDimensions": [
+          1575,
+          999
+        ],
+        "attempt": 1
+      }
+    ],
+    "callCount": 3,
+    "extraAgentsSpawned": false,
+    "note": "Native generation supplies all three decorative bases. Exact text variants use deterministic typography from verified issuer labels; no CLI/API generation or programmatic ribbon drawing was used."
+  },
+  "deterministicText": {
+    "script": "sources/expansion/octopus-export.py",
+    "scriptSha256": "f5065d6ae23992497540ce347d0d4cdaf1ab7447b992d04dd67f707f28e8f3b5",
+    "method": "Pillow glyph masks at 4x resolution, Lanczos downsample, four nonzero coverage levels, white lettering, composited on optimized native bases. No wording generated by an image model.",
+    "exactStrings": {
+      "header": [
+        "八達通",
+        "Octopus"
+      ],
+      "child": [
+        "小童",
+        "Child"
+      ],
+      "elder": [
+        "長者",
+        "Elder"
+      ],
+      "adultCategory": null
+    },
+    "layoutAt1200x760": {
+      "header": {
+        "left": 54,
+        "top": 56,
+        "chineseSize": 52,
+        "latinSize": 60,
+        "gap": 16
+      },
+      "childAndElder": {
+        "right": 1148,
+        "top": 669,
+        "chineseSize": 38,
+        "latinSize": 40,
+        "gap": 12
+      }
+    },
+    "fonts": [
+      {
+        "path": "/System/Library/Fonts/Helvetica.ttc",
+        "collectionIndex": 0,
+        "sha256": "658718d77497145281cb0ec45ff2fe7c6e18062b2a38f837d0d792d9be3a9ba3"
+      },
+      {
+        "path": "/System/Library/Fonts/STHeiti Light.ttc",
+        "collectionIndex": 0,
+        "sha256": "c2ce69631a8100d77e8174da0f719ceff8c6196b9b2abba35e8feb4114138cc5"
+      }
+    ],
+    "fontLicenses": "System fonts are not copied into this repository. The supplied compact PNGs rebuild without those fonts."
+  },
+  "optimizer": {
+    "script": "tools/build.py",
+    "denoise": false,
+    "aspect": "30:19",
+    "initialBuild": "build_face(native_master, external_export, denoise=False)",
+    "canonicalization": "Re-encode each optimized no-text PNG once through build_face(..., denoise=False) to normalize the palette order; then composite verified exact text. Final compact source PNGs and published PNGs have identical bytes.",
+    "scopedCommand": "python3 tools/build.py hk/octopus",
+    "fullRebuildRequired": false
+  },
+  "exports": [
+    {
+      "id": "default",
+      "file": "faces/hk/octopus/default.png",
+      "source": "sources/hk/octopus/default.png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 760,
+      "colors": 11,
+      "bytes": 8287,
+      "sha256": "15f95656c513f37846882c380672fe5d958bb5d745d6f099623751d82fa2a89f",
+      "denoise": false,
+      "sourceByteIdentical": true
+    },
+    {
+      "id": "text",
+      "file": "faces/hk/octopus/text.png",
+      "source": "sources/hk/octopus/text.png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 760,
+      "colors": 15,
+      "bytes": 10629,
+      "sha256": "833c32a11b9defcf62602487525139f96ea1e057f0aad2458d49f4f8b7a6e047",
+      "denoise": false,
+      "sourceByteIdentical": true
+    },
+    {
+      "id": "child",
+      "file": "faces/hk/octopus/child.png",
+      "source": "sources/hk/octopus/child.png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 760,
+      "colors": 11,
+      "bytes": 8387,
+      "sha256": "6964eb5fdc10968c9f6252be19604b9aa1ecace47451aa69562b986cf291b26b",
+      "denoise": false,
+      "sourceByteIdentical": true
+    },
+    {
+      "id": "child-text",
+      "file": "faces/hk/octopus/child-text.png",
+      "source": "sources/hk/octopus/child-text.png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 760,
+      "colors": 15,
+      "bytes": 11580,
+      "sha256": "c52c1d6613fe6a32504f1e5cc1f89d8a6efb34e7ba1c4a924bc2302bc7c2c9e2",
+      "denoise": false,
+      "sourceByteIdentical": true
+    },
+    {
+      "id": "elder",
+      "file": "faces/hk/octopus/elder.png",
+      "source": "sources/hk/octopus/elder.png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 760,
+      "colors": 13,
+      "bytes": 8683,
+      "sha256": "7d9b4152825c2efb67fd3d5fd2f4172764836d974c254b0c7b3184fa20b46c56",
+      "denoise": false,
+      "sourceByteIdentical": true
+    },
+    {
+      "id": "elder-text",
+      "file": "faces/hk/octopus/elder-text.png",
+      "source": "sources/hk/octopus/elder-text.png",
+      "format": "PNG",
+      "width": 1200,
+      "height": 760,
+      "colors": 17,
+      "bytes": 11607,
+      "sha256": "0dd6936f15f41d56546b316024548b1115334e4fd8763452ebf7a7f71867a2e5",
+      "denoise": false,
+      "sourceByteIdentical": true
+    }
+  ],
+  "faceBytes": 59173,
+  "sourcePngBytes": 59173,
+  "limits": {
+    "maxColors": 24,
+    "maxBytesExclusive": 40000,
+    "maxRepositoryBytesExclusive": 50000000
+  },
+  "limitations": [
+    "These are simplified native vector-style raster recreations, not issuer production vector files or pixel-exact tracings. Curves and color shades are approximate.",
+    "Supplied current category thumbnails are only 54x34. The 238x150 standalone fronts are authentic historical issuer evidence from 2017, not proof that every outlet issues the same revision today.",
+    "The larger 484x343 official composite partially occludes the Adult front and cannot establish its lower half. It was used only for visible ribbon and header evidence.",
+    "Exact wording is preserved deterministically, while system-font letterforms, kerning and placement approximate the readable official reference; original proprietary font files were unavailable.",
+    "No serials, QR codes, legal microprint, NFC chips, signatures, shadows, people, tourist illustrations or unobserved small details were invented. Both variants retain only the verified colorful ribbon; ordinary lettering appears solely in text variants.",
+    "Family aliases do not override existing city-code/prefix match priority for a cross-boundary aggregate application.",
+    "Artwork validation and local publication do not establish iOS/Android runtime selection, physical NFC behavior or hosting deployment."
+  ],
+  "preservation": {
+    "baselineCards": 39,
+    "baselineFaces": 130,
+    "baselineSourceFiles": 168,
+    "baselineAssetSha256": {
+      "faces/cn/1000/china-70-reform-2019-text.png": "20903aad383f1f39fdc7453ce24031aee6b3752c74387f930e25ffdec524d7fd",
+      "faces/cn/1000/china-70-reform-2019.png": "a513b9de951c3807ea4a8c6ad3e7089d2b0622e53b84316dd12a7553d839d267",
+      "faces/cn/1000/default.png": "5fb1a4e417d53c6af74d151e6fe3d70a55adc6a4336abaea85626243acef7a36",
+      "faces/cn/1000/text.png": "66886675cda512989265191b53cf4ab1527014989534c4715b76a90f505eb0ee",
+      "faces/cn/1121/default.png": "67f38026e914f850cce7ef2cc1a9c8bba3ab44e313d7befa64d73648faff188e",
+      "faces/cn/1121/text.png": "a113940740b3f80b0d2f485afe6f660639828b2ec738e66ffda0c08842ba9a0e",
+      "faces/cn/2900/default.png": "541284b60df97cec00b885b591d3277ab716d5328b5f63216179b1dee946592c",
+      "faces/cn/2900/interconnect-10th-2025-no-text.png": "9177893966e9cc42d2d549cf27dd03958645342f39256ac809cd29dcce5d9ca5",
+      "faces/cn/2900/interconnect-10th-2025-text.png": "92591e80afeea70d6c98f1d93cc1ec2d2e357c0c3296b00345898086c2ffc6a2",
+      "faces/cn/2900/interconnect-10th-2025.png": "a9a15b88eec9603d7cc2570399478fbb551b7b9b859c584ee24debd66809b084",
+      "faces/cn/2900/text.png": "7ba9831553f24ba097126dd80b8066bab59e3ce52958e680511369f1ba7a5c2f",
+      "faces/cn/3010/default.png": "15308e0ebed2282214a7b3a5852f2cbd664d0a910c5059ace25f94041c290328",
+      "faces/cn/3010/no-text.png": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+      "faces/cn/3010/text.png": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8",
+      "faces/cn/3020/default.png": "23c16d8332ae970c29674c9c7dc92adffa00f50b9467e752256d2a13f82400db",
+      "faces/cn/3020/text.png": "e2791492bbb39a2c4a88417c031aca0898a7b49302e3d4395b5de7cad9a50680",
+      "faces/cn/3050/default.png": "70b04ebe246012ad1524a939ac5ba663345af15546cae8f60bd179a764667d3b",
+      "faces/cn/3050/no-text.png": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+      "faces/cn/3050/text.png": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0",
+      "faces/cn/3310/default.png": "33692674e05feb7c18e7a32522a38a15ca590b294ea7237999a361087807b519",
+      "faces/cn/3310/text.png": "7b0a7fb557a587511bcd526a237e41eedaf865955fe7c8a76527065a4e9511f0",
+      "faces/cn/3320/default.png": "987b7330040b8a7ec207a69d0e8020546959736a16de80399f5d40a45f0708d5",
+      "faces/cn/3320/text.png": "2e05af50e6288a85a794509207ce3e8d8e8623546042206e037103e54b470c13",
+      "faces/cn/3610/default.png": "e8ef84620b1c26fcab0709822015a9ed0cc1a62ee993c4c6bc823ed9fb97dba5",
+      "faces/cn/3610/text.png": "d38eba6df8bc66251992f1191a375913fe72476b04565e7b24192b99e9a98e36",
+      "faces/cn/3910/default.png": "2e53a149541d66cd9a70b68fdd51bba54bea2df5bcc0b6e4e764d279224ae378",
+      "faces/cn/3910/text.png": "b933f153d1b76f72e1f40b916c74e0ef8cd94287c7375d7bf5e3ee6971a93d82",
+      "faces/cn/4510/default.png": "ad462ea98e7b02feef704fb2219168981394058aba5e4d731a91e72b2a17413a",
+      "faces/cn/4510/text.png": "d481545c5fa732673973cc3f4e7e0efd1e35822f282b92496d454cbcf02922df",
+      "faces/cn/4520/default.png": "e94b9d03f39bafa1cffbe7419b8745c1a7e1bea8413b766701845126b54058c0",
+      "faces/cn/4520/text.png": "61cabeb1aa6fc9681b84dbca9fa1b5f4f93cc2b3f5a87b44e5858645f375dd45",
+      "faces/cn/4910/default.png": "8d1fc644110c61ec602d2a8d778612d0a40988dd7070890eb83f97bd2ff14e74",
+      "faces/cn/4910/text.png": "6b4c04a47cce9350150c788bdadfcf820260821acd15eec847b8034662f83ee0",
+      "faces/cn/5210/default.png": "6e3f7b3c609ea757b95bb86a888aebc8b18dfe131b947156176170049d1a9d97",
+      "faces/cn/5210/text.png": "279a62794c9ea0e1b8235994bbff9cacc7349992389b40f2a4c6757be083c36f",
+      "faces/cn/5510/default.png": "d77a3602fbd76f580016726eaa8deae2a66dc11e6470aba79cad8f679cea9533",
+      "faces/cn/5510/no-text.png": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
+      "faces/cn/5510/text.png": "f0c297aec20f48a99ff7816edfdc46901b4d90d6c7e64488fc593b2633ba812a",
+      "faces/cn/5810/default.png": "d2792dd19de5bb0c9016f39586ea8458507327b505adf32551777e541ec03640",
+      "faces/cn/5810/first-issue-five-rams-2018-text.png": "78aa2076f21ebebcd6ffec03301cf5b126b61e532c0f40fbb61881cb2371fb67",
+      "faces/cn/5810/first-issue-five-rams-2018.png": "17403cc788ee1b90cfb873a12d5d9f7aa50ca0a9b368f8da12cdbf351b134918",
+      "faces/cn/5810/text.png": "6ccef0f29830959d676a762095963abeccbab68011dade8f1f5be2c5ce9dba3f",
+      "faces/cn/5840/default.png": "e4abe8efe688ea64eb8a6b3b530dd4b3caea4d7f2e575eb7dd7b89fe31845fd8",
+      "faces/cn/5840/persimmons-good-fortune-no-text.png": "ebe4965742452babfee68636d12c028feee6e5eb3f23ae0316279a83486dc5b7",
+      "faces/cn/5840/persimmons-good-fortune-text.png": "9d59234bb9259783a8d9835bdbed5459b77c5f0a2c1a86f1253051d2c306815b",
+      "faces/cn/5840/persimmons-good-fortune.png": "d331b0d930d0b455617b9e7c334cc999ebecfc54d7948a599e18e645bc94a1be",
+      "faces/cn/5840/text.png": "d7c668c8be484e2835cea84ea20e5bee36bdbe700e489314c1bd41aae8d2ad45",
+      "faces/cn/5880/default.png": "0c9a246a3a3ed287b9e8fdcf2f1e2d4262fbf5574eefd79a64d488fcc23e8aa1",
+      "faces/cn/5880/text.png": "826e7ef62731f3a92f2e706a914ba94a6d8ad4a8de561ab58662c27cbcf96452",
+      "faces/cn/6510/default.png": "c12f88f45de976dfa47f188314363356df1e6f7feca449844f3d21b1f8cc64dd",
+      "faces/cn/6510/text.png": "a868927f14630520540d1d8616e3ac624352490270f40b14e7a8d9ef7857e2ac",
+      "faces/cn/6900/default.png": "6d57e902d7f7c24a712755e6833cbd401b70899392567694023eaad4a867f6aa",
+      "faces/cn/6900/text.png": "842bcae5f4ea9605df384f3199ed761068644ed1dfb44c409bb53dc52a5b4f23",
+      "faces/fr/la-carte/blue-text.png": "f562b25b2a2d3db0021f3739c9fcc6467bbd0ce75bd826f89df5e03b1724a44a",
+      "faces/fr/la-carte/blue.png": "436ea6e7b045040a711c3b8dee26ea91866b0e1de110151a331485282118325c",
+      "faces/fr/la-carte/default.png": "700578027a9c90e9a8e761e947ee6bb8aa3526c249db48fc968c795ce5195865",
+      "faces/fr/la-carte/text.png": "67d46e81262fe0522c6e0473e69e4f34e073e9eb1e8ab570202981d74447d95e",
+      "faces/fr/la-carte/tour-2024-yellow-jersey-text.png": "61e001220e8dffba062d5bf95cd7762f1f7607a67db44119cfc26af07236dde8",
+      "faces/fr/la-carte/tour-2024-yellow-jersey.png": "752ef108f3a817d2ab49711e5d708c229f649fc22547a8896d2d5df916766b10",
+      "faces/jp/edy/default.png": "d6348da2e18fbc44ab5f3ed446e110bf6e2095ae1c603eb72e288bccd290cf7e",
+      "faces/jp/edy/no-text.png": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
+      "faces/jp/edy/text.png": "497cdf274bf2cb3be17247cd419f812c256ce0e856da1a701bbcbaedfec369dc",
+      "faces/jp/hayakaken/default.png": "9cf02833c7407557d46a6251780a3b30b6b5f3df2479ea8d57c78fe66eb879ab",
+      "faces/jp/hayakaken/text.png": "8d0b1cb1ab5e7ea99abe1056b14e17d5f11ff3f94255c8dd64089e51954b9c60",
+      "faces/jp/icoca/default.png": "7b659416cc49c7683bf0623551411ca694cc802f9420c188fe5166d6fba0260f",
+      "faces/jp/icoca/text.png": "326b438ad8b834064b3dd956be63033856c4c8a1ad78a409623877fdc24e4bf5",
+      "faces/jp/icoca/wind-thunder-text.png": "43a9d5b792dd2f8de03d36e2c6697752f5e5d5ed3270453610186628ad6bffc5",
+      "faces/jp/icoca/wind-thunder.png": "bb8cfb2742927d53b45534bc97900f5efc8f436256be0219adacdb42039651b1",
+      "faces/jp/kitaca/default.png": "620d70fb1613a2f9500d3bbba8321d997dc5bbba2606bcce2deec4f33ec77809",
+      "faces/jp/kitaca/text.png": "72481763be1f31943446ee14a68611e646617703315358a41080f405950bf2cc",
+      "faces/jp/manaca/default.png": "89166868e2532588c7458e625053240d54b7c4c8b4331a22641b18beb09359b5",
+      "faces/jp/manaca/text.png": "d3e2b37061efbbf8a01c2bed0995b5b666e48598107dfedc11026823cb670bd0",
+      "faces/jp/nanaco/default.png": "2b2a68f2345b66e437839b33ee7d0b974098b5f2a4f9646131fb6cc1be3c800c",
+      "faces/jp/nanaco/text.png": "8648bf3a8ad9b523327d03606eb3bdbcef4e53ab506b6c7c4ef79c1a0ee83328",
+      "faces/jp/nimoca/default.png": "b689b998b3e1b1d5829657b93d3c1f800b92305db0c4db796c2725f62a4e986d",
+      "faces/jp/nimoca/text.png": "c8fdbe4f9dfe122a49305a4b095206b3bafc11474cb6a0a547101761f7558b86",
+      "faces/jp/okica/default.png": "c1e567f6ec62cc79fe5f07ec16cdc08746223cdc1f8b797a5feb58b4c2b52ec5",
+      "faces/jp/pasmo/default.png": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+      "faces/jp/pasmo/no-text.png": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
+      "faces/jp/pasmo/passport-sanrio-no-text.png": "533d0457c7b7f680c542dcfdde787cda47c2ef2f826c7317e6a6ccab47142c2f",
+      "faces/jp/pasmo/passport-sanrio-text.png": "df4693ffd7305231535859db4fd831d99e321c6dddee7d035f8732be4f399d72",
+      "faces/jp/pasmo/passport-sanrio.png": "4c2967a38a4d08b43dbaa00cd5ca9d2a94d332749b4e9228464e4d9fffbc8ddc",
+      "faces/jp/pasmo/text.png": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+      "faces/jp/sugoca/default.png": "e84ed34e2118b70ac54072dab86ebd70a9a5345567fe907e878bd922fab9927b",
+      "faces/jp/sugoca/text.png": "96c72b52c3d4ad4ad24e0a9f3e55d99595d1d1a20cee91bed209a230b56d6547",
+      "faces/jp/suica/default.png": "a6edac3aa422bf789fad7adb81013f4a117b270003f61fad6457cc6284165ef9",
+      "faces/jp/suica/text.png": "2d1909c6b0249d91def9bffc4d45db4d142b8336145eb06b303d13b2162b24d2",
+      "faces/jp/suica/welcome-sakura-text.png": "f324fc1778143293f235a045c86fe476786fe38744d3bff6208450c0365262b6",
+      "faces/jp/suica/welcome-sakura.png": "56d21a422d095065c80238c05b908a50d7958ef7dcd4106c10bf06669f1026b8",
+      "faces/jp/toica/default.png": "3158b8f00b821bcbce0b7bad0f1cd40981c94b74a7e9cc5b73fecb9271c88790",
+      "faces/jp/toica/text.png": "785d8d9d186517ace7baff219faf3dc3032cecb39383daaff7276a1498cff5ee",
+      "faces/jp/waon/default.png": "92447c3c835917c48d544ef11ff745d73b287166488d1a70120e229afb8542e6",
+      "faces/jp/waon/text.png": "d716dc44653b9cc2d9d2429f5cdb33658b43f1e96946a5e7c585f3d793bd9f3c",
+      "faces/kr/climate-card/default.png": "6333a46eecaec5e38a171394cd44611d6f8730c372df48a0d95a3b830f2a5ea0",
+      "faces/kr/climate-card/no-text.png": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
+      "faces/kr/climate-card/text.png": "7aadae261e222d38f01766304c630ce6df10fe3fbb4bf75bf19936025a94b2fe",
+      "faces/kr/ezl/default.png": "a56a88a47a6f1e9211fab1389381e624239d04579adcf12383358e9fb229be36",
+      "faces/kr/ezl/duty-free-text.png": "54ca5c5dbd9f9b65b0d33c24edff971be899224e7186bb3f3c919decac7d02be",
+      "faces/kr/ezl/duty-free.png": "69752242ebd9f28ebd0340ea835584067a04a836a45f22fda21a7ee9eb8bdd6d",
+      "faces/kr/ezl/myeongdong-text.png": "88b11cc7790bf3bb9e74e2baa57dd1608c9aa1bbf6f33412c0998a4197791b7c",
+      "faces/kr/ezl/myeongdong.png": "597c32615beb65f8263d487b13ab4be96022fb6ae917ee77f0bca715b11bffb3",
+      "faces/kr/ezl/pop-text.png": "c7d0d039b60f526a5c2d778dc2f93de48f6b2ae5b215ffef37df79c760d17171",
+      "faces/kr/ezl/pop.png": "697ab3ea3ab90f3b5053512c55ddf4ec966ca82358f33455a32f9788e24c826c",
+      "faces/kr/ezl/text.png": "99b1f4addf390cf450e3d5c81ba9b857f72a91e8030e485f19428047b9600cf8",
+      "faces/kr/ezl/tour-text.png": "9c740e829c1df5d3789f74ef3654eded7392eaff03695d5dc88abb467273a8f4",
+      "faces/kr/ezl/tour.png": "b10fda6423a88070c753d1c7f944cddc1ac50efacf9a32583a0ca2fd2c655eb5",
+      "faces/kr/tmoney/apeach-text.png": "3b700761b4062a5dd18fbb6e01a5168708f55b98da49ef582c8fccbbbf0d3256",
+      "faces/kr/tmoney/apeach.png": "b49b351da1f3cb9377cf17261886a0973161123c9da4ec0f79433c1d61c306cd",
+      "faces/kr/tmoney/default.png": "99a9ba5fd2171207607173c820b7089f255b43b04d04e5fe6af07a1c9ebc1e92",
+      "faces/kr/tmoney/go-green-text.png": "05a49c4462ded6f3091cf68b19f07c62f56660fcfe001d83540cbd10e2dcaa03",
+      "faces/kr/tmoney/go-green.png": "cb304e3a48986cf12159347dda9fa4f0f543062d5d3e37f4631e0ff8b901af12",
+      "faces/kr/tmoney/kpass-line-friends-text.png": "b37a6d67b2724fbd9c6debf9a2575ad68552f82824b694468ca9ea7b007370fb",
+      "faces/kr/tmoney/kpass-line-friends.png": "3c562c3e1994643407538cab537302729f78882c984ed8a173f0f7ae32f97a46",
+      "faces/kr/tmoney/kpass-text.png": "41835039357a34892a5893376de812494cb0ec69003c444079b6216a4b9abfda",
+      "faces/kr/tmoney/kpass.png": "a351c9421d36b2fae203e7dba5a6ba47725030e8d8ed80e273d823fe870e2fa3",
+      "faces/kr/tmoney/logo-text.png": "0e60f75404ec1c75c0bd1465d6176daf25505f3a966bcf55035078b1f08e3b2a",
+      "faces/kr/tmoney/logo.png": "5f4b58859ed2ad8a0c1af52e9a5b3fc2c95c877f4352c2bd462134fcc3ebdfb0",
+      "faces/kr/tmoney/ryan-text.png": "5b5373e1ca7d622b06b8d54478743519c69d179c94b55fe4febcfe204e620a8d",
+      "faces/kr/tmoney/ryan.png": "5fa4995799a449911ce361acc00709e823f780d00d69b973aa229846a087431d",
+      "faces/kr/tmoney/safe-text.png": "a26a1f415917ec9d14b7fd9894ef60318ecfd7e7ba43d882b665a3d59e871b97",
+      "faces/kr/tmoney/safe.png": "01724e106cf7f308f0ad2dbb5b95c2e4b052b6979904cbee8ebca7c06b737317",
+      "faces/mn/umoney/britto-einstein-text.png": "669ea0f3bc4d239087da21fb8cc1e827c2d1e372c3f7f3e90a0e728368510b8b",
+      "faces/mn/umoney/britto-einstein.png": "d2fe110dcbeaeed6aacd537f6301e7b61d714a235caa090b7081bfee7cd9e3ef",
+      "faces/mn/umoney/default.png": "d1b2cddc4b64150bc418907404293554fe548872b61b3e2ca3e4ef6cd7cadf3e",
+      "faces/sg/ezlink/default.png": "38d6a74928d9f287e02edb358497eed8376e551bdc7a12de1b6e4932966cd231",
+      "faces/sg/ezlink/hello-kitty-merlion-text.png": "75cfb4c6add894f9966ff323c9838a4c7f3ca19afa4ae31d645ee97dd6b2a379",
+      "faces/sg/ezlink/hello-kitty-merlion.png": "8054cda993154bb9d0898ca4d2c201c3e5e3c53625298a288bc77af20ec23352",
+      "faces/sg/ezlink/singapore-skyline-text.png": "41f2b4ddbb81bd90b02db26a1d2d3c0ccbfbae8256e4dd3c7d8e8b686db21794",
+      "faces/sg/ezlink/singapore-skyline.png": "243b8ffec6dd39b15690ac7a427653404dd38c97ed3950a20a25fd6c25a2f261",
+      "faces/sg/ezlink/text.png": "e8f93ffca9f094124e74354fac6ceec1d9e00ef0d05095aeba949a75581585ce",
+      "sources/cn/1000/china-70-reform-2019-text.png": "20903aad383f1f39fdc7453ce24031aee6b3752c74387f930e25ffdec524d7fd",
+      "sources/cn/1000/china-70-reform-2019.png": "a513b9de951c3807ea4a8c6ad3e7089d2b0622e53b84316dd12a7553d839d267",
+      "sources/cn/1000/default.png": "5fb1a4e417d53c6af74d151e6fe3d70a55adc6a4336abaea85626243acef7a36",
+      "sources/cn/1000/text.webp": "b4a8fd7c4807cae4bb385f3645682a3153ead1b2eb15e37aa9b14ad0dd4e5fb9",
+      "sources/cn/1121/default.png": "67f38026e914f850cce7ef2cc1a9c8bba3ab44e313d7befa64d73648faff188e",
+      "sources/cn/1121/text.webp": "95873d2182941386124cd51c3c485779f8bcb73c5dade4cd211afb94dbd6593b",
+      "sources/cn/2900/default.png": "541284b60df97cec00b885b591d3277ab716d5328b5f63216179b1dee946592c",
+      "sources/cn/2900/interconnect-10th-2025-no-text.png": "9177893966e9cc42d2d549cf27dd03958645342f39256ac809cd29dcce5d9ca5",
+      "sources/cn/2900/interconnect-10th-2025-text.png": "92591e80afeea70d6c98f1d93cc1ec2d2e357c0c3296b00345898086c2ffc6a2",
+      "sources/cn/2900/interconnect-10th-2025.png": "a9a15b88eec9603d7cc2570399478fbb551b7b9b859c584ee24debd66809b084",
+      "sources/cn/2900/text.webp": "1bd2c111848dc2c4389bbf9a31d545fca097dec1fb09270b44bee1cd46beb5f8",
+      "sources/cn/3010/default.png": "15308e0ebed2282214a7b3a5852f2cbd664d0a910c5059ace25f94041c290328",
+      "sources/cn/3010/no-text.png": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
+      "sources/cn/3010/text.webp": "766074f960e9a1b63bb4691f392d4046ebe3fd3d0addab0997dbb266ec1e97c1",
+      "sources/cn/3020/default.png": "23c16d8332ae970c29674c9c7dc92adffa00f50b9467e752256d2a13f82400db",
+      "sources/cn/3020/text.webp": "b06cab9864f88dcfcd59e51efde1ffdac2e2867da76535317b7aa817538ba678",
+      "sources/cn/3050/default.png": "70b04ebe246012ad1524a939ac5ba663345af15546cae8f60bd179a764667d3b",
+      "sources/cn/3050/no-text.png": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
+      "sources/cn/3050/text.webp": "7052dd8548d92f508ee7616ba0ea70980f6931c07a1168e926edf1a1d1826f3f",
+      "sources/cn/3310/default.png": "33692674e05feb7c18e7a32522a38a15ca590b294ea7237999a361087807b519",
+      "sources/cn/3310/text.webp": "1b0233dff5e3ea3869494cf05dcb56876dfa44c3da4648d8d9862ddc155c7eba",
+      "sources/cn/3320/default.png": "987b7330040b8a7ec207a69d0e8020546959736a16de80399f5d40a45f0708d5",
+      "sources/cn/3320/text.webp": "ce271ff70654cbd94f0e389fe8b8074626bc4d4e70d4396ace34a630d0e90cf3",
+      "sources/cn/3610/default.png": "e8ef84620b1c26fcab0709822015a9ed0cc1a62ee993c4c6bc823ed9fb97dba5",
+      "sources/cn/3610/text.webp": "11dc9e821f1c4a5e65f326d2852cdd6460db168d6e5fa6591d9377b20c4002ee",
+      "sources/cn/3910/default.png": "2e53a149541d66cd9a70b68fdd51bba54bea2df5bcc0b6e4e764d279224ae378",
+      "sources/cn/3910/text.webp": "a15286702f44e235bb322a843c54f3a50da724b583f7aacfa931069c03b9de32",
+      "sources/cn/4510/default.png": "ad462ea98e7b02feef704fb2219168981394058aba5e4d731a91e72b2a17413a",
+      "sources/cn/4510/text.webp": "e4e08758d29e07710fe8294ecc2d3dbc804e036da824f13479c96334bf5d612a",
+      "sources/cn/4520/default.png": "e94b9d03f39bafa1cffbe7419b8745c1a7e1bea8413b766701845126b54058c0",
+      "sources/cn/4520/text.webp": "587e84fa246bbfe3da8a516440edafc6bf59cb969f2e6dd0b1bcce0be8f465bb",
+      "sources/cn/4910/default.png": "8d1fc644110c61ec602d2a8d778612d0a40988dd7070890eb83f97bd2ff14e74",
+      "sources/cn/4910/text.webp": "fa2993eb0fc85125bd85a9b3221303e9bac761d5d9812311949a1f878a33f5cc",
+      "sources/cn/5210/default.png": "6e3f7b3c609ea757b95bb86a888aebc8b18dfe131b947156176170049d1a9d97",
+      "sources/cn/5210/text.webp": "72cadf492928ce7db1fc946f4acf1bc59ae2b2105478654ef873164cb7bd5af8",
+      "sources/cn/5510/default.png": "d77a3602fbd76f580016726eaa8deae2a66dc11e6470aba79cad8f679cea9533",
+      "sources/cn/5510/no-text.png": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
+      "sources/cn/5510/text.webp": "8cc2fa57200c36ac2a498cdb889b52ed2d6910958e95a690b35636615b02391a",
+      "sources/cn/5810/default.png": "d2792dd19de5bb0c9016f39586ea8458507327b505adf32551777e541ec03640",
+      "sources/cn/5810/first-issue-five-rams-2018-text.png": "78aa2076f21ebebcd6ffec03301cf5b126b61e532c0f40fbb61881cb2371fb67",
+      "sources/cn/5810/first-issue-five-rams-2018.png": "17403cc788ee1b90cfb873a12d5d9f7aa50ca0a9b368f8da12cdbf351b134918",
+      "sources/cn/5810/text.webp": "ca3cbed907a2d3fe88851bf6e1a35f3b61a88b63699c2479572dd0ad1d602ada",
+      "sources/cn/5840/default.png": "e4abe8efe688ea64eb8a6b3b530dd4b3caea4d7f2e575eb7dd7b89fe31845fd8",
+      "sources/cn/5840/persimmons-good-fortune-no-text.png": "ebe4965742452babfee68636d12c028feee6e5eb3f23ae0316279a83486dc5b7",
+      "sources/cn/5840/persimmons-good-fortune-text.png": "9d59234bb9259783a8d9835bdbed5459b77c5f0a2c1a86f1253051d2c306815b",
+      "sources/cn/5840/persimmons-good-fortune.png": "d331b0d930d0b455617b9e7c334cc999ebecfc54d7948a599e18e645bc94a1be",
+      "sources/cn/5840/text.webp": "463a9cf9f76054421bd0f3aa72f0770a94837efa433fcdd9e1366492cd8826a8",
+      "sources/cn/5880/default.png": "0c9a246a3a3ed287b9e8fdcf2f1e2d4262fbf5574eefd79a64d488fcc23e8aa1",
+      "sources/cn/5880/text.webp": "5eb4809598afcb8eca8e23386a78ec7bd0b2b481cedba82205fb8aacdf18f0bf",
+      "sources/cn/6510/default.png": "c12f88f45de976dfa47f188314363356df1e6f7feca449844f3d21b1f8cc64dd",
+      "sources/cn/6510/text.webp": "7309c9f762bd7eb23d168b748723ffa425c8858d6b704d84d67411ba34344af0",
+      "sources/cn/6900/default.png": "6d57e902d7f7c24a712755e6833cbd401b70899392567694023eaad4a867f6aa",
+      "sources/cn/6900/text.webp": "d55642ebe63c723d9e8ed5c732bf87dc6a7225ab4e08b0284182cc0abf97f520",
+      "sources/expansion/README.md": "4de61401d498a4a5616c0dfd130e22136ebef5ecea7b80a81e58affef223e1de",
+      "sources/expansion/generation.json": "27bfd537f5ce64123096bb6df73be2a7d08b2a95035b960468dd7c4bc9db205d",
+      "sources/expansion/references/beijing-70th-detail1.jpg": "81b73221a18827fb15c97107c77d257ba90f2e35f5ff6f34efb8e9254183b425",
+      "sources/expansion/references/beijing-70th-detail2.jpg": "c1917101455ac53fa27415bb951b83d65e0d6cdcbb0199272cf0fac52c657617",
+      "sources/expansion/references/beijing-70th-detail3.jpg": "29cc1f14aaab8b42d23a61a716797549e38b20dc008c3f34cb22e899f4178807",
+      "sources/expansion/references/disney-singapore-river-source-crop.png": "4d402c64e619499d4c3ec52459e79c7b293c233e7cfc664178f7dbc7b6d746ae",
+      "sources/expansion/references/fr-la-carte-tour-2024-issuer-composite.jpg": "10c556a2972dd5f33b64d0b4e76137c95b31f50a1866c5dd6975c81139961361",
+      "sources/expansion/references/fr-la-carte-tour-2024-yellow-press.jpg": "82c758963a364baf3caf35baa03d10ad56557d00a9531ec4a95dd348b0d196a1",
+      "sources/expansion/references/guangzhou-2018-first-issue-pair.jpg": "73c44105a4c2440daf444d479dc5c7941855912b70c39df6a253189a06054c45",
+      "sources/expansion/references/hello-kitty-merlion-source-crop.png": "6c4158d4a7514877becb4ee7b0aa56caec98334a8f765e8d30c2e2fa1ea57b88",
+      "sources/expansion/references/icoca-wind-thunder-composite.png": "119e5b8f1a41bfe06a0143ffe1466f198ac42ebb438bfb342d5ef3959477fdef",
+      "sources/expansion/references/jp-icoca-wind-thunder-photo.jpg": "0fa82ff15e907ec4d40af7ed7cf9dea668037da150fb9c53a94f61929c50c79e",
+      "sources/expansion/references/jp-pasmo-passport-photo.jpg": "e0cc9ea2249962b455789f848488e15bfe7c8ba2fd7a16fe78507b1440dff476",
+      "sources/expansion/references/jp-pasmo-passport-sanrio.jpg": "14c51e45e24e2b168f46c4b4bd9c061731b587c43ea9d38f68502c890168e7c2",
+      "sources/expansion/references/jp-welcome-suica.png": "7bfbe98da99cd2a3b5e4636510f05123fb52c897ec73ee625d91e4ea821d35d7",
+      "sources/expansion/references/kr-tmoney-kpass-line-friends-detail.jpg": "cf1ed2f7b575ac5aeca8bb854bb71b9eabd74c53ed065a922238b1e1e5d175d7",
+      "sources/expansion/references/kr-tmoney-kpass-line-friends.jpg": "3bb57fbd7c511eae7660037d21785f8267603e3c464f39a3e8045c2b2c33e97d",
+      "sources/expansion/references/mn-bank-britto-banner.jpg": "92625a0cb23b2cae8bc20bc5ecc6e1317be84c2202de182578c91562ed5a73c3",
+      "sources/expansion/references/mn-umoney-britto-einstein-full.png": "ae333de39d30b3badfaaa5c838bd4e90d3100e127ca46e171fc4429d4a084c56",
+      "sources/expansion/references/mn-umoney-britto-einstein.jpg": "6e87b3568ddf562f7f08a00ff1a206ebcacf2be643862b6ade9d4bfaed2baece",
+      "sources/expansion/references/nice-tour-reference.jpg": "8d751308d23b8be71280e364cb486fe46060229629faf425a6a9f08c1a24fadc",
+      "sources/expansion/references/pasmo-press-release-2019.pdf": "9bb981fee64bd0813d146c0be9c87653ee669a297c9f13830f41b4462baf8e69",
+      "sources/expansion/references/passport-sanrio-issuer-crop.png": "8ff4fe874c4ad9c79c76e7fdf47ae1be262bc70232f35ebc5a71e6b883a6645e",
+      "sources/expansion/references/passport-sanrio-source-crop.png": "36b471916b2c8d38fec8a6639dfe86bb4d56f4d3d0e4b3c66c0ce82ae2784420",
+      "sources/expansion/references/sg-disney-skyline.jpg": "4578b09dfcd992bbb327cefecc24812ac198e90a1641f1e7a22d096e9ebad9fb",
+      "sources/expansion/references/sg-hello-kitty-merlion.jpg": "5c6eec03d3829d4726ade185abb2e0393f113a09198660f7390755055417b080",
+      "sources/expansion/references/sg-singapore-skyline.png": "6b2de85b85986b59f02925b7c5eacbc7d98b4ac1cc105a34c79ef6a93e876962",
+      "sources/expansion/references/shanghai-interconnect-10th-front.jpg": "359f4622b2a1de401d84c48865e982b61522d3cd308f1945765943ec15b29e9a",
+      "sources/expansion/references/shenzhen-persimmons-details.png": "da5bec75b7c16001c7736fcace625eb6959360475a583f1d16a0ad9f2f42b96a",
+      "sources/expansion/references/shenzhen-persimmons-front.png": "0571ea72e8ec5691e033ee71c5ce9ae33f53a65f9999d3381078b4fed9af8461",
+      "sources/expansion/references/welcome-sakura-source-crop.png": "6fb328e5e26ce4b2dd77324481178c7563c279e880eb181f81a9454239d39ec8",
+      "sources/expansion/references/wind-thunder-source-crop.png": "46aab5c1c7496cc35d88624c0c245b08781dfb9efc3f6bc69d34b9e460db1bf7",
+      "sources/expansion/research.json": "27db8e67c284bcbb7b0280ef04d0d53e66a75b068013b5241e87f87d63cd6c8d",
+      "sources/fr/la-carte/blue-text.png": "86b217aba8880cd9cfdf481f88e89a5fbf429c1307fe058794db0933d93d869a",
+      "sources/fr/la-carte/blue.png": "436ea6e7b045040a711c3b8dee26ea91866b0e1de110151a331485282118325c",
+      "sources/fr/la-carte/default.png": "700578027a9c90e9a8e761e947ee6bb8aa3526c249db48fc968c795ce5195865",
+      "sources/fr/la-carte/text.png": "f09f3c506f70170582f513e1a5c245644e548947ebcdeaa65d41e34c6b63be86",
+      "sources/fr/la-carte/tour-2024-yellow-jersey-text.png": "61e001220e8dffba062d5bf95cd7762f1f7607a67db44119cfc26af07236dde8",
+      "sources/fr/la-carte/tour-2024-yellow-jersey.png": "752ef108f3a817d2ab49711e5d708c229f649fc22547a8896d2d5df916766b10",
+      "sources/jp/edy/default.png": "d6348da2e18fbc44ab5f3ed446e110bf6e2095ae1c603eb72e288bccd290cf7e",
+      "sources/jp/edy/no-text.png": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
+      "sources/jp/edy/text.png": "31fd6f5bba5c15a7c8e16060e3d14036c7e0cf9c644d18e4b62cfdaa7f959b60",
+      "sources/jp/hayakaken/default.png": "9cf02833c7407557d46a6251780a3b30b6b5f3df2479ea8d57c78fe66eb879ab",
+      "sources/jp/hayakaken/text.png": "8772e5f3a644460d1e60501b905ad6c8b6e74965ce24754426fbbd14ac14b596",
+      "sources/jp/icoca/default.png": "7b659416cc49c7683bf0623551411ca694cc802f9420c188fe5166d6fba0260f",
+      "sources/jp/icoca/text.png": "b3e2eac862683d22f1cc6f89b134d86eca9677d9444e00a58d905e9bcb8c38eb",
+      "sources/jp/icoca/wind-thunder-text.png": "43a9d5b792dd2f8de03d36e2c6697752f5e5d5ed3270453610186628ad6bffc5",
+      "sources/jp/icoca/wind-thunder.png": "bb8cfb2742927d53b45534bc97900f5efc8f436256be0219adacdb42039651b1",
+      "sources/jp/kitaca/default.png": "620d70fb1613a2f9500d3bbba8321d997dc5bbba2606bcce2deec4f33ec77809",
+      "sources/jp/kitaca/text.png": "9d51948f022cba24b64577a3c2cb1ad26a6c5f2284405d829a386b08ce2d1d76",
+      "sources/jp/manaca/default.png": "89166868e2532588c7458e625053240d54b7c4c8b4331a22641b18beb09359b5",
+      "sources/jp/manaca/text.png": "65ce0e0a9da5b5e8356c43d6da1cfc4093598720a3cd432a936ee03b119e786d",
+      "sources/jp/nanaco/default.png": "2b2a68f2345b66e437839b33ee7d0b974098b5f2a4f9646131fb6cc1be3c800c",
+      "sources/jp/nanaco/text.png": "f818ce1735635abdbd500291e79bfa06c8a37ff7ad26611229b5370380bfab65",
+      "sources/jp/nimoca/default.png": "b689b998b3e1b1d5829657b93d3c1f800b92305db0c4db796c2725f62a4e986d",
+      "sources/jp/nimoca/text.png": "604d428d7702001086496be6fa5189d64827ea4d996e6e5dea140318fc3e6ee9",
+      "sources/jp/okica/default.png": "83b1da7020d5c1215fc33da3dc1e5a187f0d776b9753d9e82505c2d3da01136a",
+      "sources/jp/pasmo/default.png": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
+      "sources/jp/pasmo/no-text.png": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
+      "sources/jp/pasmo/passport-sanrio-no-text.png": "533d0457c7b7f680c542dcfdde787cda47c2ef2f826c7317e6a6ccab47142c2f",
+      "sources/jp/pasmo/passport-sanrio-text.png": "df4693ffd7305231535859db4fd831d99e321c6dddee7d035f8732be4f399d72",
+      "sources/jp/pasmo/passport-sanrio.png": "4c2967a38a4d08b43dbaa00cd5ca9d2a94d332749b4e9228464e4d9fffbc8ddc",
+      "sources/jp/pasmo/text.png": "52dd510e5e9d4b3cf1f974040af8d9d3938116774e7f41fd850f82ee6b35dfc4",
+      "sources/jp/sugoca/default.png": "e84ed34e2118b70ac54072dab86ebd70a9a5345567fe907e878bd922fab9927b",
+      "sources/jp/sugoca/text.png": "740826e173afabbcc7b2cf12f4416b2065030f26f19fa1be9f9c01739119f499",
+      "sources/jp/suica/default.png": "a6edac3aa422bf789fad7adb81013f4a117b270003f61fad6457cc6284165ef9",
+      "sources/jp/suica/text.png": "ddac4bbab4c2201038657768eb15f0b76726c132da825159b34b0a1b1aad3f4e",
+      "sources/jp/suica/welcome-sakura-text.png": "f324fc1778143293f235a045c86fe476786fe38744d3bff6208450c0365262b6",
+      "sources/jp/suica/welcome-sakura.png": "56d21a422d095065c80238c05b908a50d7958ef7dcd4106c10bf06669f1026b8",
+      "sources/jp/toica/default.png": "3158b8f00b821bcbce0b7bad0f1cd40981c94b74a7e9cc5b73fecb9271c88790",
+      "sources/jp/toica/text.png": "afce43ab8463a6684cd5b09713ce0c1d1bfbc6969b7c761fd4b1e5084c7a6b30",
+      "sources/jp/waon/default.png": "92447c3c835917c48d544ef11ff745d73b287166488d1a70120e229afb8542e6",
+      "sources/jp/waon/text.png": "bb0c3ac4e0c660b240aaaa6e8336a04b201e629ba4cb080afcc76e56b34143f4",
+      "sources/kr/README.md": "e1073fad77eddf193156272c1ff968a0ad7407b2c16b804e0405aba809cd549e",
+      "sources/kr/climate-card/default.png": "6333a46eecaec5e38a171394cd44611d6f8730c372df48a0d95a3b830f2a5ea0",
+      "sources/kr/climate-card/no-text.png": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
+      "sources/kr/climate-card/text.png": "6635d4486ed1f3ddc03469ec1e91c222e639ef3188dbd24fc45f9d5a712f8a46",
+      "sources/kr/ezl/default.png": "a56a88a47a6f1e9211fab1389381e624239d04579adcf12383358e9fb229be36",
+      "sources/kr/ezl/duty-free-text.png": "b0ffccf6edff7d8c04aa2021c4cb540094d44846ad68697b5093efabcc96f578",
+      "sources/kr/ezl/duty-free.png": "69752242ebd9f28ebd0340ea835584067a04a836a45f22fda21a7ee9eb8bdd6d",
+      "sources/kr/ezl/myeongdong-text.png": "7fdc638d82292b309a54ae85e06667367539f1edb529dd935518141615c789b4",
+      "sources/kr/ezl/myeongdong.png": "597c32615beb65f8263d487b13ab4be96022fb6ae917ee77f0bca715b11bffb3",
+      "sources/kr/ezl/pop-text.png": "0b00a3877d76d95663ebad1788811af1d828cf0fd23c4b6342fa3e81886ffbde",
+      "sources/kr/ezl/pop.png": "697ab3ea3ab90f3b5053512c55ddf4ec966ca82358f33455a32f9788e24c826c",
+      "sources/kr/ezl/text.png": "5474ab59e6e260951e615d65cbc6ee8724706a4fe599c77351b088175a29703b",
+      "sources/kr/ezl/tour-text.png": "3816f158eeff0ce23a74bc3527d53a75042646eebe1329469c9c04e9a5a906c2",
+      "sources/kr/ezl/tour.png": "b10fda6423a88070c753d1c7f944cddc1ac50efacf9a32583a0ca2fd2c655eb5",
+      "sources/kr/generation-prompts.json": "6c6d65807eb178f714ba30a2e58a09b62506da3f8ae6883263c0da8325e283f4",
+      "sources/kr/tmoney/apeach-text.png": "1d50440456ba906180f820e5558f710ea5001d89db244ec0e7e5afb0a6e39cfb",
+      "sources/kr/tmoney/apeach.png": "b49b351da1f3cb9377cf17261886a0973161123c9da4ec0f79433c1d61c306cd",
+      "sources/kr/tmoney/default.png": "103095224b3e6f13268d03af496f84087509d7ea77da48a316047e0765d2b7fe",
+      "sources/kr/tmoney/go-green-text.png": "87f7c123c30840eaf34bab7eff7d953446db59cd7f8ec1f83d492d293547682f",
+      "sources/kr/tmoney/go-green.png": "cb304e3a48986cf12159347dda9fa4f0f543062d5d3e37f4631e0ff8b901af12",
+      "sources/kr/tmoney/kpass-line-friends-text.png": "b37a6d67b2724fbd9c6debf9a2575ad68552f82824b694468ca9ea7b007370fb",
+      "sources/kr/tmoney/kpass-line-friends.png": "3c562c3e1994643407538cab537302729f78882c984ed8a173f0f7ae32f97a46",
+      "sources/kr/tmoney/kpass-text.png": "8fc7315ff334b4b449996a9e881723970d3ead8e4aca1fefb5c42f4816644dbe",
+      "sources/kr/tmoney/kpass.png": "a351c9421d36b2fae203e7dba5a6ba47725030e8d8ed80e273d823fe870e2fa3",
+      "sources/kr/tmoney/logo-text.png": "39f5140f7b2bb0a0244df11c379dae87a4dfd09d18974187179516ae1d5c2033",
+      "sources/kr/tmoney/logo.png": "5f4b58859ed2ad8a0c1af52e9a5b3fc2c95c877f4352c2bd462134fcc3ebdfb0",
+      "sources/kr/tmoney/ryan-text.png": "3dff0125c71f48ab27ef431d7aa6e3c948749d5b12328f2b3a4cc22a42c4bee1",
+      "sources/kr/tmoney/ryan.png": "5fa4995799a449911ce361acc00709e823f780d00d69b973aa229846a087431d",
+      "sources/kr/tmoney/safe-text.png": "89e2b80cfcf0ffe6f9104fe75ae71468b7fc60e6b0b7e70e4e34abc82a6f94ec",
+      "sources/kr/tmoney/safe.png": "01724e106cf7f308f0ad2dbb5b95c2e4b052b6979904cbee8ebca7c06b737317",
+      "sources/mn/umoney/britto-einstein-text.png": "669ea0f3bc4d239087da21fb8cc1e827c2d1e372c3f7f3e90a0e728368510b8b",
+      "sources/mn/umoney/britto-einstein.png": "d2fe110dcbeaeed6aacd537f6301e7b61d714a235caa090b7081bfee7cd9e3ef",
+      "sources/mn/umoney/default.png": "423d656bead981e19f41ac25126e099cc8aabf96939531364f53aaa14b2f46d4",
+      "sources/sg/ezlink/default.png": "38d6a74928d9f287e02edb358497eed8376e551bdc7a12de1b6e4932966cd231",
+      "sources/sg/ezlink/hello-kitty-merlion-text.png": "75cfb4c6add894f9966ff323c9838a4c7f3ca19afa4ae31d645ee97dd6b2a379",
+      "sources/sg/ezlink/hello-kitty-merlion.png": "8054cda993154bb9d0898ca4d2c201c3e5e3c53625298a288bc77af20ec23352",
+      "sources/sg/ezlink/singapore-skyline-text.png": "41f2b4ddbb81bd90b02db26a1d2d3c0ccbfbae8256e4dd3c7d8e8b686db21794",
+      "sources/sg/ezlink/singapore-skyline.png": "243b8ffec6dd39b15690ac7a427653404dd38c97ed3950a20a25fd6c25a2f261",
+      "sources/sg/ezlink/text.png": "8a287dfe3701777a7d27cd838172e2074135ff0aa44252a8f247f94f1a0a8bd8",
+      "sources/text-free/README.md": "54c2e6a5ae389f110a10c798a0c801d99f3375626b4e21e658977f5e448b45dd",
+      "sources/text-free/decorative-exceptions.json": "4ea9fd18ab60f3969dd3bc111eab0e32ab91721347d432f1fe14f6f908ac297f",
+      "sources/text-free/edits.json": "b912d1c1774b329980a58aa852244093dd323b63db751fb076122ad1826148f1"
+    },
+    "verifiedUnchangedFaces": 130,
+    "verifiedUnchangedSourceFiles": 168,
+    "existingCatalogAndManifestCardsDeepEqual": true
+  },
+  "board": {
+    "boardId": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+    "prestartedItemIds": [
+      "octopus-standard-adult",
+      "octopus-standard-child",
+      "octopus-standard-elder"
+    ],
+    "reopened": false,
+    "completionReceipts": [
+      {
+        "action": "complete_generation",
+        "boardId": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+        "itemId": "octopus-standard-adult",
+        "imagePath": "/Users/ieb/Vibe/card-faces/faces/hk/octopus/default.png",
+        "mutationId": "3093981d-10de-40f9-a168-c2b19a4da5e1",
+        "revision": 195
+      },
+      {
+        "action": "complete_generation",
+        "boardId": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+        "itemId": "octopus-standard-child",
+        "imagePath": "/Users/ieb/Vibe/card-faces/faces/hk/octopus/child.png",
+        "mutationId": "6d17dd75-46c7-43df-9696-557a07125f01",
+        "revision": 196
+      },
+      {
+        "action": "complete_generation",
+        "boardId": "2c0417c4-9c3b-4137-9dc2-c8101f335da8",
+        "itemId": "octopus-standard-elder",
+        "imagePath": "/Users/ieb/Vibe/card-faces/faces/hk/octopus/elder.png",
+        "mutationId": "af808b19-f71b-4f2d-b87f-544838f756b4",
+        "revision": 197
+      }
+    ],
+    "receiptsVerified": true
+  },
+  "validation": {
+    "scopedBuild": {
+      "command": "python3 tools/build.py hk/octopus",
+      "exitCode": 0,
+      "secondBuildByteIdenticalToCompactSources": true
+    },
+    "validator": {
+      "command": "python3 tools/validate.py",
+      "exitCode": 0,
+      "errors": []
+    },
+    "tests": {
+      "command": "python3 -m unittest discover -s tests",
+      "exitCode": 0,
+      "passed": 22
+    },
+    "localPublish": {
+      "command": "python3 tools/publish.py",
+      "exitCode": 0,
+      "directory": "/Users/ieb/Vibe/card-faces/dist",
+      "allNewExportBytesVerified": true,
+      "remoteDeployment": false
+    },
+    "reproducibility": {
+      "script": "sources/expansion/octopus-export.py",
+      "allSixReproducedByteForByte": true,
+      "textPairsMatchOutsideVerifiedLabelRectangles": true
+    },
+    "diffCheck": {
+      "command": "git diff --check",
+      "exitCode": 0
+    },
+    "visualInspection": {
+      "path": "previews/octopus-standard.png",
+      "method": "functions.view_image of contact sheet composed from actual final faces/hk/octopus/*.png; checked all six, backgrounds, preserved ribbon, exact labels and absence of text in cleaned variants.",
+      "passed": true
+    },
+    "totals": {
+      "cards": 40,
+      "faces": 136,
+      "addedFaces": 6,
+      "newFaceBytes": 59173,
+      "newCompactSourcePngBytes": 59173,
+      "newFaceAndSourcePngBytes": 118346,
+      "maxNewFaceBytes": 11607,
+      "minNewColors": 11,
+      "maxNewColors": 17,
+      "modifiedPaths": 29,
+      "packageBytes": 35540901,
+      "allPublishedFaceBytes": 2901231,
+      "maxPublishedFaceBytes": 39997,
+      "maxPublishedFaceColors": 22
+    },
+    "gitCommitCreated": false,
+    "gitPushPerformed": false
+  },
+  "modifiedPaths": [
+    "README.md",
+    "catalog.json",
+    "faces/hk/octopus/child-text.png",
+    "faces/hk/octopus/child.png",
+    "faces/hk/octopus/default.png",
+    "faces/hk/octopus/elder-text.png",
+    "faces/hk/octopus/elder.png",
+    "faces/hk/octopus/text.png",
+    "manifest.json",
+    "previews/octopus-standard.png",
+    "sources/expansion/octopus-README.md",
+    "sources/expansion/octopus-export.py",
+    "sources/expansion/octopus-references/adult-standard-front.jpg",
+    "sources/expansion/octopus-references/cardreplacement_adult.jpg",
+    "sources/expansion/octopus-references/cardreplacement_child.jpg",
+    "sources/expansion/octopus-references/cardreplacement_elder.jpg",
+    "sources/expansion/octopus-references/child-standard-front.jpg",
+    "sources/expansion/octopus-references/elder-standard-front.jpg",
+    "sources/expansion/octopus-references/press-launch.html",
+    "sources/expansion/octopus-references/standard-en.html",
+    "sources/expansion/octopus-references/standard-onloan-composite.jpg",
+    "sources/expansion/octopus-references/standard-zh.html",
+    "sources/expansion/octopus-report.json",
+    "sources/hk/octopus/child-text.png",
+    "sources/hk/octopus/child.png",
+    "sources/hk/octopus/default.png",
+    "sources/hk/octopus/elder-text.png",
+    "sources/hk/octopus/elder.png",
+    "sources/hk/octopus/text.png"
+  ]
+}

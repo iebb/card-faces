@@ -4,6 +4,9 @@ Card-face artwork for [CardBal / TransitICReader](https://github.com/iebb/Transi
 The app downloads `manifest.json` and the PNGs listed in it, so new faces ship
 without an app update.
 
+The collection contains **40 card types and 136 faces**, including six Standard
+Octopus exports for Hong Kong.
+
 Faces are served from **https://faces.cardb.al/**, a Cloudflare Pages site
 that rebuilds from `master` on every push. jsDelivr
 (`https://cdn.jsdelivr.net/gh/iebb/card-faces@master/`, reachable from mainland
