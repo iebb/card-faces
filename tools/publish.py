@@ -15,7 +15,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from validate import MAX_BYTES, ROOT, SCHEMA_VERSION, check_retired_designs  # noqa: E402
+from validate import MAX_BYTES, ROOT, SCHEMA_VERSION, REMOTE_TOKEN_PATTERN, check_retired_designs  # noqa: E402
 
 
 def check(root: Path) -> tuple[dict, list[str], list[str]]:
@@ -46,7 +46,7 @@ def check(root: Path) -> tuple[dict, list[str], list[str]]:
 
 def publish(root: Path = ROOT, out: Path | None = None) -> list[str]:
     out = out or root / "dist"
-    _, files, errors = check(root)
+    manifest, files, errors = check(root)
     if errors:
         return errors
     if out.exists():
@@ -60,6 +60,15 @@ def publish(root: Path = ROOT, out: Path | None = None) -> list[str]:
         target = out / relative
         target.parent.mkdir(parents=True, exist_ok=True)
         shutil.copy2(root / relative, target)
+    if manifest.get("retiredDesigns"):
+        redirects = out / "_redirects"
+        existing = redirects.read_text(encoding="utf-8") if redirects.exists() else ""
+        lines = []
+        for old, replacement in manifest["retiredDesigns"].items():
+            origin = "/faces/" + "/".join(REMOTE_TOKEN_PATTERN.fullmatch(old).groups()) + ".png"
+            target = "/faces/" + "/".join(REMOTE_TOKEN_PATTERN.fullmatch(replacement).groups()) + ".png"
+            lines.append(f"{origin} {target} 302")
+        redirects.write_text(existing.rstrip() + "\n" + "\n".join(lines) + "\n", encoding="utf-8")
     return []
 
 

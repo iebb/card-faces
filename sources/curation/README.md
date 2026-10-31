@@ -95,6 +95,10 @@ Schema version 2 is unchanged. The map is optional for older collections.
 Updated app consumers can resolve old tokens to the safe default before
 downloading. Consumers that ignore the optional field retain their missing-art
 fallback behavior. App implementations are handled separately by the coordinator.
+Pages publication also emits redirects from withdrawn file paths to the
+corresponding standard default, covering requests with old version query strings.
+The app fallback hostnames are the native Pages hostname and raw GitHub;
+jsDelivr is no longer used because stale branch content survived a purge.
 
 ## Audit boundaries and verification
 

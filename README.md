@@ -12,9 +12,10 @@ The [curation notes](sources/curation/README.md) record the removed designs,
 source/reference cleanup and safe defaults for old selections.
 
 Faces are served from **https://faces.cardb.al/**, a Cloudflare Pages site
-that rebuilds from `master` on every push. jsDelivr
-(`https://cdn.jsdelivr.net/gh/iebb/card-faces@master/`, reachable from mainland
-China) and raw GitHub are fallback mirrors with the same paths.
+that rebuilds from `master` on every push. The native hostname
+(`https://card-faces.pages.dev/`) and raw GitHub are fallback mirrors with the
+same paths. The apps no longer use jsDelivr because an old branch manifest and
+a withdrawn face remained available after purging.
 
 ## Layout
 

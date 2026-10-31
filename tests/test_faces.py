@@ -331,6 +331,30 @@ class PublishTests(unittest.TestCase):
             self.assertEqual(sorted(str(path.relative_to(out)) for path in (out / "faces").rglob("*.png")), sorted(files))
             self.assertIn("Access-Control-Allow-Origin: *", (out / "_headers").read_text(encoding="utf-8"))
 
+    def test_withdrawn_urls_redirect_to_same_card_defaults(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            root = Path(tmp)
+            face = root / "faces/jp/test/default.png"
+            face.parent.mkdir(parents=True)
+            Image.new("RGB", (300, 190)).save(face)
+            manifest = {
+                "schemaVersion": 2,
+                "cards": [{"id": "jp/test", "designs": [{
+                    "id": "default", "file": "faces/jp/test/default.png", **validate.inspect_face(face),
+                }]}],
+                "retiredDesigns": {"remote.jp.test.old.png": "remote.jp.test.default.png"},
+            }
+            (root / "manifest.json").write_text(json.dumps(manifest))
+            (root / "public").mkdir()
+            (root / "public/_redirects").write_text("/existing /kept 302\n")
+            out = root / "dist"
+            self.assertEqual(publish.publish(root, out), [])
+            self.assertEqual(
+                (out / "_redirects").read_text().splitlines(),
+                ["/existing /kept 302", "/faces/jp/test/old.png /faces/jp/test/default.png 302"],
+            )
+            self.assertFalse((out / "faces/jp/test/old.png").exists())
+
     def test_refuses_mismatched_hash(self):
         with tempfile.TemporaryDirectory() as tmp:
             root = Path(tmp)
