@@ -28,9 +28,9 @@ CODE_PATTERN = re.compile(r"^[0-9A-F]{4}$")
 PREFIX_PATTERN = re.compile(r"^[0-9]{6,12}$")
 SERIAL_PREFIX_PATTERN = re.compile(r"^[A-Z0-9]{2,4}$")
 REMOTE_TOKEN_PATTERN = re.compile(r"remote\.([a-z]{2})\.([a-z0-9][a-z0-9-]*)\.([a-z0-9][a-z0-9-]*)\.png", re.ASCII)
-MATCH_KEYS = ("cityCodes", "cityUnionCodes", "cardPrefixes", "families", "serialPrefixes")
+MATCH_KEYS = ("cityCodes", "cityUnionCodes", "cardPrefixes", "families", "serialPrefixes", "ksxIssuers")
 # Keys that identify exactly one card; families may legitimately overlap.
-UNIQUE_MATCH_KEYS = ("cityCodes", "cityUnionCodes", "cardPrefixes", "serialPrefixes")
+UNIQUE_MATCH_KEYS = ("cityCodes", "cityUnionCodes", "cardPrefixes", "serialPrefixes", "ksxIssuers")
 
 
 def remote_token(card_id: str, design_id: str) -> str:
@@ -112,6 +112,7 @@ def check_match(card_id: str, match) -> list[str]:
         return [f"{card_id}: match keys must be among {', '.join(MATCH_KEYS)}"]
     errors = []
     patterns = {
+        "ksxIssuers": re.compile(r"^[0-9A-F]{2}$"),
         "cityCodes": CODE_PATTERN,
         "cityUnionCodes": CODE_PATTERN,
         "cardPrefixes": PREFIX_PATTERN,
@@ -136,6 +137,8 @@ def check_match(card_id: str, match) -> list[str]:
         codes = match.get("cityCodes") or []
         if not codes or codes[0].lower() != card_id[3:]:
             errors.append(f"{card_id}: Chinese cards live under their first T-Union city code")
+    if match.get("ksxIssuers") and not card_id.startswith("kr/"):
+        errors.append(f"{card_id}: ksxIssuers is only valid for Korean cards")
     return errors
 
 
@@ -196,6 +199,8 @@ def validate(root: Path = ROOT) -> list[str]:
                 continue
             if "name" in design:
                 errors += check_names(f"{where}: name", design["name"], ("en",))
+            if "ink" in design and design["ink"] not in ("light", "dark"):
+                errors.append(f"{where}: ink must be light or dark")
             asset = design.get("bundledAsset")
             if asset is not None and not (isinstance(asset, str) and DESIGN_ID_PATTERN.match(asset)):
                 errors.append(f"{where}: invalid bundledAsset {asset!r}")

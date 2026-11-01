@@ -108,6 +108,8 @@ face; Suica, PASMO, ICOCA, T-money and EZL remain as small offline fallbacks.
 | `kr/tmoney` | default, logo, go-green, kpass, safe, text alternatives | family name |
 | `kr/ezl` | default, duty-free, myeongdong, pop, tour, text alternatives | family name |
 | `kr/climate-card` | default, no-text, text | family name |
+| `kr/namane` | default (existing app artwork) | family name |
+| `kr/moiba`, `kr/k-cash`, `kr/mybi`, `kr/railplus` | original abstract default | family name, KS X issuer where known |
 | `fr/la-carte` | default, blue, text, blue-text | family name |
 | `mn/umoney` | default | family name |
 | `sg/ezlink` | default, text | family name |
@@ -233,3 +235,16 @@ Card names, logos and the 交通联合 / China T-Union and City Union marks belo
 to their respective issuers. The artwork here is a simplified recreation, used
 only so a user can recognise their own card in the app. The tooling is MIT
 licensed (see `LICENSE`).
+
+### Korean issuer matching and contrast
+
+`match.ksxIssuers` contains two uppercase hexadecimal digits from the KS X 6924
+purse issuer byte. The Korean reader uses a specific product family (for example
+NAMANE or Climate Card) before a generic issuer match, then falls back to family
+matching. An issuer ID identifies an issuer, not the printed artwork.
+
+Every design includes `ink: "light" | "dark"`. The build chooses the higher mean
+contrast over the top 40% of the image, where apps place titles and balances.
+A `designs.<id>.ink` override in catalog.json can handle mixed artwork. Apps
+should retain a contrast mask and give explicit user text colours priority.
+This additive schema-2 field is safe for older clients that ignore unknown keys.

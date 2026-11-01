@@ -25,6 +25,27 @@ def load(name):
 
 
 class RepositoryTests(unittest.TestCase):
+    def test_korean_issuers_and_ink(self):
+        cards = {card["id"]: card for card in load("manifest.json")["cards"]}
+        for card, issuer in (("mybi", "03"), ("railplus", "09"), ("k-cash", "01")):
+            self.assertEqual(cards[f"kr/{card}"]["match"]["ksxIssuers"], [issuer])
+        for card in cards.values():
+            for design in card["designs"]:
+                self.assertIn(design["ink"], ("light", "dark"))
+
+    def test_issuer_matching_rejects_ambiguous_values(self):
+        self.assertEqual(validate.check_match("kr/test", {"ksxIssuers": ["03"]}), [])
+        for value in ("3", "0x03", "0b", "XYZ"):
+            self.assertTrue(validate.check_match("kr/test", {"ksxIssuers": [value]}))
+        self.assertTrue(validate.check_match("jp/test", {"ksxIssuers": ["03"]}))
+
+    def test_ink_uses_top_band_and_can_distinguish_white_from_black(self):
+        with tempfile.TemporaryDirectory() as temporary:
+            path = Path(temporary) / "face.png"
+            for color, expected in (("white", "dark"), ("black", "light")):
+                Image.new("RGB", (300, 190), color).save(path)
+                self.assertEqual(build.suggested_ink(path), expected)
+
     def test_published_faces_are_valid(self):
         self.assertEqual(validate.validate(ROOT), [])
 

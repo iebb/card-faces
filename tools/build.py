@@ -193,6 +193,18 @@ def design_sources(card_id: str) -> dict[str, Path]:
     return {DEFAULT_DESIGN: found.pop(DEFAULT_DESIGN), **found}
 
 
+def suggested_ink(path: Path) -> str:
+    """Choose the higher-contrast ink across the title/balance band (top 40%)."""
+    with Image.open(path) as image:
+        rgb = np.asarray(image.convert("RGB"), dtype=float) / 255
+    band = rgb[:max(1, int(rgb.shape[0] * 0.4))]
+    linear = np.where(band <= 0.04045, band / 12.92, ((band + 0.055) / 1.055) ** 2.4)
+    luminance = linear @ np.array([0.2126, 0.7152, 0.0722])
+    dark_contrast = np.mean((luminance + 0.05) / 0.05)
+    light_contrast = np.mean(1.05 / (luminance + 0.05))
+    return "dark" if dark_contrast >= light_contrast else "light"
+
+
 def write_manifest(catalog: dict) -> None:
     cards = []
     for entry in catalog["cards"]:
@@ -210,6 +222,7 @@ def write_manifest(catalog: dict) -> None:
                 "id": design_id,
                 **({"name": extra["name"]} if "name" in extra else {}),
                 **({"bundledAsset": extra["bundledAsset"]} if "bundledAsset" in extra else {}),
+                "ink": extra.get("ink", suggested_ink(ROOT / relative)),
                 "file": relative,
                 **{key: info[key] for key in ("sha256", "bytes", "width", "height", "colors")},
             })

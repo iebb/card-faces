@@ -76,3 +76,20 @@ only current optimized `faces/` files are published by Cloudflare Pages.
 
 Exact generation prompts retained for the three T-money non-character cards
 are in [generation-prompts.json](generation-prompts.json).
+
+## Additional Korean issuers (1 November 2026)
+
+`namane/default.png` reuses the existing no-text NAMANE background from
+`kitta-co/korean-transport-card-reader` (`f2712b9`, Assets.xcassets). It is app
+artwork, with no assertion that it reproduces a physical card.
+
+`moiba`, `k-cash`, `mybi`, and `railplus` use original, text-free route motifs,
+authored as the adjacent editable SVGs and rendered with librsvg. These are
+abstract app backgrounds, not issuer-approved designs or reproductions. Physical
+fronts could not be verified during this pass; no unverified third-party image
+was added. No ImageGen prompt applies to these vector sources.
+
+Mybi matches purse issuer `03`; Rail+ / KORAIL Networks matches `09`; K-Cash
+matches KFTC issuer `01`. T-money (`08`) and EZL (`0B`) retain family matching.
+Specific NAMANE and Climate Card product matching takes precedence over issuer
+matching in the Korean reader. MOIBA retains its dedicated family match.

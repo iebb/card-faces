@@ -23,11 +23,13 @@
           "31047700"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/2900/default.png",
           "sha256": "541284b60df97cec00b885b591d3277ab716d5328b5f63216179b1dee946592c",
           "bytes": 20626,
@@ -41,6 +43,7 @@
             "zh": "无文字版：互联互通十周年",
             "en": "No text: Interconnectivity 10th Anniversary"
           },
+          "ink": "dark",
           "file": "faces/cn/2900/interconnect-10th-2025-no-text.png",
           "sha256": "9177893966e9cc42d2d549cf27dd03958645342f39256ac809cd29dcce5d9ca5",
           "bytes": 38723,
@@ -54,6 +57,7 @@
             "zh": "文字版：互联互通十周年",
             "en": "With text: Interconnectivity 10th Anniversary"
           },
+          "ink": "dark",
           "file": "faces/cn/2900/interconnect-10th-2025-text.png",
           "sha256": "92591e80afeea70d6c98f1d93cc1ec2d2e357c0c3296b00345898086c2ffc6a2",
           "bytes": 39997,
@@ -67,6 +71,7 @@
             "zh": "互联互通十周年",
             "en": "Interconnectivity 10th Anniversary"
           },
+          "ink": "dark",
           "file": "faces/cn/2900/interconnect-10th-2025.png",
           "sha256": "a9a15b88eec9603d7cc2570399478fbb551b7b9b859c584ee24debd66809b084",
           "bytes": 38804,
@@ -80,6 +85,7 @@
             "zh": "文字版：上海",
             "en": "With text: Shanghai"
           },
+          "ink": "dark",
           "file": "faces/cn/2900/text.png",
           "sha256": "7ba9831553f24ba097126dd80b8066bab59e3ce52958e680511369f1ba7a5c2f",
           "bytes": 26007,
@@ -109,11 +115,13 @@
           "31051700"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/1000/default.png",
           "sha256": "5fb1a4e417d53c6af74d151e6fe3d70a55adc6a4336abaea85626243acef7a36",
           "bytes": 6908,
@@ -127,6 +135,7 @@
             "zh": "文字版：我爱你中国·改革开放",
             "en": "With text: I Love You China: Reform and Opening Up"
           },
+          "ink": "dark",
           "file": "faces/cn/1000/china-70-reform-2019-text.png",
           "sha256": "20903aad383f1f39fdc7453ce24031aee6b3752c74387f930e25ffdec524d7fd",
           "bytes": 39664,
@@ -140,6 +149,7 @@
             "zh": "我爱你中国·改革开放",
             "en": "I Love You China: Reform and Opening Up"
           },
+          "ink": "dark",
           "file": "faces/cn/1000/china-70-reform-2019.png",
           "sha256": "a513b9de951c3807ea4a8c6ad3e7089d2b0622e53b84316dd12a7553d839d267",
           "bytes": 38509,
@@ -153,6 +163,7 @@
             "zh": "文字版：北京",
             "en": "With text: Beijing"
           },
+          "ink": "dark",
           "file": "faces/cn/1000/text.png",
           "sha256": "66886675cda512989265191b53cf4ab1527014989534c4715b76a90f505eb0ee",
           "bytes": 14452,
@@ -182,11 +193,13 @@
           "31048704"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/5840/default.png",
           "sha256": "e4abe8efe688ea64eb8a6b3b530dd4b3caea4d7f2e575eb7dd7b89fe31845fd8",
           "bytes": 19617,
@@ -200,6 +213,7 @@
             "zh": "无文字版：柿柿如意",
             "en": "No text: Persimmons of Good Fortune"
           },
+          "ink": "light",
           "file": "faces/cn/5840/persimmons-good-fortune-no-text.png",
           "sha256": "ebe4965742452babfee68636d12c028feee6e5eb3f23ae0316279a83486dc5b7",
           "bytes": 38229,
@@ -213,6 +227,7 @@
             "zh": "文字版：柿柿如意",
             "en": "With text: Persimmons of Good Fortune"
           },
+          "ink": "light",
           "file": "faces/cn/5840/persimmons-good-fortune-text.png",
           "sha256": "9d59234bb9259783a8d9835bdbed5459b77c5f0a2c1a86f1253051d2c306815b",
           "bytes": 38685,
@@ -226,6 +241,7 @@
             "zh": "柿柿如意",
             "en": "Persimmons of Good Fortune"
           },
+          "ink": "light",
           "file": "faces/cn/5840/persimmons-good-fortune.png",
           "sha256": "d331b0d930d0b455617b9e7c334cc999ebecfc54d7948a599e18e645bc94a1be",
           "bytes": 39928,
@@ -239,6 +255,7 @@
             "zh": "文字版：深圳",
             "en": "With text: Shenzhen"
           },
+          "ink": "dark",
           "file": "faces/cn/5840/text.png",
           "sha256": "d7c668c8be484e2835cea84ea20e5bee36bdbe700e489314c1bd41aae8d2ad45",
           "bytes": 20781,
@@ -269,11 +286,13 @@
           "31049201"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/6900/default.png",
           "sha256": "6d57e902d7f7c24a712755e6833cbd401b70899392567694023eaad4a867f6aa",
           "bytes": 16732,
@@ -287,6 +306,7 @@
             "zh": "文字版：重庆",
             "en": "With text: Chongqing"
           },
+          "ink": "dark",
           "file": "faces/cn/6900/text.png",
           "sha256": "842bcae5f4ea9605df384f3199ed761068644ed1dfb44c409bb53dc52a5b4f23",
           "bytes": 18985,
@@ -316,11 +336,13 @@
           "31048703"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/5810/default.png",
           "sha256": "d2792dd19de5bb0c9016f39586ea8458507327b505adf32551777e541ec03640",
           "bytes": 38579,
@@ -334,6 +356,7 @@
             "zh": "文字版：全国交通一卡通首发·五羊",
             "en": "With text: First National Issue: Five Rams"
           },
+          "ink": "dark",
           "file": "faces/cn/5810/first-issue-five-rams-2018-text.png",
           "sha256": "78aa2076f21ebebcd6ffec03301cf5b126b61e532c0f40fbb61881cb2371fb67",
           "bytes": 20615,
@@ -347,6 +370,7 @@
             "zh": "全国交通一卡通首发·五羊",
             "en": "First National Issue: Five Rams"
           },
+          "ink": "dark",
           "file": "faces/cn/5810/first-issue-five-rams-2018.png",
           "sha256": "17403cc788ee1b90cfb873a12d5d9f7aa50ca0a9b368f8da12cdbf351b134918",
           "bytes": 21430,
@@ -360,6 +384,7 @@
             "zh": "文字版：广州",
             "en": "With text: Guangzhou"
           },
+          "ink": "dark",
           "file": "faces/cn/5810/text.png",
           "sha256": "6ccef0f29830959d676a762095963abeccbab68011dade8f1f5be2c5ce9dba3f",
           "bytes": 38451,
@@ -389,11 +414,13 @@
           "31048303"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/3050/default.png",
           "sha256": "70b04ebe246012ad1524a939ac5ba663345af15546cae8f60bd179a764667d3b",
           "bytes": 15016,
@@ -407,6 +434,7 @@
             "en": "No text: Suzhou Citizen Card",
             "zh": "无文字版：苏州"
           },
+          "ink": "dark",
           "file": "faces/cn/3050/no-text.png",
           "sha256": "9dd85878e4e107872f5c65d8d758f70ac9fb6f773a49c76406a7716567e53e35",
           "bytes": 16713,
@@ -420,6 +448,7 @@
             "zh": "文字版：苏州",
             "en": "With text: Suzhou"
           },
+          "ink": "dark",
           "file": "faces/cn/3050/text.png",
           "sha256": "9395fee1d0fccc6db1f75214b64ac8a44869e8e40b18cdffe0e127dcc2c78dc0",
           "bytes": 25175,
@@ -449,11 +478,13 @@
           "31047800"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/6510/default.png",
           "sha256": "c12f88f45de976dfa47f188314363356df1e6f7feca449844f3d21b1f8cc64dd",
           "bytes": 22154,
@@ -467,6 +498,7 @@
             "zh": "文字版：成都",
             "en": "With text: Chengdu"
           },
+          "ink": "dark",
           "file": "faces/cn/6510/text.png",
           "sha256": "a868927f14630520540d1d8616e3ac624352490270f40b14e7a8d9ef7857e2ac",
           "bytes": 26616,
@@ -496,11 +528,13 @@
           "31048801"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/3310/default.png",
           "sha256": "33692674e05feb7c18e7a32522a38a15ca590b294ea7237999a361087807b519",
           "bytes": 18401,
@@ -514,6 +548,7 @@
             "zh": "文字版：杭州",
             "en": "With text: Hangzhou"
           },
+          "ink": "dark",
           "file": "faces/cn/3310/text.png",
           "sha256": "7b0a7fb557a587511bcd526a237e41eedaf865955fe7c8a76527065a4e9511f0",
           "bytes": 23427,
@@ -543,11 +578,13 @@
           "31051400"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "light",
           "file": "faces/cn/5210/default.png",
           "sha256": "6e3f7b3c609ea757b95bb86a888aebc8b18dfe131b947156176170049d1a9d97",
           "bytes": 29994,
@@ -561,6 +598,7 @@
             "zh": "文字版：武汉",
             "en": "With text: Wuhan"
           },
+          "ink": "dark",
           "file": "faces/cn/5210/text.png",
           "sha256": "279a62794c9ea0e1b8235994bbff9cacc7349992389b40f2a4c6757be083c36f",
           "bytes": 31999,
@@ -590,11 +628,13 @@
           "31048300"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/3010/default.png",
           "sha256": "15308e0ebed2282214a7b3a5852f2cbd664d0a910c5059ace25f94041c290328",
           "bytes": 24227,
@@ -608,6 +648,7 @@
             "en": "No text: Nanjing Citizen Card",
             "zh": "无文字版：南京"
           },
+          "ink": "dark",
           "file": "faces/cn/3010/no-text.png",
           "sha256": "e6cf983413f198b2cd511bdfcf32eedea307bd2ed5d08141333a88fd898e12eb",
           "bytes": 26438,
@@ -621,6 +662,7 @@
             "zh": "文字版：南京",
             "en": "With text: Nanjing"
           },
+          "ink": "dark",
           "file": "faces/cn/3010/text.png",
           "sha256": "13b4850893e4929b94e0b4e66d4992fcd5f22d0a84f06f8c43f8f8025cab7fa8",
           "bytes": 29646,
@@ -650,11 +692,13 @@
           "31048802"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/3320/default.png",
           "sha256": "987b7330040b8a7ec207a69d0e8020546959736a16de80399f5d40a45f0708d5",
           "bytes": 24898,
@@ -668,6 +712,7 @@
             "zh": "文字版：宁波",
             "en": "With text: Ningbo"
           },
+          "ink": "dark",
           "file": "faces/cn/3320/text.png",
           "sha256": "2e05af50e6288a85a794509207ce3e8d8e8623546042206e037103e54b470c13",
           "bytes": 24785,
@@ -697,11 +742,13 @@
           "31049102"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "light",
           "file": "faces/cn/1121/default.png",
           "sha256": "67f38026e914f850cce7ef2cc1a9c8bba3ab44e313d7befa64d73648faff188e",
           "bytes": 11549,
@@ -715,6 +762,7 @@
             "zh": "文字版：天津",
             "en": "With text: Tianjin"
           },
+          "ink": "light",
           "file": "faces/cn/1121/text.png",
           "sha256": "a113940740b3f80b0d2f485afe6f660639828b2ec738e66ffda0c08842ba9a0e",
           "bytes": 22540,
@@ -744,11 +792,13 @@
           "31049304"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/4520/default.png",
           "sha256": "e94b9d03f39bafa1cffbe7419b8745c1a7e1bea8413b766701845126b54058c0",
           "bytes": 36612,
@@ -762,6 +812,7 @@
             "zh": "文字版：青岛",
             "en": "With text: Qingdao"
           },
+          "ink": "dark",
           "file": "faces/cn/4520/text.png",
           "sha256": "61cabeb1aa6fc9681b84dbca9fa1b5f4f93cc2b3f5a87b44e5858645f375dd45",
           "bytes": 39611,
@@ -791,11 +842,13 @@
           "31048312"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/3020/default.png",
           "sha256": "23c16d8332ae970c29674c9c7dc92adffa00f50b9467e752256d2a13f82400db",
           "bytes": 38065,
@@ -809,6 +862,7 @@
             "zh": "文字版：无锡",
             "en": "With text: Wuxi"
           },
+          "ink": "dark",
           "file": "faces/cn/3020/text.png",
           "sha256": "e2791492bbb39a2c4a88417c031aca0898a7b49302e3d4395b5de7cad9a50680",
           "bytes": 38817,
@@ -838,11 +892,13 @@
           "31048200"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "light",
           "file": "faces/cn/5510/default.png",
           "sha256": "d77a3602fbd76f580016726eaa8deae2a66dc11e6470aba79cad8f679cea9533",
           "bytes": 39906,
@@ -856,6 +912,7 @@
             "en": "No text: Xiaoxiang Card",
             "zh": "无文字版：长沙"
           },
+          "ink": "light",
           "file": "faces/cn/5510/no-text.png",
           "sha256": "a83486a962f8f24e22a774604f50e94d96295ba464f306ee7a9644c6f889e6ad",
           "bytes": 38886,
@@ -869,6 +926,7 @@
             "zh": "文字版：长沙",
             "en": "With text: Changsha"
           },
+          "ink": "light",
           "file": "faces/cn/5510/text.png",
           "sha256": "f0c297aec20f48a99ff7816edfdc46901b4d90d6c7e64488fc593b2633ba812a",
           "bytes": 39793,
@@ -898,11 +956,13 @@
           "31050702"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/4910/default.png",
           "sha256": "8d1fc644110c61ec602d2a8d778612d0a40988dd7070890eb83f97bd2ff14e74",
           "bytes": 25617,
@@ -916,6 +976,7 @@
             "zh": "文字版：郑州",
             "en": "With text: Zhengzhou"
           },
+          "ink": "dark",
           "file": "faces/cn/4910/text.png",
           "sha256": "6b4c04a47cce9350150c788bdadfcf820260821acd15eec847b8034662f83ee0",
           "bytes": 31106,
@@ -945,11 +1006,13 @@
           "31050600"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "light",
           "file": "faces/cn/3910/default.png",
           "sha256": "2e53a149541d66cd9a70b68fdd51bba54bea2df5bcc0b6e4e764d279224ae378",
           "bytes": 11116,
@@ -963,6 +1026,7 @@
             "zh": "文字版：福州",
             "en": "With text: Fuzhou"
           },
+          "ink": "light",
           "file": "faces/cn/3910/text.png",
           "sha256": "b933f153d1b76f72e1f40b916c74e0ef8cd94287c7375d7bf5e3ee6971a93d82",
           "bytes": 15159,
@@ -992,11 +1056,13 @@
           "31049308"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/4510/default.png",
           "sha256": "ad462ea98e7b02feef704fb2219168981394058aba5e4d731a91e72b2a17413a",
           "bytes": 37192,
@@ -1010,6 +1076,7 @@
             "zh": "文字版：济南",
             "en": "With text: Jinan"
           },
+          "ink": "dark",
           "file": "faces/cn/4510/text.png",
           "sha256": "d481545c5fa732673973cc3f4e7e0efd1e35822f282b92496d454cbcf02922df",
           "bytes": 38894,
@@ -1039,11 +1106,13 @@
           "31049902"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/3610/default.png",
           "sha256": "e8ef84620b1c26fcab0709822015a9ed0cc1a62ee993c4c6bc823ed9fb97dba5",
           "bytes": 34952,
@@ -1057,6 +1126,7 @@
             "zh": "文字版：合肥",
             "en": "With text: Hefei"
           },
+          "ink": "dark",
           "file": "faces/cn/3610/text.png",
           "sha256": "d38eba6df8bc66251992f1191a375913fe72476b04565e7b24192b99e9a98e36",
           "bytes": 32082,
@@ -1086,11 +1156,13 @@
           "31048707"
         ],
         "families": [],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
+          "ink": "dark",
           "file": "faces/cn/5880/default.png",
           "sha256": "0c9a246a3a3ed287b9e8fdcf2f1e2d4262fbf5574eefd79a64d488fcc23e8aa1",
           "bytes": 34638,
@@ -1104,6 +1176,7 @@
             "zh": "文字版：佛山",
             "en": "With text: Foshan"
           },
+          "ink": "dark",
           "file": "faces/cn/5880/text.png",
           "sha256": "826e7ef62731f3a92f2e706a914ba94a6d8ad4a8de561ab58662c27cbcf96452",
           "bytes": 39883,
@@ -1129,12 +1202,14 @@
         ],
         "serialPrefixes": [
           "JE"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "suica",
+          "ink": "dark",
           "file": "faces/jp/suica/default.png",
           "sha256": "a6edac3aa422bf789fad7adb81013f4a117b270003f61fad6457cc6284165ef9",
           "bytes": 9686,
@@ -1148,6 +1223,7 @@
             "en": "With text: Suica",
             "ja": "文字あり: Suica"
           },
+          "ink": "dark",
           "file": "faces/jp/suica/text.png",
           "sha256": "2d1909c6b0249d91def9bffc4d45db4d142b8336145eb06b303d13b2162b24d2",
           "bytes": 16359,
@@ -1163,6 +1239,7 @@
             "zh": "文字版：Welcome Suica（樱花）",
             "ko": "텍스트 포함: 웰컴 스이카 (벚꽃)"
           },
+          "ink": "dark",
           "file": "faces/jp/suica/welcome-sakura-text.png",
           "sha256": "f324fc1778143293f235a045c86fe476786fe38744d3bff6208450c0365262b6",
           "bytes": 24347,
@@ -1178,6 +1255,7 @@
             "zh": "Welcome Suica（樱花）",
             "ko": "웰컴 스이카 (벚꽃)"
           },
+          "ink": "dark",
           "file": "faces/jp/suica/welcome-sakura.png",
           "sha256": "56d21a422d095065c80238c05b908a50d7958ef7dcd4106c10bf06669f1026b8",
           "bytes": 20066,
@@ -1203,12 +1281,14 @@
         ],
         "serialPrefixes": [
           "PB"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "pasmo",
+          "ink": "dark",
           "file": "faces/jp/pasmo/default.png",
           "sha256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
           "bytes": 12482,
@@ -1222,6 +1302,7 @@
             "en": "No text: PASMO",
             "ja": "文字なし: PASMO"
           },
+          "ink": "dark",
           "file": "faces/jp/pasmo/no-text.png",
           "sha256": "7c83b18133e08a9d32a7060c8387c2d67a60d93842939c533dbb6204fc1753d0",
           "bytes": 3673,
@@ -1235,6 +1316,7 @@
             "en": "With text: PASMO",
             "ja": "文字あり: PASMO"
           },
+          "ink": "dark",
           "file": "faces/jp/pasmo/text.png",
           "sha256": "a3a1db93c519705d41773976dd23be37d5547f5492e33b5ec92bbffd48a16599",
           "bytes": 12482,
@@ -1260,12 +1342,14 @@
         ],
         "serialPrefixes": [
           "JW"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "icoca",
+          "ink": "dark",
           "file": "faces/jp/icoca/default.png",
           "sha256": "7b659416cc49c7683bf0623551411ca694cc802f9420c188fe5166d6fba0260f",
           "bytes": 6451,
@@ -1279,6 +1363,7 @@
             "en": "With text: ICOCA",
             "ja": "文字あり: ICOCA"
           },
+          "ink": "dark",
           "file": "faces/jp/icoca/text.png",
           "sha256": "326b438ad8b834064b3dd956be63033856c4c8a1ad78a409623877fdc24e4bf5",
           "bytes": 13998,
@@ -1294,6 +1379,7 @@
             "zh": "文字版：风神雷神",
             "ko": "텍스트 포함: 풍신뇌신"
           },
+          "ink": "dark",
           "file": "faces/jp/icoca/wind-thunder-text.png",
           "sha256": "43a9d5b792dd2f8de03d36e2c6697752f5e5d5ed3270453610186628ad6bffc5",
           "bytes": 39718,
@@ -1309,6 +1395,7 @@
             "zh": "风神雷神",
             "ko": "풍신뇌신"
           },
+          "ink": "dark",
           "file": "faces/jp/icoca/wind-thunder.png",
           "sha256": "bb8cfb2742927d53b45534bc97900f5efc8f436256be0219adacdb42039651b1",
           "bytes": 37798,
@@ -1334,12 +1421,14 @@
         ],
         "serialPrefixes": [
           "FC"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "hayakaken",
+          "ink": "dark",
           "file": "faces/jp/hayakaken/default.png",
           "sha256": "9cf02833c7407557d46a6251780a3b30b6b5f3df2479ea8d57c78fe66eb879ab",
           "bytes": 9785,
@@ -1353,6 +1442,7 @@
             "en": "With text: Hayakaken",
             "ja": "文字あり: はやかけん"
           },
+          "ink": "dark",
           "file": "faces/jp/hayakaken/text.png",
           "sha256": "8d0b1cb1ab5e7ea99abe1056b14e17d5f11ff3f94255c8dd64089e51954b9c60",
           "bytes": 19451,
@@ -1378,12 +1468,14 @@
         ],
         "serialPrefixes": [
           "JK"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "sugoca",
+          "ink": "dark",
           "file": "faces/jp/sugoca/default.png",
           "sha256": "e84ed34e2118b70ac54072dab86ebd70a9a5345567fe907e878bd922fab9927b",
           "bytes": 11760,
@@ -1397,6 +1489,7 @@
             "en": "With text: SUGOCA",
             "ja": "文字あり: SUGOCA"
           },
+          "ink": "dark",
           "file": "faces/jp/sugoca/text.png",
           "sha256": "96c72b52c3d4ad4ad24e0a9f3e55d99595d1d1a20cee91bed209a230b56d6547",
           "bytes": 15336,
@@ -1422,12 +1515,14 @@
         ],
         "serialPrefixes": [
           "TP"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "manaca",
+          "ink": "dark",
           "file": "faces/jp/manaca/default.png",
           "sha256": "89166868e2532588c7458e625053240d54b7c4c8b4331a22641b18beb09359b5",
           "bytes": 4592,
@@ -1441,6 +1536,7 @@
             "en": "With text: manaca",
             "ja": "文字あり: manaca"
           },
+          "ink": "dark",
           "file": "faces/jp/manaca/text.png",
           "sha256": "d3e2b37061efbbf8a01c2bed0995b5b666e48598107dfedc11026823cb670bd0",
           "bytes": 8860,
@@ -1466,12 +1562,14 @@
         ],
         "serialPrefixes": [
           "JH"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "kitaca",
+          "ink": "dark",
           "file": "faces/jp/kitaca/default.png",
           "sha256": "620d70fb1613a2f9500d3bbba8321d997dc5bbba2606bcce2deec4f33ec77809",
           "bytes": 7654,
@@ -1485,6 +1583,7 @@
             "en": "With text: Kitaca",
             "ja": "文字あり: Kitaca"
           },
+          "ink": "dark",
           "file": "faces/jp/kitaca/text.png",
           "sha256": "72481763be1f31943446ee14a68611e646617703315358a41080f405950bf2cc",
           "bytes": 20251,
@@ -1510,12 +1609,14 @@
         ],
         "serialPrefixes": [
           "NR"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "nimoca",
+          "ink": "dark",
           "file": "faces/jp/nimoca/default.png",
           "sha256": "b689b998b3e1b1d5829657b93d3c1f800b92305db0c4db796c2725f62a4e986d",
           "bytes": 7288,
@@ -1529,6 +1630,7 @@
             "en": "With text: nimoca",
             "ja": "文字あり: nimoca"
           },
+          "ink": "dark",
           "file": "faces/jp/nimoca/text.png",
           "sha256": "c8fdbe4f9dfe122a49305a4b095206b3bafc11474cb6a0a547101761f7558b86",
           "bytes": 9615,
@@ -1554,12 +1656,14 @@
         ],
         "serialPrefixes": [
           "JC"
-        ]
+        ],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "toica",
+          "ink": "dark",
           "file": "faces/jp/toica/default.png",
           "sha256": "3158b8f00b821bcbce0b7bad0f1cd40981c94b74a7e9cc5b73fecb9271c88790",
           "bytes": 5834,
@@ -1573,6 +1677,7 @@
             "en": "With text: TOICA",
             "ja": "文字あり: TOICA"
           },
+          "ink": "dark",
           "file": "faces/jp/toica/text.png",
           "sha256": "785d8d9d186517ace7baff219faf3dc3032cecb39383daaff7276a1498cff5ee",
           "bytes": 7154,
@@ -1596,12 +1701,14 @@
         "families": [
           "okica"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "okica",
+          "ink": "dark",
           "file": "faces/jp/okica/default.png",
           "sha256": "c1e567f6ec62cc79fe5f07ec16cdc08746223cdc1f8b797a5feb58b4c2b52ec5",
           "bytes": 23094,
@@ -1625,12 +1732,14 @@
         "families": [
           "edy"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "edy",
+          "ink": "dark",
           "file": "faces/jp/edy/default.png",
           "sha256": "d6348da2e18fbc44ab5f3ed446e110bf6e2095ae1c603eb72e288bccd290cf7e",
           "bytes": 3013,
@@ -1644,6 +1753,7 @@
             "en": "No text: Rakuten Edy",
             "ja": "文字なし: 楽天Edy"
           },
+          "ink": "dark",
           "file": "faces/jp/edy/no-text.png",
           "sha256": "00bf621cf758a5e64ee1521e034c8be5b254e0e29aa93126455c9836b40fd423",
           "bytes": 1758,
@@ -1657,6 +1767,7 @@
             "en": "With text: Rakuten Edy",
             "ja": "文字あり: 楽天Edy"
           },
+          "ink": "dark",
           "file": "faces/jp/edy/text.png",
           "sha256": "497cdf274bf2cb3be17247cd419f812c256ce0e856da1a701bbcbaedfec369dc",
           "bytes": 3042,
@@ -1680,12 +1791,14 @@
         "families": [
           "waon"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "waon",
+          "ink": "dark",
           "file": "faces/jp/waon/default.png",
           "sha256": "92447c3c835917c48d544ef11ff745d73b287166488d1a70120e229afb8542e6",
           "bytes": 6420,
@@ -1699,6 +1812,7 @@
             "en": "With text: WAON",
             "ja": "文字あり: WAON"
           },
+          "ink": "dark",
           "file": "faces/jp/waon/text.png",
           "sha256": "d716dc44653b9cc2d9d2429f5cdb33658b43f1e96946a5e7c585f3d793bd9f3c",
           "bytes": 2620,
@@ -1722,12 +1836,14 @@
         "families": [
           "nanaco"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "nanaco",
+          "ink": "dark",
           "file": "faces/jp/nanaco/default.png",
           "sha256": "2b2a68f2345b66e437839b33ee7d0b974098b5f2a4f9646131fb6cc1be3c800c",
           "bytes": 6107,
@@ -1741,6 +1857,7 @@
             "en": "With text: nanaco",
             "ja": "文字あり: nanaco"
           },
+          "ink": "dark",
           "file": "faces/jp/nanaco/text.png",
           "sha256": "8648bf3a8ad9b523327d03606eb3bdbcef4e53ab506b6c7c4ef79c1a0ee83328",
           "bytes": 3521,
@@ -1765,12 +1882,16 @@
           "t-money",
           "tmoney"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": [
+          "08"
+        ]
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "tmoney",
+          "ink": "dark",
           "file": "faces/kr/tmoney/default.png",
           "sha256": "99a9ba5fd2171207607173c820b7089f255b43b04d04e5fe6af07a1c9ebc1e92",
           "bytes": 18164,
@@ -1784,6 +1905,7 @@
             "en": "With text: Go Green",
             "ko": "글자 포함: 친환경카드 Go Green"
           },
+          "ink": "dark",
           "file": "faces/kr/tmoney/go-green-text.png",
           "sha256": "05a49c4462ded6f3091cf68b19f07c62f56660fcfe001d83540cbd10e2dcaa03",
           "bytes": 12998,
@@ -1797,6 +1919,7 @@
             "en": "Go Green",
             "ko": "친환경카드 Go Green"
           },
+          "ink": "dark",
           "file": "faces/kr/tmoney/go-green.png",
           "sha256": "cb304e3a48986cf12159347dda9fa4f0f543062d5d3e37f4631e0ff8b901af12",
           "bytes": 11961,
@@ -1810,6 +1933,7 @@
             "en": "With text: K-PASS BASIC",
             "ko": "글자 포함: K-PASS BASIC"
           },
+          "ink": "light",
           "file": "faces/kr/tmoney/kpass-text.png",
           "sha256": "41835039357a34892a5893376de812494cb0ec69003c444079b6216a4b9abfda",
           "bytes": 11916,
@@ -1823,6 +1947,7 @@
             "en": "K-PASS BASIC",
             "ko": "K-PASS BASIC"
           },
+          "ink": "light",
           "file": "faces/kr/tmoney/kpass.png",
           "sha256": "a351c9421d36b2fae203e7dba5a6ba47725030e8d8ed80e273d823fe870e2fa3",
           "bytes": 5292,
@@ -1836,6 +1961,7 @@
             "en": "With text: T-money (logo)",
             "ko": "글자 포함: 티머니 (로고)"
           },
+          "ink": "dark",
           "file": "faces/kr/tmoney/logo-text.png",
           "sha256": "0e60f75404ec1c75c0bd1465d6176daf25505f3a966bcf55035078b1f08e3b2a",
           "bytes": 5165,
@@ -1849,6 +1975,7 @@
             "en": "Orange and purple",
             "ko": "주황 / 보라"
           },
+          "ink": "dark",
           "file": "faces/kr/tmoney/logo.png",
           "sha256": "5f4b58859ed2ad8a0c1af52e9a5b3fc2c95c877f4352c2bd462134fcc3ebdfb0",
           "bytes": 13173,
@@ -1862,6 +1989,7 @@
             "en": "With text: Public Transport Safe Card",
             "ko": "글자 포함: 대중교통안심카드"
           },
+          "ink": "dark",
           "file": "faces/kr/tmoney/safe-text.png",
           "sha256": "a26a1f415917ec9d14b7fd9894ef60318ecfd7e7ba43d882b665a3d59e871b97",
           "bytes": 16281,
@@ -1875,6 +2003,7 @@
             "en": "Public Transport Safe Card",
             "ko": "대중교통안심카드"
           },
+          "ink": "dark",
           "file": "faces/kr/tmoney/safe.png",
           "sha256": "01724e106cf7f308f0ad2dbb5b95c2e4b052b6979904cbee8ebca7c06b737317",
           "bytes": 9069,
@@ -1899,12 +2028,16 @@
           "ezl",
           "cashbee"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": [
+          "0B"
+        ]
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "ezl",
+          "ink": "dark",
           "file": "faces/kr/ezl/default.png",
           "sha256": "a56a88a47a6f1e9211fab1389381e624239d04579adcf12383358e9fb229be36",
           "bytes": 10550,
@@ -1918,6 +2051,7 @@
             "en": "Graphite and lime",
             "ko": "차콜과 라임"
           },
+          "ink": "light",
           "file": "faces/kr/ezl/duty-free.png",
           "sha256": "fdda4d30a246252e1f56bee548170923825d57476c6016baaa713e09266a7937",
           "bytes": 551,
@@ -1931,6 +2065,7 @@
             "en": "Navy and citron",
             "ko": "네이비와 시트론"
           },
+          "ink": "dark",
           "file": "faces/kr/ezl/myeongdong.png",
           "sha256": "fa3de06c9d8d1da73e5142f6e3b69e6f39c9d3fcb9aaf506af1cc6a787e97574",
           "bytes": 554,
@@ -1944,6 +2079,7 @@
             "en": "With text: POP Cashbee (orange)",
             "ko": "글자 포함: 팝캐시비 (오렌지)"
           },
+          "ink": "dark",
           "file": "faces/kr/ezl/pop-text.png",
           "sha256": "c7d0d039b60f526a5c2d778dc2f93de48f6b2ae5b215ffef37df79c760d17171",
           "bytes": 5249,
@@ -1957,6 +2093,7 @@
             "en": "POP Cashbee (orange)",
             "ko": "팝캐시비 (오렌지)"
           },
+          "ink": "dark",
           "file": "faces/kr/ezl/pop.png",
           "sha256": "697ab3ea3ab90f3b5053512c55ddf4ec966ca82358f33455a32f9788e24c826c",
           "bytes": 1459,
@@ -1970,6 +2107,7 @@
             "en": "With text: EZL / Cashbee",
             "ko": "글자 포함: 이즐 / 캐시비"
           },
+          "ink": "dark",
           "file": "faces/kr/ezl/text.png",
           "sha256": "99b1f4addf390cf450e3d5c81ba9b857f72a91e8030e485f19428047b9600cf8",
           "bytes": 10386,
@@ -1983,6 +2121,7 @@
             "en": "With text: Cashbee Jeonju (2 Days)",
             "ko": "글자 포함: 전주 캐시비 (2일권)"
           },
+          "ink": "dark",
           "file": "faces/kr/ezl/tour-text.png",
           "sha256": "9c740e829c1df5d3789f74ef3654eded7392eaff03695d5dc88abb467273a8f4",
           "bytes": 26097,
@@ -1996,6 +2135,7 @@
             "en": "Cashbee Jeonju (2 Days)",
             "ko": "전주 캐시비 (2일권)"
           },
+          "ink": "dark",
           "file": "faces/kr/ezl/tour.png",
           "sha256": "b10fda6423a88070c753d1c7f944cddc1ac50efacf9a32583a0ca2fd2c655eb5",
           "bytes": 23360,
@@ -2019,12 +2159,14 @@
         "families": [
           "climate"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "climate-card",
+          "ink": "light",
           "file": "faces/kr/climate-card/default.png",
           "sha256": "6333a46eecaec5e38a171394cd44611d6f8730c372df48a0d95a3b830f2a5ea0",
           "bytes": 25646,
@@ -2038,6 +2180,7 @@
             "en": "No text: Climate Card",
             "ko": "글자 없음: 기후동행카드"
           },
+          "ink": "light",
           "file": "faces/kr/climate-card/no-text.png",
           "sha256": "94e17ef1b810b7db339d1c0d281cb4de8d093517fbdae5c78b5d56c83cc8ea0f",
           "bytes": 30508,
@@ -2051,6 +2194,7 @@
             "en": "With text: Climate Card",
             "ko": "글자 포함: 기후동행카드"
           },
+          "ink": "light",
           "file": "faces/kr/climate-card/text.png",
           "sha256": "7aadae261e222d38f01766304c630ce6df10fe3fbb4bf75bf19936025a94b2fe",
           "bytes": 25601,
@@ -2075,12 +2219,14 @@
           "lignes d'azur",
           "la carte"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "la-carte",
+          "ink": "light",
           "file": "faces/fr/la-carte/default.png",
           "sha256": "700578027a9c90e9a8e761e947ee6bb8aa3526c249db48fc968c795ce5195865",
           "bytes": 19984,
@@ -2094,6 +2240,7 @@
             "en": "With text: La Carte (blue)",
             "fr": "Avec texte : La Carte bleue"
           },
+          "ink": "light",
           "file": "faces/fr/la-carte/blue-text.png",
           "sha256": "f562b25b2a2d3db0021f3739c9fcc6467bbd0ce75bd826f89df5e03b1724a44a",
           "bytes": 37693,
@@ -2108,6 +2255,7 @@
             "fr": "La Carte bleue"
           },
           "bundledAsset": "la-carte-blue",
+          "ink": "light",
           "file": "faces/fr/la-carte/blue.png",
           "sha256": "436ea6e7b045040a711c3b8dee26ea91866b0e1de110151a331485282118325c",
           "bytes": 21272,
@@ -2121,6 +2269,7 @@
             "en": "With text: La Carte (Lignes d'Azur)",
             "fr": "Avec texte : La Carte"
           },
+          "ink": "dark",
           "file": "faces/fr/la-carte/text.png",
           "sha256": "67d46e81262fe0522c6e0473e69e4f34e073e9eb1e8ab570202981d74447d95e",
           "bytes": 32786,
@@ -2134,6 +2283,7 @@
             "en": "With text: Tour de France 2024 - Yellow Jersey",
             "fr": "Avec texte : Tour de France 2024 - Maillot jaune"
           },
+          "ink": "light",
           "file": "faces/fr/la-carte/tour-2024-yellow-jersey-text.png",
           "sha256": "61e001220e8dffba062d5bf95cd7762f1f7607a67db44119cfc26af07236dde8",
           "bytes": 32923,
@@ -2147,6 +2297,7 @@
             "en": "Tour de France 2024 - Yellow Jersey",
             "fr": "Tour de France 2024 - Maillot jaune"
           },
+          "ink": "light",
           "file": "faces/fr/la-carte/tour-2024-yellow-jersey.png",
           "sha256": "752ef108f3a817d2ab49711e5d708c229f649fc22547a8896d2d5df916766b10",
           "bytes": 22274,
@@ -2171,12 +2322,14 @@
           "u-money",
           "umoney"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "umoney",
+          "ink": "light",
           "file": "faces/mn/umoney/default.png",
           "sha256": "d1b2cddc4b64150bc418907404293554fe548872b61b3e2ca3e4ef6cd7cadf3e",
           "bytes": 3960,
@@ -2201,12 +2354,14 @@
           "ez-link",
           "ezlink"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
           "id": "default",
           "bundledAsset": "ezlink",
+          "ink": "dark",
           "file": "faces/sg/ezlink/default.png",
           "sha256": "38d6a74928d9f287e02edb358497eed8376e551bdc7a12de1b6e4932966cd231",
           "bytes": 16563,
@@ -2222,6 +2377,7 @@
             "ja": "文字あり：シンガポールのスカイライン",
             "ko": "텍스트 포함: 싱가포르 스카이라인"
           },
+          "ink": "dark",
           "file": "faces/sg/ezlink/singapore-skyline-text.png",
           "sha256": "41f2b4ddbb81bd90b02db26a1d2d3c0ccbfbae8256e4dd3c7d8e8b686db21794",
           "bytes": 38058,
@@ -2237,6 +2393,7 @@
             "ja": "シンガポールのスカイライン",
             "ko": "싱가포르 스카이라인"
           },
+          "ink": "dark",
           "file": "faces/sg/ezlink/singapore-skyline.png",
           "sha256": "243b8ffec6dd39b15690ac7a427653404dd38c97ed3950a20a25fd6c25a2f261",
           "bytes": 36120,
@@ -2250,6 +2407,7 @@
             "en": "With text: EZ-Link",
             "zh": "文字版：易通卡"
           },
+          "ink": "dark",
           "file": "faces/sg/ezlink/text.png",
           "sha256": "e8f93ffca9f094124e74354fac6ceec1d9e00ef0d05095aeba949a75581585ce",
           "bytes": 33615,
@@ -2282,7 +2440,8 @@
           "オクトパス",
           "옥토퍼스"
         ],
-        "serialPrefixes": []
+        "serialPrefixes": [],
+        "ksxIssuers": []
       },
       "designs": [
         {
@@ -2292,6 +2451,7 @@
             "zh": "普通成人",
             "zh-Hant": "普通成人"
           },
+          "ink": "light",
           "file": "faces/hk/octopus/default.png",
           "sha256": "15f95656c513f37846882c380672fe5d958bb5d745d6f099623751d82fa2a89f",
           "bytes": 8287,
@@ -2306,6 +2466,7 @@
             "zh": "文字版：普通小童",
             "zh-Hant": "文字版：普通小童"
           },
+          "ink": "dark",
           "file": "faces/hk/octopus/child-text.png",
           "sha256": "c52c1d6613fe6a32504f1e5cc1f89d8a6efb34e7ba1c4a924bc2302bc7c2c9e2",
           "bytes": 11580,
@@ -2320,6 +2481,7 @@
             "zh": "普通小童",
             "zh-Hant": "普通小童"
           },
+          "ink": "dark",
           "file": "faces/hk/octopus/child.png",
           "sha256": "6964eb5fdc10968c9f6252be19604b9aa1ecace47451aa69562b986cf291b26b",
           "bytes": 8387,
@@ -2334,6 +2496,7 @@
             "zh": "文字版：普通长者",
             "zh-Hant": "文字版：普通長者"
           },
+          "ink": "dark",
           "file": "faces/hk/octopus/elder-text.png",
           "sha256": "0dd6936f15f41d56546b316024548b1115334e4fd8763452ebf7a7f71867a2e5",
           "bytes": 11607,
@@ -2348,6 +2511,7 @@
             "zh": "普通长者",
             "zh-Hant": "普通長者"
           },
+          "ink": "dark",
           "file": "faces/hk/octopus/elder.png",
           "sha256": "7d9b4152825c2efb67fd3d5fd2f4172764836d974c254b0c7b3184fa20b46c56",
           "bytes": 8683,
@@ -2362,12 +2526,173 @@
             "zh": "文字版：普通成人",
             "zh-Hant": "文字版：普通成人"
           },
+          "ink": "light",
           "file": "faces/hk/octopus/text.png",
           "sha256": "833c32a11b9defcf62602487525139f96ea1e057f0aad2458d49f4f8b7a6e047",
           "bytes": 10629,
           "width": 1200,
           "height": 760,
           "colors": 15
+        }
+      ]
+    },
+    {
+      "id": "kr/namane",
+      "region": "KR",
+      "name": {
+        "en": "NAMANE",
+        "ko": "나마네"
+      },
+      "match": {
+        "cityCodes": [],
+        "cityUnionCodes": [],
+        "cardPrefixes": [],
+        "families": [
+          "namane"
+        ],
+        "serialPrefixes": [],
+        "ksxIssuers": []
+      },
+      "designs": [
+        {
+          "id": "default",
+          "bundledAsset": "namane",
+          "ink": "dark",
+          "file": "faces/kr/namane/default.png",
+          "sha256": "11f7591b5b57e1c3ac0241c6afecca5561c7cee7acbf9002e6b623a7d372823a",
+          "bytes": 31921,
+          "width": 1200,
+          "height": 760,
+          "colors": 7
+        }
+      ]
+    },
+    {
+      "id": "kr/moiba",
+      "region": "KR",
+      "name": {
+        "en": "MOIBA",
+        "ko": "모이바"
+      },
+      "match": {
+        "cityCodes": [],
+        "cityUnionCodes": [],
+        "cardPrefixes": [],
+        "families": [
+          "moiba"
+        ],
+        "serialPrefixes": [],
+        "ksxIssuers": []
+      },
+      "designs": [
+        {
+          "id": "default",
+          "ink": "dark",
+          "file": "faces/kr/moiba/default.png",
+          "sha256": "a63388219572d36fcc89dc109634b6b619868d5f3912b218ad38c5cb9afc264f",
+          "bytes": 2735,
+          "width": 1200,
+          "height": 760,
+          "colors": 12
+        }
+      ]
+    },
+    {
+      "id": "kr/k-cash",
+      "region": "KR",
+      "name": {
+        "en": "K-Cash",
+        "ko": "케이캐시"
+      },
+      "match": {
+        "cityCodes": [],
+        "cityUnionCodes": [],
+        "cardPrefixes": [],
+        "families": [
+          "k-cash",
+          "kcash"
+        ],
+        "serialPrefixes": [],
+        "ksxIssuers": [
+          "01"
+        ]
+      },
+      "designs": [
+        {
+          "id": "default",
+          "ink": "light",
+          "file": "faces/kr/k-cash/default.png",
+          "sha256": "9b949975b6f9851d619e4e18a49f7409c04e205ac35f640211039375d4559fc4",
+          "bytes": 2236,
+          "width": 1200,
+          "height": 760,
+          "colors": 10
+        }
+      ]
+    },
+    {
+      "id": "kr/mybi",
+      "region": "KR",
+      "name": {
+        "en": "Mybi",
+        "ko": "마이비"
+      },
+      "match": {
+        "cityCodes": [],
+        "cityUnionCodes": [],
+        "cardPrefixes": [],
+        "families": [
+          "mybi"
+        ],
+        "serialPrefixes": [],
+        "ksxIssuers": [
+          "03"
+        ]
+      },
+      "designs": [
+        {
+          "id": "default",
+          "ink": "dark",
+          "file": "faces/kr/mybi/default.png",
+          "sha256": "7384f854c4099bd09f64b4233d03cc41ff0322fd19f83372160c160b90a102c6",
+          "bytes": 2306,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
+        }
+      ]
+    },
+    {
+      "id": "kr/railplus",
+      "region": "KR",
+      "name": {
+        "en": "Rail+",
+        "ko": "레일플러스"
+      },
+      "match": {
+        "cityCodes": [],
+        "cityUnionCodes": [],
+        "cardPrefixes": [],
+        "families": [
+          "rail+",
+          "railplus",
+          "korail networks"
+        ],
+        "serialPrefixes": [],
+        "ksxIssuers": [
+          "09"
+        ]
+      },
+      "designs": [
+        {
+          "id": "default",
+          "ink": "light",
+          "file": "faces/kr/railplus/default.png",
+          "sha256": "5fd1fff319cb70ccbb3e41838b127bace227399bace09d0c3bd7780d54b8f9f7",
+          "bytes": 2284,
+          "width": 1200,
+          "height": 760,
+          "colors": 11
         }
       ]
     }
